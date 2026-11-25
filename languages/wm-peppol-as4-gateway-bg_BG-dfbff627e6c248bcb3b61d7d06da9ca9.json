@@ -1,0 +1,732 @@
+{
+  "translation-revision-date": "2026-11-21T15:24:44+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-peppol-as4-gateway",
+        "lang": "bg_BG",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM Peppol AS4 Gateway": [
+        "WM Peppol AS4 Gateway"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+      ],
+      "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst.": [
+        "Създава UBL 2.1 фактури по Peppol BIS Billing 3.0, проверява ги спрямо официалния набор правила EN 16931, открива получателя чрез SML и SMP, предава фактурите от завършени WooCommerce поръчки към конфигурирани KoSIT валидатор и услуга Phase4, проверява подписаната AS4 разписка и показва на купувачите съхранения статус. Без собствен AS4 пренос: него го извършва Phase4."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Unbekannte Spoke-Aktion \"%s\".": [
+        "Непознато действие на модул \"%s\"."
+      ],
+      "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s).": [
+        "Самотестът е невъзможен: липсват данни за продавача (%s)."
+      ],
+      "Testdokument von den Strukturprüfungen abgelehnt: %s": [
+        "Тестовият документ е отхвърлен от структурните проверки: %s"
+      ],
+      "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung.": [
+        "Тестовият документ е създаден (%d байта) и приет от структурните проверки на разширението. Не е записан, не е изпратен, без проверка по схема или Schematron."
+      ],
+      "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren.": [
+        "Липсват таблиците на разширението в базата данни. Деактивирайте и активирайте отново разширението."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden.": [
+        "Данните на продавача са непълни: не може да се генерира електронна фактура."
+      ],
+      "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert.": [
+        "Данните на продавача са пълни. Валидаторът KoSIT и услугата Phase4 са конфигурирани."
+      ],
+      "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert.": [
+        "Данните на продавача са пълни. Изпращането не е конфигурирано: фактурите само се съхраняват."
+      ],
+      "Gespeicherte Rechnungen": [
+        "Съхранени фактури"
+      ],
+      "Übergaben an Phase4": [
+        "Предавания към Phase4"
+      ],
+      "Empfangsquittungen": [
+        "Обратни разписки"
+      ],
+      "Peppol Gateway öffnen": [
+        "Отвори Peppol Gateway"
+      ],
+      "Peppol Gateway": [
+        "Peppol Gateway"
+      ],
+      "%d Beispielrechnung angelegt.": [
+        "Създадена е %d примерна фактура.",
+        "Създадени са %d примерни фактури."
+      ],
+      "%d Beispielrechnung entfernt.": [
+        "Премахната е %d примерна фактура.",
+        "Премахнати са %d примерни фактури."
+      ],
+      "Übersicht": [
+        "Общ преглед"
+      ],
+      "Rechnung erzeugen": [
+        "Създаване на фактура"
+      ],
+      "Einstellungen": [
+        "Настройки"
+      ],
+      "Was das Plugin tut": [
+        "Какво прави разширението"
+      ],
+      "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben.": [
+        "Създаване и съхраняване на UBL 2.1 фактури по Peppol BIS Billing 3.0 и предаването им към конфигурирана услуга Phase4."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Част от фамилията разширения на WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Самостоятелен"
+      ],
+      "Bereiche": [
+        "Раздели"
+      ],
+      "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet.": [
+        "Електронната фактура е създадена и съхранена. Чрез този формуляр тя не се изпраща."
+      ],
+      "Die E-Rechnung wurde nicht erzeugt.": [
+        "Електронната фактура не беше създадена."
+      ],
+      "Eine Rechnung mit dieser Nummer ist bereits gespeichert.": [
+        "Фактура с този номер вече е съхранена."
+      ],
+      "Die Rechnung wurde erzeugt, aber nicht gespeichert.": [
+        "Фактурата беше създадена, но не можа да се запише."
+      ],
+      "Einstellungen gespeichert.": [
+        "Настройките са запазени."
+      ],
+      "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet.": [
+        "Примерните фактури са отбелязани като примерни и не се показват в публичния портал."
+      ],
+      "Beispielrechnungen entfernt.": [
+        "Примерните фактури са премахнати."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s": [
+        "Данните на продавача са непълни: не може да се генерира електронна фактура. %s"
+      ],
+      "Zu den Einstellungen": [
+        "Към настройките"
+      ],
+      "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben.": [
+        "Изпращането не е конфигурирано: създадените фактури се записват, но не се предават."
+      ],
+      "ohne %d Beispielrechnungen": [
+        "без %d примерни фактури"
+      ],
+      "mit messageId": [
+        "с messageId"
+      ],
+      "positiv, per Webhook": [
+        "положителна, чрез webhook"
+      ],
+      "Verkäuferdaten": [
+        "Данни на продавача"
+      ],
+      "vollständig": [
+        "пълни"
+      ],
+      "für die Rechnungserzeugung": [
+        "за издаване на фактури"
+      ],
+      "Angaben fehlen": [
+        "липсват данни"
+      ],
+      "Rechnungen": [
+        "Фактури"
+      ],
+      "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status.": [
+        "Последните 50 съхранени фактури с техния записан статус."
+      ],
+      "Rechnungsnummer": [
+        "Номер на фактура"
+      ],
+      "Peppol-ID des Käufers": [
+        "Peppol ID на купувача"
+      ],
+      "Zahlbetrag": [
+        "Сума за плащане"
+      ],
+      "Status": [
+        "Статус"
+      ],
+      "Rechnungsdatum": [
+        "Дата на фактура"
+      ],
+      "Noch keine Rechnungen gespeichert.": [
+        "Все още няма съхранени фактури."
+      ],
+      "Beispielrechnungen": [
+        "Примерни фактури"
+      ],
+      "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen.": [
+        "Примерните фактури нямат XML, не се броят за фактури и не се отчитат в публичния портал. Премахването изтрива само тях, включително трите реда от по-ранни версии."
+      ],
+      "Beispielrechnungen anlegen": [
+        "Създай примерни фактури"
+      ],
+      "%d Beispielrechnung entfernen": [
+        "Премахни %d примерна фактура",
+        "Премахни %d примерни фактури"
+      ],
+      "Beispiel": [
+        "Пример"
+      ],
+      "Erzeugt, nicht versendet": [
+        "Създадена, неизпратена"
+      ],
+      "An Phase4 übergeben": [
+        "Предадена на Phase4"
+      ],
+      "Zugestellt (Quittung)": [
+        "Доставена (разписка)"
+      ],
+      "Zustellung fehlgeschlagen": [
+        "Неуспешна доставка"
+      ],
+      "Versand fehlgeschlagen": [
+        "Неуспешно изпращане"
+      ],
+      "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s": [
+        "Без пълни данни за продавача не се създава фактура. %s"
+      ],
+      "Käuferreferenz (BT-10), z. B. die Leitweg-ID": [
+        "Референция на купувача (BT-10), напр. Leitweg-ID"
+      ],
+      "Name des Käufers": [
+        "Име на купувача"
+      ],
+      "Straße": [
+        "Улица"
+      ],
+      "Postleitzahl": [
+        "Пощенски код"
+      ],
+      "Ort": [
+        "Град"
+      ],
+      "Land (zweistelliger Code)": [
+        "Държава (двубуквен код)"
+      ],
+      "Peppol-ID des Käufers (Schema:Kennung)": [
+        "Peppol ID на купувача (схема:идентификатор)"
+      ],
+      "USt-IdNr. des Käufers (optional)": [
+        "ДДС номер на купувача (по избор)"
+      ],
+      "Bezeichnung der Leistung": [
+        "Описание на услугата"
+      ],
+      "Menge": [
+        "Количество"
+      ],
+      "Nettopreis je Einheit": [
+        "Нетна единична цена"
+      ],
+      "Umsatzsteuersatz in Prozent": [
+        "Ставка на ДДС в проценти"
+      ],
+      "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen.": [
+        "Създава UBL фактура с един ред и я записва. Нищо не се изпраща; данните на продавача идват от настройките."
+      ],
+      "Rechnung erzeugen und speichern": [
+        "Създай и запиши фактура"
+      ],
+      "Peppol-ID des Verkäufers (Schema:Kennung)": [
+        "Peppol ID на продавача (схема:идентификатор)"
+      ],
+      "Name": [
+        "Име"
+      ],
+      "Rechtlicher Name (leer: wie Name)": [
+        "Юридическо наименование (празно: като Име)"
+      ],
+      "USt-IdNr.": [
+        "ДДС номер"
+      ],
+      "Registernummer (optional)": [
+        "ЕИК / регистрационен номер (по избор)"
+      ],
+      "IBAN für Zahlung per Überweisung": [
+        "IBAN за плащане по банков път"
+      ],
+      "Verkäufer": [
+        "Продавач"
+      ],
+      "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung.": [
+        "Тези данни фигурират във всяка генерирана фактура. Ако липсва задължително поле, фактура не се създава."
+      ],
+      "Versand": [
+        "Изпращане"
+      ],
+      "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang.": [
+        "И двете услуги са отделни програми извън разширението. Докато липсва някой от адресите, нищо не се изпраща. Константите WM_PEPPOL_KOSIT_URL и WM_PEPPOL_PHASE4_URL в wp-config.php имат предимство."
+      ],
+      "Adresse des KoSIT-Validators": [
+        "Адрес на KoSIT валидатора"
+      ],
+      "Adresse des Phase4-Dienstes": [
+        "Адрес на услугата Phase4"
+      ],
+      "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen.": [
+        "Зададена е споделена тайна; приемат се разписки с валиден подпис."
+      ],
+      "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret.": [
+        "Няма зададена споделена тайна; всички разписки се отхвърлят. Задайте чрез WM_PEPPOL_RECEIPT_SECRET или wp option update wm_peppol_receipt_secret."
+      ],
+      "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)": [
+        "Разрешени отпечатъци на сертификати за AS4 разписки (SHA-256, по избор)"
+      ],
+      "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang.": [
+        "Разделени със запетая 64-символни SHA-256 отпечатъци на очакваните сертификати за подписване на точката за достъп. Предимство има константата WM_PEPPOL_TRUSTED_SIGNER_SHA256 във wp-config.php."
+      ],
+      "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)": [
+        "Локален пакет от CA сертификати във формат PEM (OpenPeppol PKI, по избор)"
+      ],
+      "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang.": [
+        "Един или повече доверени коренни и междинни сертификати във формат PEM за изцяло локална проверка на веригата без достъп до мрежата. Предимство имат константите WM_PEPPOL_TRUST_BUNDLE_PEM и WM_PEPPOL_TRUST_BUNDLE_FILE."
+      ],
+      "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen": [
+        "Отхвърляне на AS4 разписки, когато не е запазен отпечатък или пакет от CA сертификати"
+      ],
+      "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen.": [
+        "Когато е включено или зададено с константата WM_PEPPOL_REQUIRE_TRUST_ANCHOR, самоподписани или незакотвени разписки се отхвърлят с HTTP 422."
+      ],
+      "Deinstallation": [
+        "Деинсталиране"
+      ],
+      "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen": [
+        "При деинсталиране на разширението изтрий безвъзвратно всички настройки и трите таблици в базата данни"
+      ],
+      "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird.": [
+        "По подразбиране всички съхранени фактури, предавания, регистърът на разписките и настройките се запазват при премахване на разширението."
+      ],
+      "Einstellungen speichern": [
+        "Запази настройките"
+      ],
+      "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz.": [
+        "Генерира UBL 2.1 фактури с идентификатор Peppol BIS Billing 3.0 и разбивка на ДДС по категория и ставка."
+      ],
+      "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen.": [
+        "Отказва да генерира фактура при липсващи задължителни данни вместо да ги попълва служебно."
+      ],
+      "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung.": [
+        "Проверява задължителни полета, кодове и правила за сумиране. Това не е XSD или Schematron валидация."
+      ],
+      "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an.": [
+        "Предава фактурите от завършени поръчки в WooCommerce на KoSIT и Phase4, когато са настроени, и приема подписани разписки."
+      ],
+      "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung.": [
+        "Показва на купувачите съхранения статус на фактура в портала за статус."
+      ],
+      "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst.": [
+        "Няма собствен AS4 пренос, подписване или криптиране: това се поема от Phase4."
+      ],
+      "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen.": [
+        "Няма кредитни известия в UBL CreditNote синтаксис и освобождаване от ДДС."
+      ],
+      "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde.": [
+        "Няма архив за експорт: съхранените фактури и регистърът на разписките се запазват по подразбиране при деинсталиране и се изтриват само ако това е изрично включено в настройките."
+      ],
+      "Was es nicht tut": [
+        "Какво не прави"
+      ],
+      "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut.": [
+        "Твърде много заявки от този адрес. Опитайте отново по-късно."
+      ],
+      "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich.": [
+        "Номерът на фактурата и Peppol ID на купувача са задължителни."
+      ],
+      "Zu diesen Angaben liegt keine Rechnung vor.": [
+        "Няма открита фактура за посочените данни."
+      ],
+      "Der Anfragekörper muss ein JSON-Objekt sein.": [
+        "Тялото на заявката трябва да бъде JSON обект."
+      ],
+      "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt.": [
+        "Ред %d не сочи към предходния ред: ред е бил изтрит или вмъкнат."
+      ],
+      "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln.": [
+        "Ред %d е променен след записа или базата данни идва от инсталация с други ключове."
+      ],
+      "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast.": [
+        "Разписката надвишава %d байта; AS4 разписката е сигнал, а не полезен товар."
+      ],
+      "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage.": [
+        "Документът не съдържа eb:Receipt в eb:SignalMessage."
+      ],
+      "Die Quittung enthält kein prüfbares Signaturzertifikat.": [
+        "Разписката не съдържа сертификат за подписване, който може да бъде проверен."
+      ],
+      "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden.": [
+        "Разписката няма XML подпис. Подписано AS4 съобщение ТРЯБВА да получи подписана разписка."
+      ],
+      "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt.": [
+        "Подписът е непълен: липсва ds:SignedInfo или ds:SignatureValue."
+      ],
+      "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar.": [
+        "Подписът не посочва X.509 сертификат; без публичния ключ не подлежи на проверка."
+      ],
+      "Signaturverfahren %s wird von dieser Installation nicht geprüft.": [
+        "Алгоритъмът за подпис %s не се проверява от тази инсталация."
+      ],
+      "Das X.509-Zertifikat der Signatur ist nicht lesbar.": [
+        "X.509 сертификатът на подписа не се чете."
+      ],
+      "OpenSSL konnte die Signatur nicht prüfen.": [
+        "OpenSSL не успя да провери подписа."
+      ],
+      "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt.": [
+        "Подписът не съответства на съдържанието на разписката: променена е след подписване или е подписана с друг ключ."
+      ],
+      "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert.": [
+        "Самият подпис е валиден, но само %1$d от %2$d контролни суми съвпадат със съдържанието: разписката е променена след подписване."
+      ],
+      "Das X.509-Zertifikat der Quittung ist abgelaufen.": [
+        "X.509 сертификатът на разписката е изтекъл."
+      ],
+      "Das X.509-Zertifikat der Quittung ist noch nicht gültig.": [
+        "X.509 сертификатът на разписката все още не е валиден."
+      ],
+      "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird.": [
+        "Не е запазен нито отпечатък на сертификат, нито пакет от CA сертификати, въпреки че проверката на котвата на доверие е задължителна."
+      ],
+      "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel.": [
+        "Сертификатът за подписване на разписката не съответства нито на запазен SHA-256 отпечатък, нито на доверен пакет от CA сертификати."
+      ],
+      "Die Quittung ist kein wohlgeformtes XML.": [
+        "Разписката не е добре оформен XML."
+      ],
+      "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d).": [
+        "Валидаторът KoSIT не прие документа (HTTP %d)."
+      ],
+      "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung.": [
+        "ID на подателя или получателя няма форма схема:идентификатор."
+      ],
+      "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d).": [
+        "Услугата Phase4 отхвърли изпращането (HTTP %d)."
+      ],
+      "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen.": [
+        "Услугата Phase4 не върна messageId; без него не може да се свърже разписка."
+      ],
+      "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet.": [
+        "Валидаторът KoSIT и услугата Phase4 не са конфигурирани; нищо не се изпраща."
+      ],
+      "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete.": [
+        "Разписката е с валиден подпис, но се отнася за друг документ, различен от изпратения."
+      ],
+      "Peppol: Positive Empfangsquittung für messageId %s erhalten.": [
+        "Peppol: Получена положителна разписка за messageId %s."
+      ],
+      "Peppol-Empfangsquittung erhalten.": [
+        "Получена е Peppol разписка."
+      ],
+      "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s": [
+        "Peppol: Неуспешно изпращане (messageId %1$s): %2$s"
+      ],
+      "ohne Fehlerbeschreibung": [
+        "без описание на грешката"
+      ],
+      "Peppol-Versand fehlgeschlagen.": [
+        "Неуспешно Peppol изпращане."
+      ],
+      "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s": [
+        "Тези правила не можаха да бъдат оценени и не се броят нито за изпълнени, нито за нарушени: %s"
+      ],
+      "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s.": [
+        "WM Peppol AS4 Gateway не можа да бъде активиран, защото на този сървър липсват следните задължителни PHP разширения: %s."
+      ],
+      "Fehlende PHP-Erweiterung": [
+        "Липсващо PHP разширение"
+      ],
+      "Kein Peppol-Teilnehmerbezeichner angegeben.": [
+        "Не е посочен идентификатор на Peppol участник."
+      ],
+      "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789.": [
+        "Идентификаторът \"%s\" няма форма <четирицифрена EAS схема>:<идентификатор>, например 9930:DE123456789."
+      ],
+      "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen.": [
+        "Схемата на идентификатора съдържа знаци, недопустими в DNS име."
+      ],
+      "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen.": [
+        "Няма NAPTR запис за %s: участникът не е регистриран в тази SML зона или DNS сървърът не отговаря на NAPTR заявки."
+      ],
+      "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL).": [
+        "NAPTR записът на %s не посочва SMP (услуга \"Meta:SMP\" с URL)."
+      ],
+      "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen.": [
+        "SMP разпознава участника %1$s, но не и за тип документ %2$s: получателят не приема този документ."
+      ],
+      "Der SMP antwortete mit HTTP %1$d auf %2$s.": [
+        "SMP отговори с HTTP %1$d на %2$s."
+      ],
+      "Der SMP lieferte einen leeren Körper.": [
+        "SMP върна празно тяло."
+      ],
+      "Die Antwort des SMP ist kein wohlgeformtes XML.": [
+        "Отговорът на SMP не е добре оформен XML."
+      ],
+      "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s.": [
+        "Отговорът на SMP не съдържа крайна точка с транспортен профил %s."
+      ],
+      "Peppol-Gateway-Status": [
+        "Статус на Peppol Gateway"
+      ],
+      "Tabellen des Plugins fehlen": [
+        "Липсват таблиците на разширението"
+      ],
+      "KoSIT-Validator und Phase4-Dienst konfiguriert": [
+        "KoSIT валидатор и Phase4 услуга са конфигурирани"
+      ],
+      "Versand nicht konfiguriert": [
+        "Изпращането не е конфигурирано"
+      ],
+      "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen": [
+        "%1$d съхранени фактури, %2$d разписки"
+      ],
+      "Status wird abgefragt …": [
+        "Запитване за статус …"
+      ],
+      "Rechnung gefunden": [
+        "Фактурата е намерена"
+      ],
+      "Die Abfrage ist fehlgeschlagen.": [
+        "Запитването е неуспешно."
+      ],
+      "Gespeicherter Status": [
+        "Съхранен статус"
+      ],
+      "Übergabe an Phase4": [
+        "Предаване към Phase4"
+      ],
+      "keine Übergabe erfasst": [
+        "няма записано предаване"
+      ],
+      "Empfangsquittung": [
+        "Обратна разписка"
+      ],
+      "liegt vor": [
+        "налична"
+      ],
+      "liegt nicht vor": [
+        "липсва"
+      ],
+      "Fehlercode der Übertragung": [
+        "Код за грешка при пренос"
+      ],
+      "SHA-256 des gespeicherten XML": [
+        "SHA-256 на съхранения XML"
+      ],
+      "Rechnungsstatus abfragen": [
+        "Проверка на статус на фактура"
+      ],
+      "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten.": [
+        "Въведете номера на фактурата и вашия Peppol ID. Показва се статусът, записан в тази система. Тук документът нито се проверява спрямо EN 16931, нито се предлага за изтегляне."
+      ],
+      "Ihre Peppol-ID": [
+        "Вашият Peppol ID"
+      ],
+      "Schema:Kennung": [
+        "схема:идентификатор"
+      ],
+      "Status abfragen": [
+        "Провери статус"
+      ],
+      "Die Rechnungsnummer fehlt.": [
+        "Липсва номер на фактурата."
+      ],
+      "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist.": [
+        "Липсва референция на купувача (BT-10); Peppol BIS я изисква, когато няма референция на поръчка."
+      ],
+      "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT.": [
+        "Датата на фактурата не е във формат ГГГГ-ММ-ДД."
+      ],
+      "Es fehlen Rechnungspositionen oder ein Betrag.": [
+        "Липсват редове на фактурата или сума."
+      ],
+      "Ein Betrag ist keine Zahl.": [
+        "Сума не е число."
+      ],
+      "Eine Position hat keine Bezeichnung.": [
+        "Ред няма наименование."
+      ],
+      "Ein Steuersatz ist negativ.": [
+        "Данъчната ставка е отрицателна."
+      ],
+      "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen.": [
+        "Кодът за тип фактура не е в списъка на Peppol за фактури."
+      ],
+      "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt.": [
+        "Кредитно известие (тип 381) изисква синтаксис UBL CreditNote, който този генератор не създава."
+      ],
+      "Der Währungscode muss aus drei Großbuchstaben bestehen.": [
+        "Валутният код трябва да се състои от три главни букви."
+      ],
+      "Die Peppol-ID des Verkäufers fehlt.": [
+        "Липсва Peppol ID на продавача."
+      ],
+      "Der Name des Verkäufers fehlt.": [
+        "Липсва името на продавача."
+      ],
+      "Die Straße des Verkäufers fehlt.": [
+        "Липсва улицата на продавача."
+      ],
+      "Der Ort des Verkäufers fehlt.": [
+        "Липсва градът на продавача."
+      ],
+      "Die Postleitzahl des Verkäufers fehlt.": [
+        "Липсва пощенският код на продавача."
+      ],
+      "Das Land des Verkäufers fehlt.": [
+        "Липсва държавата на продавача."
+      ],
+      "Die USt-IdNr. des Verkäufers fehlt.": [
+        "Липсва ДДС номерът на продавача."
+      ],
+      "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Peppol ID на продавача няма форма схема:идентификатор (четирицифрена схема)."
+      ],
+      "Das Land des Verkäufers muss ein zweistelliger Ländercode sein.": [
+        "Държавата на продавача трябва да е двубуквен код."
+      ],
+      "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "ДДС номерът на продавача не започва с двубуквен код на държава."
+      ],
+      "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers.": [
+        "Липсва IBAN на продавача за банков превод."
+      ],
+      "Die Peppol-ID des Käufers fehlt.": [
+        "Липсва Peppol ID на купувача."
+      ],
+      "Der Name des Käufers fehlt.": [
+        "Липсва името на купувача."
+      ],
+      "Das Land des Käufers fehlt.": [
+        "Липсва държавата на купувача."
+      ],
+      "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Peppol ID на купувача няма форма схема:идентификатор (четирицифрена схема)."
+      ],
+      "Das Land des Käufers muss ein zweistelliger Ländercode sein.": [
+        "Държавата на купувача трябва да е двубуквен код."
+      ],
+      "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "ДДС номерът на купувача не започва с двубуквен код на държава."
+      ],
+      "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null.": [
+        "Ред или отстъпка/надбавка с категория S няма ставка над нула."
+      ],
+      "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen.": [
+        "Файлът не е добре оформен XML; преди проверката на правилата няма какво да се провери."
+      ],
+      "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt.": [
+        "Peppol: Поръчката има Leitweg-ID, но няма Peppol ID на получател; не е създадена е-фактура."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab.": [
+        "Peppol: Е-фактура не е създадена. Сумата на поръчката %1$s и сумата на фактурата %2$s се различават с повече от закръгляването."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. %s": [
+        "Peppol: Е-фактура не е създадена. %s"
+      ],
+      "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden.": [
+        "Peppol: Създадената е-фактура не можа да бъде записана."
+      ],
+      "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant.": [
+        "Peppol: Е-фактура %s е създадена; изпращането е планирано."
+      ],
+      "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert.": [
+        "Peppol: Е-фактура %s е създадена и записана, неизпратена: KoSIT и Phase4 не са конфигурирани."
+      ],
+      "EN 16931: %1$d fatale Regelbefunde (%2$s).": [
+        "EN 16931: %1$d фатални констатации (%2$s)."
+      ],
+      "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen.": [
+        "Peppol: Проверката EN 16931 отчита %1$d фатални констатации (%2$s). Изпраща се въпреки това; задайте \"wm_peppol_schematron_gate\" на 1 за блокиране."
+      ],
+      "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung.": [
+        "Peppol: Е-фактура %1$s е предадена на Phase4 (messageId %2$s). Доставена е едва след разписката."
+      ],
+      "Gebühr": [
+        "Такса"
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab.": [
+        "Peppol: Е-фактура не е създадена. \"%s\" е без ДДС; освобождавания не се поддържат."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze.": [
+        "Peppol: Е-фактура не е създадена. \"%s\" има няколко данъчни ставки."
+      ],
+      "Peppol: E-Rechnung %1$s nicht versendet. %2$s": [
+        "Peppol: Е-фактура %1$s не е изпратена. %2$s"
+      ],
+      "Peppol-E-Rechnung": [
+        "Е-фактура Peppol"
+      ],
+      "Peppol-Empfänger-ID (Schema:Kennung)": [
+        "Peppol ID на получател (схема:идентификатор)"
+      ],
+      "Leitweg-ID (öffentliche Auftraggeber)": [
+        "Leitweg-ID (публични възложители)"
+      ],
+      "Käuferreferenz (wenn keine Leitweg-ID)": [
+        "Референция на купувача (ако няма Leitweg-ID)"
+      ],
+      "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert.": [
+        "Leitweg-ID не отговаря на спецификацията на KoSIT или контролните цифри са грешни; не е запазено."
+      ],
+      "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert.": [
+        "Peppol ID на получател няма форма четирицифрена схема:идентификатор; не е запазено."
+      ],
+      "Portal-Darstellung": [
+        "Изглед на портала"
+      ],
+      "Überschrift anzeigen": [
+        "Показвай заглавие"
+      ],
+      "Einleitungstext anzeigen": [
+        "Показвай въвеждащ текст"
+      ],
+      "block title\u0004Peppol-Rechnungsstatus-Portal": [
+        "Портал за статус на Peppol фактури"
+      ],
+      "block description\u0004Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID.": [
+        "Публичен портал за проверка на съхранени електронни Peppol фактури по номер на фактура и Peppol ID."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004invoice": [
+        "фактура"
+      ],
+      "block keyword\u0004e-rechnung": [
+        "е-фактура"
+      ],
+      "block keyword\u0004ubl": [
+        "ubl"
+      ],
+      "block keyword\u0004status": [
+        "статус"
+      ]
+    }
+  }
+}

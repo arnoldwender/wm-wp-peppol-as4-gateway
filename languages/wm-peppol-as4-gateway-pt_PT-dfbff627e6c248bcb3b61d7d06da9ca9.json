@@ -1,0 +1,732 @@
+{
+  "translation-revision-date": "2026-11-21T15:24:44+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-peppol-as4-gateway",
+        "lang": "pt_PT",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM Peppol AS4 Gateway": [
+        "WM Peppol AS4 Gateway"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+      ],
+      "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst.": [
+        "Gera faturas UBL 2.1 segundo Peppol BIS Billing 3.0, verifica-as face ao conjunto oficial de regras EN 16931, pesquisa o destinatário via SML e SMP, entrega faturas de encomendas WooCommerce concluídas a um validador KoSIT e serviço Phase4 configurados, valida o recibo AS4 assinado e mostra aos compradores o estado registado. Sem transporte AS4 próprio: esse fica a cargo do Phase4."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Unbekannte Spoke-Aktion \"%s\".": [
+        "Ação de módulo desconhecida \"%s\"."
+      ],
+      "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s).": [
+        "Autoteste indisponível: faltam dados do vendedor (%s)."
+      ],
+      "Testdokument von den Strukturprüfungen abgelehnt: %s": [
+        "Documento de teste rejeitado pelas verificações estruturais: %s"
+      ],
+      "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung.": [
+        "Documento de teste gerado (%d bytes) e aceite pelas verificações estruturais do plugin. Não guardado, não enviado, sem validação de esquema ou Schematron."
+      ],
+      "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren.": [
+        "Faltam as tabelas do plugin. Desative e volte a ativar o plugin."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden.": [
+        "Dados do vendedor incompletos: não é possível gerar faturas eletrónicas."
+      ],
+      "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert.": [
+        "Dados do vendedor completos. O validador KoSIT e o serviço Phase4 estão configurados."
+      ],
+      "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert.": [
+        "Dados do vendedor completos. Envio não configurado: as faturas são apenas guardadas."
+      ],
+      "Gespeicherte Rechnungen": [
+        "Faturas guardadas"
+      ],
+      "Übergaben an Phase4": [
+        "Entregas ao Phase4"
+      ],
+      "Empfangsquittungen": [
+        "Recibos de receção"
+      ],
+      "Peppol Gateway öffnen": [
+        "Abrir Peppol Gateway"
+      ],
+      "Peppol Gateway": [
+        "Peppol Gateway"
+      ],
+      "%d Beispielrechnung angelegt.": [
+        "%d fatura de exemplo criada.",
+        "%d faturas de exemplo criadas."
+      ],
+      "%d Beispielrechnung entfernt.": [
+        "%d fatura de exemplo removida.",
+        "%d faturas de exemplo removidas."
+      ],
+      "Übersicht": [
+        "Visão geral"
+      ],
+      "Rechnung erzeugen": [
+        "Gerar fatura"
+      ],
+      "Einstellungen": [
+        "Definições"
+      ],
+      "Was das Plugin tut": [
+        "O que o plugin faz"
+      ],
+      "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben.": [
+        "Gerar e guardar faturas UBL 2.1 segundo Peppol BIS Billing 3.0 e entregá-las a um serviço Phase4 configurado."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Parte da família de plugins WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Autónomo"
+      ],
+      "Bereiche": [
+        "Secções"
+      ],
+      "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet.": [
+        "A fatura eletrónica foi gerada e guardada. Este formulário não efetua o envio."
+      ],
+      "Die E-Rechnung wurde nicht erzeugt.": [
+        "A fatura eletrónica não foi gerada."
+      ],
+      "Eine Rechnung mit dieser Nummer ist bereits gespeichert.": [
+        "Já existe uma fatura guardada com este número."
+      ],
+      "Die Rechnung wurde erzeugt, aber nicht gespeichert.": [
+        "A fatura foi gerada, mas não foi guardada."
+      ],
+      "Einstellungen gespeichert.": [
+        "Definições guardadas."
+      ],
+      "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet.": [
+        "As faturas de exemplo estão marcadas como exemplo e não são apresentadas no portal público."
+      ],
+      "Beispielrechnungen entfernt.": [
+        "Faturas de exemplo removidas."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s": [
+        "Dados do vendedor incompletos: não é possível gerar faturas eletrónicas. %s"
+      ],
+      "Zu den Einstellungen": [
+        "Ir para as definições"
+      ],
+      "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben.": [
+        "Envio não configurado: as faturas geradas são guardadas, mas não transmitidas."
+      ],
+      "ohne %d Beispielrechnungen": [
+        "excluindo %d faturas de exemplo"
+      ],
+      "mit messageId": [
+        "com messageId"
+      ],
+      "positiv, per Webhook": [
+        "positivo, via webhook"
+      ],
+      "Verkäuferdaten": [
+        "Dados do vendedor"
+      ],
+      "vollständig": [
+        "completos"
+      ],
+      "für die Rechnungserzeugung": [
+        "para emissão de faturas"
+      ],
+      "Angaben fehlen": [
+        "dados em falta"
+      ],
+      "Rechnungen": [
+        "Faturas"
+      ],
+      "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status.": [
+        "As últimas 50 faturas guardadas com o respetivo estado registado."
+      ],
+      "Rechnungsnummer": [
+        "Número da fatura"
+      ],
+      "Peppol-ID des Käufers": [
+        "ID Peppol do comprador"
+      ],
+      "Zahlbetrag": [
+        "Montante a pagar"
+      ],
+      "Status": [
+        "Estado"
+      ],
+      "Rechnungsdatum": [
+        "Data da fatura"
+      ],
+      "Noch keine Rechnungen gespeichert.": [
+        "Ainda não existem faturas guardadas."
+      ],
+      "Beispielrechnungen": [
+        "Faturas de exemplo"
+      ],
+      "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen.": [
+        "As faturas de exemplo não contêm XML, não contam como faturas e não são comunicadas no portal público. A remoção apaga apenas essas linhas, incluindo as três linhas de versões anteriores."
+      ],
+      "Beispielrechnungen anlegen": [
+        "Criar faturas de exemplo"
+      ],
+      "%d Beispielrechnung entfernen": [
+        "Remover %d fatura de exemplo",
+        "Remover %d faturas de exemplo"
+      ],
+      "Beispiel": [
+        "Exemplo"
+      ],
+      "Erzeugt, nicht versendet": [
+        "Gerada, não enviada"
+      ],
+      "An Phase4 übergeben": [
+        "Entregue ao Phase4"
+      ],
+      "Zugestellt (Quittung)": [
+        "Entregue (recibo)"
+      ],
+      "Zustellung fehlgeschlagen": [
+        "Falha na entrega"
+      ],
+      "Versand fehlgeschlagen": [
+        "Falha no envio"
+      ],
+      "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s": [
+        "Sem dados completos do vendedor não é gerada qualquer fatura. %s"
+      ],
+      "Käuferreferenz (BT-10), z. B. die Leitweg-ID": [
+        "Referência do comprador (BT-10), p. ex. Leitweg-ID"
+      ],
+      "Name des Käufers": [
+        "Nome do comprador"
+      ],
+      "Straße": [
+        "Morada"
+      ],
+      "Postleitzahl": [
+        "Código postal"
+      ],
+      "Ort": [
+        "Localidade"
+      ],
+      "Land (zweistelliger Code)": [
+        "País (código de duas letras)"
+      ],
+      "Peppol-ID des Käufers (Schema:Kennung)": [
+        "ID Peppol do comprador (esquema:identificador)"
+      ],
+      "USt-IdNr. des Käufers (optional)": [
+        "NIF/IVA do comprador (opcional)"
+      ],
+      "Bezeichnung der Leistung": [
+        "Descrição do serviço"
+      ],
+      "Menge": [
+        "Quantidade"
+      ],
+      "Nettopreis je Einheit": [
+        "Preço líquido unitário"
+      ],
+      "Umsatzsteuersatz in Prozent": [
+        "Taxa de IVA em percentagem"
+      ],
+      "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen.": [
+        "Gera uma fatura UBL com uma linha e guarda-a. Nada é enviado; os dados do vendedor vêm das definições."
+      ],
+      "Rechnung erzeugen und speichern": [
+        "Gerar e guardar fatura"
+      ],
+      "Peppol-ID des Verkäufers (Schema:Kennung)": [
+        "ID Peppol do vendedor (esquema:identificador)"
+      ],
+      "Name": [
+        "Nome"
+      ],
+      "Rechtlicher Name (leer: wie Name)": [
+        "Denominação legal (vazio: igual ao Nome)"
+      ],
+      "USt-IdNr.": [
+        "NIF/IVA"
+      ],
+      "Registernummer (optional)": [
+        "Número de registo comercial (opcional)"
+      ],
+      "IBAN für Zahlung per Überweisung": [
+        "IBAN para pagamento por transferência"
+      ],
+      "Verkäufer": [
+        "Vendedor"
+      ],
+      "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung.": [
+        "Estes dados constam em cada fatura gerada. Se faltar um campo obrigatório, o plugin não gera a fatura."
+      ],
+      "Versand": [
+        "Envio"
+      ],
+      "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang.": [
+        "Ambos os serviços são programas autónomos externos ao plugin. Enquanto faltar um endereço, nada é enviado. As constantes WM_PEPPOL_KOSIT_URL e WM_PEPPOL_PHASE4_URL no wp-config.php prevalecem."
+      ],
+      "Adresse des KoSIT-Validators": [
+        "Endereço do validador KoSIT"
+      ],
+      "Adresse des Phase4-Dienstes": [
+        "Endereço do serviço Phase4"
+      ],
+      "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen.": [
+        "Está definido um segredo partilhado; recibos com assinatura válida são aceites."
+      ],
+      "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret.": [
+        "Nenhum segredo partilhado definido; todos os recibos são recusados. Defina WM_PEPPOL_RECEIPT_SECRET ou wp option update wm_peppol_receipt_secret."
+      ],
+      "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)": [
+        "Impressões digitais de certificado permitidas para recibos AS4 (SHA-256, opcional)"
+      ],
+      "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang.": [
+        "Impressões digitais SHA-256 de 64 caracteres, separadas por vírgulas, dos certificados de assinatura esperados do ponto de acesso. A constante WM_PEPPOL_TRUSTED_SIGNER_SHA256 em wp-config.php tem prioridade."
+      ],
+      "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)": [
+        "Pacote local de certificados CA em formato PEM (PKI OpenPeppol, opcional)"
+      ],
+      "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang.": [
+        "Um ou mais certificados raiz e intermédios de confiança em formato PEM para uma verificação da cadeia apenas local, sem acesso à rede. As constantes WM_PEPPOL_TRUST_BUNDLE_PEM e WM_PEPPOL_TRUST_BUNDLE_FILE têm prioridade."
+      ],
+      "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen": [
+        "Rejeitar recibos AS4 sem impressão digital nem pacote de certificados CA guardados"
+      ],
+      "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen.": [
+        "Se ativado, ou definido pela constante WM_PEPPOL_REQUIRE_TRUST_ANCHOR, os recibos autoassinados ou sem âncora de confiança são rejeitados com HTTP 422."
+      ],
+      "Deinstallation": [
+        "Desinstalação"
+      ],
+      "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen": [
+        "Eliminar permanentemente todas as opções do plugin e as três tabelas da base de dados ao desinstalar o plugin"
+      ],
+      "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird.": [
+        "Por predefinição, todas as faturas guardadas, transmissões, registo de recibos e definições são preservados ao remover o plugin."
+      ],
+      "Einstellungen speichern": [
+        "Guardar definições"
+      ],
+      "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz.": [
+        "Gera faturas UBL 2.1 com o identificador Peppol BIS Billing 3.0 e discriminação de IVA por categoria e taxa."
+      ],
+      "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen.": [
+        "Recusa gerar fatura quando faltam dados obrigatórios em vez de os preencher."
+      ],
+      "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung.": [
+        "Verifica campos obrigatórios, códigos e regras de soma. Não constitui validação XSD nem Schematron."
+      ],
+      "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an.": [
+        "Entrega faturas de encomendas WooCommerce concluídas a um validador KoSIT e serviço Phase4 configurados, e aceita recibos assinados."
+      ],
+      "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung.": [
+        "Mostra aos compradores o estado registado de uma fatura no portal de estado."
+      ],
+      "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst.": [
+        "Sem transporte, assinatura ou cifragem AS4 próprios: o serviço Phase4 trata disso."
+      ],
+      "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen.": [
+        "Sem notas de crédito na sintaxe UBL CreditNote nem isenções de imposto."
+      ],
+      "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde.": [
+        "Sem arquivo de exportação: as faturas guardadas e o registo de recibos mantêm-se por predefinição na desinstalação e só são apagados se ativado explicitamente nas definições."
+      ],
+      "Was es nicht tut": [
+        "O que não faz"
+      ],
+      "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut.": [
+        "Demasiados pedidos a partir deste endereço. Tente novamente mais tarde."
+      ],
+      "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich.": [
+        "O número da fatura e o ID Peppol do comprador são obrigatórios."
+      ],
+      "Zu diesen Angaben liegt keine Rechnung vor.": [
+        "Não existe nenhuma fatura para os dados indicados."
+      ],
+      "Der Anfragekörper muss ein JSON-Objekt sein.": [
+        "O corpo do pedido tem de ser um objeto JSON."
+      ],
+      "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt.": [
+        "A linha %d não referencia a linha anterior: uma linha foi removida ou inserida."
+      ],
+      "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln.": [
+        "A linha %d foi alterada após a escrita, ou a base de dados provém de uma instalação com chaves diferentes."
+      ],
+      "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast.": [
+        "O recibo excede %d bytes; um recibo AS4 é um sinal, não uma carga útil."
+      ],
+      "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage.": [
+        "O documento não contém eb:Receipt dentro de eb:SignalMessage."
+      ],
+      "Die Quittung enthält kein prüfbares Signaturzertifikat.": [
+        "O recibo não contém nenhum certificado de assinatura verificável."
+      ],
+      "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden.": [
+        "O recibo não tem assinatura XML. Uma mensagem AS4 assinada TEM de ser respondida com um recibo assinado."
+      ],
+      "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt.": [
+        "A assinatura está incompleta: falta ds:SignedInfo ou ds:SignatureValue."
+      ],
+      "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar.": [
+        "A assinatura não inclui certificado X.509; sem chave pública não pode ser verificada."
+      ],
+      "Signaturverfahren %s wird von dieser Installation nicht geprüft.": [
+        "O algoritmo de assinatura %s não é verificado por esta instalação."
+      ],
+      "Das X.509-Zertifikat der Signatur ist nicht lesbar.": [
+        "O certificado X.509 da assinatura não é legível."
+      ],
+      "OpenSSL konnte die Signatur nicht prüfen.": [
+        "O OpenSSL não conseguiu verificar a assinatura."
+      ],
+      "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt.": [
+        "A assinatura não corresponde ao conteúdo do recibo: foi alterado após assinar ou criado com outra chave."
+      ],
+      "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert.": [
+        "A assinatura é válida, mas apenas %1$d de %2$d resumos coincidem com o conteúdo: o recibo foi alterado após a assinatura."
+      ],
+      "Das X.509-Zertifikat der Quittung ist abgelaufen.": [
+        "O certificado X.509 do recibo expirou."
+      ],
+      "Das X.509-Zertifikat der Quittung ist noch nicht gültig.": [
+        "O certificado X.509 do recibo ainda não é válido."
+      ],
+      "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird.": [
+        "Não está guardada nenhuma impressão digital de certificado nem nenhum pacote de certificados CA, embora a verificação da âncora de confiança seja obrigatória."
+      ],
+      "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel.": [
+        "O certificado de assinatura do recibo não corresponde a nenhuma impressão digital SHA-256 guardada nem a nenhum pacote de certificados CA de confiança."
+      ],
+      "Die Quittung ist kein wohlgeformtes XML.": [
+        "O recibo não é XML bem formado."
+      ],
+      "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d).": [
+        "O validador KoSIT não aceitou o documento (HTTP %d)."
+      ],
+      "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung.": [
+        "O ID de remetente ou destinatário não tem o formato esquema:identificador."
+      ],
+      "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d).": [
+        "O serviço Phase4 recusou o envio (HTTP %d)."
+      ],
+      "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen.": [
+        "O serviço Phase4 não devolveu qualquer messageId; sem ele não é possível associar recibos."
+      ],
+      "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet.": [
+        "O validador KoSIT e o serviço Phase4 não estão configurados; nada é enviado."
+      ],
+      "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete.": [
+        "O recibo tem assinatura válida, mas refere-se a outro documento diferente do enviado."
+      ],
+      "Peppol: Positive Empfangsquittung für messageId %s erhalten.": [
+        "Peppol: Recibo de entrega positivo recebido para messageId %s."
+      ],
+      "Peppol-Empfangsquittung erhalten.": [
+        "Recibo de entrega Peppol recebido."
+      ],
+      "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s": [
+        "Peppol: Falha no envio (messageId %1$s): %2$s"
+      ],
+      "ohne Fehlerbeschreibung": [
+        "sem descrição de erro"
+      ],
+      "Peppol-Versand fehlgeschlagen.": [
+        "Falha no envio Peppol."
+      ],
+      "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s": [
+        "Estas regras não puderam ser avaliadas e não contam como cumpridas nem violadas: %s"
+      ],
+      "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s.": [
+        "Não foi possível ativar o WM Peppol AS4 Gateway porque faltam neste servidor as seguintes extensões PHP necessárias: %s."
+      ],
+      "Fehlende PHP-Erweiterung": [
+        "Extensão PHP em falta"
+      ],
+      "Kein Peppol-Teilnehmerbezeichner angegeben.": [
+        "Nenhum identificador de participante Peppol indicado."
+      ],
+      "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789.": [
+        "O identificador \"%s\" não tem o formato <esquema EAS de quatro dígitos>:<identificador>, por exemplo 9930:DE123456789."
+      ],
+      "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen.": [
+        "O esquema do identificador contém caracteres proibidos num nome DNS."
+      ],
+      "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen.": [
+        "Não existe registo NAPTR para %s: o participante não está registado nesta zona SML ou o resolvedor não responde a consultas NAPTR."
+      ],
+      "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL).": [
+        "O registo NAPTR de %s não indica qualquer SMP (serviço \"Meta:SMP\" com URL)."
+      ],
+      "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen.": [
+        "O SMP conhece o participante %1$s, mas não para o tipo de documento %2$s: este destinatário não aceita este documento."
+      ],
+      "Der SMP antwortete mit HTTP %1$d auf %2$s.": [
+        "O SMP respondeu com HTTP %1$d em %2$s."
+      ],
+      "Der SMP lieferte einen leeren Körper.": [
+        "O SMP devolveu um corpo vazio."
+      ],
+      "Die Antwort des SMP ist kein wohlgeformtes XML.": [
+        "A resposta do SMP não é XML bem formado."
+      ],
+      "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s.": [
+        "A resposta do SMP não contém nenhum endpoint com o perfil de transporte %s."
+      ],
+      "Peppol-Gateway-Status": [
+        "Estado do Peppol Gateway"
+      ],
+      "Tabellen des Plugins fehlen": [
+        "Tabelas do plugin em falta"
+      ],
+      "KoSIT-Validator und Phase4-Dienst konfiguriert": [
+        "Validador KoSIT e serviço Phase4 configurados"
+      ],
+      "Versand nicht konfiguriert": [
+        "Envio não configurado"
+      ],
+      "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen": [
+        "%1$d faturas guardadas, %2$d recibos de receção"
+      ],
+      "Status wird abgefragt …": [
+        "A consultar estado …"
+      ],
+      "Rechnung gefunden": [
+        "Fatura encontrada"
+      ],
+      "Die Abfrage ist fehlgeschlagen.": [
+        "A consulta falhou."
+      ],
+      "Gespeicherter Status": [
+        "Estado guardado"
+      ],
+      "Übergabe an Phase4": [
+        "Entrega ao Phase4"
+      ],
+      "keine Übergabe erfasst": [
+        "nenhuma entrega registada"
+      ],
+      "Empfangsquittung": [
+        "Recibo de receção"
+      ],
+      "liegt vor": [
+        "disponível"
+      ],
+      "liegt nicht vor": [
+        "indisponível"
+      ],
+      "Fehlercode der Übertragung": [
+        "Código de erro da transmissão"
+      ],
+      "SHA-256 des gespeicherten XML": [
+        "SHA-256 do XML guardado"
+      ],
+      "Rechnungsstatus abfragen": [
+        "Consultar estado da fatura"
+      ],
+      "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten.": [
+        "Indique o número da fatura e o seu ID Peppol. É apresentado o estado guardado neste sistema. O documento não é validado face à EN 16931 nem disponibilizado para transferência aqui."
+      ],
+      "Ihre Peppol-ID": [
+        "O seu ID Peppol"
+      ],
+      "Schema:Kennung": [
+        "esquema:identificador"
+      ],
+      "Status abfragen": [
+        "Consultar estado"
+      ],
+      "Die Rechnungsnummer fehlt.": [
+        "Falta o número da fatura."
+      ],
+      "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist.": [
+        "Falta a referência do comprador (BT-10); o Peppol BIS exige-a quando não existe referência de encomenda."
+      ],
+      "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT.": [
+        "A data da fatura não tem o formato AAAA-MM-DD."
+      ],
+      "Es fehlen Rechnungspositionen oder ein Betrag.": [
+        "Faltam linhas de fatura ou um montante."
+      ],
+      "Ein Betrag ist keine Zahl.": [
+        "Um montante não é numérico."
+      ],
+      "Eine Position hat keine Bezeichnung.": [
+        "Uma linha não tem descrição."
+      ],
+      "Ein Steuersatz ist negativ.": [
+        "Uma taxa de imposto é negativa."
+      ],
+      "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen.": [
+        "O código do tipo de fatura não consta na lista Peppol de faturas."
+      ],
+      "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt.": [
+        "Uma nota de crédito (tipo 381) requer a sintaxe UBL CreditNote, que este gerador não produz."
+      ],
+      "Der Währungscode muss aus drei Großbuchstaben bestehen.": [
+        "O código da moeda deve ter três letras maiúsculas."
+      ],
+      "Die Peppol-ID des Verkäufers fehlt.": [
+        "Falta o ID Peppol do vendedor."
+      ],
+      "Der Name des Verkäufers fehlt.": [
+        "Falta o nome do vendedor."
+      ],
+      "Die Straße des Verkäufers fehlt.": [
+        "Falta a morada do vendedor."
+      ],
+      "Der Ort des Verkäufers fehlt.": [
+        "Falta a localidade do vendedor."
+      ],
+      "Die Postleitzahl des Verkäufers fehlt.": [
+        "Falta o código postal do vendedor."
+      ],
+      "Das Land des Verkäufers fehlt.": [
+        "Falta o país do vendedor."
+      ],
+      "Die USt-IdNr. des Verkäufers fehlt.": [
+        "Falta o NIF/IVA do vendedor."
+      ],
+      "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "O ID Peppol do vendedor não tem o formato esquema:identificador (esquema de quatro dígitos)."
+      ],
+      "Das Land des Verkäufers muss ein zweistelliger Ländercode sein.": [
+        "O país do vendedor tem de ser um código de país de duas letras."
+      ],
+      "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "O NIF/IVA do vendedor não começa por um código de país de duas letras."
+      ],
+      "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers.": [
+        "Falta o IBAN do vendedor para pagamento por transferência."
+      ],
+      "Die Peppol-ID des Käufers fehlt.": [
+        "Falta o ID Peppol do comprador."
+      ],
+      "Der Name des Käufers fehlt.": [
+        "Falta o nome do comprador."
+      ],
+      "Das Land des Käufers fehlt.": [
+        "Falta o país do comprador."
+      ],
+      "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "O ID Peppol do comprador não tem o formato esquema:identificador (esquema de quatro dígitos)."
+      ],
+      "Das Land des Käufers muss ein zweistelliger Ländercode sein.": [
+        "O país do comprador tem de ser um código de país de duas letras."
+      ],
+      "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "O NIF/IVA do comprador não começa por um código de país de duas letras."
+      ],
+      "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null.": [
+        "Uma linha ou encargo/desconto com categoria de IVA S não tem taxa superior a zero."
+      ],
+      "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen.": [
+        "O ficheiro não é XML bem formado; nada pode ser verificado antes das regras."
+      ],
+      "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt.": [
+        "Peppol: A encomenda tem Leitweg-ID, mas não ID de destinatário Peppol; não foi gerada fatura eletrónica."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab.": [
+        "Peppol: Fatura eletrónica não gerada. Total da encomenda %1$s e total da fatura %2$s diferem acima do arredondamento."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. %s": [
+        "Peppol: Fatura eletrónica não gerada. %s"
+      ],
+      "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden.": [
+        "Peppol: Não foi possível guardar a fatura eletrónica gerada."
+      ],
+      "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant.": [
+        "Peppol: Fatura eletrónica %s gerada; envio agendado."
+      ],
+      "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert.": [
+        "Peppol: Fatura eletrónica %s gerada e guardada, não enviada: KoSIT e Phase4 não estão configurados."
+      ],
+      "EN 16931: %1$d fatale Regelbefunde (%2$s).": [
+        "EN 16931: %1$d ocorrências fatais (%2$s)."
+      ],
+      "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen.": [
+        "Peppol: A verificação EN 16931 indica %1$d ocorrências fatais (%2$s). Envio mantido; defina \"wm_peppol_schematron_gate\" como 1 para bloquear."
+      ],
+      "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung.": [
+        "Peppol: Fatura eletrónica %1$s entregue ao serviço Phase4 (messageId %2$s). Só fica entregue após o recibo."
+      ],
+      "Gebühr": [
+        "Taxa"
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab.": [
+        "Peppol: Fatura eletrónica não gerada. \"%s\" está isento de IVA; o plugin não modela isenções."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze.": [
+        "Peppol: Fatura eletrónica não gerada. \"%s\" tem várias taxas de imposto."
+      ],
+      "Peppol: E-Rechnung %1$s nicht versendet. %2$s": [
+        "Peppol: Fatura eletrónica %1$s não enviada. %2$s"
+      ],
+      "Peppol-E-Rechnung": [
+        "Fatura eletrónica Peppol"
+      ],
+      "Peppol-Empfänger-ID (Schema:Kennung)": [
+        "ID de destinatário Peppol (esquema:identificador)"
+      ],
+      "Leitweg-ID (öffentliche Auftraggeber)": [
+        "Leitweg-ID (entidades públicas)"
+      ],
+      "Käuferreferenz (wenn keine Leitweg-ID)": [
+        "Referência do comprador (sem Leitweg-ID)"
+      ],
+      "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert.": [
+        "O Leitweg-ID não cumpre a especificação KoSIT ou os dígitos de controlo falharam; não guardado."
+      ],
+      "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert.": [
+        "O ID de destinatário Peppol não tem o formato esquema:identificador de quatro dígitos; não guardado."
+      ],
+      "Portal-Darstellung": [
+        "Apresentação do portal"
+      ],
+      "Überschrift anzeigen": [
+        "Mostrar cabeçalho"
+      ],
+      "Einleitungstext anzeigen": [
+        "Mostrar texto introdutório"
+      ],
+      "block title\u0004Peppol-Rechnungsstatus-Portal": [
+        "Portal de estado de faturas Peppol"
+      ],
+      "block description\u0004Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID.": [
+        "Portal público para consultar faturas eletrónicas Peppol guardadas através do número da fatura e ID Peppol."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004invoice": [
+        "fatura"
+      ],
+      "block keyword\u0004e-rechnung": [
+        "fatura-eletronica"
+      ],
+      "block keyword\u0004ubl": [
+        "ubl"
+      ],
+      "block keyword\u0004status": [
+        "estado"
+      ]
+    }
+  }
+}

@@ -1,0 +1,732 @@
+{
+  "translation-revision-date": "2026-11-21T15:24:44+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-peppol-as4-gateway",
+        "lang": "et",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM Peppol AS4 Gateway": [
+        "WM Peppol AS4 Gateway"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+      ],
+      "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst.": [
+        "Genereerib Peppol BIS Billing 3.0 kohaseid UBL 2.1 arveid, kontrollib neid ametliku EN 16931 reeglistiku alusel, otsib saaja SML-i ja SMP kaudu, edastab täidetud WooCommerce'i tellimuste arved seadistatud KoSIT-validaatorile ja Phase4 teenusele, kontrollib allkirjastatud AS4 kviitungit ning näitab ostjatele salvestatud olekut. Endal AS4 edastust pole: selle teeb Phase4."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Unbekannte Spoke-Aktion \"%s\".": [
+        "Tundmatu moodulitoiming \"%s\"."
+      ],
+      "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s).": [
+        "Enesetest pole võimalik: müüja andmed puuduvad (%s)."
+      ],
+      "Testdokument von den Strukturprüfungen abgelehnt: %s": [
+        "Struktuurikontroll lükkas testdokumendi tagasi: %s"
+      ],
+      "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung.": [
+        "Testdokument loodud (%d baiti) ja plugina struktuurikontrollis vastu võetud. Ei salvestatud, ei saadetud, ilma skeemi- ja Schematroni kontrollita."
+      ],
+      "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren.": [
+        "Plugina andmebaasitabelid puuduvad. Deaktiveerige ja aktiveerige plugin uuesti."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden.": [
+        "Müüja andmed on puudulikud: e-arvet ei saa luua."
+      ],
+      "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert.": [
+        "Müüja andmed on täielikud. KoSIT-validaator ja Phase4 teenus on seadistatud."
+      ],
+      "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert.": [
+        "Müüja andmed on täielikud. Saatmine pole seadistatud: arved ainult salvestatakse."
+      ],
+      "Gespeicherte Rechnungen": [
+        "Salvestatud arved"
+      ],
+      "Übergaben an Phase4": [
+        "Edastused Phase4-le"
+      ],
+      "Empfangsquittungen": [
+        "Kättesaamiskviitungid"
+      ],
+      "Peppol Gateway öffnen": [
+        "Ava Peppol Gateway"
+      ],
+      "Peppol Gateway": [
+        "Peppol Gateway"
+      ],
+      "%d Beispielrechnung angelegt.": [
+        "Loodi %d näidisarve.",
+        "Loodi %d näidisarvet."
+      ],
+      "%d Beispielrechnung entfernt.": [
+        "Eemaldati %d näidisarve.",
+        "Eemaldati %d näidisarvet."
+      ],
+      "Übersicht": [
+        "Ülevaade"
+      ],
+      "Rechnung erzeugen": [
+        "Loo arve"
+      ],
+      "Einstellungen": [
+        "Seaded"
+      ],
+      "Was das Plugin tut": [
+        "Mida plugin teeb"
+      ],
+      "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben.": [
+        "Loo ja salvesta Peppol BIS Billing 3.0 kohaseid UBL 2.1 arveid ning edasta need seadistatud Phase4 teenusele."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Osa WM Suite pluginaperekonnast"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Iseseisev"
+      ],
+      "Bereiche": [
+        "Jaotised"
+      ],
+      "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet.": [
+        "E-arve loodi ja salvestati. Selle vormi kaudu seda ei saadeta."
+      ],
+      "Die E-Rechnung wurde nicht erzeugt.": [
+        "E-arvet ei loodud."
+      ],
+      "Eine Rechnung mit dieser Nummer ist bereits gespeichert.": [
+        "Selle numbriga arve on juba salvestatud."
+      ],
+      "Die Rechnung wurde erzeugt, aber nicht gespeichert.": [
+        "Arve loodi, kuid seda ei saanud salvestada."
+      ],
+      "Einstellungen gespeichert.": [
+        "Seaded salvestatud."
+      ],
+      "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet.": [
+        "Näidisarved on märgitud näidisteks ja neid ei kuvata avalikus olekuportaalis."
+      ],
+      "Beispielrechnungen entfernt.": [
+        "Näidisarved eemaldatud."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s": [
+        "Müüja andmed on puudulikud: e-arvet ei saa luua. %s"
+      ],
+      "Zu den Einstellungen": [
+        "Ava seaded"
+      ],
+      "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben.": [
+        "Saatmine pole seadistatud: loodud arved salvestatakse, kuid ei edastata."
+      ],
+      "ohne %d Beispielrechnungen": [
+        "ilma %d näidisarveta"
+      ],
+      "mit messageId": [
+        "koos messageId-ga"
+      ],
+      "positiv, per Webhook": [
+        "positiivne, webhooki kaudu"
+      ],
+      "Verkäuferdaten": [
+        "Müüja andmed"
+      ],
+      "vollständig": [
+        "täielikud"
+      ],
+      "für die Rechnungserzeugung": [
+        "arvete loomiseks"
+      ],
+      "Angaben fehlen": [
+        "andmed puuduvad"
+      ],
+      "Rechnungen": [
+        "Arved"
+      ],
+      "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status.": [
+        "Viimased 50 salvestatud arvet koos registreeritud olekuga."
+      ],
+      "Rechnungsnummer": [
+        "Arve number"
+      ],
+      "Peppol-ID des Käufers": [
+        "Ostja Peppol-ID"
+      ],
+      "Zahlbetrag": [
+        "Tasumisele kuuluv summa"
+      ],
+      "Status": [
+        "Olek"
+      ],
+      "Rechnungsdatum": [
+        "Arve kuupäev"
+      ],
+      "Noch keine Rechnungen gespeichert.": [
+        "Ühtegi arvet pole veel salvestatud."
+      ],
+      "Beispielrechnungen": [
+        "Näidisarved"
+      ],
+      "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen.": [
+        "Näidisarvetel puudub XML, neid ei loeta arveteks ja neid ei näidata avalikus portaalis. Eemaldamine kustutab ainult need, sealhulgas varasemate versioonide kolm näidisrida."
+      ],
+      "Beispielrechnungen anlegen": [
+        "Loo näidisarved"
+      ],
+      "%d Beispielrechnung entfernen": [
+        "Eemalda %d näidisarve",
+        "Eemalda %d näidisarvet"
+      ],
+      "Beispiel": [
+        "Näidis"
+      ],
+      "Erzeugt, nicht versendet": [
+        "Loodud, saatmata"
+      ],
+      "An Phase4 übergeben": [
+        "Edastatud Phase4-le"
+      ],
+      "Zugestellt (Quittung)": [
+        "Kohale toimetatud (kviitung)"
+      ],
+      "Zustellung fehlgeschlagen": [
+        "Kohaletoimetamine ebaõnnestus"
+      ],
+      "Versand fehlgeschlagen": [
+        "Saatmine ebaõnnestus"
+      ],
+      "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s": [
+        "Ilma täielike müüja andmeteta arvet ei looda. %s"
+      ],
+      "Käuferreferenz (BT-10), z. B. die Leitweg-ID": [
+        "Ostja viide (BT-10), nt Leitweg-ID"
+      ],
+      "Name des Käufers": [
+        "Ostja nimi"
+      ],
+      "Straße": [
+        "Tänav"
+      ],
+      "Postleitzahl": [
+        "Sihtnumber"
+      ],
+      "Ort": [
+        "Linn"
+      ],
+      "Land (zweistelliger Code)": [
+        "Riik (kahetäheline kood)"
+      ],
+      "Peppol-ID des Käufers (Schema:Kennung)": [
+        "Ostja Peppol-ID (skeem:tunnus)"
+      ],
+      "USt-IdNr. des Käufers (optional)": [
+        "Ostja KMKR number (valikuline)"
+      ],
+      "Bezeichnung der Leistung": [
+        "Teenuse kirjeldus"
+      ],
+      "Menge": [
+        "Kogus"
+      ],
+      "Nettopreis je Einheit": [
+        "Netoühikuhind"
+      ],
+      "Umsatzsteuersatz in Prozent": [
+        "Käibemaksumäär protsentides"
+      ],
+      "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen.": [
+        "Loob üherealise UBL-arve ja salvestab selle. Midagi ei saadeta; müüja andmed võetakse seadetest."
+      ],
+      "Rechnung erzeugen und speichern": [
+        "Loo ja salvesta arve"
+      ],
+      "Peppol-ID des Verkäufers (Schema:Kennung)": [
+        "Müüja Peppol-ID (skeem:tunnus)"
+      ],
+      "Name": [
+        "Nimi"
+      ],
+      "Rechtlicher Name (leer: wie Name)": [
+        "Juriidiline nimi (tühi: sama mis Nimi)"
+      ],
+      "USt-IdNr.": [
+        "KMKR number"
+      ],
+      "Registernummer (optional)": [
+        "Registrikood (valikuline)"
+      ],
+      "IBAN für Zahlung per Überweisung": [
+        "IBAN pangaülekandega maksmiseks"
+      ],
+      "Verkäufer": [
+        "Müüja"
+      ],
+      "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung.": [
+        "Need andmed kantakse igale loodud arvele. Kui kohustuslik väli puudub, plugin arvet ei loo."
+      ],
+      "Versand": [
+        "Saatmine"
+      ],
+      "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang.": [
+        "Mõlemad teenused on plugina välised eraldi programmid. Kuni üks aadress puudub, midagi ei saadeta. Konstandid WM_PEPPOL_KOSIT_URL ja WM_PEPPOL_PHASE4_URL failis wp-config.php on ülimuslikud."
+      ],
+      "Adresse des KoSIT-Validators": [
+        "KoSIT-validaatori aadress"
+      ],
+      "Adresse des Phase4-Dienstes": [
+        "Phase4 teenuse aadress"
+      ],
+      "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen.": [
+        "Jagatud saladus on määratud; kehtiva allkirjaga kviitungid võetakse vastu."
+      ],
+      "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret.": [
+        "Jagatud saladust pole määratud; kõik kviitungid lükatakse tagasi. Määrake WM_PEPPOL_RECEIPT_SECRET või wp option update wm_peppol_receipt_secret abil."
+      ],
+      "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)": [
+        "Lubatud sertifikaatide sõrmejäljed AS4-kviitungite jaoks (SHA-256, valikuline)"
+      ],
+      "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang.": [
+        "Komadega eraldatud 64-märgilised SHA-256-sõrmejäljed pöörduspunkti oodatud allkirjastamissertifikaatidest. Konstant WM_PEPPOL_TRUSTED_SIGNER_SHA256 failis wp-config.php on eelisjärjekorras."
+      ],
+      "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)": [
+        "Kohalik CA-sertifikaatide kimp PEM-vormingus (OpenPeppol PKI, valikuline)"
+      ],
+      "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang.": [
+        "Üks või mitu usaldusväärset juur- ja vahesertifikaati PEM-vormingus ahela puhtalt kohalikuks kontrolliks ilma võrguühenduseta. Konstandid WM_PEPPOL_TRUST_BUNDLE_PEM ja WM_PEPPOL_TRUST_BUNDLE_FILE on eelisjärjekorras."
+      ],
+      "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen": [
+        "Lükka AS4-kviitungid tagasi, kui sõrmejälge ega CA-sertifikaatide kimpu pole salvestatud"
+      ],
+      "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen.": [
+        "Kui see on lubatud või määratud konstandiga WM_PEPPOL_REQUIRE_TRUST_ANCHOR, lükatakse isesigneeritud või ankurdamata kviitungid tagasi vastusega HTTP 422."
+      ],
+      "Deinstallation": [
+        "Desinstallimine"
+      ],
+      "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen": [
+        "Plugina eemaldamisel kustuta jäädavalt kõik valikud ja kolm andmebaasitabelit"
+      ],
+      "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird.": [
+        "Vaikimisi säilitatakse plugina eemaldamisel kõik salvestatud arved, edastused, kviitungiregister ja seaded."
+      ],
+      "Einstellungen speichern": [
+        "Salvesta seaded"
+      ],
+      "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz.": [
+        "Loob UBL 2.1 arveid Peppol BIS Billing 3.0 tunnusega ja käibemaksu jaotusega kategooria ning määra kaupa."
+      ],
+      "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen.": [
+        "Keeldub arvet loomast, kui kohustuslikud andmed puuduvad, selle asemel et neid välja mõelda."
+      ],
+      "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung.": [
+        "Kontrollib kohustuslikke välju, koode ja summareegleid. See pole XSD-skeemi ega Schematroni kontroll."
+      ],
+      "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an.": [
+        "Edastab lõpetatud WooCommerce'i tellimuste arved KoSIT-validaatorile ja Phase4 teenusele, kui mõlemad on seadistatud, ning võtab vastu allkirjastatud kviitungeid."
+      ],
+      "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung.": [
+        "Näitab ostjatele olekuportaalis arve salvestatud olekut."
+      ],
+      "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst.": [
+        "Puudub sisemine AS4 transport, allkirjastamine ja krüpteerimine: sellega tegeleb Phase4."
+      ],
+      "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen.": [
+        "Puuduvad kreeditarved UBL CreditNote süntaksis ja maksuvabastused."
+      ],
+      "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde.": [
+        "Puudub ekspordiarhiiv: salvestatud arved ja kviitungiregister jäävad desinstallimisel vaikimisi alles ning kustutatakse vaid siis, kui see on seadetes selgesõnaliselt lubatud."
+      ],
+      "Was es nicht tut": [
+        "Mida see ei tee"
+      ],
+      "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut.": [
+        "Liiga palju päringuid sellelt aadressilt. Proovige hiljem uuesti."
+      ],
+      "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich.": [
+        "Arve number ja ostja Peppol-ID on nõutavad."
+      ],
+      "Zu diesen Angaben liegt keine Rechnung vor.": [
+        "Nende andmetega arvet ei leitud."
+      ],
+      "Der Anfragekörper muss ein JSON-Objekt sein.": [
+        "Päringu keha peab olema JSON-objekt."
+      ],
+      "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt.": [
+        "Rida %d ei viita eelmisele reale: rida on eemaldatud või vahele lisatud."
+      ],
+      "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln.": [
+        "Rida %d on pärast kirjutamist muudetud või pärineb andmebaas teiste võtmetega paigaldusest."
+      ],
+      "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast.": [
+        "Kviitung ületab %d baiti; AS4 kviitung on signaal, mitte andmelast."
+      ],
+      "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage.": [
+        "Dokument ei sisalda eb:Receipt elementi eb:SignalMessage sees."
+      ],
+      "Die Quittung enthält kein prüfbares Signaturzertifikat.": [
+        "Kviitung ei sisalda kontrollitavat allkirjastamissertifikaati."
+      ],
+      "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden.": [
+        "Kviitungil puudub XML-allkiri. Allkirjastatud AS4 sõnumile TULEB vastata allkirjastatud kviitungiga."
+      ],
+      "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt.": [
+        "Allkiri on poolik: ds:SignedInfo või ds:SignatureValue puudub."
+      ],
+      "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar.": [
+        "Allkiri ei sisalda X.509 sertifikaati; ilma avaliku võtmeta ei saa seda kontrollida."
+      ],
+      "Signaturverfahren %s wird von dieser Installation nicht geprüft.": [
+        "See paigaldus ei kontrolli allkirjaalgoritmi %s."
+      ],
+      "Das X.509-Zertifikat der Signatur ist nicht lesbar.": [
+        "Allkirja X.509 sertifikaati ei saa lugeda."
+      ],
+      "OpenSSL konnte die Signatur nicht prüfen.": [
+        "OpenSSL ei suutnud allkirja kontrollida."
+      ],
+      "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt.": [
+        "Allkiri ei vasta kviitungi sisule: seda on pärast allkirjastamist muudetud või kasutati teist võtit."
+      ],
+      "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert.": [
+        "Allkiri ise on kehtiv, kuid ainult %1$d / %2$d kontrollsummast klapib sisuga: kviitungit muudeti pärast allkirjastamist."
+      ],
+      "Das X.509-Zertifikat der Quittung ist abgelaufen.": [
+        "Kviitungi X.509-sertifikaat on aegunud."
+      ],
+      "Das X.509-Zertifikat der Quittung ist noch nicht gültig.": [
+        "Kviitungi X.509-sertifikaat ei kehti veel."
+      ],
+      "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird.": [
+        "Salvestatud ei ole ei sertifikaadi sõrmejälge ega CA-sertifikaatide kimpu, kuigi usaldusankru kontroll on kohustuslik."
+      ],
+      "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel.": [
+        "Kviitungi allkirjastamissertifikaat ei vasta ühelegi salvestatud SHA-256-sõrmejäljele ega usaldusväärsele CA-sertifikaatide kimbule."
+      ],
+      "Die Quittung ist kein wohlgeformtes XML.": [
+        "Kviitung ei ole korrektne XML."
+      ],
+      "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d).": [
+        "KoSIT-validaator ei võtnud dokumenti vastu (HTTP %d)."
+      ],
+      "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung.": [
+        "Saatja või saaja ID ei ole kujul skeem:tunnus."
+      ],
+      "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d).": [
+        "Phase4 teenus lükkas saatmise tagasi (HTTP %d)."
+      ],
+      "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen.": [
+        "Phase4 teenus ei tagastanud messageId väärtust; ilma selleta ei saa kviitungit siduda."
+      ],
+      "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet.": [
+        "KoSIT-validaator ja Phase4 teenus pole seadistatud; midagi ei saadeta."
+      ],
+      "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete.": [
+        "Kviitung on kehtivalt allkirjastatud, kuid käib teise dokumendi kohta kui saadetu."
+      ],
+      "Peppol: Positive Empfangsquittung für messageId %s erhalten.": [
+        "Peppol: Positiivne kviitung saadud messageId %s jaoks."
+      ],
+      "Peppol-Empfangsquittung erhalten.": [
+        "Peppoli kättesaamiskviitung vastu võetud."
+      ],
+      "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s": [
+        "Peppol: Saatmine ebaõnnestus (messageId %1$s): %2$s"
+      ],
+      "ohne Fehlerbeschreibung": [
+        "veakirjeldus puudub"
+      ],
+      "Peppol-Versand fehlgeschlagen.": [
+        "Peppoli saatmine ebaõnnestus."
+      ],
+      "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s": [
+        "Neid reegleid ei saanud hinnata ning need ei loe täidetuks ega rikutuks: %s"
+      ],
+      "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s.": [
+        "WM Peppol AS4 Gateway'd ei saanud aktiveerida, sest selles serveris puuduvad järgmised nõutavad PHP-laiendused: %s."
+      ],
+      "Fehlende PHP-Erweiterung": [
+        "Puuduv PHP-laiendus"
+      ],
+      "Kein Peppol-Teilnehmerbezeichner angegeben.": [
+        "Peppoli osalejatunnust pole määratud."
+      ],
+      "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789.": [
+        "Tunnus \"%s\" ei ole kujul <neljakohaline EAS-skeem>:<tunnus>, nt 9930:DE123456789."
+      ],
+      "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen.": [
+        "Tunnuse skeem sisaldab märke, mis pole DNS-nimes lubatud."
+      ],
+      "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen.": [
+        "Kirje NAPTR puudub (%s): osaleja pole selles SML-tsoonis registreeritud või nimeserver ei vasta NAPTR-päringutele."
+      ],
+      "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL).": [
+        "Kirje NAPTR (%s) ei nimeta ühtegi SMP-d (teenus \"Meta:SMP\" koos URL-iga)."
+      ],
+      "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen.": [
+        "SMP tunneb osalejat %1$s, kuid mitte dokumenditüübile %2$s: saaja ei võta seda dokumenti vastu."
+      ],
+      "Der SMP antwortete mit HTTP %1$d auf %2$s.": [
+        "SMP vastas koodiga HTTP %1$d aadressil %2$s."
+      ],
+      "Der SMP lieferte einen leeren Körper.": [
+        "SMP tagastas tühja keha."
+      ],
+      "Die Antwort des SMP ist kein wohlgeformtes XML.": [
+        "SMP vastus ei ole korrektne XML."
+      ],
+      "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s.": [
+        "SMP vastus ei sisalda transpordiprofiiliga %s lõpp-punkti."
+      ],
+      "Peppol-Gateway-Status": [
+        "Peppol Gateway olek"
+      ],
+      "Tabellen des Plugins fehlen": [
+        "Plugina tabelid puuduvad"
+      ],
+      "KoSIT-Validator und Phase4-Dienst konfiguriert": [
+        "KoSIT-validaator ja Phase4 teenus seadistatud"
+      ],
+      "Versand nicht konfiguriert": [
+        "Saatmine pole seadistatud"
+      ],
+      "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen": [
+        "%1$d salvestatud arvet, %2$d kättesaamiskviitungit"
+      ],
+      "Status wird abgefragt …": [
+        "Oleku pärimine …"
+      ],
+      "Rechnung gefunden": [
+        "Arve leitud"
+      ],
+      "Die Abfrage ist fehlgeschlagen.": [
+        "Päring ebaõnnestus."
+      ],
+      "Gespeicherter Status": [
+        "Salvestatud olek"
+      ],
+      "Übergabe an Phase4": [
+        "Edastus Phase4-le"
+      ],
+      "keine Übergabe erfasst": [
+        "edastust pole registreeritud"
+      ],
+      "Empfangsquittung": [
+        "Kättesaamiskviitung"
+      ],
+      "liegt vor": [
+        "olemas"
+      ],
+      "liegt nicht vor": [
+        "puudub"
+      ],
+      "Fehlercode der Übertragung": [
+        "Edastuse veakood"
+      ],
+      "SHA-256 des gespeicherten XML": [
+        "Salvestatud XML-i SHA-256"
+      ],
+      "Rechnungsstatus abfragen": [
+        "Kontrolli arve olekut"
+      ],
+      "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten.": [
+        "Sisestage arve number ja oma Peppol-ID. Kuvatakse selles süsteemis salvestatud seis. Dokumenti ei kontrollita siin EN 16931 vastu ega pakuta allalaadimiseks."
+      ],
+      "Ihre Peppol-ID": [
+        "Teie Peppol-ID"
+      ],
+      "Schema:Kennung": [
+        "skeem:tunnus"
+      ],
+      "Status abfragen": [
+        "Kontrolli olekut"
+      ],
+      "Die Rechnungsnummer fehlt.": [
+        "Arve number puudub."
+      ],
+      "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist.": [
+        "Ostja viide (BT-10) puudub; Peppol BIS nõuab seda tellimusviite puudumisel."
+      ],
+      "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT.": [
+        "Arve kuupäev ei ole vormingus AAAA-KK-PP."
+      ],
+      "Es fehlen Rechnungspositionen oder ein Betrag.": [
+        "Arveread või summa puuduvad."
+      ],
+      "Ein Betrag ist keine Zahl.": [
+        "Summa ei ole arv."
+      ],
+      "Eine Position hat keine Bezeichnung.": [
+        "Real puudub nimetus."
+      ],
+      "Ein Steuersatz ist negativ.": [
+        "Maksumäär on negatiivne."
+      ],
+      "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen.": [
+        "Arvetüübi kood ei kuulu Peppoli arvete loendisse."
+      ],
+      "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt.": [
+        "Kreeditarve (tüüp 381) vajab UBL CreditNote süntaksit, mida see generaator ei loo."
+      ],
+      "Der Währungscode muss aus drei Großbuchstaben bestehen.": [
+        "Valuutakood peab koosnema kolmest suurtähest."
+      ],
+      "Die Peppol-ID des Verkäufers fehlt.": [
+        "Müüja Peppol-ID puudub."
+      ],
+      "Der Name des Verkäufers fehlt.": [
+        "Müüja nimi puudub."
+      ],
+      "Die Straße des Verkäufers fehlt.": [
+        "Müüja tänav puudub."
+      ],
+      "Der Ort des Verkäufers fehlt.": [
+        "Müüja linn puudub."
+      ],
+      "Die Postleitzahl des Verkäufers fehlt.": [
+        "Müüja sihtnumber puudub."
+      ],
+      "Das Land des Verkäufers fehlt.": [
+        "Müüja riik puudub."
+      ],
+      "Die USt-IdNr. des Verkäufers fehlt.": [
+        "Müüja KMKR number puudub."
+      ],
+      "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Müüja Peppol-ID ei ole kujul skeem:tunnus (neljakohaline skeem)."
+      ],
+      "Das Land des Verkäufers muss ein zweistelliger Ländercode sein.": [
+        "Müüja riik peab olema kahetäheline riigikood."
+      ],
+      "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Müüja KMKR number ei alga kahetähelise riigikoodiga."
+      ],
+      "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers.": [
+        "Pangaülekandega maksmiseks puudub müüja IBAN."
+      ],
+      "Die Peppol-ID des Käufers fehlt.": [
+        "Ostja Peppol-ID puudub."
+      ],
+      "Der Name des Käufers fehlt.": [
+        "Ostja nimi puudub."
+      ],
+      "Das Land des Käufers fehlt.": [
+        "Ostja riik puudub."
+      ],
+      "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Ostja Peppol-ID ei ole kujul skeem:tunnus (neljakohaline skeem)."
+      ],
+      "Das Land des Käufers muss ein zweistelliger Ländercode sein.": [
+        "Ostja riik peab olema kahetäheline riigikood."
+      ],
+      "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Ostja KMKR number ei alga kahetähelise riigikoodiga."
+      ],
+      "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null.": [
+        "Maksukategooria S real või allahindlusel/lisatasul puudub nullist suurem määr."
+      ],
+      "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen.": [
+        "Fail ei ole korrektne XML; enne reeglikontrolli pole midagi kontrollida."
+      ],
+      "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt.": [
+        "Peppol: Tellimusel on Leitweg-ID, kuid puudub Peppoli saaja ID; e-arvet ei loodud."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab.": [
+        "Peppol: E-arvet ei loodud. Tellimuse summa %1$s ja arve summa %2$s erinevad ümardamisest rohkem."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. %s": [
+        "Peppol: E-arvet ei loodud. %s"
+      ],
+      "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden.": [
+        "Peppol: Loodud e-arvet ei õnnestunud salvestada."
+      ],
+      "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant.": [
+        "Peppol: E-arve %s loodud; saatmine on ajastatud."
+      ],
+      "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert.": [
+        "Peppol: E-arve %s loodud ja salvestatud, saatmata: KoSIT ja Phase4 pole seadistatud."
+      ],
+      "EN 16931: %1$d fatale Regelbefunde (%2$s).": [
+        "EN 16931: %1$d kriitilist reeglileidu (%2$s)."
+      ],
+      "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen.": [
+        "Peppol: EN 16931 kontroll teatab %1$d kriitilisest leiust (%2$s). Saadetakse ikkagi; blokeerimiseks seadke \"wm_peppol_schematron_gate\" väärtuseks 1."
+      ],
+      "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung.": [
+        "Peppol: E-arve %1$s edastatud Phase4 teenusele (messageId %2$s). Kohale toimetatud alles kviitungiga."
+      ],
+      "Gebühr": [
+        "Tasu"
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab.": [
+        "Peppol: E-arvet ei loodud. \"%s\" on käibemaksuta; maksuvabastusi plugin ei toeta."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze.": [
+        "Peppol: E-arvet ei loodud. \"%s\" sisaldab mitut maksumäära."
+      ],
+      "Peppol: E-Rechnung %1$s nicht versendet. %2$s": [
+        "Peppol: E-arvet %1$s ei saadetud. %2$s"
+      ],
+      "Peppol-E-Rechnung": [
+        "Peppoli e-arve"
+      ],
+      "Peppol-Empfänger-ID (Schema:Kennung)": [
+        "Peppoli saaja ID (skeem:tunnus)"
+      ],
+      "Leitweg-ID (öffentliche Auftraggeber)": [
+        "Leitweg-ID (avaliku sektori tellijad)"
+      ],
+      "Käuferreferenz (wenn keine Leitweg-ID)": [
+        "Ostja viide (kui Leitweg-ID puudub)"
+      ],
+      "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert.": [
+        "Leitweg-ID ei vasta KoSIT-spetsifikatsioonile või kontrolljärk ei klapi; salvestamata."
+      ],
+      "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert.": [
+        "Peppoli saaja ID pole neljakohalise skeemiga kujul skeem:tunnus; salvestamata."
+      ],
+      "Portal-Darstellung": [
+        "Portaali kuvamine"
+      ],
+      "Überschrift anzeigen": [
+        "Näita pealkirja"
+      ],
+      "Einleitungstext anzeigen": [
+        "Näita sissejuhatavat teksti"
+      ],
+      "block title\u0004Peppol-Rechnungsstatus-Portal": [
+        "Peppoli arveoleku portaal"
+      ],
+      "block description\u0004Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID.": [
+        "Avalik olekuportaal salvestatud Peppoli e-arvete kontrollimiseks arve numbri ja Peppol-ID järgi."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004invoice": [
+        "arve"
+      ],
+      "block keyword\u0004e-rechnung": [
+        "e-arve"
+      ],
+      "block keyword\u0004ubl": [
+        "ubl"
+      ],
+      "block keyword\u0004status": [
+        "olek"
+      ]
+    }
+  }
+}

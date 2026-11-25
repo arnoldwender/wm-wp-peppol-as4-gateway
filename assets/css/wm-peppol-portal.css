@@ -1,0 +1,170 @@
+/**
+ * Public invoice status portal (includes/Frontend/InvoicePortal.php).
+ *
+ * The portal renders inside any theme, so it carries its own tokens instead of the admin family sheets. The
+ * colours are the ones the portal used inline until 2026-09-15; the reader audit of that day measured every
+ * text pair at or above its WCAG threshold, and tests/test-suite.php recomputes them from this file.
+ * Colours appear only on token lines.
+ */
+
+.wm-peppol-portal {
+    --wm-peppol-bg: #090d16;
+    --wm-peppol-text: #f1f5f9;
+    --wm-peppol-heading: #ffffff;
+    --wm-peppol-muted: #94a3b8;
+    --wm-peppol-label: #e2e8f0;
+    --wm-peppol-value: #cbd5e1;
+    --wm-peppol-input-bg: #050811;
+    --wm-peppol-input-text: #ffffff;
+    --wm-peppol-border: rgba(255, 255, 255, 0.12);
+    --wm-peppol-accent: #00f2fe;
+    --wm-peppol-accent-end: #38bdf8;
+    --wm-peppol-button-text: #050811;
+    --wm-peppol-result-bg: rgba(0, 242, 254, 0.1);
+    --wm-peppol-result-border: rgba(0, 242, 254, 0.3);
+    --wm-peppol-warning: #fbbf24;
+    --wm-peppol-danger: #f87171;
+    --wm-peppol-radius: 12px;
+    --wm-peppol-radius-sm: 6px;
+    --wm-peppol-space-2: 0.5rem;
+    --wm-peppol-space-3: 0.75rem;
+    --wm-peppol-space-4: 1rem;
+    --wm-peppol-space-6: 1.5rem;
+    --wm-peppol-space-8: 2rem;
+    --wm-peppol-text-sm: 0.875rem;
+    --wm-peppol-text-base: 1rem;
+    --wm-peppol-text-lg: 1.5rem;
+
+    box-sizing: border-box;
+    max-width: 820px;
+    margin: var(--wm-peppol-space-8) auto;
+    padding: var(--wm-peppol-space-6);
+    border: 1px solid var(--wm-peppol-border);
+    border-radius: var(--wm-peppol-radius);
+    background: var(--wm-peppol-bg);
+    color: var(--wm-peppol-text);
+    font-size: var(--wm-peppol-text-base);
+    line-height: 1.5;
+}
+
+.wm-peppol-portal *,
+.wm-peppol-portal *::before,
+.wm-peppol-portal *::after {
+    box-sizing: inherit;
+}
+
+.wm-peppol-portal__title {
+    margin: 0 0 var(--wm-peppol-space-2);
+    color: var(--wm-peppol-heading);
+    font-size: var(--wm-peppol-text-lg);
+    line-height: 1.25;
+}
+
+.wm-peppol-portal__lead {
+    margin: 0 0 var(--wm-peppol-space-6);
+    color: var(--wm-peppol-muted);
+}
+
+.wm-peppol-portal__fields {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--wm-peppol-space-4);
+}
+
+@media (min-width: 600px) {
+    .wm-peppol-portal__fields {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.wm-peppol-portal__field {
+    margin: 0;
+}
+
+.wm-peppol-portal__field label {
+    display: block;
+    margin-bottom: var(--wm-peppol-space-2);
+    color: var(--wm-peppol-label);
+    font-size: var(--wm-peppol-text-sm);
+    font-weight: 600;
+}
+
+.wm-peppol-portal__field input {
+    width: 100%;
+    min-height: 44px;
+    padding: var(--wm-peppol-space-2) var(--wm-peppol-space-3);
+    border: 1px solid var(--wm-peppol-border);
+    border-radius: var(--wm-peppol-radius-sm);
+    background: var(--wm-peppol-input-bg);
+    color: var(--wm-peppol-input-text);
+    font-size: var(--wm-peppol-text-base);
+}
+
+.wm-peppol-portal__field input::placeholder {
+    color: var(--wm-peppol-muted);
+}
+
+.wm-peppol-portal__submit {
+    width: 100%;
+    min-height: 44px;
+    margin-top: var(--wm-peppol-space-4);
+    padding: var(--wm-peppol-space-3) var(--wm-peppol-space-6);
+    border: 0;
+    border-radius: var(--wm-peppol-radius-sm);
+    background: linear-gradient(135deg, var(--wm-peppol-accent) 0%, var(--wm-peppol-accent-end) 100%);
+    color: var(--wm-peppol-button-text);
+    font-size: var(--wm-peppol-text-base);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.wm-peppol-portal__submit:disabled {
+    cursor: progress;
+    opacity: 0.8;
+}
+
+.wm-peppol-portal__field input:focus-visible,
+.wm-peppol-portal__submit:focus-visible {
+    outline: 2px solid var(--wm-peppol-accent);
+    outline-offset: 2px;
+}
+
+.wm-peppol-portal__result {
+    margin-top: var(--wm-peppol-space-6);
+    padding: var(--wm-peppol-space-4);
+    border: 1px solid var(--wm-peppol-result-border);
+    border-radius: var(--wm-peppol-radius-sm);
+    background: var(--wm-peppol-result-bg);
+}
+
+.wm-peppol-portal__result-title {
+    margin: 0 0 var(--wm-peppol-space-3);
+    color: var(--wm-peppol-accent);
+    font-size: var(--wm-peppol-text-base);
+}
+
+.wm-peppol-portal__result[data-state="warning"] .wm-peppol-portal__result-title {
+    color: var(--wm-peppol-warning);
+}
+
+.wm-peppol-portal__result[data-state="error"] .wm-peppol-portal__result-title {
+    color: var(--wm-peppol-danger);
+}
+
+.wm-peppol-portal__result-body {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--wm-peppol-space-2) var(--wm-peppol-space-4);
+    margin: 0;
+    color: var(--wm-peppol-value);
+    font-size: var(--wm-peppol-text-sm);
+}
+
+.wm-peppol-portal__result-body dt {
+    color: var(--wm-peppol-muted);
+}
+
+.wm-peppol-portal__result-body dd {
+    margin: 0;
+    overflow-wrap: anywhere;
+}

@@ -1,0 +1,735 @@
+{
+  "translation-revision-date": "2026-11-21T15:24:44+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-peppol-as4-gateway",
+        "lang": "lt_LT",
+        "plural-forms": "nplurals=3; plural=(n%10==1 && (n%100<11 || n%100>19) ? 0 : n%10>=2 && n%10<=9 && (n%100<11 || n%100>19) ? 1 : 2);"
+      },
+      "WM Peppol AS4 Gateway": [
+        "WM Peppol AS4 Gateway"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+      ],
+      "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst.": [
+        "Generuoja UBL 2.1 sąskaitas faktūras pagal Peppol BIS Billing 3.0, tikrina jas pagal oficialų EN 16931 taisyklių rinkinį, randa gavėją per SML ir SMP, perduoda įvykdytų WooCommerce užsakymų sąskaitas sukonfigūruotam KoSIT tikrintuvui ir Phase4 paslaugai, tikrina pasirašytą AS4 pakvitavimą ir rodo pirkėjams išsaugotą būseną. Savarankiško AS4 perdavimo nėra: jį vykdo Phase4."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Unbekannte Spoke-Aktion \"%s\".": [
+        "Nežinomas modulio veiksmas „%s“."
+      ],
+      "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s).": [
+        "Savikontrolė negalima: trūksta pardavėjo duomenų (%s)."
+      ],
+      "Testdokument von den Strukturprüfungen abgelehnt: %s": [
+        "Bandomąjį dokumentą atmetė struktūrinės patikros: %s"
+      ],
+      "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung.": [
+        "Bandomasis dokumentas sukurtas (%d baitų) ir priimtas įskiepio struktūrinių patikrų. Neišsaugotas, neišsiųstas, be schemos ar Schematron patikros."
+      ],
+      "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren.": [
+        "Trūksta įskiepio duomenų bazės lentelių. Išjunkite ir vėl įjunkite įskiepį."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden.": [
+        "Pardavėjo duomenys neišsamūs: el. sąskaitos sugeneruoti negalima."
+      ],
+      "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert.": [
+        "Pardavėjo duomenys išsamūs. KoSIT tikrintuvas ir Phase4 paslauga sukonfigūruoti."
+      ],
+      "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert.": [
+        "Pardavėjo duomenys išsamūs. Siuntimas nesukonfigūruotas: sąskaitos tik išsaugomos."
+      ],
+      "Gespeicherte Rechnungen": [
+        "Išsaugotos sąskaitos"
+      ],
+      "Übergaben an Phase4": [
+        "Perdavimai į Phase4"
+      ],
+      "Empfangsquittungen": [
+        "Gavimo pakvitavimai"
+      ],
+      "Peppol Gateway öffnen": [
+        "Atidaryti Peppol Gateway"
+      ],
+      "Peppol Gateway": [
+        "Peppol Gateway"
+      ],
+      "%d Beispielrechnung angelegt.": [
+        "Sukurta %d pavyzdinė sąskaita.",
+        "Sukurtos %d pavyzdinės sąskaitos.",
+        "Sukurta %d pavyzdinių sąskaitų."
+      ],
+      "%d Beispielrechnung entfernt.": [
+        "Pašalinta %d pavyzdinė sąskaita.",
+        "Pašalintos %d pavyzdinės sąskaitos.",
+        "Pašalinta %d pavyzdinių sąskaitų."
+      ],
+      "Übersicht": [
+        "Apžvalga"
+      ],
+      "Rechnung erzeugen": [
+        "Sukurti sąskaitą"
+      ],
+      "Einstellungen": [
+        "Nuostatos"
+      ],
+      "Was das Plugin tut": [
+        "Ką daro įskiepis"
+      ],
+      "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben.": [
+        "Kurkite ir saugokite UBL 2.1 sąskaitas pagal Peppol BIS Billing 3.0 ir perduokite jas sukonfigūruotai Phase4 paslaugai."
+      ],
+      "Part of the WM Suite plugin family": [
+        "WM Suite įskiepių šeimos dalis"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Savarankiškas"
+      ],
+      "Bereiche": [
+        "Sritys"
+      ],
+      "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet.": [
+        "El. sąskaita sukurta ir išsaugota. Šia forma ji nesiunčiama."
+      ],
+      "Die E-Rechnung wurde nicht erzeugt.": [
+        "El. sąskaita nesukurta."
+      ],
+      "Eine Rechnung mit dieser Nummer ist bereits gespeichert.": [
+        "Sąskaita tokiu numeriu jau išsaugota."
+      ],
+      "Die Rechnung wurde erzeugt, aber nicht gespeichert.": [
+        "Sąskaita sukurta, bet neišsaugota."
+      ],
+      "Einstellungen gespeichert.": [
+        "Nuostatos išsaugotos."
+      ],
+      "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet.": [
+        "Pavyzdinės sąskaitos pažymėtos kaip pavyzdžiai ir nerodomos viešame būsenos portale."
+      ],
+      "Beispielrechnungen entfernt.": [
+        "Pavyzdinės sąskaitos pašalintos."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s": [
+        "Pardavėjo duomenys neišsamūs: el. sąskaitos sugeneruoti negalima. %s"
+      ],
+      "Zu den Einstellungen": [
+        "Eiti į nuostatas"
+      ],
+      "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben.": [
+        "Siuntimas nesukonfigūruotas: sukurtos sąskaitos išsaugomos, bet neperduodamos."
+      ],
+      "ohne %d Beispielrechnungen": [
+        "be %d pavyzdinių sąskaitų"
+      ],
+      "mit messageId": [
+        "su messageId"
+      ],
+      "positiv, per Webhook": [
+        "teigiamas, per webhook"
+      ],
+      "Verkäuferdaten": [
+        "Pardavėjo duomenys"
+      ],
+      "vollständig": [
+        "išsamūs"
+      ],
+      "für die Rechnungserzeugung": [
+        "sąskaitų generavimui"
+      ],
+      "Angaben fehlen": [
+        "trūksta duomenų"
+      ],
+      "Rechnungen": [
+        "Sąskaitos"
+      ],
+      "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status.": [
+        "Paskutinės 50 išsaugotų sąskaitų ir jų įrašyta būsena."
+      ],
+      "Rechnungsnummer": [
+        "Sąskaitos numeris"
+      ],
+      "Peppol-ID des Käufers": [
+        "Pirkėjo Peppol ID"
+      ],
+      "Zahlbetrag": [
+        "Mokėtina suma"
+      ],
+      "Status": [
+        "Būsena"
+      ],
+      "Rechnungsdatum": [
+        "Sąskaitos data"
+      ],
+      "Noch keine Rechnungen gespeichert.": [
+        "Dar nėra išsaugotų sąskaitų."
+      ],
+      "Beispielrechnungen": [
+        "Pavyzdinės sąskaitos"
+      ],
+      "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen.": [
+        "Pavyzdinės sąskaitos neturi XML, nelaikomos sąskaitomis ir nerodomos viešame portale. Šalinimas ištrina tik jas, įskaitant tris ankstesnių versijų eilutes."
+      ],
+      "Beispielrechnungen anlegen": [
+        "Sukurti pavyzdines sąskaitas"
+      ],
+      "%d Beispielrechnung entfernen": [
+        "Pašalinti %d pavyzdinę sąskaitą",
+        "Pašalinti %d pavyzdines sąskaitas",
+        "Pašalinti %d pavyzdinių sąskaitų"
+      ],
+      "Beispiel": [
+        "Pavyzdys"
+      ],
+      "Erzeugt, nicht versendet": [
+        "Sukurta, neišsiųsta"
+      ],
+      "An Phase4 übergeben": [
+        "Perduota Phase4"
+      ],
+      "Zugestellt (Quittung)": [
+        "Pristatyta (pakvitavimas)"
+      ],
+      "Zustellung fehlgeschlagen": [
+        "Pristatymas nepavyko"
+      ],
+      "Versand fehlgeschlagen": [
+        "Siuntimas nepavyko"
+      ],
+      "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s": [
+        "Be visų pardavėjo duomenų sąskaita negeneruojama. %s"
+      ],
+      "Käuferreferenz (BT-10), z. B. die Leitweg-ID": [
+        "Pirkėjo nuoroda (BT-10), pvz., Leitweg-ID"
+      ],
+      "Name des Käufers": [
+        "Pirkėjo pavadinimas"
+      ],
+      "Straße": [
+        "Gatvė"
+      ],
+      "Postleitzahl": [
+        "Pašto kodas"
+      ],
+      "Ort": [
+        "Miestas"
+      ],
+      "Land (zweistelliger Code)": [
+        "Šalis (dviejų raidžių kodas)"
+      ],
+      "Peppol-ID des Käufers (Schema:Kennung)": [
+        "Pirkėjo Peppol ID (schema:identifikatorius)"
+      ],
+      "USt-IdNr. des Käufers (optional)": [
+        "Pirkėjo PVM kodas (neprivaloma)"
+      ],
+      "Bezeichnung der Leistung": [
+        "Paslaugos aprašymas"
+      ],
+      "Menge": [
+        "Kiekis"
+      ],
+      "Nettopreis je Einheit": [
+        "Vieneto kaina be PVM"
+      ],
+      "Umsatzsteuersatz in Prozent": [
+        "PVM tarifas procentais"
+      ],
+      "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen.": [
+        "Sukuria vienos eilutės UBL sąskaitą ir ją išsaugo. Nieko nesiunčiama; pardavėjo duomenys imami iš nuostatų."
+      ],
+      "Rechnung erzeugen und speichern": [
+        "Sukurti ir išsaugoti sąskaitą"
+      ],
+      "Peppol-ID des Verkäufers (Schema:Kennung)": [
+        "Pardavėjo Peppol ID (schema:identifikatorius)"
+      ],
+      "Name": [
+        "Pavadinimas"
+      ],
+      "Rechtlicher Name (leer: wie Name)": [
+        "Teisinis pavadinimas (tuščia: kaip Pavadinimas)"
+      ],
+      "USt-IdNr.": [
+        "PVM kodas"
+      ],
+      "Registernummer (optional)": [
+        "Įmonės kodas (neprivaloma)"
+      ],
+      "IBAN für Zahlung per Überweisung": [
+        "IBAN mokėjimui pavedimu"
+      ],
+      "Verkäufer": [
+        "Pardavėjas"
+      ],
+      "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung.": [
+        "Šie duomenys nurodomi kiekvienoje sukurtoje sąskaitoje. Jei trūksta privalomo lauko, sąskaita nekuriama."
+      ],
+      "Versand": [
+        "Siuntimas"
+      ],
+      "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang.": [
+        "Abi paslaugos yra atskiros programos už įskiepio ribų. Kol trūksta bent vieno adreso, niekas nesiunčiama. Konstantos WM_PEPPOL_KOSIT_URL ir WM_PEPPOL_PHASE4_URL faile wp-config.php turi pirmenybę."
+      ],
+      "Adresse des KoSIT-Validators": [
+        "KoSIT tikrintuvo adresas"
+      ],
+      "Adresse des Phase4-Dienstes": [
+        "Phase4 paslaugos adresas"
+      ],
+      "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen.": [
+        "Nustatyta bendra paslaptis; pakvitavimai su galiojančiu parašu priimami."
+      ],
+      "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret.": [
+        "Bendra paslaptis nenustatyta; visi pakvitavimai atmetami. Nustatykite per WM_PEPPOL_RECEIPT_SECRET arba wp option update wm_peppol_receipt_secret."
+      ],
+      "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)": [
+        "Leidžiami sertifikatų kontroliniai kodai AS4 pakvitavimams (SHA-256, neprivaloma)"
+      ],
+      "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang.": [
+        "Kableliais atskirti 64 simbolių SHA-256 kontroliniai kodai, priklausantys numatytiems prieigos taško pasirašymo sertifikatams. Pirmenybę turi konstanta WM_PEPPOL_TRUSTED_SIGNER_SHA256 faile wp-config.php."
+      ],
+      "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)": [
+        "Vietinis CA sertifikatų rinkinys PEM formatu (OpenPeppol PKI, neprivaloma)"
+      ],
+      "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang.": [
+        "Vienas ar keli patikimi šakniniai ir tarpiniai sertifikatai PEM formatu, skirti grandinei tikrinti tik vietoje, be prieigos prie tinklo. Pirmenybę turi konstantos WM_PEPPOL_TRUST_BUNDLE_PEM ir WM_PEPPOL_TRUST_BUNDLE_FILE."
+      ],
+      "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen": [
+        "Atmesti AS4 pakvitavimus, jei neišsaugotas nei kontrolinis kodas, nei CA sertifikatų rinkinys"
+      ],
+      "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen.": [
+        "Įjungus arba nustačius konstanta WM_PEPPOL_REQUIRE_TRUST_ANCHOR, savarankiškai pasirašyti arba neįtvirtinti pakvitavimai atmetami su HTTP 422."
+      ],
+      "Deinstallation": [
+        "Šalinimas"
+      ],
+      "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen": [
+        "Išdiegiant įskiepį negrįžtamai ištrinti visas nuostatas ir tris duomenų bazės lenteles"
+      ],
+      "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird.": [
+        "Pagal numatytuosius nustatymus visos išsaugotos sąskaitos, perdavimai, pakvitavimų registras ir nuostatos pašalinus įskiepį lieka išsaugoti."
+      ],
+      "Einstellungen speichern": [
+        "Išsaugoti nuostatas"
+      ],
+      "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz.": [
+        "Generuoja UBL 2.1 sąskaitas su Peppol BIS Billing 3.0 identifikatoriumi ir PVM išskaidymu pagal kategoriją bei tarifą."
+      ],
+      "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen.": [
+        "Atsisako kurti sąskaitą, kai trūksta privalomų duomenų, užuot juos sukūręs."
+      ],
+      "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung.": [
+        "Tikrina privalomus laukus, kodus ir sumų taisykles. Tai nėra XSD ar Schematron patikra."
+      ],
+      "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an.": [
+        "Perduoda užbaigtų WooCommerce užsakymų sąskaitas KoSIT tikrintuvui ir Phase4 paslaugai, kai abu sukonfigūruoti, ir priima pasirašytus pakvitavimus."
+      ],
+      "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung.": [
+        "Rodo pirkėjams išsaugotą sąskaitos būseną būsenos portale."
+      ],
+      "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst.": [
+        "Jokio vidinio AS4 transporto, pasirašymo ar šifravimo: tuo rūpinasi Phase4."
+      ],
+      "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen.": [
+        "Jokių kreditinių dokumentų UBL CreditNote sintaksėje ir jokių PVM lengvatų."
+      ],
+      "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde.": [
+        "Jokio eksporto archyvo: išsaugotos sąskaitos ir pakvitavimų registras išdiegiant pagal numatytuosius nustatymus paliekami ir ištrinami tik aiškiai įjungus nuostatose."
+      ],
+      "Was es nicht tut": [
+        "Ko nedaro"
+      ],
+      "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut.": [
+        "Per daug užklausų iš šio adreso. Bandykite vėliau."
+      ],
+      "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich.": [
+        "Sąskaitos numeris ir pirkėjo Peppol ID yra privalomi."
+      ],
+      "Zu diesen Angaben liegt keine Rechnung vor.": [
+        "Pagal šiuos duomenis sąskaitos nėra."
+      ],
+      "Der Anfragekörper muss ein JSON-Objekt sein.": [
+        "Užklausos turinys turi būti JSON objektas."
+      ],
+      "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt.": [
+        "Eilutė %d nenurodo ankstesnės eilutės: eilutė buvo pašalinta arba įterpta."
+      ],
+      "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln.": [
+        "Eilutė %d pakeista po įrašymo arba duomenų bazė yra iš diegimo su kitais raktais."
+      ],
+      "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast.": [
+        "Pakvitavimas viršija %d baitų; AS4 pakvitavimas yra signalas, o ne krovinys."
+      ],
+      "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage.": [
+        "Dokumente nėra eb:Receipt elemento eb:SignalMessage viduje."
+      ],
+      "Die Quittung enthält kein prüfbares Signaturzertifikat.": [
+        "Pakvitavime nėra patikrinamo pasirašymo sertifikato."
+      ],
+      "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden.": [
+        "Pakvitavimas neturi XML parašo. Pasirašytas AS4 pranešimas PRIVALO būti patvirtintas pasirašytu pakvitavimu."
+      ],
+      "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt.": [
+        "Parašas neišsamus: trūksta ds:SignedInfo arba ds:SignatureValue."
+      ],
+      "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar.": [
+        "Paraše nenurodytas X.509 sertifikatas; be viešojo rakto jo patikrinti neįmanoma."
+      ],
+      "Signaturverfahren %s wird von dieser Installation nicht geprüft.": [
+        "Parašo algoritmas %s šioje sistemoje netikrinamas."
+      ],
+      "Das X.509-Zertifikat der Signatur ist nicht lesbar.": [
+        "Parašo X.509 sertifikatas neįskaitomas."
+      ],
+      "OpenSSL konnte die Signatur nicht prüfen.": [
+        "OpenSSL nepavyko patikrinti parašo."
+      ],
+      "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt.": [
+        "Parašas neatitinka pakvitavimo turinio: jis pakeistas po pasirašymo arba sukurtas kitu raktu."
+      ],
+      "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert.": [
+        "Pats parašas galioja, bet tik %1$d iš %2$d santraukų atitinka turinį: pakvitavimas pakeistas po pasirašymo."
+      ],
+      "Das X.509-Zertifikat der Quittung ist abgelaufen.": [
+        "Pakvitavimo X.509 sertifikato galiojimas baigėsi."
+      ],
+      "Das X.509-Zertifikat der Quittung ist noch nicht gültig.": [
+        "Pakvitavimo X.509 sertifikatas dar negalioja."
+      ],
+      "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird.": [
+        "Neišsaugotas nei sertifikato kontrolinis kodas, nei CA sertifikatų rinkinys, nors pasitikėjimo inkaro patikra privaloma."
+      ],
+      "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel.": [
+        "Pakvitavimo pasirašymo sertifikatas neatitinka nei išsaugoto SHA-256 kontrolinio kodo, nei patikimo CA sertifikatų rinkinio."
+      ],
+      "Die Quittung ist kein wohlgeformtes XML.": [
+        "Pakvitavimas nėra taisyklingas XML."
+      ],
+      "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d).": [
+        "KoSIT tikrintuvas nepriėmė dokumento (HTTP %d)."
+      ],
+      "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung.": [
+        "Siuntėjo arba gavėjo ID neatitinka formos schema:identifikatorius."
+      ],
+      "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d).": [
+        "Phase4 paslauga atmetė siuntimą (HTTP %d)."
+      ],
+      "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen.": [
+        "Phase4 paslauga negrąžino messageId; be jo negalima susieti pakvitavimo."
+      ],
+      "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet.": [
+        "KoSIT tikrintuvas ir Phase4 paslauga nesukonfigūruoti; niekas nesiunčiama."
+      ],
+      "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete.": [
+        "Pakvitavimas pasirašytas tinkamai, tačiau priklauso kitam dokumentui nei išsiųstasis."
+      ],
+      "Peppol: Positive Empfangsquittung für messageId %s erhalten.": [
+        "Peppol: Gautas teigiamas pakvitavimas už messageId %s."
+      ],
+      "Peppol-Empfangsquittung erhalten.": [
+        "Gautas Peppol pakvitavimas."
+      ],
+      "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s": [
+        "Peppol: Siuntimas nepavyko (messageId %1$s): %2$s"
+      ],
+      "ohne Fehlerbeschreibung": [
+        "be klaidos aprašymo"
+      ],
+      "Peppol-Versand fehlgeschlagen.": [
+        "Peppol siuntimas nepavyko."
+      ],
+      "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s": [
+        "Šių taisyklių nepavyko įvertinti, todėl jos nelaikomos nei įvykdytomis, nei pažeistomis: %s"
+      ],
+      "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s.": [
+        "Nepavyko įjungti WM Peppol AS4 Gateway, nes šiame serveryje trūksta šių būtinų PHP plėtinių: %s."
+      ],
+      "Fehlende PHP-Erweiterung": [
+        "Trūksta PHP plėtinio"
+      ],
+      "Kein Peppol-Teilnehmerbezeichner angegeben.": [
+        "Nenurodytas Peppol dalyvio identifikatorius."
+      ],
+      "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789.": [
+        "Identifikatorius „%s“ neatitinka formos <keturių skaitmenų EAS schema>:<identifikatorius>, pvz., 9930:DE123456789."
+      ],
+      "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen.": [
+        "Identifikatoriaus schemoje yra simbolių, neleidžiamų DNS varde."
+      ],
+      "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen.": [
+        "Įrašo NAPTR su %s nėra: dalyvis neregistruotas šioje SML zonoje arba DNS neatsako į NAPTR užklausas."
+      ],
+      "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL).": [
+        "NAPTR įrašas %s nenurodo jokio SMP (paslauga „Meta:SMP“ su URL)."
+      ],
+      "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen.": [
+        "SMP žino dalyvį %1$s, bet ne dokumento tipui %2$s: gavėjas nepriima šio dokumento."
+      ],
+      "Der SMP antwortete mit HTTP %1$d auf %2$s.": [
+        "SMP atsakė HTTP %1$d adresu %2$s."
+      ],
+      "Der SMP lieferte einen leeren Körper.": [
+        "SMP grąžino tuščią atsakymą."
+      ],
+      "Die Antwort des SMP ist kein wohlgeformtes XML.": [
+        "SMP atsakymas nėra taisyklingas XML."
+      ],
+      "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s.": [
+        "SMP atsakyme nėra galinio taško su transporto profiliu %s."
+      ],
+      "Peppol-Gateway-Status": [
+        "Peppol Gateway būsena"
+      ],
+      "Tabellen des Plugins fehlen": [
+        "Trūksta įskiepio lentelių"
+      ],
+      "KoSIT-Validator und Phase4-Dienst konfiguriert": [
+        "KoSIT tikrintuvas ir Phase4 paslauga sukonfigūruoti"
+      ],
+      "Versand nicht konfiguriert": [
+        "Siuntimas nesukonfigūruotas"
+      ],
+      "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen": [
+        "%1$d išsaugotų sąskaitų, %2$d pakvitavimų"
+      ],
+      "Status wird abgefragt …": [
+        "Tikrinama būsena …"
+      ],
+      "Rechnung gefunden": [
+        "Sąskaita rasta"
+      ],
+      "Die Abfrage ist fehlgeschlagen.": [
+        "Užklausa nepavyko."
+      ],
+      "Gespeicherter Status": [
+        "Išsaugota būsena"
+      ],
+      "Übergabe an Phase4": [
+        "Perdavimas į Phase4"
+      ],
+      "keine Übergabe erfasst": [
+        "perdavimas neužfiksuotas"
+      ],
+      "Empfangsquittung": [
+        "Gavimo pakvitavimas"
+      ],
+      "liegt vor": [
+        "yra"
+      ],
+      "liegt nicht vor": [
+        "nėra"
+      ],
+      "Fehlercode der Übertragung": [
+        "Perdavimo klaidos kodas"
+      ],
+      "SHA-256 des gespeicherten XML": [
+        "Išsaugoto XML SHA-256"
+      ],
+      "Rechnungsstatus abfragen": [
+        "Tikrinti sąskaitos būseną"
+      ],
+      "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten.": [
+        "Įveskite sąskaitos numerį ir savo Peppol ID. Rodoma šioje sistemoje išsaugota būsena. Dokumentas čia netikrinamas pagal EN 16931 ir nesiūlomas atsisiųsti."
+      ],
+      "Ihre Peppol-ID": [
+        "Jūsų Peppol ID"
+      ],
+      "Schema:Kennung": [
+        "schema:identifikatorius"
+      ],
+      "Status abfragen": [
+        "Tikrinti būseną"
+      ],
+      "Die Rechnungsnummer fehlt.": [
+        "Trūksta sąskaitos numerio."
+      ],
+      "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist.": [
+        "Trūksta pirkėjo nuorodos (BT-10); Peppol BIS jos reikalauja, jei nėra užsakymo nuorodos."
+      ],
+      "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT.": [
+        "Sąskaitos data neatitinka formato MMMM-MM-DD."
+      ],
+      "Es fehlen Rechnungspositionen oder ein Betrag.": [
+        "Trūksta sąskaitos eilučių arba sumos."
+      ],
+      "Ein Betrag ist keine Zahl.": [
+        "Suma nėra skaičius."
+      ],
+      "Eine Position hat keine Bezeichnung.": [
+        "Eilutė neturi pavadinimo."
+      ],
+      "Ein Steuersatz ist negativ.": [
+        "Mokesčio tarifas neigiamas."
+      ],
+      "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen.": [
+        "Sąskaitos tipo kodas nėra Peppol sąskaitų sąraše."
+      ],
+      "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt.": [
+        "Kreditinei sąskaitai (tipas 381) reikia UBL CreditNote sintaksės, kurios šis generatorius nekuria."
+      ],
+      "Der Währungscode muss aus drei Großbuchstaben bestehen.": [
+        "Valiutos kodas turi būti iš trijų didžiųjų raidžių."
+      ],
+      "Die Peppol-ID des Verkäufers fehlt.": [
+        "Trūksta pardavėjo Peppol ID."
+      ],
+      "Der Name des Verkäufers fehlt.": [
+        "Trūksta pardavėjo pavadinimo."
+      ],
+      "Die Straße des Verkäufers fehlt.": [
+        "Trūksta pardavėjo gatvės."
+      ],
+      "Der Ort des Verkäufers fehlt.": [
+        "Trūksta pardavėjo miesto."
+      ],
+      "Die Postleitzahl des Verkäufers fehlt.": [
+        "Trūksta pardavėjo pašto kodo."
+      ],
+      "Das Land des Verkäufers fehlt.": [
+        "Trūksta pardavėjo šalies."
+      ],
+      "Die USt-IdNr. des Verkäufers fehlt.": [
+        "Trūksta pardavėjo PVM kodo."
+      ],
+      "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Pardavėjo Peppol ID neatitinka formos schema:identifikatorius (keturių skaitmenų schema)."
+      ],
+      "Das Land des Verkäufers muss ein zweistelliger Ländercode sein.": [
+        "Pardavėjo šalis turi būti dviejų raidžių kodas."
+      ],
+      "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Pardavėjo PVM kodas neprasideda dviejų raidžių šalies kodu."
+      ],
+      "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers.": [
+        "Mokėjimui pavedimu trūksta pardavėjo IBAN."
+      ],
+      "Die Peppol-ID des Käufers fehlt.": [
+        "Trūksta pirkėjo Peppol ID."
+      ],
+      "Der Name des Käufers fehlt.": [
+        "Trūksta pirkėjo pavadinimo."
+      ],
+      "Das Land des Käufers fehlt.": [
+        "Trūksta pirkėjo šalies."
+      ],
+      "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Pirkėjo Peppol ID neatitinka formos schema:identifikatorius (keturių skaitmenų schema)."
+      ],
+      "Das Land des Käufers muss ein zweistelliger Ländercode sein.": [
+        "Pirkėjo šalis turi būti dviejų raidžių kodas."
+      ],
+      "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Pirkėjo PVM kodas neprasideda dviejų raidžių šalies kodu."
+      ],
+      "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null.": [
+        "S kategorijos eilutė ar nuolaida/priemoka neturi tarifo didesnio už nulį."
+      ],
+      "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen.": [
+        "Failas nėra taisyklingas XML; prieš taisyklių patikrą nėra ko tikrinti."
+      ],
+      "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt.": [
+        "Peppol: Užsakymas turi Leitweg-ID, bet neturi Peppol gavėjo ID; el. sąskaita nesukurta."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab.": [
+        "Peppol: El. sąskaita nesukurta. Užsakymo suma %1$s ir sąskaitos suma %2$s skiriasi daugiau nei apvalinimas."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. %s": [
+        "Peppol: El. sąskaita nesukurta. %s"
+      ],
+      "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden.": [
+        "Peppol: Sukurtos el. sąskaitos išsaugoti nepavyko."
+      ],
+      "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant.": [
+        "Peppol: El. sąskaita %s sukurta; siuntimas suplanuotas."
+      ],
+      "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert.": [
+        "Peppol: El. sąskaita %s sukurta ir išsaugota, neišsiųsta: KoSIT ir Phase4 nesukonfigūruoti."
+      ],
+      "EN 16931: %1$d fatale Regelbefunde (%2$s).": [
+        "EN 16931: %1$d kritinių taisyklių pažeidimų (%2$s)."
+      ],
+      "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen.": [
+        "Peppol: EN 16931 patikra praneša apie %1$d kritinius pažeidimus (%2$s). Vis tiek siunčiama; nustatykite \"wm_peppol_schematron_gate\" į 1 blokavimui."
+      ],
+      "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung.": [
+        "Peppol: El. sąskaita %1$s perduota Phase4 (messageId %2$s). Pristatyta tik gavus pakvitavimą."
+      ],
+      "Gebühr": [
+        "Mokestis"
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab.": [
+        "Peppol: El. sąskaita nesukurta. „%s“ apskaičiuota be PVM; lengvatų įskiepis nepalaiko."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze.": [
+        "Peppol: El. sąskaita nesukurta. „%s“ turi kelis PVM tarifus."
+      ],
+      "Peppol: E-Rechnung %1$s nicht versendet. %2$s": [
+        "Peppol: El. sąskaita %1$s neišsiųsta. %2$s"
+      ],
+      "Peppol-E-Rechnung": [
+        "Peppol el. sąskaita"
+      ],
+      "Peppol-Empfänger-ID (Schema:Kennung)": [
+        "Peppol gavėjo ID (schema:identifikatorius)"
+      ],
+      "Leitweg-ID (öffentliche Auftraggeber)": [
+        "Leitweg-ID (viešieji pirkėjai)"
+      ],
+      "Käuferreferenz (wenn keine Leitweg-ID)": [
+        "Pirkėjo nuoroda (kai nėra Leitweg-ID)"
+      ],
+      "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert.": [
+        "Leitweg-ID neatitinka KoSIT specifikacijos arba netinka kontroliniai skaitmenys; neišsaugota."
+      ],
+      "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert.": [
+        "Peppol gavėjo ID neatitinka keturių skaitmenų schema:identifikatorius; neišsaugota."
+      ],
+      "Portal-Darstellung": [
+        "Portalo rodymas"
+      ],
+      "Überschrift anzeigen": [
+        "Rodyti antraštę"
+      ],
+      "Einleitungstext anzeigen": [
+        "Rodyti įžanginį tekstą"
+      ],
+      "block title\u0004Peppol-Rechnungsstatus-Portal": [
+        "Peppol sąskaitų būsenos portalas"
+      ],
+      "block description\u0004Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID.": [
+        "Viešas portalas išsaugotų Peppol el. sąskaitų būsenai tikrinti pagal sąskaitos numerį ir Peppol ID."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004invoice": [
+        "saskaita"
+      ],
+      "block keyword\u0004e-rechnung": [
+        "el-saskaita"
+      ],
+      "block keyword\u0004ubl": [
+        "ubl"
+      ],
+      "block keyword\u0004status": [
+        "busena"
+      ]
+    }
+  }
+}

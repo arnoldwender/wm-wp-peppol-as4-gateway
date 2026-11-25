@@ -1,0 +1,27 @@
+# WM Peppol AS4 Gateway
+
+> WordPress plugin that builds UBL 2.1 invoices carrying the Peppol BIS Billing 3.0 specification identifier, checks invoice files structurally and against the official EN 16931 Schematron rule set for UBL (artefact 1.3.16), discovers receiving access points via Peppol SML (DNS NAPTR) and SMP, hands completed WooCommerce order invoices to a separately run KoSIT validator and Phase4 sender, verifies signed AS4 receipts in a hash-chained delivery register (`wm_peppol_invoices`, `wm_peppol_transmissions`, `wm_peppol_audit_log`), and shows buyers stored invoice status in `[wm_peppol_invoice_portal]` (`[wm_e_invoice_lookup]`, block `wm/peppol-invoice-portal`).
+
+## Overview
+
+`wm-peppol-as4-gateway` is a WordPress plugin developed with an agentic workflow (AI coding agents). It refuses to build an invoice when required data is missing instead of inventing placeholder fields, and registers as a spoke of the WM Suite Hub when the hub is active. It does not perform AS4 signing, encryption or transport inside the plugin, does not emit CreditNote syntax or XSD schema validation, and makes no legal or conformance statement.
+
+- REST: `wm-peppol/v1` — `GET /invoices`, `POST /invoices/generate`, `POST /lookup`, `POST /schematron` (`manage_options`), `POST /invoice-status` (public, rate-limited); `peppol/v1` — `POST /receipt` (HMAC-signed webhook)
+- WP-CLI: `wp peppol status`, `wp peppol validate`, `wp peppol receipts`, `wp peppol schematron`, `wp peppol list-invoices`, `wp peppol generate-ubl`, `wp peppol lookup`
+- Shortcodes & Block: `[wm_peppol_invoice_portal]`, `[wm_e_invoice_lookup]`, Gutenberg block `wm/peppol-invoice-portal`
+- Block Bindings & GenerateBlocks: `wm-peppol/status` (WP 6.5+) and `{{wm_peppol_status}}` (GenerateBlocks 2.x)
+- Uninstall: preserves options and the three tables by default unless `wm_peppol_delete_data_on_uninstall` is enabled
+- Version 1.2.2.
+
+## Standards
+
+- PHP 8.1+ with strict types; WordPress 6.4+
+- Zero-CDN (all frontend and admin assets ship locally with the plugin)
+- Prepared SQL queries, late output escaping, fail-closed HMAC webhook verification, optional SHA-256 signer pinning and local CA bundle checks
+- Standalone SQLite test suite with mutation testing, PHPUnit UBL suite, and EN 16931 conformance suite (1129 cases)
+
+## Official Links
+
+- Plugin Page: https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/
+- GitHub Repository: https://github.com/arnoldwender/wm-wp-peppol-as4-gateway
+- Support & Liability: Zero support — reproducible bugs on https://github.com/arnoldwender/wm-wp-peppol-as4-gateway/issues only · no private support · AS IS / no liability (SUPPORT.md)

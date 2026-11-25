@@ -1,0 +1,1361 @@
+# Translation of wm-peppol-as4-gateway in ga
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-peppol-as4-gateway 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-peppol-as4-"
+"gateway\n"
+"POT-Creation-Date: 2026-11-21T14:15:36+00:00\n"
+"PO-Revision-Date: 2026-11-21 15:24+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-peppol-as4-"
+"gateway/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-peppol-as4-"
+"gateway/issues>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-peppol-as4-gateway\n"
+
+#. Plugin Name of the plugin
+#: wm-peppol-as4-gateway.php includes/Admin/AdminDashboard.php:101
+msgid "WM Peppol AS4 Gateway"
+msgstr "WM Peppol AS4 Gateway"
+
+#. Plugin URI of the plugin
+#: wm-peppol-as4-gateway.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+
+#. Description of the plugin
+#: wm-peppol-as4-gateway.php
+msgid ""
+"Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das "
+"amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt "
+"Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten "
+"KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und "
+"zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die "
+"übernimmt der Phase4-Dienst."
+msgstr ""
+"Cruthaíonn sé sonraisc UBL 2.1 faoi Peppol BIS Billing 3.0, seiceálann sé "
+"iad i gcoinne rialacha oifigiúla EN 16931, aimsíonn sé an faighteoir trí SML "
+"agus SMP, tugann sé sonraisc orduithe críochnaithe WooCommerce do "
+"bhailíochtóir KoSIT agus seirbhís Phase4 cumraithe, fíoraíonn sé an admháil "
+"shínithe AS4 agus taispeánann sé an stádas stóráilte do cheannaitheoirí. Gan "
+"iompar AS4 inmheánach: déanann Phase4 sin."
+
+#. Author of the plugin
+#: wm-peppol-as4-gateway.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-peppol-as4-gateway.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#. translators: %s: action name
+#: includes/Adapters/Peppol_Spoke_Adapter.php:138
+#, php-format
+msgid "Unbekannte Spoke-Aktion \"%s\"."
+msgstr "Gníomh anaithnid modúil \"%s\"."
+
+#. translators: %s: missing seller fields
+#: includes/Adapters/Peppol_Spoke_Adapter.php:155
+#, php-format
+msgid "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s)."
+msgstr "Níl féintástáil ar fáil: tá sonraí an díoltóra in easnamh (%s)."
+
+#. translators: %s: failed checks
+#: includes/Adapters/Peppol_Spoke_Adapter.php:181
+#, php-format
+msgid "Testdokument von den Strukturprüfungen abgelehnt: %s"
+msgstr "Dhiúltaigh na seiceálacha struchtúracha don cháipéis tástála: %s"
+
+#. translators: %d: size of the test document in bytes
+#: includes/Adapters/Peppol_Spoke_Adapter.php:188
+#, php-format
+msgid ""
+"Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins "
+"angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-"
+"Prüfung."
+msgstr ""
+"Cruthaíodh cáipéis tástála (%d beart) agus ghlac seiceálacha struchtúracha "
+"an bhreiseáin léi. Gan sábháil, gan seoladh, gan seiceáil scéime ná "
+"Schematron."
+
+#: includes/Admin/AdminDashboard.php:113 includes/Admin/AdminDashboard.php:513
+msgid ""
+"Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder "
+"aktivieren."
+msgstr ""
+"Tá táblaí bunachar sonraí an bhreiseáin in easnamh. Díghníomhachtaigh agus "
+"athghníomhachtaigh an breiseán."
+
+#: includes/Admin/AdminDashboard.php:117
+msgid "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden."
+msgstr "Sonraí díoltóra neamhiomlán: ní féidir r-shonrasc a chruthú."
+
+#: includes/Admin/AdminDashboard.php:125
+msgid ""
+"Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind "
+"konfiguriert."
+msgstr ""
+"Sonraí díoltóra iomlán. Tá bailíochtóir KoSIT agus seirbhís Phase4 cumraithe."
+
+#: includes/Admin/AdminDashboard.php:126
+msgid ""
+"Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden "
+"nur gespeichert."
+msgstr ""
+"Sonraí díoltóra iomlán. Níl seoladh cumraithe: stóráiltear sonraisc amháin."
+
+#: includes/Admin/AdminDashboard.php:136 includes/Admin/AdminDashboard.php:535
+msgid "Gespeicherte Rechnungen"
+msgstr "Sonraisc stóráilte"
+
+#: includes/Admin/AdminDashboard.php:140 includes/Admin/AdminDashboard.php:541
+msgid "Übergaben an Phase4"
+msgstr "Aistrithe chuig Phase4"
+
+#: includes/Admin/AdminDashboard.php:144 includes/Admin/AdminDashboard.php:546
+#: includes/Admin/AdminDashboard.php:717
+msgid "Empfangsquittungen"
+msgstr "Admhálacha fála"
+
+#: includes/Admin/AdminDashboard.php:149
+msgid "Peppol Gateway öffnen"
+msgstr "Oscail Peppol Gateway"
+
+#: includes/Admin/AdminDashboard.php:171 includes/Admin/AdminDashboard.php:172
+#: includes/Admin/AdminDashboard.php:437
+msgid "Peppol Gateway"
+msgstr "Peppol Gateway"
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:225
+#, php-format
+msgid "%d Beispielrechnung angelegt."
+msgid_plural "%d Beispielrechnungen angelegt."
+msgstr[0] "Cruthaíodh sonrasc samplach: %d."
+msgstr[1] "Cruthaíodh sonraisc shamplacha: %d."
+msgstr[2] "Cruthaíodh sonraisc shamplacha: %d."
+msgstr[3] "Cruthaíodh sonraisc shamplacha: %d."
+msgstr[4] "Cruthaíodh sonraisc shamplacha: %d."
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:231
+#, php-format
+msgid "%d Beispielrechnung entfernt."
+msgid_plural "%d Beispielrechnungen entfernt."
+msgstr[0] "Baineadh sonrasc samplach: %d."
+msgstr[1] "Baineadh sonraisc shamplacha: %d."
+msgstr[2] "Baineadh sonraisc shamplacha: %d."
+msgstr[3] "Baineadh sonraisc shamplacha: %d."
+msgstr[4] "Baineadh sonraisc shamplacha: %d."
+
+#: includes/Admin/AdminDashboard.php:424
+msgid "Übersicht"
+msgstr "Forbhreathnú"
+
+#: includes/Admin/AdminDashboard.php:425 includes/Admin/AdminDashboard.php:659
+msgid "Rechnung erzeugen"
+msgstr "Cruthaigh sonrasc"
+
+#: includes/Admin/AdminDashboard.php:426 includes/Admin/AdminDashboard.php:692
+msgid "Einstellungen"
+msgstr "Socruithe"
+
+#: includes/Admin/AdminDashboard.php:427 includes/Admin/AdminDashboard.php:775
+msgid "Was das Plugin tut"
+msgstr "Cad a dhéanann an breiseán"
+
+#: includes/Admin/AdminDashboard.php:438
+msgid ""
+"UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an "
+"einen konfigurierten Phase4-Dienst übergeben."
+msgstr ""
+"Cruthaigh agus stóráil sonraisc UBL 2.1 faoi Peppol BIS Billing 3.0 agus "
+"tabhair ar láimh do sheirbhís Phase4 cumraithe iad."
+
+#: includes/Admin/AdminDashboard.php:442
+msgid "Part of the WM Suite plugin family"
+msgstr "Cuid d'fhine breiseán WM Suite"
+
+#: includes/Admin/AdminDashboard.php:444
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:445
+msgid "Hub"
+msgstr "Hub"
+
+#: includes/Admin/AdminDashboard.php:445
+msgid "Standalone"
+msgstr "Neamhspleách"
+
+#: includes/Admin/AdminDashboard.php:452
+msgid "Bereiche"
+msgstr "Rannóga"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid ""
+"Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie "
+"nicht versendet."
+msgstr ""
+"Cruthaíodh agus sábháladh an r-shonrasc. Ní sheoltar tríd an bhfoirm seo é."
+
+#: includes/Admin/AdminDashboard.php:489
+msgid "Die E-Rechnung wurde nicht erzeugt."
+msgstr "Níor cruthaíodh an r-shonrasc."
+
+#: includes/Admin/AdminDashboard.php:490 includes/API/RestController.php:298
+msgid "Eine Rechnung mit dieser Nummer ist bereits gespeichert."
+msgstr "Tá sonrasc leis an uimhir seo stóráilte cheana."
+
+#: includes/Admin/AdminDashboard.php:491 includes/API/RestController.php:323
+msgid "Die Rechnung wurde erzeugt, aber nicht gespeichert."
+msgstr "Cruthaíodh an sonrasc ach níor sábháladh é."
+
+#: includes/Admin/AdminDashboard.php:492
+msgid "Einstellungen gespeichert."
+msgstr "Socruithe sábháilte."
+
+#: includes/Admin/AdminDashboard.php:493
+msgid ""
+"Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen "
+"Statusportal nicht gemeldet."
+msgstr ""
+"Tá sonraisc shamplacha marcáilte mar shamplaí agus ní thuairiscítear sa "
+"tairseach phoiblí iad."
+
+#: includes/Admin/AdminDashboard.php:494
+msgid "Beispielrechnungen entfernt."
+msgstr "Sonraisc shamplacha bainte."
+
+#. translators: %s: link to the settings tab
+#: includes/Admin/AdminDashboard.php:526
+#, php-format
+msgid ""
+"Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s"
+msgstr "Sonraí díoltóra neamhiomlán: ní féidir r-shonrasc a chruthú. %s"
+
+#. translators: %s: link to the settings tab
+#: includes/Admin/AdminDashboard.php:526 includes/Admin/AdminDashboard.php:637
+msgid "Zu den Einstellungen"
+msgstr "Téigh go socruithe"
+
+#: includes/Admin/AdminDashboard.php:530
+msgid ""
+"Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber "
+"nicht übergeben."
+msgstr "Níl seoladh cumraithe: stóráiltear sonraisc ach ní aistrítear iad."
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:538
+#, php-format
+msgid "ohne %d Beispielrechnungen"
+msgstr "gan %d sonrasc samplach"
+
+#: includes/Admin/AdminDashboard.php:543
+msgid "mit messageId"
+msgstr "le messageId"
+
+#: includes/Admin/AdminDashboard.php:548
+msgid "positiv, per Webhook"
+msgstr "dearfach, trí webhook"
+
+#: includes/Admin/AdminDashboard.php:551
+msgid "Verkäuferdaten"
+msgstr "Sonraí díoltóra"
+
+#: includes/Admin/AdminDashboard.php:552
+msgid "vollständig"
+msgstr "iomlán"
+
+#: includes/Admin/AdminDashboard.php:553
+msgid "für die Rechnungserzeugung"
+msgstr "le haghaidh cruthú sonrasc"
+
+#: includes/Admin/AdminDashboard.php:553
+msgid "Angaben fehlen"
+msgstr "sonraí in easnamh"
+
+#: includes/Admin/AdminDashboard.php:558
+msgid "Rechnungen"
+msgstr "Sonraisc"
+
+#: includes/Admin/AdminDashboard.php:559
+msgid "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status."
+msgstr "Na 50 sonrasc is déanaí a stóráiltear lena stádas taifeadta."
+
+#: includes/Admin/AdminDashboard.php:564 includes/Admin/AdminDashboard.php:643
+#: includes/Frontend/InvoicePortal.php:139
+msgid "Rechnungsnummer"
+msgstr "Uimhir shonraisc"
+
+#: includes/Admin/AdminDashboard.php:565
+msgid "Peppol-ID des Käufers"
+msgstr "Aitheantas Peppol an cheannaitheora"
+
+#: includes/Admin/AdminDashboard.php:566
+#: includes/Frontend/InvoicePortal.php:120
+msgid "Zahlbetrag"
+msgstr "Suim iníoctha"
+
+#: includes/Admin/AdminDashboard.php:567
+msgid "Status"
+msgstr "Stádas"
+
+#: includes/Admin/AdminDashboard.php:568
+#: includes/Frontend/InvoicePortal.php:121
+msgid "Rechnungsdatum"
+msgstr "Dáta sonraisc"
+
+#: includes/Admin/AdminDashboard.php:573
+msgid "Noch keine Rechnungen gespeichert."
+msgstr "Níl aon sonrasc stóráilte fós."
+
+#: includes/Admin/AdminDashboard.php:590
+msgid "Beispielrechnungen"
+msgstr "Sonraisc shamplacha"
+
+#: includes/Admin/AdminDashboard.php:591
+msgid ""
+"Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im "
+"öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die "
+"drei Beispielzeilen früherer Versionen."
+msgstr ""
+"Níl XML ag sonraisc shamplacha, ní áirítear mar shonraisc iad agus ní "
+"thaispeántar sa tairseach phoiblí iad. Scriosann baint iad siúd amháin, lena "
+"n-áirítear na trí ró ó leaganacha roimhe seo."
+
+#: includes/Admin/AdminDashboard.php:596
+msgid "Beispielrechnungen anlegen"
+msgstr "Cruthaigh sonraisc shamplacha"
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:603
+#, php-format
+msgid "%d Beispielrechnung entfernen"
+msgid_plural "%d Beispielrechnungen entfernen"
+msgstr[0] "Bain sonrasc samplach (%d)"
+msgstr[1] "Bain sonraisc shamplacha (%d)"
+msgstr[2] "Bain sonraisc shamplacha (%d)"
+msgstr[3] "Bain sonraisc shamplacha (%d)"
+msgstr[4] "Bain sonraisc shamplacha (%d)"
+
+#: includes/Admin/AdminDashboard.php:620
+msgid "Beispiel"
+msgstr "Sampla"
+
+#: includes/Admin/AdminDashboard.php:623
+msgid "Erzeugt, nicht versendet"
+msgstr "Cruthaithe, gan seoladh"
+
+#: includes/Admin/AdminDashboard.php:624
+msgid "An Phase4 übergeben"
+msgstr "Tugtha do Phase4"
+
+#: includes/Admin/AdminDashboard.php:625
+msgid "Zugestellt (Quittung)"
+msgstr "Seachadta (admháil)"
+
+#: includes/Admin/AdminDashboard.php:626
+msgid "Zustellung fehlgeschlagen"
+msgstr "Theip ar sheachadadh"
+
+#: includes/Admin/AdminDashboard.php:627
+msgid "Versand fehlgeschlagen"
+msgstr "Theip ar sheoladh"
+
+#. translators: %s: link to the settings tab
+#: includes/Admin/AdminDashboard.php:637
+#, php-format
+msgid "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s"
+msgstr "Gan sonraí iomlána díoltóra ní chruthófar aon sonrasc. %s"
+
+#: includes/Admin/AdminDashboard.php:644
+msgid "Käuferreferenz (BT-10), z. B. die Leitweg-ID"
+msgstr "Tagairt cheannaitheora (BT-10), m.sh. Leitweg-ID"
+
+#: includes/Admin/AdminDashboard.php:645
+msgid "Name des Käufers"
+msgstr "Ainm an cheannaitheora"
+
+#: includes/Admin/AdminDashboard.php:646 includes/Admin/AdminDashboard.php:682
+msgid "Straße"
+msgstr "Sráid"
+
+#: includes/Admin/AdminDashboard.php:647 includes/Admin/AdminDashboard.php:683
+msgid "Postleitzahl"
+msgstr "Cód poist"
+
+#: includes/Admin/AdminDashboard.php:648 includes/Admin/AdminDashboard.php:684
+msgid "Ort"
+msgstr "Cathair / Baile"
+
+#: includes/Admin/AdminDashboard.php:649 includes/Admin/AdminDashboard.php:685
+msgid "Land (zweistelliger Code)"
+msgstr "Tír (cód dhá litir)"
+
+#: includes/Admin/AdminDashboard.php:650
+msgid "Peppol-ID des Käufers (Schema:Kennung)"
+msgstr "Aitheantas Peppol an cheannaitheora (scéim:aitheantóir)"
+
+#: includes/Admin/AdminDashboard.php:651
+msgid "USt-IdNr. des Käufers (optional)"
+msgstr "Uimhir CBL an cheannaitheora (roghnach)"
+
+#: includes/Admin/AdminDashboard.php:652
+msgid "Bezeichnung der Leistung"
+msgstr "Cur síos ar an tseirbhís"
+
+#: includes/Admin/AdminDashboard.php:653
+msgid "Menge"
+msgstr "Cainníocht"
+
+#: includes/Admin/AdminDashboard.php:654
+msgid "Nettopreis je Einheit"
+msgstr "Glanphraghas in aghaidh an aonaid"
+
+#: includes/Admin/AdminDashboard.php:655
+msgid "Umsatzsteuersatz in Prozent"
+msgstr "Ráta CBL faoin gcéad"
+
+#: includes/Admin/AdminDashboard.php:660
+msgid ""
+"Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet "
+"wird nichts; Verkäuferdaten kommen aus den Einstellungen."
+msgstr ""
+"Cruthaíonn sé sonrasc UBL aonlíne agus sábhálann sé é. Ní sheoltar tada; "
+"tagann sonraí an díoltóra ó na socruithe."
+
+#: includes/Admin/AdminDashboard.php:670
+msgid "Rechnung erzeugen und speichern"
+msgstr "Cruthaigh agus sábháil sonrasc"
+
+#: includes/Admin/AdminDashboard.php:679
+msgid "Peppol-ID des Verkäufers (Schema:Kennung)"
+msgstr "Aitheantas Peppol an díoltóra (scéim:aitheantóir)"
+
+#: includes/Admin/AdminDashboard.php:680
+msgid "Name"
+msgstr "Ainm"
+
+#: includes/Admin/AdminDashboard.php:681
+msgid "Rechtlicher Name (leer: wie Name)"
+msgstr "Ainm dlíthiúil (folamh: mar Ainm)"
+
+#: includes/Admin/AdminDashboard.php:686
+msgid "USt-IdNr."
+msgstr "Uimhir CBL"
+
+#: includes/Admin/AdminDashboard.php:687
+msgid "Registernummer (optional)"
+msgstr "Uimhir chlárúcháin cuideachta (roghnach)"
+
+#: includes/Admin/AdminDashboard.php:688
+msgid "IBAN für Zahlung per Überweisung"
+msgstr "IBAN le haghaidh íocaíochta trí aistriú creidmheasa"
+
+#: includes/Admin/AdminDashboard.php:697
+msgid "Verkäufer"
+msgstr "Díoltóir"
+
+#: includes/Admin/AdminDashboard.php:698
+msgid ""
+"Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, "
+"erzeugt das Plugin keine Rechnung."
+msgstr ""
+"Tá na sonraí seo ar gach sonrasc a chruthaítear. Má tá réimse riachtanach in "
+"easnamh, ní chruthaíonn an breiseán sonrasc."
+
+#: includes/Admin/AdminDashboard.php:706
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:309
+msgid "Versand"
+msgstr "Seoladh"
+
+#: includes/Admin/AdminDashboard.php:707
+msgid ""
+"Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine "
+"der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL "
+"und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang."
+msgstr ""
+"Is cláir neamhspleácha lasmuigh den bhreiseán iad an dá sheirbhís. Fad a "
+"bhíonn seoladh amháin in easnamh, ní sheoltar tada. Tá tús áite ag tairisigh "
+"WM_PEPPOL_KOSIT_URL agus WM_PEPPOL_PHASE4_URL in wp-config.php."
+
+#: includes/Admin/AdminDashboard.php:709
+msgid "Adresse des KoSIT-Validators"
+msgstr "Seoladh bhailíochtóir KoSIT"
+
+#: includes/Admin/AdminDashboard.php:713
+msgid "Adresse des Phase4-Dienstes"
+msgstr "Seoladh sheirbhís Phase4"
+
+#: includes/Admin/AdminDashboard.php:722
+msgid ""
+"Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur "
+"werden angenommen."
+msgstr "Tá rún comhroinnte socraithe; glactar le hadmhálacha le síniú bailí."
+
+#: includes/Admin/AdminDashboard.php:723
+msgid ""
+"Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen "
+"per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update "
+"wm_peppol_receipt_secret."
+msgstr ""
+"Níl rún comhroinnte socraithe; diúltaítear do gach admháil. Socraigh trí "
+"WM_PEPPOL_RECEIPT_SECRET nó wp option update wm_peppol_receipt_secret."
+
+#: includes/Admin/AdminDashboard.php:728
+msgid ""
+"Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)"
+msgstr "Méarloirg deimhnithe ceadaithe d'admhálacha AS4 (SHA-256, roghnach)"
+
+#: includes/Admin/AdminDashboard.php:730
+msgid ""
+"Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-"
+"Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der "
+"wp-config.php hat Vorrang."
+msgstr ""
+"Méarloirg SHA-256 64 charachtar, scartha le camóga, de na deimhnithe sínithe "
+"a bhfuiltear ag súil leo ón bpointe rochtana. Tá tosaíocht ag an tairiseach "
+"WM_PEPPOL_TRUSTED_SIGNER_SHA256 in wp-config.php."
+
+#: includes/Admin/AdminDashboard.php:733
+msgid "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)"
+msgstr "Beart áitiúil deimhnithe CA i bhformáid PEM (PKI OpenPeppol, roghnach)"
+
+#: includes/Admin/AdminDashboard.php:735
+msgid ""
+"Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-"
+"Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten "
+"WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang."
+msgstr ""
+"Deimhniú fréimhe agus idirmheánach iontaofa amháin nó níos mó i bhformáid "
+"PEM chun an slabhra a sheiceáil go háitiúil amháin, gan rochtain líonra. Tá "
+"tosaíocht ag na tairisigh WM_PEPPOL_TRUST_BUNDLE_PEM agus "
+"WM_PEPPOL_TRUST_BUNDLE_FILE."
+
+#: includes/Admin/AdminDashboard.php:740
+msgid ""
+"AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel "
+"ablehnen"
+msgstr ""
+"Diúltaigh d'admhálacha AS4 mura bhfuil méarlorg ná beart deimhnithe CA "
+"stóráilte"
+
+#: includes/Admin/AdminDashboard.php:742
+msgid ""
+"Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, "
+"werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 "
+"abgewiesen."
+msgstr ""
+"Nuair atá sé cumasaithe, nó socraithe leis an tairiseach "
+"WM_PEPPOL_REQUIRE_TRUST_ANCHOR, diúltaítear d'admhálacha féinsínithe nó gan "
+"ancaire le HTTP 422."
+
+#: includes/Admin/AdminDashboard.php:745
+msgid "Deinstallation"
+msgstr "Díshuiteáil"
+
+#: includes/Admin/AdminDashboard.php:749
+msgid ""
+"Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen "
+"unwiderruflich löschen"
+msgstr ""
+"Scrios go buan gach rogha breiseáin agus na trí thábla bunachar sonraí nuair "
+"a dhíshuiteáiltear an breiseán"
+
+#: includes/Admin/AdminDashboard.php:751
+msgid ""
+"Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das "
+"Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt "
+"wird."
+msgstr ""
+"De réir réamhshocraithe, coinnítear gach sonrasc stóráilte, tarchur, clár "
+"admhálacha agus socrú nuair a bhaintear an breiseán."
+
+#: includes/Admin/AdminDashboard.php:754
+msgid "Einstellungen speichern"
+msgstr "Sábháil socruithe"
+
+#: includes/Admin/AdminDashboard.php:762
+msgid ""
+"Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS "
+"Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und "
+"Steuersatz."
+msgstr ""
+"Cruthaíonn sé sonraisc UBL 2.1 le haitheantóir Peppol BIS Billing 3.0 agus "
+"miondealú CBL de réir catagóire agus ráta."
+
+#: includes/Admin/AdminDashboard.php:763
+msgid ""
+"Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen."
+msgstr ""
+"Diúltaíonn sé sonrasc a chruthú nuair a bhíonn sonraí riachtanacha in "
+"easnamh seachas iad a chumadh."
+
+#: includes/Admin/AdminDashboard.php:764
+msgid ""
+"Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine "
+"Schema- und keine Schematron-Prüfung."
+msgstr ""
+"Seiceálann sé réimsí riachtanacha, cóid agus rialacha suime. Ní bailíochtú "
+"XSD ná Schematron é seo."
+
+#: includes/Admin/AdminDashboard.php:765
+msgid ""
+"Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-"
+"Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt "
+"signierte Empfangsquittungen an."
+msgstr ""
+"Tugann sé sonraisc orduithe críochnaithe WooCommerce do KoSIT agus Phase4 "
+"nuair atá an dá cheann cumraithe, agus glacann sé le hadmhálacha sínithe."
+
+#: includes/Admin/AdminDashboard.php:766
+msgid "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung."
+msgstr ""
+"Taispeánann sé stádas stóráilte sonraisc do cheannaitheoirí sa tairseach "
+"stádais."
+
+#: includes/Admin/AdminDashboard.php:769
+msgid ""
+"Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt "
+"der Phase4-Dienst."
+msgstr "Gan iompar, síniú ná criptiú AS4 inmheánach: láimhseálann Phase4 sin."
+
+#: includes/Admin/AdminDashboard.php:770
+msgid ""
+"Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen."
+msgstr "Gan nótaí creidmheasa i gcomhréir UBL CreditNote ná díolúintí cánach."
+
+#: includes/Admin/AdminDashboard.php:771
+msgid ""
+"Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister "
+"bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, "
+"wenn dies in den Einstellungen ausdrücklich aktiviert wurde."
+msgstr ""
+"Gan chartlann easpórtála: coinnítear sonraisc stóráilte agus an clár "
+"admhálacha de réir réamhshocraithe le linn díshuiteála agus ní scriostar iad "
+"ach má chumasaítear go sainráite sna socruithe é."
+
+#: includes/Admin/AdminDashboard.php:781
+msgid "Was es nicht tut"
+msgstr "Cad nach ndéanann sé"
+
+#: includes/API/RestController.php:148 includes/API/RestController.php:177
+msgid ""
+"Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut."
+msgstr "An iomarca iarratas ón seoladh seo. Bain triail eile as níos déanaí."
+
+#: includes/API/RestController.php:189
+msgid "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich."
+msgstr ""
+"Tá uimhir an tsonraisc agus aitheantas Peppol an cheannaitheora riachtanach."
+
+#: includes/API/RestController.php:215 includes/Frontend/InvoicePortal.php:110
+msgid "Zu diesen Angaben liegt keine Rechnung vor."
+msgstr "Níor aimsíodh aon sonrasc do na sonraí seo."
+
+#: includes/API/RestController.php:286
+msgid "Der Anfragekörper muss ein JSON-Objekt sein."
+msgstr "Ní mór do chorp an iarratais a bheith ina réad JSON."
+
+#. translators: %d: row id
+#: includes/AS4/DeliveryRegister.php:135
+#, php-format
+msgid ""
+"Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder "
+"eingefügt."
+msgstr "Ní thagraíonn ró %d don ró roimhe: baineadh nó cuireadh ró isteach."
+
+#. translators: %d: row id
+#: includes/AS4/DeliveryRegister.php:157
+#, php-format
+msgid ""
+"Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von "
+"einer Installation mit anderen Schlüsseln."
+msgstr ""
+"Athraíodh ró %d tar éis a scríofa, nó tagann an bunachar sonraí ó shuiteáil "
+"le heochracha eile."
+
+#. translators: %d: size limit in bytes
+#: includes/AS4/ReceiptEvidence.php:89
+#, php-format
+msgid ""
+"Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, "
+"keine Nutzlast."
+msgstr ""
+"Sáraíonn an admháil %d beart; is comhartha í admháil AS4, ní ualach sonraí."
+
+#: includes/AS4/ReceiptEvidence.php:110
+msgid "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage."
+msgstr "Níl eb:Receipt laistigh de eb:SignalMessage sa cháipéis."
+
+#: includes/AS4/ReceiptEvidence.php:137
+msgid "Die Quittung enthält kein prüfbares Signaturzertifikat."
+msgstr "Níl aon deimhniú sínithe is féidir a sheiceáil san admháil."
+
+#: includes/AS4/ReceiptEvidence.php:200
+msgid ""
+"Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit "
+"einer signierten Quittung beantwortet werden."
+msgstr ""
+"Níl síniú XML ar an admháil. NÍ MÓR freagra le hadmháil shínithe a thabhairt "
+"ar theachtaireacht shínithe AS4."
+
+#: includes/AS4/ReceiptEvidence.php:209
+msgid ""
+"Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt."
+msgstr ""
+"Tá an síniú neamhiomlán: tá ds:SignedInfo nó ds:SignatureValue in easnamh."
+
+#: includes/AS4/ReceiptEvidence.php:212
+msgid ""
+"Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel "
+"ist sie nicht prüfbar."
+msgstr ""
+"Ní luann an síniú teastas X.509; gan an eochair phoiblí ní féidir é a fhíorú."
+
+#. translators: %s: signature algorithm identifier
+#: includes/AS4/ReceiptEvidence.php:222
+#, php-format
+msgid "Signaturverfahren %s wird von dieser Installation nicht geprüft."
+msgstr "Ní fhíoraíonn an tsuiteáil seo algartam sínithe %s."
+
+#: includes/AS4/ReceiptEvidence.php:251
+msgid "Das X.509-Zertifikat der Signatur ist nicht lesbar."
+msgstr "Ní féidir teastas X.509 an tsínithe a léamh."
+
+#: includes/AS4/ReceiptEvidence.php:269
+msgid "OpenSSL konnte die Signatur nicht prüfen."
+msgstr "Níorbh fhéidir le OpenSSL an síniú a fhíorú."
+
+#: includes/AS4/ReceiptEvidence.php:270
+msgid ""
+"Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem "
+"Signieren verändert oder mit einem anderen Schlüssel erzeugt."
+msgstr ""
+"Ní mheaitseálann an síniú ábhar na hadmhála: athraíodh í tar éis a sínithe "
+"nó cruthaíodh le heochair eile í."
+
+#. translators: 1: references that matched, 2: references in total
+#: includes/AS4/ReceiptEvidence.php:291
+#, php-format
+msgid ""
+"Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum "
+"Inhalt: die Quittung wurde nach dem Signieren verändert."
+msgstr ""
+"Tá an síniú féin bailí, ach ní mheaitseálann ach %1$d as %2$d haiseanna leis "
+"an ábhar: athraíodh an admháil tar éis a sínithe."
+
+#: includes/AS4/ReceiptEvidence.php:308
+msgid "Das X.509-Zertifikat der Quittung ist abgelaufen."
+msgstr "Tá deimhniú X.509 na hadmhála imithe in éag."
+
+#: includes/AS4/ReceiptEvidence.php:322
+msgid "Das X.509-Zertifikat der Quittung ist noch nicht gültig."
+msgstr "Níl deimhniú X.509 na hadmhála bailí fós."
+
+#: includes/AS4/ReceiptEvidence.php:521
+msgid ""
+"Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel "
+"hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird."
+msgstr ""
+"Níl méarlorg deimhnithe ná beart deimhnithe CA stóráilte, cé go bhfuil "
+"seiceáil an ancaire iontaobhais éigeantach."
+
+#: includes/AS4/ReceiptEvidence.php:534
+msgid ""
+"Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten "
+"SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel."
+msgstr ""
+"Ní mheaitseálann deimhniú sínithe na hadmhála méarlorg SHA-256 stóráilte ná "
+"beart deimhnithe CA iontaofa."
+
+#: includes/AS4/ReceiptEvidence.php:614
+msgid "Die Quittung ist kein wohlgeformtes XML."
+msgstr "Ní XML dea-chumtha í an admháil."
+
+#. translators: %d: HTTP status code
+#: includes/class-peppol-phase4-client.php:86
+#, php-format
+msgid "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d)."
+msgstr "Níor ghlac bailíochtóir KoSIT leis an gcáipéis (HTTP %d)."
+
+#: includes/class-peppol-phase4-client.php:105
+msgid "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung."
+msgstr "Níl an fhoirm scéim:aitheantóir ar ID an tseoltóra ná an fhaighteora."
+
+#. translators: %d: HTTP status code
+#: includes/class-peppol-phase4-client.php:132
+#, php-format
+msgid "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d)."
+msgstr "Dhiúltaigh seirbhís Phase4 don tarchur (HTTP %d)."
+
+#: includes/class-peppol-phase4-client.php:138
+msgid ""
+"Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich "
+"keine Empfangsquittung zuordnen."
+msgstr ""
+"Níor chuir Phase4 messageId ar ais; gan é ní féidir admháil a mheaitseáil."
+
+#: includes/class-peppol-phase4-client.php:146
+msgid ""
+"KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts "
+"versendet."
+msgstr ""
+"Níl bailíochtóir KoSIT agus seirbhís Phase4 cumraithe; ní sheoltar tada."
+
+#: includes/class-peppol-webhook-receiver.php:165
+msgid ""
+"Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument "
+"als das versendete."
+msgstr ""
+"Tá síniú bailí ar an admháil ach baineann sí le cáipéis eile seachas an "
+"ceann a seoladh."
+
+#. translators: %s: message id
+#: includes/class-peppol-webhook-receiver.php:197
+#, php-format
+msgid "Peppol: Positive Empfangsquittung für messageId %s erhalten."
+msgstr "Peppol: Fuarthas admháil dhearfach fála do messageId %s."
+
+#: includes/class-peppol-webhook-receiver.php:198
+msgid "Peppol-Empfangsquittung erhalten."
+msgstr "Fuarthas admháil fála Peppol."
+
+#. translators: 1: message id, 2: error text of the receipt
+#: includes/class-peppol-webhook-receiver.php:201
+#, php-format
+msgid "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s"
+msgstr "Peppol: Theip ar sheoladh (messageId %1$s): %2$s"
+
+#. translators: 1: message id, 2: error text of the receipt
+#: includes/class-peppol-webhook-receiver.php:201
+msgid "ohne Fehlerbeschreibung"
+msgstr "gan tuairisc earráide"
+
+#: includes/class-peppol-webhook-receiver.php:202
+msgid "Peppol-Versand fehlgeschlagen."
+msgstr "Theip ar sheoladh Peppol."
+
+#. translators: %s: comma separated rule identifiers
+#: includes/CLI/PeppolCommand.php:367
+#, php-format
+msgid ""
+"Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt "
+"noch als verletzt: %s"
+msgstr ""
+"Níorbh fhéidir na rialacha seo a mheas agus ní áirítear mar chomhlíonta ná "
+"mar sháraithe iad: %s"
+
+#. translators: %s: comma-separated list of missing PHP extensions
+#: includes/Database/Schema.php:42
+#, php-format
+msgid ""
+"WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende "
+"erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s."
+msgstr ""
+"Níorbh fhéidir WM Peppol AS4 Gateway a ghníomhachtú toisc go bhfuil na síntí "
+"PHP riachtanacha seo a leanas in easnamh ar an bhfreastalaí seo: %s."
+
+#: includes/Database/Schema.php:46
+msgid "Fehlende PHP-Erweiterung"
+msgstr "Síneadh PHP in easnamh"
+
+#: includes/Discovery/SmpClient.php:127
+msgid "Kein Peppol-Teilnehmerbezeichner angegeben."
+msgstr "Níor tugadh aitheantóir rannpháirtí Peppol."
+
+#. translators: %s: the identifier as given
+#: includes/Discovery/SmpClient.php:146
+#, php-format
+msgid ""
+"Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:"
+"<Kennung>, zum Beispiel 9930:DE123456789."
+msgstr ""
+"Níl an fhoirm <scéim EAS ceithre dhigit>:<aitheantóir> ar \"%s\", mar "
+"shampla 9930:DE123456789."
+
+#: includes/Discovery/SmpClient.php:154
+msgid ""
+"Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht "
+"vorkommen dürfen."
+msgstr "Tá carachtair sa scéim aitheantóra nach gceadaítear in ainm DNS."
+
+#. translators: %s: DNS name that was asked
+#: includes/Discovery/SmpClient.php:216
+#, php-format
+msgid ""
+"Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone "
+"nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen."
+msgstr ""
+"Níl taifead NAPTR ann do %s: níl an rannpháirtí cláraithe sa chrios SML seo "
+"nó ní fhreagraíonn an réiteoir iarratais NAPTR."
+
+#. translators: %s: DNS name that was asked
+#: includes/Discovery/SmpClient.php:244
+#, php-format
+msgid ""
+"Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer "
+"URL)."
+msgstr "Ní ainmníonn taifead NAPTR %s aon SMP (seirbhís \"Meta:SMP\" le URL)."
+
+#. translators: 1: participant id, 2: document type
+#: includes/Discovery/SmpClient.php:332
+#, php-format
+msgid ""
+"Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: "
+"dieser Empfänger nimmt dieses Dokument nicht entgegen."
+msgstr ""
+"Aithníonn an SMP rannpháirtí %1$s ach ní don chineál cáipéise %2$s: ní "
+"ghlacann an faighteoir leis an gcáipéis seo."
+
+#. translators: 1: HTTP status, 2: SMP URL
+#: includes/Discovery/SmpClient.php:345
+#, php-format
+msgid "Der SMP antwortete mit HTTP %1$d auf %2$s."
+msgstr "D'fhreagair an SMP le HTTP %1$d ag %2$s."
+
+#: includes/Discovery/SmpClient.php:384
+msgid "Der SMP lieferte einen leeren Körper."
+msgstr "Chuir an SMP corp folamh ar ais."
+
+#: includes/Discovery/SmpClient.php:394
+msgid "Die Antwort des SMP ist kein wohlgeformtes XML."
+msgstr "Ní XML dea-chumtha é freagra an SMP."
+
+#. translators: %s: the AS4 transport profile that was looked for
+#: includes/Discovery/SmpClient.php:445
+#, php-format
+msgid "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s."
+msgstr "Níl aon chríochphointe le próifíl iompair %s i bhfreagra an SMP."
+
+#: includes/Frontend/DynamicBindings.php:41
+#: includes/Frontend/DynamicBindings.php:55
+msgid "Peppol-Gateway-Status"
+msgstr "Stádas Peppol Gateway"
+
+#: includes/Frontend/DynamicBindings.php:117
+msgid "Tabellen des Plugins fehlen"
+msgstr "Táblaí an bhreiseáin in easnamh"
+
+#: includes/Frontend/DynamicBindings.php:125
+msgid "KoSIT-Validator und Phase4-Dienst konfiguriert"
+msgstr "Bailíochtóir KoSIT agus seirbhís Phase4 cumraithe"
+
+#: includes/Frontend/DynamicBindings.php:126
+msgid "Versand nicht konfiguriert"
+msgstr "Seoladh gan chumrú"
+
+#. translators: 1: stored invoices count, 2: delivered receipts count
+#: includes/Frontend/DynamicBindings.php:129
+#, php-format
+msgid "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen"
+msgstr "%1$d sonrasc stóráilte, %2$d admháil fála"
+
+#: includes/Frontend/InvoicePortal.php:109
+msgid "Status wird abgefragt …"
+msgstr "Ag fiosrú stádais …"
+
+#: includes/Frontend/InvoicePortal.php:111
+msgid "Rechnung gefunden"
+msgstr "Aimsíodh an sonrasc"
+
+#: includes/Frontend/InvoicePortal.php:112
+msgid "Die Abfrage ist fehlgeschlagen."
+msgstr "Theip ar an bhfiosrúchán."
+
+#: includes/Frontend/InvoicePortal.php:113
+msgid "Gespeicherter Status"
+msgstr "Stádas stóráilte"
+
+#: includes/Frontend/InvoicePortal.php:114
+msgid "Übergabe an Phase4"
+msgstr "Aistriú chuig Phase4"
+
+#: includes/Frontend/InvoicePortal.php:115
+msgid "keine Übergabe erfasst"
+msgstr "gan aistriú taifeadta"
+
+#: includes/Frontend/InvoicePortal.php:116
+msgid "Empfangsquittung"
+msgstr "Admháil fála"
+
+#: includes/Frontend/InvoicePortal.php:117
+msgid "liegt vor"
+msgstr "ar fáil"
+
+#: includes/Frontend/InvoicePortal.php:118
+msgid "liegt nicht vor"
+msgstr "níl ar fáil"
+
+#: includes/Frontend/InvoicePortal.php:119
+msgid "Fehlercode der Übertragung"
+msgstr "Cód earráide tarchuir"
+
+#: includes/Frontend/InvoicePortal.php:122
+msgid "SHA-256 des gespeicherten XML"
+msgstr "SHA-256 an XML stóráilte"
+
+#: includes/Frontend/InvoicePortal.php:128
+#: includes/Frontend/InvoicePortal.php:130
+msgid "Rechnungsstatus abfragen"
+msgstr "Seiceáil stádas sonraisc"
+
+#: includes/Frontend/InvoicePortal.php:133
+msgid ""
+"Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in "
+"diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN "
+"16931 geprüft noch zum Herunterladen angeboten."
+msgstr ""
+"Cuir isteach uimhir an tsonraisc agus d'aitheantas Peppol. Taispeántar an "
+"stádas atá stóráilte sa chóras seo. Ní dhéantar an cháipéis a sheiceáil in "
+"aghaidh EN 16931 ná a thairiscint le híoslódáil anseo."
+
+#: includes/Frontend/InvoicePortal.php:143
+msgid "Ihre Peppol-ID"
+msgstr "D'aitheantas Peppol"
+
+#: includes/Frontend/InvoicePortal.php:144
+msgid "Schema:Kennung"
+msgstr "scéim:aitheantóir"
+
+#: includes/Frontend/InvoicePortal.php:147
+msgid "Status abfragen"
+msgstr "Seiceáil stádas"
+
+#: includes/UBL/InvoiceDataException.php:52
+msgid "Die Rechnungsnummer fehlt."
+msgstr "Tá uimhir an tsonraisc in easnamh."
+
+#: includes/UBL/InvoiceDataException.php:53
+msgid ""
+"Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine "
+"Bestellreferenz angegeben ist."
+msgstr ""
+"Tá tagairt an cheannaitheora (BT-10) in easnamh; éilíonn Peppol BIS í mura "
+"bhfuil tagairt ordaithe ann."
+
+#: includes/UBL/InvoiceDataException.php:54
+msgid "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT."
+msgstr "Níl dáta an tsonraisc i bhformáid BBBB-MM-LL."
+
+#: includes/UBL/InvoiceDataException.php:55
+msgid "Es fehlen Rechnungspositionen oder ein Betrag."
+msgstr "Tá línte sonraisc nó suim in easnamh."
+
+#: includes/UBL/InvoiceDataException.php:56
+msgid "Ein Betrag ist keine Zahl."
+msgstr "Ní uimhir í suim amháin."
+
+#: includes/UBL/InvoiceDataException.php:57
+msgid "Eine Position hat keine Bezeichnung."
+msgstr "Níl ainm míre ar líne amháin."
+
+#: includes/UBL/InvoiceDataException.php:58
+msgid "Ein Steuersatz ist negativ."
+msgstr "Tá ráta cánach diúltach."
+
+#: includes/UBL/InvoiceDataException.php:59
+msgid "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen."
+msgstr "Níl cód cineáil an tsonraisc ar liosta sonrasc Peppol."
+
+#: includes/UBL/InvoiceDataException.php:60
+msgid ""
+"Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser "
+"Generator nicht erzeugt."
+msgstr ""
+"Teastaíonn comhréir UBL CreditNote ó nóta creidmheasa (cineál 381), rud nach "
+"dtáirgeann an gineadóir seo."
+
+#: includes/UBL/InvoiceDataException.php:61
+msgid "Der Währungscode muss aus drei Großbuchstaben bestehen."
+msgstr "Ní mór trí chás uachtair a bheith sa chód airgeadra."
+
+#: includes/UBL/InvoiceDataException.php:62
+msgid "Die Peppol-ID des Verkäufers fehlt."
+msgstr "Tá aitheantas Peppol an díoltóra in easnamh."
+
+#: includes/UBL/InvoiceDataException.php:63
+msgid "Der Name des Verkäufers fehlt."
+msgstr "Tá ainm an díoltóra in easnamh."
+
+#: includes/UBL/InvoiceDataException.php:64
+msgid "Die Straße des Verkäufers fehlt."
+msgstr "Tá sráid an díoltóra in easnamh."
+
+#: includes/UBL/InvoiceDataException.php:65
+msgid "Der Ort des Verkäufers fehlt."
+msgstr "Tá cathair an díoltóra in easnamh."
+
+#: includes/UBL/InvoiceDataException.php:66
+msgid "Die Postleitzahl des Verkäufers fehlt."
+msgstr "Tá cód poist an díoltóra in easnamh."
+
+#: includes/UBL/InvoiceDataException.php:67
+msgid "Das Land des Verkäufers fehlt."
+msgstr "Tá tír an díoltóra in easnamh."
+
+#: includes/UBL/InvoiceDataException.php:68
+msgid "Die USt-IdNr. des Verkäufers fehlt."
+msgstr "Tá uimhir CBL an díoltóra in easnamh."
+
+#: includes/UBL/InvoiceDataException.php:69
+msgid ""
+"Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung "
+"(vierstelliges Schema)."
+msgstr ""
+"Níl foirm scéim:aitheantóir (scéim ceithre dhigit) ar aitheantas Peppol an "
+"díoltóra."
+
+#: includes/UBL/InvoiceDataException.php:70
+msgid "Das Land des Verkäufers muss ein zweistelliger Ländercode sein."
+msgstr "Ní mór cód tíre dhá litir a bheith i dtír an díoltóra."
+
+#: includes/UBL/InvoiceDataException.php:71
+msgid ""
+"Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen "
+"Ländercode."
+msgstr "Ní thosaíonn uimhir CBL an díoltóra le cód tíre dhá litir."
+
+#: includes/UBL/InvoiceDataException.php:72
+msgid "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers."
+msgstr "Tá IBAN an díoltóra in easnamh le haghaidh aistrithe creidmheasa."
+
+#: includes/UBL/InvoiceDataException.php:73
+msgid "Die Peppol-ID des Käufers fehlt."
+msgstr "Tá aitheantas Peppol an cheannaitheora in easnamh."
+
+#: includes/UBL/InvoiceDataException.php:74
+msgid "Der Name des Käufers fehlt."
+msgstr "Tá ainm an cheannaitheora in easnamh."
+
+#: includes/UBL/InvoiceDataException.php:75
+msgid "Das Land des Käufers fehlt."
+msgstr "Tá tír an cheannaitheora in easnamh."
+
+#: includes/UBL/InvoiceDataException.php:76
+msgid ""
+"Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges "
+"Schema)."
+msgstr ""
+"Níl foirm scéim:aitheantóir (scéim ceithre dhigit) ar aitheantas Peppol an "
+"cheannaitheora."
+
+#: includes/UBL/InvoiceDataException.php:77
+msgid "Das Land des Käufers muss ein zweistelliger Ländercode sein."
+msgstr "Ní mór cód tíre dhá litir a bheith i dtír an cheannaitheora."
+
+#: includes/UBL/InvoiceDataException.php:78
+msgid ""
+"Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode."
+msgstr "Ní thosaíonn uimhir CBL an cheannaitheora le cód tíre dhá litir."
+
+#: includes/UBL/InvoiceDataException.php:79
+msgid ""
+"Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen "
+"Steuersatz über null."
+msgstr ""
+"Níl ráta os cionn nialais ag líne nó lascaine/muirear i gcatagóir cánach S."
+
+#: includes/Validation/SchematronValidator.php:102
+msgid ""
+"Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu "
+"prüfen."
+msgstr ""
+"Ní XML dea-chumtha é an comhad; ní féidir dada a sheiceáil roimh sheiceáil "
+"na rialacha."
+
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:87
+msgid ""
+"Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; "
+"es wurde keine E-Rechnung erzeugt."
+msgstr ""
+"Peppol: Tá Leitweg-ID ar an ordú ach níl ID faighteora Peppol ann; níor "
+"cruthaíodh r-shonrasc."
+
+#. translators: 1: order total, 2: total of the document
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:116
+#, php-format
+msgid ""
+"Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s "
+"weichen um mehr als die Rundung ab."
+msgstr ""
+"Peppol: Níor cruthaíodh r-shonrasc. Tá difríocht níos mó ná slánú idir "
+"iomlán an ordaithe %1$s agus iomlán an tsonraisc %2$s."
+
+#. translators: %s: list of missing or invalid data
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:124
+#, php-format
+msgid "Peppol: E-Rechnung nicht erzeugt. %s"
+msgstr "Peppol: Níor cruthaíodh r-shonrasc. %s"
+
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:148
+msgid "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden."
+msgstr "Peppol: Níorbh fhéidir an r-shonrasc cruthaithe a shábháil."
+
+#. translators: %s: invoice number
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:161
+#, php-format
+msgid "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant."
+msgstr "Peppol: Cruthaíodh r-shonrasc %s; tá an seoladh sceidealaithe."
+
+#. translators: %s: invoice number
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:164
+#, php-format
+msgid ""
+"Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-"
+"Validator und Phase4-Dienst sind nicht konfiguriert."
+msgstr ""
+"Peppol: Cruthaíodh agus sábháladh r-shonrasc %s, gan seoladh: níl KoSIT agus "
+"Phase4 cumraithe."
+
+#. translators: 1: number of fatal findings, 2: rule identifiers
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:207
+#, php-format
+msgid "EN 16931: %1$d fatale Regelbefunde (%2$s)."
+msgstr "EN 16931: %1$d torthaí marfacha rialacha (%2$s)."
+
+#. translators: 1: number of fatal findings, 2: rule identifiers
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:219
+#, php-format
+msgid ""
+"Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). "
+"Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 "
+"setzen."
+msgstr ""
+"Peppol: Tuairiscíonn seiceáil EN 16931 %1$d torthaí marfacha (%2$s). Seoltar "
+"mar sin féin é; socraigh \"wm_peppol_schematron_gate\" go 1 chun blocáil."
+
+#. translators: 1: invoice number, 2: message id
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:262
+#, php-format
+msgid ""
+"Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). "
+"Zugestellt ist sie erst mit der Empfangsquittung."
+msgstr ""
+"Peppol: Tugadh r-shonrasc %1$s do Phase4 (messageId %2$s). Ní dhearbhaítear "
+"seachadadh ach leis an admháil."
+
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:309
+msgid "Gebühr"
+msgstr "Táille"
+
+#. translators: %s: order item name
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:361
+#, php-format
+msgid ""
+"Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; "
+"Steuerbefreiungen bildet das Plugin nicht ab."
+msgstr ""
+"Peppol: Níor cruthaíodh r-shonrasc. Tá \"%s\" gan CBL; ní shamhlaíonn an "
+"breiseán díolúintí cánach."
+
+#. translators: %s: order item name
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:363
+#, php-format
+msgid "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze."
+msgstr ""
+"Peppol: Níor cruthaíodh r-shonrasc. Tá níos mó ná ráta cánach amháin ag "
+"\"%s\"."
+
+#. translators: 1: invoice number, 2: reason
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:399
+#, php-format
+msgid "Peppol: E-Rechnung %1$s nicht versendet. %2$s"
+msgstr "Peppol: Níor seoladh r-shonrasc %1$s. %2$s"
+
+#: wm-peppol-as4-gateway.php:101
+msgid "Peppol-E-Rechnung"
+msgstr "R-shonrasc Peppol"
+
+#: wm-peppol-as4-gateway.php:104
+msgid "Peppol-Empfänger-ID (Schema:Kennung)"
+msgstr "ID faighteora Peppol (scéim:aitheantóir)"
+
+#: wm-peppol-as4-gateway.php:110
+msgid "Leitweg-ID (öffentliche Auftraggeber)"
+msgstr "Leitweg-ID (ceannaitheoirí poiblí)"
+
+#: wm-peppol-as4-gateway.php:116
+msgid "Käuferreferenz (wenn keine Leitweg-ID)"
+msgstr "Tagairt cheannaitheora (mura bhfuil Leitweg-ID ann)"
+
+#: wm-peppol-as4-gateway.php:140
+msgid ""
+"Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre "
+"Prüfziffer stimmt nicht; sie wurde nicht gespeichert."
+msgstr ""
+"Ní chomhlíonann an Leitweg-ID sonraíocht KoSIT nó theip ar na digití "
+"seiceála; gan sábháil."
+
+#: wm-peppol-as4-gateway.php:149
+msgid ""
+"Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem "
+"Schema; sie wurde nicht gespeichert."
+msgstr ""
+"Níl foirm scéim:aitheantóir ceithre dhigit ar ID faighteora Peppol; gan "
+"sábháil."
+
+#: blocks-src/index.js:25
+msgid "Portal-Darstellung"
+msgstr "Taispeáint tairsí"
+
+#: blocks-src/index.js:29
+msgid "Überschrift anzeigen"
+msgstr "Taispeáin ceannteideal"
+
+#: blocks-src/index.js:36
+msgid "Einleitungstext anzeigen"
+msgstr "Taispeáin téacs tosaigh"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block title"
+msgid "Peppol-Rechnungsstatus-Portal"
+msgstr "Tairseach Stádais Sonrasc Peppol"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block description"
+msgid ""
+"Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen "
+"anhand von Rechnungsnummer und Peppol-ID."
+msgstr ""
+"Tairseach phoiblí chun r-shonraisc stóráilte Peppol a chuardach de réir "
+"uimhir shonraisc agus aitheantas Peppol."
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "peppol"
+msgstr "peppol"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "invoice"
+msgstr "sonrasc"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "e-rechnung"
+msgstr "r-shonrasc"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "ubl"
+msgstr "ubl"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "status"
+msgstr "stadas"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

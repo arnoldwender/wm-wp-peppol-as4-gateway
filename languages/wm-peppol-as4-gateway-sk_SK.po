@@ -1,0 +1,1346 @@
+# Translation of wm-peppol-as4-gateway in sk_SK
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-peppol-as4-gateway 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-peppol-as4-"
+"gateway\n"
+"POT-Creation-Date: 2026-11-21T14:15:36+00:00\n"
+"PO-Revision-Date: 2026-11-21 15:24+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-peppol-as4-"
+"gateway/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-peppol-as4-"
+"gateway/issues>\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-peppol-as4-gateway\n"
+
+#. Plugin Name of the plugin
+#: wm-peppol-as4-gateway.php includes/Admin/AdminDashboard.php:101
+msgid "WM Peppol AS4 Gateway"
+msgstr "WM Peppol AS4 Gateway"
+
+#. Plugin URI of the plugin
+#: wm-peppol-as4-gateway.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+
+#. Description of the plugin
+#: wm-peppol-as4-gateway.php
+msgid ""
+"Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das "
+"amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt "
+"Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten "
+"KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und "
+"zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die "
+"übernimmt der Phase4-Dienst."
+msgstr ""
+"Vytvára faktúry UBL 2.1 podľa Peppol BIS Billing 3.0, kontroluje ich voči "
+"oficiálnym pravidlám EN 16931, vyhľadáva príjemcu cez SML a SMP, odovzdáva "
+"faktúry dokončených objednávok WooCommerce nakonfigurovanému validátoru "
+"KoSIT a službe Phase4, overuje podpísané potvrdenie AS4 a zobrazuje "
+"kupujúcim uložený stav. Bez vlastného prenosu AS4: ten zabezpečuje Phase4."
+
+#. Author of the plugin
+#: wm-peppol-as4-gateway.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-peppol-as4-gateway.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#. translators: %s: action name
+#: includes/Adapters/Peppol_Spoke_Adapter.php:138
+#, php-format
+msgid "Unbekannte Spoke-Aktion \"%s\"."
+msgstr "Neznáma akcia modulu \"%s\"."
+
+#. translators: %s: missing seller fields
+#: includes/Adapters/Peppol_Spoke_Adapter.php:155
+#, php-format
+msgid "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s)."
+msgstr "Autotest nie je možný: chýbajú údaje predávajúceho (%s)."
+
+#. translators: %s: failed checks
+#: includes/Adapters/Peppol_Spoke_Adapter.php:181
+#, php-format
+msgid "Testdokument von den Strukturprüfungen abgelehnt: %s"
+msgstr "Testovací dokument odmietnutý štrukturálnymi kontrolami: %s"
+
+#. translators: %d: size of the test document in bytes
+#: includes/Adapters/Peppol_Spoke_Adapter.php:188
+#, php-format
+msgid ""
+"Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins "
+"angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-"
+"Prüfung."
+msgstr ""
+"Testovací dokument vytvorený (%d bajtov) a prijatý štrukturálnymi kontrolami "
+"pluginu. Neuložený, neodoslaný, bez kontroly schémy či Schematronu."
+
+#: includes/Admin/AdminDashboard.php:113 includes/Admin/AdminDashboard.php:513
+msgid ""
+"Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder "
+"aktivieren."
+msgstr ""
+"Chýbajú databázové tabuľky pluginu. Plugin deaktivujte a znova aktivujte."
+
+#: includes/Admin/AdminDashboard.php:117
+msgid "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden."
+msgstr "Údaje predávajúceho sú neúplné: nemožno vytvoriť e-faktúru."
+
+#: includes/Admin/AdminDashboard.php:125
+msgid ""
+"Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind "
+"konfiguriert."
+msgstr ""
+"Údaje predávajúceho sú úplné. Validátor KoSIT a služba Phase4 sú nastavené."
+
+#: includes/Admin/AdminDashboard.php:126
+msgid ""
+"Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden "
+"nur gespeichert."
+msgstr ""
+"Údaje predávajúceho sú úplné. Odosielanie nie je nastavené: faktúry sa iba "
+"ukladajú."
+
+#: includes/Admin/AdminDashboard.php:136 includes/Admin/AdminDashboard.php:535
+msgid "Gespeicherte Rechnungen"
+msgstr "Uložené faktúry"
+
+#: includes/Admin/AdminDashboard.php:140 includes/Admin/AdminDashboard.php:541
+msgid "Übergaben an Phase4"
+msgstr "Odovzdania do Phase4"
+
+#: includes/Admin/AdminDashboard.php:144 includes/Admin/AdminDashboard.php:546
+#: includes/Admin/AdminDashboard.php:717
+msgid "Empfangsquittungen"
+msgstr "Potvrdenia o doručení"
+
+#: includes/Admin/AdminDashboard.php:149
+msgid "Peppol Gateway öffnen"
+msgstr "Otvoriť Peppol Gateway"
+
+#: includes/Admin/AdminDashboard.php:171 includes/Admin/AdminDashboard.php:172
+#: includes/Admin/AdminDashboard.php:437
+msgid "Peppol Gateway"
+msgstr "Peppol Gateway"
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:225
+#, php-format
+msgid "%d Beispielrechnung angelegt."
+msgid_plural "%d Beispielrechnungen angelegt."
+msgstr[0] "Vytvorená %d ukážková faktúra."
+msgstr[1] "Vytvorené %d ukážkové faktúry."
+msgstr[2] "Vytvorených %d ukážkových faktúr."
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:231
+#, php-format
+msgid "%d Beispielrechnung entfernt."
+msgid_plural "%d Beispielrechnungen entfernt."
+msgstr[0] "Odstránená %d ukážková faktúra."
+msgstr[1] "Odstránené %d ukážkové faktúry."
+msgstr[2] "Odstránených %d ukážkových faktúr."
+
+#: includes/Admin/AdminDashboard.php:424
+msgid "Übersicht"
+msgstr "Prehľad"
+
+#: includes/Admin/AdminDashboard.php:425 includes/Admin/AdminDashboard.php:659
+msgid "Rechnung erzeugen"
+msgstr "Vytvoriť faktúru"
+
+#: includes/Admin/AdminDashboard.php:426 includes/Admin/AdminDashboard.php:692
+msgid "Einstellungen"
+msgstr "Nastavenia"
+
+#: includes/Admin/AdminDashboard.php:427 includes/Admin/AdminDashboard.php:775
+msgid "Was das Plugin tut"
+msgstr "Čo plugin robí"
+
+#: includes/Admin/AdminDashboard.php:438
+msgid ""
+"UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an "
+"einen konfigurierten Phase4-Dienst übergeben."
+msgstr ""
+"Vytvárajte a ukladajte faktúry UBL 2.1 podľa Peppol BIS Billing 3.0 a "
+"odovzdávajte ich nastavenej službe Phase4."
+
+#: includes/Admin/AdminDashboard.php:442
+msgid "Part of the WM Suite plugin family"
+msgstr "Súčasť rodiny pluginov WM Suite"
+
+#: includes/Admin/AdminDashboard.php:444
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:445
+msgid "Hub"
+msgstr "Hub"
+
+#: includes/Admin/AdminDashboard.php:445
+msgid "Standalone"
+msgstr "Samostatný"
+
+#: includes/Admin/AdminDashboard.php:452
+msgid "Bereiche"
+msgstr "Sekcie"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid ""
+"Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie "
+"nicht versendet."
+msgstr "E-faktúra bola vytvorená a uložená. Cez tento formulár sa neodosiela."
+
+#: includes/Admin/AdminDashboard.php:489
+msgid "Die E-Rechnung wurde nicht erzeugt."
+msgstr "E-faktúra nebola vytvorená."
+
+#: includes/Admin/AdminDashboard.php:490 includes/API/RestController.php:298
+msgid "Eine Rechnung mit dieser Nummer ist bereits gespeichert."
+msgstr "Faktúra s týmto číslom je už uložená."
+
+#: includes/Admin/AdminDashboard.php:491 includes/API/RestController.php:323
+msgid "Die Rechnung wurde erzeugt, aber nicht gespeichert."
+msgstr "Faktúra bola vytvorená, ale nepodarilo sa ju uložiť."
+
+#: includes/Admin/AdminDashboard.php:492
+msgid "Einstellungen gespeichert."
+msgstr "Nastavenia uložené."
+
+#: includes/Admin/AdminDashboard.php:493
+msgid ""
+"Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen "
+"Statusportal nicht gemeldet."
+msgstr ""
+"Ukážkové faktúry sú označené ako vzorové a nezobrazujú sa vo verejnom "
+"portáli."
+
+#: includes/Admin/AdminDashboard.php:494
+msgid "Beispielrechnungen entfernt."
+msgstr "Ukážkové faktúry odstránené."
+
+#. translators: %s: link to the settings tab
+#: includes/Admin/AdminDashboard.php:526
+#, php-format
+msgid ""
+"Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s"
+msgstr "Údaje predávajúceho sú neúplné: nemožno vytvoriť e-faktúru. %s"
+
+#. translators: %s: link to the settings tab
+#: includes/Admin/AdminDashboard.php:526 includes/Admin/AdminDashboard.php:637
+msgid "Zu den Einstellungen"
+msgstr "Prejsť na nastavenia"
+
+#: includes/Admin/AdminDashboard.php:530
+msgid ""
+"Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber "
+"nicht übergeben."
+msgstr ""
+"Odosielanie nie je nastavené: vytvorené faktúry sa ukladajú, ale "
+"neodovzdávajú."
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:538
+#, php-format
+msgid "ohne %d Beispielrechnungen"
+msgstr "bez %d ukážkových faktúr"
+
+#: includes/Admin/AdminDashboard.php:543
+msgid "mit messageId"
+msgstr "s messageId"
+
+#: includes/Admin/AdminDashboard.php:548
+msgid "positiv, per Webhook"
+msgstr "kladné, cez webhook"
+
+#: includes/Admin/AdminDashboard.php:551
+msgid "Verkäuferdaten"
+msgstr "Údaje predávajúceho"
+
+#: includes/Admin/AdminDashboard.php:552
+msgid "vollständig"
+msgstr "úplné"
+
+#: includes/Admin/AdminDashboard.php:553
+msgid "für die Rechnungserzeugung"
+msgstr "pre vytváranie faktúr"
+
+#: includes/Admin/AdminDashboard.php:553
+msgid "Angaben fehlen"
+msgstr "chýbajú údaje"
+
+#: includes/Admin/AdminDashboard.php:558
+msgid "Rechnungen"
+msgstr "Faktúry"
+
+#: includes/Admin/AdminDashboard.php:559
+msgid "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status."
+msgstr "Posledných 50 uložených faktúr s ich evidovaným stavom."
+
+#: includes/Admin/AdminDashboard.php:564 includes/Admin/AdminDashboard.php:643
+#: includes/Frontend/InvoicePortal.php:139
+msgid "Rechnungsnummer"
+msgstr "Číslo faktúry"
+
+#: includes/Admin/AdminDashboard.php:565
+msgid "Peppol-ID des Käufers"
+msgstr "Peppol ID kupujúceho"
+
+#: includes/Admin/AdminDashboard.php:566
+#: includes/Frontend/InvoicePortal.php:120
+msgid "Zahlbetrag"
+msgstr "Suma na úhradu"
+
+#: includes/Admin/AdminDashboard.php:567
+msgid "Status"
+msgstr "Stav"
+
+#: includes/Admin/AdminDashboard.php:568
+#: includes/Frontend/InvoicePortal.php:121
+msgid "Rechnungsdatum"
+msgstr "Dátum vystavenia"
+
+#: includes/Admin/AdminDashboard.php:573
+msgid "Noch keine Rechnungen gespeichert."
+msgstr "Zatiaľ nie sú uložené žiadne faktúry."
+
+#: includes/Admin/AdminDashboard.php:590
+msgid "Beispielrechnungen"
+msgstr "Ukážkové faktúry"
+
+#: includes/Admin/AdminDashboard.php:591
+msgid ""
+"Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im "
+"öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die "
+"drei Beispielzeilen früherer Versionen."
+msgstr ""
+"Ukážkové faktúry nemajú XML, nepočítajú sa ako faktúry a nezobrazujú sa vo "
+"verejnom portáli. Odstránenie vymaže iba ich vrátane troch vzorových riadkov "
+"zo starších verzií."
+
+#: includes/Admin/AdminDashboard.php:596
+msgid "Beispielrechnungen anlegen"
+msgstr "Vytvoriť ukážkové faktúry"
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:603
+#, php-format
+msgid "%d Beispielrechnung entfernen"
+msgid_plural "%d Beispielrechnungen entfernen"
+msgstr[0] "Odstrániť %d ukážkovú faktúru"
+msgstr[1] "Odstrániť %d ukážkové faktúry"
+msgstr[2] "Odstrániť %d ukážkových faktúr"
+
+#: includes/Admin/AdminDashboard.php:620
+msgid "Beispiel"
+msgstr "Ukážka"
+
+#: includes/Admin/AdminDashboard.php:623
+msgid "Erzeugt, nicht versendet"
+msgstr "Vytvorená, neodoslaná"
+
+#: includes/Admin/AdminDashboard.php:624
+msgid "An Phase4 übergeben"
+msgstr "Odovzdaná do Phase4"
+
+#: includes/Admin/AdminDashboard.php:625
+msgid "Zugestellt (Quittung)"
+msgstr "Doručená (potvrdenie)"
+
+#: includes/Admin/AdminDashboard.php:626
+msgid "Zustellung fehlgeschlagen"
+msgstr "Doručenie zlyhalo"
+
+#: includes/Admin/AdminDashboard.php:627
+msgid "Versand fehlgeschlagen"
+msgstr "Odoslanie zlyhalo"
+
+#. translators: %s: link to the settings tab
+#: includes/Admin/AdminDashboard.php:637
+#, php-format
+msgid "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s"
+msgstr "Bez úplných údajov predávajúceho sa faktúra nevytvorí. %s"
+
+#: includes/Admin/AdminDashboard.php:644
+msgid "Käuferreferenz (BT-10), z. B. die Leitweg-ID"
+msgstr "Referencia kupujúceho (BT-10), napr. Leitweg-ID"
+
+#: includes/Admin/AdminDashboard.php:645
+msgid "Name des Käufers"
+msgstr "Názov kupujúceho"
+
+#: includes/Admin/AdminDashboard.php:646 includes/Admin/AdminDashboard.php:682
+msgid "Straße"
+msgstr "Ulica"
+
+#: includes/Admin/AdminDashboard.php:647 includes/Admin/AdminDashboard.php:683
+msgid "Postleitzahl"
+msgstr "PSČ"
+
+#: includes/Admin/AdminDashboard.php:648 includes/Admin/AdminDashboard.php:684
+msgid "Ort"
+msgstr "Mesto"
+
+#: includes/Admin/AdminDashboard.php:649 includes/Admin/AdminDashboard.php:685
+msgid "Land (zweistelliger Code)"
+msgstr "Krajina (dvojpísmenový kód)"
+
+#: includes/Admin/AdminDashboard.php:650
+msgid "Peppol-ID des Käufers (Schema:Kennung)"
+msgstr "Peppol ID kupujúceho (schéma:identifikátor)"
+
+#: includes/Admin/AdminDashboard.php:651
+msgid "USt-IdNr. des Käufers (optional)"
+msgstr "IČ DPH kupujúceho (voliteľné)"
+
+#: includes/Admin/AdminDashboard.php:652
+msgid "Bezeichnung der Leistung"
+msgstr "Opis plnenia"
+
+#: includes/Admin/AdminDashboard.php:653
+msgid "Menge"
+msgstr "Množstvo"
+
+#: includes/Admin/AdminDashboard.php:654
+msgid "Nettopreis je Einheit"
+msgstr "Jednotková cena bez DPH"
+
+#: includes/Admin/AdminDashboard.php:655
+msgid "Umsatzsteuersatz in Prozent"
+msgstr "Sadzba DPH v percentách"
+
+#: includes/Admin/AdminDashboard.php:660
+msgid ""
+"Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet "
+"wird nichts; Verkäuferdaten kommen aus den Einstellungen."
+msgstr ""
+"Vytvorí jednoriadkovú faktúru UBL a uloží ju. Nič sa neodosiela; údaje "
+"predávajúceho pochádzajú z nastavení."
+
+#: includes/Admin/AdminDashboard.php:670
+msgid "Rechnung erzeugen und speichern"
+msgstr "Vytvoriť a uložiť faktúru"
+
+#: includes/Admin/AdminDashboard.php:679
+msgid "Peppol-ID des Verkäufers (Schema:Kennung)"
+msgstr "Peppol ID predávajúceho (schéma:identifikátor)"
+
+#: includes/Admin/AdminDashboard.php:680
+msgid "Name"
+msgstr "Názov"
+
+#: includes/Admin/AdminDashboard.php:681
+msgid "Rechtlicher Name (leer: wie Name)"
+msgstr "Obchodné meno (prázdne: rovnaké ako Názov)"
+
+#: includes/Admin/AdminDashboard.php:686
+msgid "USt-IdNr."
+msgstr "IČ DPH"
+
+#: includes/Admin/AdminDashboard.php:687
+msgid "Registernummer (optional)"
+msgstr "Registračné číslo / IČO (voliteľné)"
+
+#: includes/Admin/AdminDashboard.php:688
+msgid "IBAN für Zahlung per Überweisung"
+msgstr "IBAN pre platbu prevodom"
+
+#: includes/Admin/AdminDashboard.php:697
+msgid "Verkäufer"
+msgstr "Predávajúci"
+
+#: includes/Admin/AdminDashboard.php:698
+msgid ""
+"Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, "
+"erzeugt das Plugin keine Rechnung."
+msgstr ""
+"Tieto údaje sú uvedené na každej vytvorenej faktúre. Ak chýba povinný údaj, "
+"plugin faktúru nevytvorí."
+
+#: includes/Admin/AdminDashboard.php:706
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:309
+msgid "Versand"
+msgstr "Odosielanie"
+
+#: includes/Admin/AdminDashboard.php:707
+msgid ""
+"Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine "
+"der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL "
+"und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang."
+msgstr ""
+"Obe služby sú samostatné programy mimo pluginu. Kým chýba niektorá adresa, "
+"nič sa neodosiela. Konštanty WM_PEPPOL_KOSIT_URL a WM_PEPPOL_PHASE4_URL vo "
+"wp-config.php majú prednosť."
+
+#: includes/Admin/AdminDashboard.php:709
+msgid "Adresse des KoSIT-Validators"
+msgstr "Adresa validátora KoSIT"
+
+#: includes/Admin/AdminDashboard.php:713
+msgid "Adresse des Phase4-Dienstes"
+msgstr "Adresa služby Phase4"
+
+#: includes/Admin/AdminDashboard.php:722
+msgid ""
+"Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur "
+"werden angenommen."
+msgstr ""
+"Zdieľané tajomstvo je nastavené; potvrdenia s platným podpisom sú prijímané."
+
+#: includes/Admin/AdminDashboard.php:723
+msgid ""
+"Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen "
+"per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update "
+"wm_peppol_receipt_secret."
+msgstr ""
+"Zdieľané tajomstvo nie je nastavené; všetky potvrdenia sa odmietajú. "
+"Nastavte konštantou WM_PEPPOL_RECEIPT_SECRET alebo wp option update "
+"wm_peppol_receipt_secret."
+
+#: includes/Admin/AdminDashboard.php:728
+msgid ""
+"Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)"
+msgstr "Povolené odtlačky certifikátov pre potvrdenia AS4 (SHA-256, voliteľné)"
+
+#: includes/Admin/AdminDashboard.php:730
+msgid ""
+"Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-"
+"Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der "
+"wp-config.php hat Vorrang."
+msgstr ""
+"Čiarkami oddelené 64-znakové odtlačky SHA-256 očakávaných podpisových "
+"certifikátov prístupového bodu. Prednosť má konštanta "
+"WM_PEPPOL_TRUSTED_SIGNER_SHA256 v súbore wp-config.php."
+
+#: includes/Admin/AdminDashboard.php:733
+msgid "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)"
+msgstr ""
+"Lokálny balík certifikátov CA vo formáte PEM (PKI OpenPeppol, voliteľné)"
+
+#: includes/Admin/AdminDashboard.php:735
+msgid ""
+"Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-"
+"Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten "
+"WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang."
+msgstr ""
+"Jeden alebo viac dôveryhodných koreňových a sprostredkujúcich certifikátov "
+"vo formáte PEM na čisto lokálnu kontrolu reťazca bez prístupu k sieti. "
+"Prednosť majú konštanty WM_PEPPOL_TRUST_BUNDLE_PEM a "
+"WM_PEPPOL_TRUST_BUNDLE_FILE."
+
+#: includes/Admin/AdminDashboard.php:740
+msgid ""
+"AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel "
+"ablehnen"
+msgstr ""
+"Odmietať potvrdenia AS4, ak nie je uložený odtlačok ani balík certifikátov CA"
+
+#: includes/Admin/AdminDashboard.php:742
+msgid ""
+"Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, "
+"werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 "
+"abgewiesen."
+msgstr ""
+"Ak je zapnuté alebo nastavené konštantou WM_PEPPOL_REQUIRE_TRUST_ANCHOR, "
+"potvrdenia podpísané samými sebou alebo bez kotvy dôvery sa odmietnu s HTTP "
+"422."
+
+#: includes/Admin/AdminDashboard.php:745
+msgid "Deinstallation"
+msgstr "Odinštalovanie"
+
+#: includes/Admin/AdminDashboard.php:749
+msgid ""
+"Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen "
+"unwiderruflich löschen"
+msgstr ""
+"Pri odinštalovaní pluginu nenávratne vymazať všetky nastavenia a tri "
+"databázové tabuľky"
+
+#: includes/Admin/AdminDashboard.php:751
+msgid ""
+"Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das "
+"Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt "
+"wird."
+msgstr ""
+"Štandardne zostávajú všetky uložené faktúry, prenosy, register potvrdení a "
+"nastavenia pri odstránení pluginu zachované."
+
+#: includes/Admin/AdminDashboard.php:754
+msgid "Einstellungen speichern"
+msgstr "Uložiť nastavenia"
+
+#: includes/Admin/AdminDashboard.php:762
+msgid ""
+"Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS "
+"Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und "
+"Steuersatz."
+msgstr ""
+"Vytvára faktúry UBL 2.1 s identifikátorom Peppol BIS Billing 3.0 a rozpisom "
+"DPH podľa kategórie a sadzby."
+
+#: includes/Admin/AdminDashboard.php:763
+msgid ""
+"Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen."
+msgstr ""
+"Nevytvorí faktúru pri chýbajúcich povinných údajoch namiesto ich vymýšľania."
+
+#: includes/Admin/AdminDashboard.php:764
+msgid ""
+"Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine "
+"Schema- und keine Schematron-Prüfung."
+msgstr ""
+"Kontroluje povinné polia, kódy a súčtové pravidlá. Nejde o kontrolu XSD ani "
+"Schematron."
+
+#: includes/Admin/AdminDashboard.php:765
+msgid ""
+"Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-"
+"Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt "
+"signierte Empfangsquittungen an."
+msgstr ""
+"Odovzdáva faktúry dokončených objednávok WooCommerce validátoru KoSIT a "
+"službe Phase4, keď sú nastavené, a prijíma podpísané potvrdenia."
+
+#: includes/Admin/AdminDashboard.php:766
+msgid "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung."
+msgstr "Zobrazuje kupujúcim uložený stav faktúry v stavovom portáli."
+
+#: includes/Admin/AdminDashboard.php:769
+msgid ""
+"Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt "
+"der Phase4-Dienst."
+msgstr ""
+"Žiadny vlastný prenos, podpis ani šifrovanie AS4: zabezpečuje to služba "
+"Phase4."
+
+#: includes/Admin/AdminDashboard.php:770
+msgid ""
+"Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen."
+msgstr ""
+"Žiadne dobropisy v syntaxi UBL CreditNote a žiadne oslobodenia od dane."
+
+#: includes/Admin/AdminDashboard.php:771
+msgid ""
+"Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister "
+"bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, "
+"wenn dies in den Einstellungen ausdrücklich aktiviert wurde."
+msgstr ""
+"Žiadny exportný archív: uložené faktúry a register potvrdení zostávajú pri "
+"odinštalovaní štandardne zachované a vymažú sa len pri výslovnom zapnutí v "
+"nastaveniach."
+
+#: includes/Admin/AdminDashboard.php:781
+msgid "Was es nicht tut"
+msgstr "Čo nerobí"
+
+#: includes/API/RestController.php:148 includes/API/RestController.php:177
+msgid ""
+"Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut."
+msgstr "Príliš veľa požiadaviek z tejto adresy. Skúste to prosím neskôr."
+
+#: includes/API/RestController.php:189
+msgid "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich."
+msgstr "Číslo faktúry a Peppol ID kupujúceho sú povinné."
+
+#: includes/API/RestController.php:215 includes/Frontend/InvoicePortal.php:110
+msgid "Zu diesen Angaben liegt keine Rechnung vor."
+msgstr "Pre zadané údaje sa nenašla žiadna faktúra."
+
+#: includes/API/RestController.php:286
+msgid "Der Anfragekörper muss ein JSON-Objekt sein."
+msgstr "Telo požiadavky musí byť objekt JSON."
+
+#. translators: %d: row id
+#: includes/AS4/DeliveryRegister.php:135
+#, php-format
+msgid ""
+"Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder "
+"eingefügt."
+msgstr ""
+"Riadok %d neodkazuje na predchádzajúci riadok: riadok bol odstránený alebo "
+"vložený."
+
+#. translators: %d: row id
+#: includes/AS4/DeliveryRegister.php:157
+#, php-format
+msgid ""
+"Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von "
+"einer Installation mit anderen Schlüsseln."
+msgstr ""
+"Riadok %d bol po zápise zmenený alebo databáza pochádza z inštalácie s inými "
+"kľúčmi."
+
+#. translators: %d: size limit in bytes
+#: includes/AS4/ReceiptEvidence.php:89
+#, php-format
+msgid ""
+"Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, "
+"keine Nutzlast."
+msgstr "Potvrdenie presahuje %d bajtov; potvrdenie AS4 je signál, nie náklad."
+
+#: includes/AS4/ReceiptEvidence.php:110
+msgid "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage."
+msgstr "Dokument neobsahuje eb:Receipt v eb:SignalMessage."
+
+#: includes/AS4/ReceiptEvidence.php:137
+msgid "Die Quittung enthält kein prüfbares Signaturzertifikat."
+msgstr "Potvrdenie neobsahuje žiadny overiteľný podpisový certifikát."
+
+#: includes/AS4/ReceiptEvidence.php:200
+msgid ""
+"Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit "
+"einer signierten Quittung beantwortet werden."
+msgstr ""
+"Potvrdenie neobsahuje podpis XML. Podpísaná správa AS4 MUSÍ dostať podpísané "
+"potvrdenie."
+
+#: includes/AS4/ReceiptEvidence.php:209
+msgid ""
+"Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt."
+msgstr "Podpis je neúplný: chýba ds:SignedInfo alebo ds:SignatureValue."
+
+#: includes/AS4/ReceiptEvidence.php:212
+msgid ""
+"Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel "
+"ist sie nicht prüfbar."
+msgstr ""
+"Podpis neuvádza certifikát X.509; bez verejného kľúča ho nemožno overiť."
+
+#. translators: %s: signature algorithm identifier
+#: includes/AS4/ReceiptEvidence.php:222
+#, php-format
+msgid "Signaturverfahren %s wird von dieser Installation nicht geprüft."
+msgstr "Algoritmus podpisu %s táto inštalácia neoveruje."
+
+#: includes/AS4/ReceiptEvidence.php:251
+msgid "Das X.509-Zertifikat der Signatur ist nicht lesbar."
+msgstr "Certifikát X.509 podpisu nie je čitateľný."
+
+#: includes/AS4/ReceiptEvidence.php:269
+msgid "OpenSSL konnte die Signatur nicht prüfen."
+msgstr "OpenSSL nedokázal overiť podpis."
+
+#: includes/AS4/ReceiptEvidence.php:270
+msgid ""
+"Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem "
+"Signieren verändert oder mit einem anderen Schlüssel erzeugt."
+msgstr ""
+"Podpis nezodpovedá obsahu potvrdenia: bolo po podpise upravené alebo "
+"vytvorené iným kľúčom."
+
+#. translators: 1: references that matched, 2: references in total
+#: includes/AS4/ReceiptEvidence.php:291
+#, php-format
+msgid ""
+"Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum "
+"Inhalt: die Quittung wurde nach dem Signieren verändert."
+msgstr ""
+"Samotný podpis je platný, ale iba %1$d z %2$d odtlačkov sedí s obsahom: "
+"potvrdenie bolo po podpise zmenené."
+
+#: includes/AS4/ReceiptEvidence.php:308
+msgid "Das X.509-Zertifikat der Quittung ist abgelaufen."
+msgstr "Platnosť certifikátu X.509 potvrdenia vypršala."
+
+#: includes/AS4/ReceiptEvidence.php:322
+msgid "Das X.509-Zertifikat der Quittung ist noch nicht gültig."
+msgstr "Certifikát X.509 potvrdenia ešte nie je platný."
+
+#: includes/AS4/ReceiptEvidence.php:521
+msgid ""
+"Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel "
+"hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird."
+msgstr ""
+"Nie je uložený odtlačok certifikátu ani balík certifikátov CA, hoci je "
+"kontrola kotvy dôvery vynútená."
+
+#: includes/AS4/ReceiptEvidence.php:534
+msgid ""
+"Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten "
+"SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel."
+msgstr ""
+"Podpisový certifikát potvrdenia nezodpovedá žiadnemu uloženému odtlačku "
+"SHA-256 ani dôveryhodnému balíku certifikátov CA."
+
+#: includes/AS4/ReceiptEvidence.php:614
+msgid "Die Quittung ist kein wohlgeformtes XML."
+msgstr "Potvrdenie nie je dobre utvorené XML."
+
+#. translators: %d: HTTP status code
+#: includes/class-peppol-phase4-client.php:86
+#, php-format
+msgid "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d)."
+msgstr "Validátor KoSIT dokument neprijal (HTTP %d)."
+
+#: includes/class-peppol-phase4-client.php:105
+msgid "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung."
+msgstr "ID odosielateľa alebo príjemcu nemá tvar schéma:identifikátor."
+
+#. translators: %d: HTTP status code
+#: includes/class-peppol-phase4-client.php:132
+#, php-format
+msgid "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d)."
+msgstr "Služba Phase4 odoslanie odmietla (HTTP %d)."
+
+#: includes/class-peppol-phase4-client.php:138
+msgid ""
+"Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich "
+"keine Empfangsquittung zuordnen."
+msgstr ""
+"Služba Phase4 nevrátila messageId; bez neho nemožno priradiť potvrdenie."
+
+#: includes/class-peppol-phase4-client.php:146
+msgid ""
+"KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts "
+"versendet."
+msgstr "Validátor KoSIT a služba Phase4 nie sú nastavené; nič sa neodosiela."
+
+#: includes/class-peppol-webhook-receiver.php:165
+msgid ""
+"Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument "
+"als das versendete."
+msgstr ""
+"Potvrdenie je platne podpísané, ale týka sa iného dokumentu než odoslaného."
+
+#. translators: %s: message id
+#: includes/class-peppol-webhook-receiver.php:197
+#, php-format
+msgid "Peppol: Positive Empfangsquittung für messageId %s erhalten."
+msgstr "Peppol: Prijaté kladné potvrdenie o doručení pre messageId %s."
+
+#: includes/class-peppol-webhook-receiver.php:198
+msgid "Peppol-Empfangsquittung erhalten."
+msgstr "Potvrdenie o doručení Peppol prijaté."
+
+#. translators: 1: message id, 2: error text of the receipt
+#: includes/class-peppol-webhook-receiver.php:201
+#, php-format
+msgid "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s"
+msgstr "Peppol: Odoslanie zlyhalo (messageId %1$s): %2$s"
+
+#. translators: 1: message id, 2: error text of the receipt
+#: includes/class-peppol-webhook-receiver.php:201
+msgid "ohne Fehlerbeschreibung"
+msgstr "bez popisu chyby"
+
+#: includes/class-peppol-webhook-receiver.php:202
+msgid "Peppol-Versand fehlgeschlagen."
+msgstr "Odoslanie Peppol zlyhalo."
+
+#. translators: %s: comma separated rule identifiers
+#: includes/CLI/PeppolCommand.php:367
+#, php-format
+msgid ""
+"Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt "
+"noch als verletzt: %s"
+msgstr ""
+"Tieto pravidlá nebolo možné vyhodnotiť a nepočítajú sa ani ako splnené, ani "
+"ako porušené: %s"
+
+#. translators: %s: comma-separated list of missing PHP extensions
+#: includes/Database/Schema.php:42
+#, php-format
+msgid ""
+"WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende "
+"erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s."
+msgstr ""
+"WM Peppol AS4 Gateway sa nepodarilo aktivovať, pretože na tomto serveri "
+"chýbajú tieto požadované rozšírenia PHP: %s."
+
+#: includes/Database/Schema.php:46
+msgid "Fehlende PHP-Erweiterung"
+msgstr "Chýbajúce rozšírenie PHP"
+
+#: includes/Discovery/SmpClient.php:127
+msgid "Kein Peppol-Teilnehmerbezeichner angegeben."
+msgstr "Nebol zadaný identifikátor účastníka Peppol."
+
+#. translators: %s: the identifier as given
+#: includes/Discovery/SmpClient.php:146
+#, php-format
+msgid ""
+"Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:"
+"<Kennung>, zum Beispiel 9930:DE123456789."
+msgstr ""
+"Identifikátor \"%s\" nemá tvar <štvormiestna schéma EAS>:<identifikátor>, "
+"napr. 9930:DE123456789."
+
+#: includes/Discovery/SmpClient.php:154
+msgid ""
+"Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht "
+"vorkommen dürfen."
+msgstr "Schéma identifikátora obsahuje znaky nepovolené v názve DNS."
+
+#. translators: %s: DNS name that was asked
+#: includes/Discovery/SmpClient.php:216
+#, php-format
+msgid ""
+"Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone "
+"nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen."
+msgstr ""
+"Pre %s neexistuje záznam NAPTR: účastník nie je v tejto zóne SML "
+"registrovaný alebo resolver neodpovedá na dotazy NAPTR."
+
+#. translators: %s: DNS name that was asked
+#: includes/Discovery/SmpClient.php:244
+#, php-format
+msgid ""
+"Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer "
+"URL)."
+msgstr "Záznam NAPTR pre %s neuvádza žiadny SMP (služba \"Meta:SMP\" s URL)."
+
+#. translators: 1: participant id, 2: document type
+#: includes/Discovery/SmpClient.php:332
+#, php-format
+msgid ""
+"Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: "
+"dieser Empfänger nimmt dieses Dokument nicht entgegen."
+msgstr ""
+"SMP pozná účastníka %1$s, ale nie pre typ dokumentu %2$s: príjemca tento "
+"dokument neprijíma."
+
+#. translators: 1: HTTP status, 2: SMP URL
+#: includes/Discovery/SmpClient.php:345
+#, php-format
+msgid "Der SMP antwortete mit HTTP %1$d auf %2$s."
+msgstr "SMP odpovedal kódom HTTP %1$d na %2$s."
+
+#: includes/Discovery/SmpClient.php:384
+msgid "Der SMP lieferte einen leeren Körper."
+msgstr "SMP vrátil prázdne telo."
+
+#: includes/Discovery/SmpClient.php:394
+msgid "Die Antwort des SMP ist kein wohlgeformtes XML."
+msgstr "Odpoveď SMP nie je dobre utvorené XML."
+
+#. translators: %s: the AS4 transport profile that was looked for
+#: includes/Discovery/SmpClient.php:445
+#, php-format
+msgid "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s."
+msgstr "Odpoveď SMP neobsahuje koncový bod s transportným profilom %s."
+
+#: includes/Frontend/DynamicBindings.php:41
+#: includes/Frontend/DynamicBindings.php:55
+msgid "Peppol-Gateway-Status"
+msgstr "Stav Peppol Gateway"
+
+#: includes/Frontend/DynamicBindings.php:117
+msgid "Tabellen des Plugins fehlen"
+msgstr "Tabuľky pluginu chýbajú"
+
+#: includes/Frontend/DynamicBindings.php:125
+msgid "KoSIT-Validator und Phase4-Dienst konfiguriert"
+msgstr "Validátor KoSIT a služba Phase4 nastavené"
+
+#: includes/Frontend/DynamicBindings.php:126
+msgid "Versand nicht konfiguriert"
+msgstr "Odosielanie nenastavené"
+
+#. translators: 1: stored invoices count, 2: delivered receipts count
+#: includes/Frontend/DynamicBindings.php:129
+#, php-format
+msgid "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen"
+msgstr "%1$d uložených faktúr, %2$d potvrdení o doručení"
+
+#: includes/Frontend/InvoicePortal.php:109
+msgid "Status wird abgefragt …"
+msgstr "Zisťuje sa stav …"
+
+#: includes/Frontend/InvoicePortal.php:111
+msgid "Rechnung gefunden"
+msgstr "Faktúra nájdená"
+
+#: includes/Frontend/InvoicePortal.php:112
+msgid "Die Abfrage ist fehlgeschlagen."
+msgstr "Dopyt zlyhal."
+
+#: includes/Frontend/InvoicePortal.php:113
+msgid "Gespeicherter Status"
+msgstr "Uložený stav"
+
+#: includes/Frontend/InvoicePortal.php:114
+msgid "Übergabe an Phase4"
+msgstr "Odovzdanie do Phase4"
+
+#: includes/Frontend/InvoicePortal.php:115
+msgid "keine Übergabe erfasst"
+msgstr "žiadne odovzdanie neevidované"
+
+#: includes/Frontend/InvoicePortal.php:116
+msgid "Empfangsquittung"
+msgstr "Potvrdenie o doručení"
+
+#: includes/Frontend/InvoicePortal.php:117
+msgid "liegt vor"
+msgstr "k dispozícii"
+
+#: includes/Frontend/InvoicePortal.php:118
+msgid "liegt nicht vor"
+msgstr "nie je k dispozícii"
+
+#: includes/Frontend/InvoicePortal.php:119
+msgid "Fehlercode der Übertragung"
+msgstr "Chybový kód prenosu"
+
+#: includes/Frontend/InvoicePortal.php:122
+msgid "SHA-256 des gespeicherten XML"
+msgstr "SHA-256 uloženého XML"
+
+#: includes/Frontend/InvoicePortal.php:128
+#: includes/Frontend/InvoicePortal.php:130
+msgid "Rechnungsstatus abfragen"
+msgstr "Overiť stav faktúry"
+
+#: includes/Frontend/InvoicePortal.php:133
+msgid ""
+"Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in "
+"diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN "
+"16931 geprüft noch zum Herunterladen angeboten."
+msgstr ""
+"Zadajte číslo faktúry a svoje Peppol ID. Zobrazí sa stav uložený v tomto "
+"systéme. Dokument sa tu neoveruje podľa EN 16931 ani neponúka na stiahnutie."
+
+#: includes/Frontend/InvoicePortal.php:143
+msgid "Ihre Peppol-ID"
+msgstr "Vaše Peppol ID"
+
+#: includes/Frontend/InvoicePortal.php:144
+msgid "Schema:Kennung"
+msgstr "schéma:identifikátor"
+
+#: includes/Frontend/InvoicePortal.php:147
+msgid "Status abfragen"
+msgstr "Overiť stav"
+
+#: includes/UBL/InvoiceDataException.php:52
+msgid "Die Rechnungsnummer fehlt."
+msgstr "Chýba číslo faktúry."
+
+#: includes/UBL/InvoiceDataException.php:53
+msgid ""
+"Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine "
+"Bestellreferenz angegeben ist."
+msgstr ""
+"Chýba referencia kupujúceho (BT-10); Peppol BIS ju vyžaduje, ak nie je "
+"uvedená referencia objednávky."
+
+#: includes/UBL/InvoiceDataException.php:54
+msgid "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT."
+msgstr "Dátum faktúry nemá formát RRRR-MM-DD."
+
+#: includes/UBL/InvoiceDataException.php:55
+msgid "Es fehlen Rechnungspositionen oder ein Betrag."
+msgstr "Chýbajú položky faktúry alebo suma."
+
+#: includes/UBL/InvoiceDataException.php:56
+msgid "Ein Betrag ist keine Zahl."
+msgstr "Suma nie je číslo."
+
+#: includes/UBL/InvoiceDataException.php:57
+msgid "Eine Position hat keine Bezeichnung."
+msgstr "Položka nemá názov."
+
+#: includes/UBL/InvoiceDataException.php:58
+msgid "Ein Steuersatz ist negativ."
+msgstr "Sadzba dane je záporná."
+
+#: includes/UBL/InvoiceDataException.php:59
+msgid "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen."
+msgstr "Kód typu faktúry nie je v zozname Peppol pre faktúry."
+
+#: includes/UBL/InvoiceDataException.php:60
+msgid ""
+"Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser "
+"Generator nicht erzeugt."
+msgstr ""
+"Dobropis (typ 381) vyžaduje syntax UBL CreditNote, ktorú tento generátor "
+"nevytvára."
+
+#: includes/UBL/InvoiceDataException.php:61
+msgid "Der Währungscode muss aus drei Großbuchstaben bestehen."
+msgstr "Kód meny musí pozostávať z troch veľkých písmen."
+
+#: includes/UBL/InvoiceDataException.php:62
+msgid "Die Peppol-ID des Verkäufers fehlt."
+msgstr "Chýba Peppol ID predávajúceho."
+
+#: includes/UBL/InvoiceDataException.php:63
+msgid "Der Name des Verkäufers fehlt."
+msgstr "Chýba názov predávajúceho."
+
+#: includes/UBL/InvoiceDataException.php:64
+msgid "Die Straße des Verkäufers fehlt."
+msgstr "Chýba ulica predávajúceho."
+
+#: includes/UBL/InvoiceDataException.php:65
+msgid "Der Ort des Verkäufers fehlt."
+msgstr "Chýba mesto predávajúceho."
+
+#: includes/UBL/InvoiceDataException.php:66
+msgid "Die Postleitzahl des Verkäufers fehlt."
+msgstr "Chýba PSČ predávajúceho."
+
+#: includes/UBL/InvoiceDataException.php:67
+msgid "Das Land des Verkäufers fehlt."
+msgstr "Chýba krajina predávajúceho."
+
+#: includes/UBL/InvoiceDataException.php:68
+msgid "Die USt-IdNr. des Verkäufers fehlt."
+msgstr "Chýba IČ DPH predávajúceho."
+
+#: includes/UBL/InvoiceDataException.php:69
+msgid ""
+"Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung "
+"(vierstelliges Schema)."
+msgstr ""
+"Peppol ID predávajúceho nemá tvar schéma:identifikátor (štvormiestna schéma)."
+
+#: includes/UBL/InvoiceDataException.php:70
+msgid "Das Land des Verkäufers muss ein zweistelliger Ländercode sein."
+msgstr "Krajina predávajúceho musí byť dvojpísmenový kód krajiny."
+
+#: includes/UBL/InvoiceDataException.php:71
+msgid ""
+"Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen "
+"Ländercode."
+msgstr "IČ DPH predávajúceho sa nezačína dvojpísmenovým kódom krajiny."
+
+#: includes/UBL/InvoiceDataException.php:72
+msgid "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers."
+msgstr "Pre platbu prevodom chýba IBAN predávajúceho."
+
+#: includes/UBL/InvoiceDataException.php:73
+msgid "Die Peppol-ID des Käufers fehlt."
+msgstr "Chýba Peppol ID kupujúceho."
+
+#: includes/UBL/InvoiceDataException.php:74
+msgid "Der Name des Käufers fehlt."
+msgstr "Chýba názov kupujúceho."
+
+#: includes/UBL/InvoiceDataException.php:75
+msgid "Das Land des Käufers fehlt."
+msgstr "Chýba krajina kupujúceho."
+
+#: includes/UBL/InvoiceDataException.php:76
+msgid ""
+"Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges "
+"Schema)."
+msgstr ""
+"Peppol ID kupujúceho nemá tvar schéma:identifikátor (štvormiestna schéma)."
+
+#: includes/UBL/InvoiceDataException.php:77
+msgid "Das Land des Käufers muss ein zweistelliger Ländercode sein."
+msgstr "Krajina kupujúceho musí byť dvojpísmenový kód krajiny."
+
+#: includes/UBL/InvoiceDataException.php:78
+msgid ""
+"Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode."
+msgstr "IČ DPH kupujúceho sa nezačína dvojpísmenovým kódom krajiny."
+
+#: includes/UBL/InvoiceDataException.php:79
+msgid ""
+"Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen "
+"Steuersatz über null."
+msgstr ""
+"Položka alebo prirážka/zľava s kategóriou DPH S nemá sadzbu vyššiu ako nula."
+
+#: includes/Validation/SchematronValidator.php:102
+msgid ""
+"Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu "
+"prüfen."
+msgstr ""
+"Súbor nie je dobre utvorené XML; pred kontrolou pravidiel nemožno nič overiť."
+
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:87
+msgid ""
+"Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; "
+"es wurde keine E-Rechnung erzeugt."
+msgstr ""
+"Peppol: Objednávka má Leitweg-ID, ale žiadne Peppol ID príjemcu; e-faktúra "
+"nebola vytvorená."
+
+#. translators: 1: order total, 2: total of the document
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:116
+#, php-format
+msgid ""
+"Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s "
+"weichen um mehr als die Rundung ab."
+msgstr ""
+"Peppol: E-faktúra nevytvorená. Suma objednávky %1$s a suma faktúry %2$s sa "
+"líšia o viac než zaokrúhlenie."
+
+#. translators: %s: list of missing or invalid data
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:124
+#, php-format
+msgid "Peppol: E-Rechnung nicht erzeugt. %s"
+msgstr "Peppol: E-faktúra nevytvorená. %s"
+
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:148
+msgid "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden."
+msgstr "Peppol: Vytvorenú e-faktúru sa nepodarilo uložiť."
+
+#. translators: %s: invoice number
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:161
+#, php-format
+msgid "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant."
+msgstr "Peppol: E-faktúra %s vytvorená; odoslanie je naplánované."
+
+#. translators: %s: invoice number
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:164
+#, php-format
+msgid ""
+"Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-"
+"Validator und Phase4-Dienst sind nicht konfiguriert."
+msgstr ""
+"Peppol: E-faktúra %s vytvorená a uložená, neodoslaná: KoSIT a Phase4 nie sú "
+"nastavené."
+
+#. translators: 1: number of fatal findings, 2: rule identifiers
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:207
+#, php-format
+msgid "EN 16931: %1$d fatale Regelbefunde (%2$s)."
+msgstr "EN 16931: %1$d závažných zistení pravidiel (%2$s)."
+
+#. translators: 1: number of fatal findings, 2: rule identifiers
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:219
+#, php-format
+msgid ""
+"Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). "
+"Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 "
+"setzen."
+msgstr ""
+"Peppol: Kontrola EN 16931 hlási %1$d závažných zistení (%2$s). Odosiela sa "
+"napriek tomu; pre blokovanie nastavte \"wm_peppol_schematron_gate\" na 1."
+
+#. translators: 1: invoice number, 2: message id
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:262
+#, php-format
+msgid ""
+"Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). "
+"Zugestellt ist sie erst mit der Empfangsquittung."
+msgstr ""
+"Peppol: E-faktúra %1$s odovzdaná službe Phase4 (messageId %2$s). Doručená je "
+"až s potvrdením."
+
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:309
+msgid "Gebühr"
+msgstr "Poplatok"
+
+#. translators: %s: order item name
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:361
+#, php-format
+msgid ""
+"Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; "
+"Steuerbefreiungen bildet das Plugin nicht ab."
+msgstr ""
+"Peppol: E-faktúra nevytvorená. Položka \"%s\" je bez DPH; oslobodenia od "
+"dane plugin nepodporuje."
+
+#. translators: %s: order item name
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:363
+#, php-format
+msgid "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze."
+msgstr "Peppol: E-faktúra nevytvorená. Položka \"%s\" má viacero sadzieb DPH."
+
+#. translators: 1: invoice number, 2: reason
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:399
+#, php-format
+msgid "Peppol: E-Rechnung %1$s nicht versendet. %2$s"
+msgstr "Peppol: E-faktúra %1$s neodoslaná. %2$s"
+
+#: wm-peppol-as4-gateway.php:101
+msgid "Peppol-E-Rechnung"
+msgstr "E-faktúra Peppol"
+
+#: wm-peppol-as4-gateway.php:104
+msgid "Peppol-Empfänger-ID (Schema:Kennung)"
+msgstr "Peppol ID príjemcu (schéma:identifikátor)"
+
+#: wm-peppol-as4-gateway.php:110
+msgid "Leitweg-ID (öffentliche Auftraggeber)"
+msgstr "Leitweg-ID (verejní obstarávatelia)"
+
+#: wm-peppol-as4-gateway.php:116
+msgid "Käuferreferenz (wenn keine Leitweg-ID)"
+msgstr "Referencia kupujúceho (ak chýba Leitweg-ID)"
+
+#: wm-peppol-as4-gateway.php:140
+msgid ""
+"Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre "
+"Prüfziffer stimmt nicht; sie wurde nicht gespeichert."
+msgstr ""
+"Leitweg-ID nespĺňa špecifikáciu KoSIT alebo nesedí kontrolné číslo; "
+"neuložené."
+
+#: wm-peppol-as4-gateway.php:149
+msgid ""
+"Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem "
+"Schema; sie wurde nicht gespeichert."
+msgstr ""
+"Peppol ID príjemcu nemá tvar schéma:identifikátor so štvormiestnou schémou; "
+"neuložené."
+
+#: blocks-src/index.js:25
+msgid "Portal-Darstellung"
+msgstr "Zobrazenie portálu"
+
+#: blocks-src/index.js:29
+msgid "Überschrift anzeigen"
+msgstr "Zobraziť nadpis"
+
+#: blocks-src/index.js:36
+msgid "Einleitungstext anzeigen"
+msgstr "Zobraziť úvodný text"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block title"
+msgid "Peppol-Rechnungsstatus-Portal"
+msgstr "Portál stavu faktúr Peppol"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block description"
+msgid ""
+"Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen "
+"anhand von Rechnungsnummer und Peppol-ID."
+msgstr ""
+"Verejný portál na overenie uložených e-faktúr Peppol podľa čísla faktúry a "
+"Peppol ID."
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "peppol"
+msgstr "peppol"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "invoice"
+msgstr "faktura"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "e-rechnung"
+msgstr "e-faktura"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "ubl"
+msgstr "ubl"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "status"
+msgstr "stav"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

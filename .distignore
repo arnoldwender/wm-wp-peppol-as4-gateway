@@ -1,0 +1,49 @@
+.git
+.gitignore
+.distignore
+.github
+.claude
+.remember
+CLAUDE.md
+AGENTS.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+tests/
+docs/
+*.zip
+phpunit.xml
+phpunit.xml.dist
+package.json
+package-lock.json
+composer.json
+composer.lock
+node_modules/
+vendor/
+# added 2026-09-14 (fleet hackaton): keep tooling and caches out of the ZIP
+.DS_Store
+.phpunit.cache
+.phpunit.result.cache
+*.log
+# added 2026-09-14: local Phase4/KoSIT microservices, never part of the plugin ZIP
+docker-compose.yml
+# added 2026-09-15: marketing images referenced nowhere, showing a certified access point, PKI status and receipts
+# the plugin does not have. Delete or replace is Arnold's decision; until then they stay out of the ZIP.
+assets/images/
+# added 2026-09-16: the Schematron compiler and the conformance corpus are build and gate tooling.
+# includes/Validation/En16931RuleSet.php IS shipped; it is what the plugin evaluates.
+tools/
+# added 2026-09-17: the licence-gate allowlist is repository tooling. Plugin Check reported it as
+# hidden_files (an ERROR) in the distribution view; every other plugin of the fleet already excludes it.
+.license-allowlist.yml
+.wordpress-org
+.editorconfig
+.eslintrc*
+eslint.config.*
+tsconfig.json
+vitest.config.*
+blocks-src/
+scripts/
+SECURITY.md
+versionen/
+SUPPORT.md
+versionen

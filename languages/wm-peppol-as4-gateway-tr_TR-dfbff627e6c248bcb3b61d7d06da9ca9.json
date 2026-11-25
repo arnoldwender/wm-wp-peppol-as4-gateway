@@ -1,0 +1,732 @@
+{
+  "translation-revision-date": "2026-11-21T15:24:44+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-peppol-as4-gateway",
+        "lang": "tr_TR",
+        "plural-forms": "nplurals=2; plural=(n > 1);"
+      },
+      "WM Peppol AS4 Gateway": [
+        "WM Peppol AS4 Gateway"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+      ],
+      "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst.": [
+        "Peppol BIS Billing 3.0 kapsamında UBL 2.1 faturaları oluşturur, resmi EN 16931 kural setine göre denetler, SML ve SMP üzerinden alıcıyı bulur, tamamlanan WooCommerce siparişlerinin faturalarını yapılandırılmış KoSIT doğrulayıcısı ve Phase4 hizmetine iletir, imzalı AS4 alındısını doğrular ve alıcılara kayıtlı durumu gösterir. Dahili AS4 iletimi yoktur: iletimi Phase4 üstlenir."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Unbekannte Spoke-Aktion \"%s\".": [
+        "Bilinmeyen modül eylemi \"%s\"."
+      ],
+      "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s).": [
+        "Öz test yapılamıyor: satıcı bilgileri eksik (%s)."
+      ],
+      "Testdokument von den Strukturprüfungen abgelehnt: %s": [
+        "Test belgesi yapısal denetimler tarafından reddedildi: %s"
+      ],
+      "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung.": [
+        "Test belgesi oluşturuldu (%d bayt) ve eklentinin yapısal denetimlerince kabul edildi. Kaydedilmedi, gönderilmedi, şema veya Schematron denetimi yapılmadı."
+      ],
+      "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren.": [
+        "Eklentinin veritabanı tabloları eksik. Lütfen eklentiyi devre dışı bırakıp yeniden etkinleştirin."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden.": [
+        "Satıcı bilgileri eksik: e-fatura oluşturulamaz."
+      ],
+      "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert.": [
+        "Satıcı bilgileri eksiksiz. KoSIT doğrulayıcısı ve Phase4 hizmeti yapılandırılmış."
+      ],
+      "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert.": [
+        "Satıcı bilgileri eksiksiz. Gönderim yapılandırılmamış: faturalar yalnızca kaydedilir."
+      ],
+      "Gespeicherte Rechnungen": [
+        "Kaydedilen faturalar"
+      ],
+      "Übergaben an Phase4": [
+        "Phase4 aktarımları"
+      ],
+      "Empfangsquittungen": [
+        "Teslim alındıları"
+      ],
+      "Peppol Gateway öffnen": [
+        "Peppol Gateway'i aç"
+      ],
+      "Peppol Gateway": [
+        "Peppol Gateway"
+      ],
+      "%d Beispielrechnung angelegt.": [
+        "%d örnek fatura oluşturuldu.",
+        "%d örnek fatura oluşturuldu."
+      ],
+      "%d Beispielrechnung entfernt.": [
+        "%d örnek fatura kaldırıldı.",
+        "%d örnek fatura kaldırıldı."
+      ],
+      "Übersicht": [
+        "Genel Bakış"
+      ],
+      "Rechnung erzeugen": [
+        "Fatura Oluştur"
+      ],
+      "Einstellungen": [
+        "Ayarlar"
+      ],
+      "Was das Plugin tut": [
+        "Eklenti ne yapar"
+      ],
+      "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben.": [
+        "Peppol BIS Billing 3.0 uyarınca UBL 2.1 faturaları oluşturun, kaydedin ve yapılandırılmış Phase4 hizmetine aktarın."
+      ],
+      "Part of the WM Suite plugin family": [
+        "WM Suite eklenti ailesinin parçası"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Bağımsız"
+      ],
+      "Bereiche": [
+        "Bölümler"
+      ],
+      "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet.": [
+        "E-fatura oluşturuldu ve kaydedildi. Bu form üzerinden gönderilmez."
+      ],
+      "Die E-Rechnung wurde nicht erzeugt.": [
+        "E-fatura oluşturulamadı."
+      ],
+      "Eine Rechnung mit dieser Nummer ist bereits gespeichert.": [
+        "Bu numaraya sahip bir fatura zaten kayıtlı."
+      ],
+      "Die Rechnung wurde erzeugt, aber nicht gespeichert.": [
+        "Fatura oluşturuldu ancak kaydedilemedi."
+      ],
+      "Einstellungen gespeichert.": [
+        "Ayarlar kaydedildi."
+      ],
+      "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet.": [
+        "Örnek faturalar örnek olarak işaretlenir ve genel durum portalında gösterilmez."
+      ],
+      "Beispielrechnungen entfernt.": [
+        "Örnek faturalar kaldırıldı."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s": [
+        "Satıcı bilgileri eksik: e-fatura oluşturulamaz. %s"
+      ],
+      "Zu den Einstellungen": [
+        "Ayarlara git"
+      ],
+      "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben.": [
+        "Gönderim yapılandırılmamış: oluşturulan faturalar kaydedilir ancak aktarılmaz."
+      ],
+      "ohne %d Beispielrechnungen": [
+        "%d örnek fatura hariç"
+      ],
+      "mit messageId": [
+        "messageId ile"
+      ],
+      "positiv, per Webhook": [
+        "olumlu, webhook ile"
+      ],
+      "Verkäuferdaten": [
+        "Satıcı bilgileri"
+      ],
+      "vollständig": [
+        "eksiksiz"
+      ],
+      "für die Rechnungserzeugung": [
+        "fatura üretimi için"
+      ],
+      "Angaben fehlen": [
+        "eksik bilgi var"
+      ],
+      "Rechnungen": [
+        "Faturalar"
+      ],
+      "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status.": [
+        "Kaydedilmiş son 50 fatura ve kayıtlı durumları."
+      ],
+      "Rechnungsnummer": [
+        "Fatura numarası"
+      ],
+      "Peppol-ID des Käufers": [
+        "Alıcının Peppol kimliği"
+      ],
+      "Zahlbetrag": [
+        "Ödenecek tutar"
+      ],
+      "Status": [
+        "Durum"
+      ],
+      "Rechnungsdatum": [
+        "Fatura tarihi"
+      ],
+      "Noch keine Rechnungen gespeichert.": [
+        "Henüz kayıtlı fatura yok."
+      ],
+      "Beispielrechnungen": [
+        "Örnek faturalar"
+      ],
+      "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen.": [
+        "Örnek faturalar XML içermez, fatura olarak sayılmaz ve genel durum portalında bildirilmez. Kaldırma işlemi önceki sürümlerin üç örnek satırı dahil yalnızca bunları siler."
+      ],
+      "Beispielrechnungen anlegen": [
+        "Örnek fatura oluştur"
+      ],
+      "%d Beispielrechnung entfernen": [
+        "%d örnek faturayı kaldır",
+        "%d örnek faturayı kaldır"
+      ],
+      "Beispiel": [
+        "Örnek"
+      ],
+      "Erzeugt, nicht versendet": [
+        "Oluşturuldu, gönderilmedi"
+      ],
+      "An Phase4 übergeben": [
+        "Phase4'e aktarıldı"
+      ],
+      "Zugestellt (Quittung)": [
+        "Teslim edildi (alındı)"
+      ],
+      "Zustellung fehlgeschlagen": [
+        "Teslimat başarısız"
+      ],
+      "Versand fehlgeschlagen": [
+        "Gönderim başarısız"
+      ],
+      "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s": [
+        "Eksiksiz satıcı bilgileri olmadan fatura oluşturulmaz. %s"
+      ],
+      "Käuferreferenz (BT-10), z. B. die Leitweg-ID": [
+        "Alıcı referansı (BT-10), örn. Leitweg-ID"
+      ],
+      "Name des Käufers": [
+        "Alıcı adı"
+      ],
+      "Straße": [
+        "Sokak / Cadde"
+      ],
+      "Postleitzahl": [
+        "Posta kodu"
+      ],
+      "Ort": [
+        "Şehir"
+      ],
+      "Land (zweistelliger Code)": [
+        "Ülke (iki harfli kod)"
+      ],
+      "Peppol-ID des Käufers (Schema:Kennung)": [
+        "Alıcının Peppol kimliği (şema:tanımlayıcı)"
+      ],
+      "USt-IdNr. des Käufers (optional)": [
+        "Alıcı KDV numarası (isteğe bağlı)"
+      ],
+      "Bezeichnung der Leistung": [
+        "Hizmet veya kalem açıklaması"
+      ],
+      "Menge": [
+        "Miktar"
+      ],
+      "Nettopreis je Einheit": [
+        "Birim net fiyat"
+      ],
+      "Umsatzsteuersatz in Prozent": [
+        "Yüzde cinsinden KDV oranı"
+      ],
+      "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen.": [
+        "Tek kalemli bir UBL faturası oluşturur ve kaydeder. Hiçbir şey gönderilmez; satıcı bilgileri ayarlardan alınır."
+      ],
+      "Rechnung erzeugen und speichern": [
+        "Fatura oluştur ve kaydet"
+      ],
+      "Peppol-ID des Verkäufers (Schema:Kennung)": [
+        "Satıcının Peppol kimliği (şema:tanımlayıcı)"
+      ],
+      "Name": [
+        "Ad / Ünvan"
+      ],
+      "Rechtlicher Name (leer: wie Name)": [
+        "Resmi ticaret ünvanı (boşsa: Ad ile aynı)"
+      ],
+      "USt-IdNr.": [
+        "KDV Numarası"
+      ],
+      "Registernummer (optional)": [
+        "Ticaret sicil numarası (isteğe bağlı)"
+      ],
+      "IBAN für Zahlung per Überweisung": [
+        "Havale/EFT ödemesi için IBAN"
+      ],
+      "Verkäufer": [
+        "Satıcı"
+      ],
+      "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung.": [
+        "Bu bilgiler oluşturulan her faturada yer alır. Zorunlu bir bilgi eksikse eklenti fatura oluşturmaz."
+      ],
+      "Versand": [
+        "Gönderim"
+      ],
+      "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang.": [
+        "Her iki hizmet de eklenti dışında bağımsız programlardır. Adreslerden biri eksik olduğu sürece gönderim yapılmaz. wp-config.php içindeki WM_PEPPOL_KOSIT_URL ve WM_PEPPOL_PHASE4_URL sabitleri önceliklidir."
+      ],
+      "Adresse des KoSIT-Validators": [
+        "KoSIT doğrulayıcı adresi"
+      ],
+      "Adresse des Phase4-Dienstes": [
+        "Phase4 hizmet adresi"
+      ],
+      "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen.": [
+        "Paylaşılan gizli anahtar tanımlı; geçerli imzalı alındılar kabul edilir."
+      ],
+      "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret.": [
+        "Paylaşılan gizli anahtar tanımlı değil; tüm alındılar reddedilir. WM_PEPPOL_RECEIPT_SECRET sabiti veya wp option update wm_peppol_receipt_secret ile ayarlayın."
+      ],
+      "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)": [
+        "AS4 alındıları için izin verilen sertifika parmak izleri (SHA-256, isteğe bağlı)"
+      ],
+      "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang.": [
+        "Erişim noktasının beklenen imzalama sertifikalarına ait, virgülle ayrılmış 64 karakterlik SHA-256 parmak izleri. wp-config.php dosyasındaki WM_PEPPOL_TRUSTED_SIGNER_SHA256 sabiti önceliklidir."
+      ],
+      "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)": [
+        "PEM biçiminde yerel CA sertifika paketi (OpenPeppol PKI, isteğe bağlı)"
+      ],
+      "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang.": [
+        "Ağ erişimi olmadan tamamen yerel zincir denetimi için PEM biçiminde bir veya daha fazla güvenilir kök ve ara sertifika. WM_PEPPOL_TRUST_BUNDLE_PEM ve WM_PEPPOL_TRUST_BUNDLE_FILE sabitleri önceliklidir."
+      ],
+      "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen": [
+        "Kayıtlı parmak izi veya CA sertifika paketi yoksa AS4 alındılarını reddet"
+      ],
+      "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen.": [
+        "Etkinleştirildiğinde veya WM_PEPPOL_REQUIRE_TRUST_ANCHOR sabitiyle ayarlandığında, kendinden imzalı veya bir güven çapasına bağlı olmayan alındılar HTTP 422 ile reddedilir."
+      ],
+      "Deinstallation": [
+        "Kaldırma"
+      ],
+      "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen": [
+        "Eklenti kaldırılırken tüm eklenti seçeneklerini ve üç veritabanı tablosunu kalıcı olarak sil"
+      ],
+      "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird.": [
+        "Varsayılan olarak eklenti kaldırıldığında tüm kayıtlı faturalar, aktarımlar, alındı kaydı ve ayarlar korunur."
+      ],
+      "Einstellungen speichern": [
+        "Ayarları kaydet"
+      ],
+      "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz.": [
+        "Peppol BIS Billing 3.0 belirtim kimliğine ve vergi kategorisi ile oranına göre KDV dağılımına sahip UBL 2.1 faturaları üretir."
+      ],
+      "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen.": [
+        "Zorunlu veriler eksik olduğunda uydurma veri eklemek yerine fatura oluşturmayı reddeder."
+      ],
+      "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung.": [
+        "Zorunlu alanları, kodları ve toplam kurallarını denetler. Bu bir XSD şema veya Schematron doğrulaması değildir."
+      ],
+      "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an.": [
+        "Her ikisi de yapılandırıldığında tamamlanan WooCommerce siparişlerinin faturalarını KoSIT doğrulayıcısına ve Phase4 hizmetine iletir ve imzalı alındıları kabul eder."
+      ],
+      "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung.": [
+        "Durum portalında alıcılara faturanın kayıtlı durumunu gösterir."
+      ],
+      "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst.": [
+        "Kendi AS4 aktarımı, imzalaması veya şifrelemesi yoktur: bunu Phase4 hizmeti yapar."
+      ],
+      "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen.": [
+        "UBL CreditNote sözdiziminde alacak dekontu ve vergi istisnaları desteklenmez."
+      ],
+      "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde.": [
+        "Dışa aktarma arşivi yoktur: kayıtlı faturalar ve alındı defteri kaldırılırken varsayılan olarak korunur ve yalnızca ayarlarda açıkça etkinleştirildiğinde silinir."
+      ],
+      "Was es nicht tut": [
+        "Yapmadıkları"
+      ],
+      "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut.": [
+        "Bu adresten çok fazla sorgu yapıldı. Lütfen daha sonra tekrar deneyin."
+      ],
+      "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich.": [
+        "Fatura numarası ve alıcı Peppol kimliği zorunludur."
+      ],
+      "Zu diesen Angaben liegt keine Rechnung vor.": [
+        "Bu bilgilere ait kayıtlı fatura bulunamadı."
+      ],
+      "Der Anfragekörper muss ein JSON-Objekt sein.": [
+        "İstek gövdesi bir JSON nesnesi olmalıdır."
+      ],
+      "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt.": [
+        "%d. satır bir önceki satıra işaret etmiyor: bir satır silinmiş veya araya eklenmiş."
+      ],
+      "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln.": [
+        "%d. satır yazıldıktan sonra değiştirilmiş veya veritabanı farklı anahtarlara sahip bir kurulumdan geliyor."
+      ],
+      "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast.": [
+        "Alındı %d baytı aşıyor; AS4 alındısı bir sinyaldir, veri yükü değildir."
+      ],
+      "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage.": [
+        "Belge eb:SignalMessage içinde eb:Receipt içermiyor."
+      ],
+      "Die Quittung enthält kein prüfbares Signaturzertifikat.": [
+        "Alındı, denetlenebilir bir imzalama sertifikası içermiyor."
+      ],
+      "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden.": [
+        "Alındıda XML imzası yok. İmzalı bir AS4 iletisi imzalı bir alındıyla yanıtlanmalıdır."
+      ],
+      "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt.": [
+        "İmza eksik: ds:SignedInfo veya ds:SignatureValue bulunamadı."
+      ],
+      "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar.": [
+        "İmza X.509 sertifikası içermiyor; açık anahtar olmadan doğrulanamaz."
+      ],
+      "Signaturverfahren %s wird von dieser Installation nicht geprüft.": [
+        "%s imza algoritması bu kurulum tarafından doğrulanmıyor."
+      ],
+      "Das X.509-Zertifikat der Signatur ist nicht lesbar.": [
+        "İmzanın X.509 sertifikası okunamıyor."
+      ],
+      "OpenSSL konnte die Signatur nicht prüfen.": [
+        "OpenSSL imzayı doğrulayamadı."
+      ],
+      "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt.": [
+        "İmza alındı içeriğiyle eşleşmiyor: imzalandıktan sonra değiştirilmiş veya başka bir anahtarla oluşturulmuş."
+      ],
+      "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert.": [
+        "İmzanın kendisi geçerli, ancak %2$d özetten yalnızca %1$d tanesi içerikle eşleşiyor: alındı imzadan sonra değiştirilmiş."
+      ],
+      "Das X.509-Zertifikat der Quittung ist abgelaufen.": [
+        "Alındının X.509 sertifikasının süresi dolmuş."
+      ],
+      "Das X.509-Zertifikat der Quittung ist noch nicht gültig.": [
+        "Alındının X.509 sertifikası henüz geçerli değil."
+      ],
+      "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird.": [
+        "Güven çapası denetimi zorunlu olmasına rağmen ne bir sertifika parmak izi ne de bir CA sertifika paketi kayıtlı."
+      ],
+      "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel.": [
+        "Alındının imzalama sertifikası ne kayıtlı bir SHA-256 parmak iziyle ne de güvenilir bir CA sertifika paketiyle eşleşiyor."
+      ],
+      "Die Quittung ist kein wohlgeformtes XML.": [
+        "Alındı iyi biçimlendirilmiş XML değil."
+      ],
+      "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d).": [
+        "KoSIT doğrulayıcısı belgeyi kabul etmedi (HTTP %d)."
+      ],
+      "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung.": [
+        "Gönderici veya alıcı kimliği şema:tanımlayıcı biçiminde değil."
+      ],
+      "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d).": [
+        "Phase4 hizmeti gönderimi reddetti (HTTP %d)."
+      ],
+      "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen.": [
+        "Phase4 hizmeti messageId döndürmedi; onsuz teslim alındısı eşleştirilemez."
+      ],
+      "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet.": [
+        "KoSIT doğrulayıcısı ve Phase4 hizmeti yapılandırılmamış; hiçbir şey gönderilmez."
+      ],
+      "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete.": [
+        "Alındı geçerli biçimde imzalanmış ancak gönderilenden farklı bir belgeye ait."
+      ],
+      "Peppol: Positive Empfangsquittung für messageId %s erhalten.": [
+        "Peppol: messageId %s için olumlu teslim alındısı ulaştı."
+      ],
+      "Peppol-Empfangsquittung erhalten.": [
+        "Peppol teslim alındısı alındı."
+      ],
+      "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s": [
+        "Peppol: Gönderim başarısız (messageId %1$s): %2$s"
+      ],
+      "ohne Fehlerbeschreibung": [
+        "hata açıklaması yok"
+      ],
+      "Peppol-Versand fehlgeschlagen.": [
+        "Peppol gönderimi başarısız."
+      ],
+      "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s": [
+        "Bu kurallar değerlendirilemedi ve ne sağlanmış ne de ihlal edilmiş sayılır: %s"
+      ],
+      "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s.": [
+        "WM Peppol AS4 Gateway etkinleştirilemedi, çünkü bu sunucuda şu gerekli PHP uzantıları eksik: %s."
+      ],
+      "Fehlende PHP-Erweiterung": [
+        "Eksik PHP uzantısı"
+      ],
+      "Kein Peppol-Teilnehmerbezeichner angegeben.": [
+        "Peppol katılımcı tanımlayıcısı belirtilmedi."
+      ],
+      "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789.": [
+        "\"%s\" tanımlayıcısı <dört haneli EAS şeması>:<tanımlayıcı> biçiminde değil, örneğin 9930:DE123456789."
+      ],
+      "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen.": [
+        "Tanımlayıcı şeması DNS adında izin verilmeyen karakterler içeriyor."
+      ],
+      "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen.": [
+        "%s için NAPTR kaydı yok: katılımcı bu SML bölgesinde kayıtlı değil veya çözümleyici NAPTR sorgularını yanıtlamıyor."
+      ],
+      "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL).": [
+        "%s NAPTR kaydı bir SMP belirtmiyor (URL içeren \"Meta:SMP\" hizmeti)."
+      ],
+      "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen.": [
+        "SMP %1$s katılımcısını tanıyor ancak %2$s belge türü için tanımıyor: alıcı bu belgeyi kabul etmiyor."
+      ],
+      "Der SMP antwortete mit HTTP %1$d auf %2$s.": [
+        "SMP %2$s adresinde HTTP %1$d ile yanıt verdi."
+      ],
+      "Der SMP lieferte einen leeren Körper.": [
+        "SMP boş gövde döndürdü."
+      ],
+      "Die Antwort des SMP ist kein wohlgeformtes XML.": [
+        "SMP yanıtı iyi biçimlendirilmiş XML değil."
+      ],
+      "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s.": [
+        "SMP yanıtı %s taşıma profiline sahip uç nokta içermiyor."
+      ],
+      "Peppol-Gateway-Status": [
+        "Peppol Gateway Durumu"
+      ],
+      "Tabellen des Plugins fehlen": [
+        "Eklenti tabloları eksik"
+      ],
+      "KoSIT-Validator und Phase4-Dienst konfiguriert": [
+        "KoSIT doğrulayıcısı ve Phase4 hizmeti yapılandırıldı"
+      ],
+      "Versand nicht konfiguriert": [
+        "Gönderim yapılandırılmadı"
+      ],
+      "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen": [
+        "%1$d kayıtlı fatura, %2$d teslim alındısı"
+      ],
+      "Status wird abgefragt …": [
+        "Durum sorgulanıyor …"
+      ],
+      "Rechnung gefunden": [
+        "Fatura bulundu"
+      ],
+      "Die Abfrage ist fehlgeschlagen.": [
+        "Sorgulama başarısız oldu."
+      ],
+      "Gespeicherter Status": [
+        "Kayıtlı durum"
+      ],
+      "Übergabe an Phase4": [
+        "Phase4 aktarımı"
+      ],
+      "keine Übergabe erfasst": [
+        "kayıtlı aktarım yok"
+      ],
+      "Empfangsquittung": [
+        "Teslim alındısı"
+      ],
+      "liegt vor": [
+        "mevcut"
+      ],
+      "liegt nicht vor": [
+        "mevcut değil"
+      ],
+      "Fehlercode der Übertragung": [
+        "İletim hata kodu"
+      ],
+      "SHA-256 des gespeicherten XML": [
+        "Kayıtlı XML SHA-256 özeti"
+      ],
+      "Rechnungsstatus abfragen": [
+        "Fatura durumunu sorgula"
+      ],
+      "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten.": [
+        "Fatura numarasını ve Peppol kimliğinizi girin. Bu sistemde kayıtlı durum gösterilir. Belge burada EN 16931'e göre doğrulanmaz ve indirmeye sunulmaz."
+      ],
+      "Ihre Peppol-ID": [
+        "Peppol kimliğiniz"
+      ],
+      "Schema:Kennung": [
+        "şema:tanımlayıcı"
+      ],
+      "Status abfragen": [
+        "Durumu sorgula"
+      ],
+      "Die Rechnungsnummer fehlt.": [
+        "Fatura numarası eksik."
+      ],
+      "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist.": [
+        "Alıcı referansı (BT-10) eksik; sipariş referansı verilmediğinde Peppol BIS bunu zorunlu tutar."
+      ],
+      "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT.": [
+        "Fatura tarihi YYYY-AA-GG biçiminde değil."
+      ],
+      "Es fehlen Rechnungspositionen oder ein Betrag.": [
+        "Fatura kalemleri veya tutar eksik."
+      ],
+      "Ein Betrag ist keine Zahl.": [
+        "Bir tutar sayısal değil."
+      ],
+      "Eine Position hat keine Bezeichnung.": [
+        "Bir kalemin açıklaması yok."
+      ],
+      "Ein Steuersatz ist negativ.": [
+        "Bir vergi oranı negatif."
+      ],
+      "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen.": [
+        "Fatura türü kodu Peppol fatura listesinde yer almıyor."
+      ],
+      "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt.": [
+        "Alacak dekontu (tür 381), bu üreticinin oluşturmadığı UBL CreditNote sözdizimini gerektirir."
+      ],
+      "Der Währungscode muss aus drei Großbuchstaben bestehen.": [
+        "Para birimi kodu üç büyük harften oluşmalıdır."
+      ],
+      "Die Peppol-ID des Verkäufers fehlt.": [
+        "Satıcının Peppol kimliği eksik."
+      ],
+      "Der Name des Verkäufers fehlt.": [
+        "Satıcının adı eksik."
+      ],
+      "Die Straße des Verkäufers fehlt.": [
+        "Satıcının sokağı eksik."
+      ],
+      "Der Ort des Verkäufers fehlt.": [
+        "Satıcının şehri eksik."
+      ],
+      "Die Postleitzahl des Verkäufers fehlt.": [
+        "Satıcının posta kodu eksik."
+      ],
+      "Das Land des Verkäufers fehlt.": [
+        "Satıcının ülkesi eksik."
+      ],
+      "Die USt-IdNr. des Verkäufers fehlt.": [
+        "Satıcının KDV numarası eksik."
+      ],
+      "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Satıcının Peppol kimliği şema:tanımlayıcı (dört haneli şema) biçiminde değil."
+      ],
+      "Das Land des Verkäufers muss ein zweistelliger Ländercode sein.": [
+        "Satıcının ülkesi iki harfli ülke kodu olmalıdır."
+      ],
+      "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Satıcının KDV numarası iki harfli ülke koduyla başlamıyor."
+      ],
+      "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers.": [
+        "Havale ile ödeme için satıcının IBAN numarası eksik."
+      ],
+      "Die Peppol-ID des Käufers fehlt.": [
+        "Alıcının Peppol kimliği eksik."
+      ],
+      "Der Name des Käufers fehlt.": [
+        "Alıcının adı eksik."
+      ],
+      "Das Land des Käufers fehlt.": [
+        "Alıcının ülkesi eksik."
+      ],
+      "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Alıcının Peppol kimliği şema:tanımlayıcı (dört haneli şema) biçiminde değil."
+      ],
+      "Das Land des Käufers muss ein zweistelliger Ländercode sein.": [
+        "Alıcının ülkesi iki harfli ülke kodu olmalıdır."
+      ],
+      "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Alıcının KDV numarası iki harfli ülke koduyla başlamıyor."
+      ],
+      "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null.": [
+        "S vergi kategorisindeki bir kalem veya indirim/ek ücret sıfırdan büyük vergi oranına sahip değil."
+      ],
+      "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen.": [
+        "Dosya iyi biçimlendirilmiş XML değil; kural denetiminden önce kontrol edilecek bir şey yok."
+      ],
+      "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt.": [
+        "Peppol: Siparişte Leitweg-ID var ancak Peppol alıcı kimliği yok; e-fatura oluşturulmadı."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab.": [
+        "Peppol: E-fatura oluşturulmadı. Sipariş toplamı %1$s ile fatura toplamı %2$s yuvarlama sınırından fazla farklı."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. %s": [
+        "Peppol: E-fatura oluşturulmadı. %s"
+      ],
+      "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden.": [
+        "Peppol: Oluşturulan e-fatura kaydedilemedi."
+      ],
+      "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant.": [
+        "Peppol: E-fatura %s oluşturuldu; gönderim planlandı."
+      ],
+      "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert.": [
+        "Peppol: E-fatura %s oluşturuldu ve kaydedildi, gönderilmedi: KoSIT ve Phase4 yapılandırılmamış."
+      ],
+      "EN 16931: %1$d fatale Regelbefunde (%2$s).": [
+        "EN 16931: %1$d kritik kural bulgusu (%2$s)."
+      ],
+      "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen.": [
+        "Peppol: EN 16931 denetimi %1$d kritik bulgu bildirdi (%2$s). Yine de gönderiliyor; engellemek için \"wm_peppol_schematron_gate\" değerini 1 yapın."
+      ],
+      "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung.": [
+        "Peppol: E-fatura %1$s Phase4 hizmetine aktarıldı (messageId %2$s). Teslimat yalnızca alındıyla kesinleşir."
+      ],
+      "Gebühr": [
+        "Ücret"
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab.": [
+        "Peppol: E-fatura oluşturulmadı. \"%s\" KDV'siz hesaplanmış; eklenti vergi istisnalarını modellemez."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze.": [
+        "Peppol: E-fatura oluşturulmadı. \"%s\" birden fazla vergi oranı taşıyor."
+      ],
+      "Peppol: E-Rechnung %1$s nicht versendet. %2$s": [
+        "Peppol: E-fatura %1$s gönderilmedi. %2$s"
+      ],
+      "Peppol-E-Rechnung": [
+        "Peppol E-Fatura"
+      ],
+      "Peppol-Empfänger-ID (Schema:Kennung)": [
+        "Peppol alıcı kimliği (şema:tanımlayıcı)"
+      ],
+      "Leitweg-ID (öffentliche Auftraggeber)": [
+        "Leitweg-ID (kamu alıcıları)"
+      ],
+      "Käuferreferenz (wenn keine Leitweg-ID)": [
+        "Alıcı referansı (Leitweg-ID yoksa)"
+      ],
+      "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert.": [
+        "Leitweg-ID KoSIT belirtimine uymuyor veya kontrol basamakları hatalı; kaydedilmedi."
+      ],
+      "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert.": [
+        "Peppol alıcı kimliği dört haneli şema:tanımlayıcı biçiminde değil; kaydedilmedi."
+      ],
+      "Portal-Darstellung": [
+        "Portal görünümü"
+      ],
+      "Überschrift anzeigen": [
+        "Başlığı göster"
+      ],
+      "Einleitungstext anzeigen": [
+        "Giriş metnini göster"
+      ],
+      "block title\u0004Peppol-Rechnungsstatus-Portal": [
+        "Peppol Fatura Durum Portalı"
+      ],
+      "block description\u0004Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID.": [
+        "Fatura numarası ve Peppol kimliği ile kayıtlı Peppol e-faturalarını sorgulamak için genel durum portalı."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004invoice": [
+        "fatura"
+      ],
+      "block keyword\u0004e-rechnung": [
+        "e-fatura"
+      ],
+      "block keyword\u0004ubl": [
+        "ubl"
+      ],
+      "block keyword\u0004status": [
+        "durum"
+      ]
+    }
+  }
+}

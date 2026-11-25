@@ -1,0 +1,738 @@
+{
+  "translation-revision-date": "2026-11-21T15:24:44+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-peppol-as4-gateway",
+        "lang": "mt_MT",
+        "plural-forms": "nplurals=4; plural=(n==1 ? 0 : n==0 || (n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<20 ) ? 2 : 3);"
+      },
+      "WM Peppol AS4 Gateway": [
+        "WM Peppol AS4 Gateway"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+      ],
+      "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst.": [
+        "Jiġġenera fatturi UBL 2.1 skont Peppol BIS Billing 3.0, jivverifikahom mar-regoli uffiċjali EN 16931, ifittex ir-riċevitur permezz ta' SML u SMP, jgħaddi l-fatturi ta' ordnijiet kompluti ta' WooCommerce lil validatur KoSIT u servizz Phase4 ikkonfigurati, jivverifika l-irċevuta AS4 iffirmata u juri lix-xerrejja l-istat maħżun. L-ebda trasport AS4 intern: dan jieħu ħsiebu Phase4."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Unbekannte Spoke-Aktion \"%s\".": [
+        "Azzjoni ta' modulu mhux magħrufa \"%s\"."
+      ],
+      "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s).": [
+        "Awto-test mhux disponibbli: id-data tal-bejjiegħ nieqsa (%s)."
+      ],
+      "Testdokument von den Strukturprüfungen abgelehnt: %s": [
+        "Id-dokument tat-test ġie miċħud mill-kontrolli strutturali: %s"
+      ],
+      "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung.": [
+        "Dokument tat-test maħluq (%d bytes) u aċċettat mill-kontrolli strutturali tal-plugin. Mhux maħżun, mhux mibgħut, mingħajr kontroll ta' skema jew Schematron."
+      ],
+      "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren.": [
+        "It-tabelli tad-database tal-plugin huma neqsin. Jekk jogħġbok iddiżattiva u erġa' attiva l-plugin."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden.": [
+        "Data tal-bejjiegħ mhux kompluta: l-ebda e-fattura ma tista' tinħoloq."
+      ],
+      "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert.": [
+        "Data tal-bejjiegħ kompluta. Il-validatur KoSIT u s-servizz Phase4 huma kkonfigurati."
+      ],
+      "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert.": [
+        "Data tal-bejjiegħ kompluta. It-trażmissjoni mhijiex ikkonfigurata: il-fatturi jinħażnu biss."
+      ],
+      "Gespeicherte Rechnungen": [
+        "Fatturi maħżuna"
+      ],
+      "Übergaben an Phase4": [
+        "Trasferimenti lil Phase4"
+      ],
+      "Empfangsquittungen": [
+        "Irċevuti tal-kunsinna"
+      ],
+      "Peppol Gateway öffnen": [
+        "Iftaħ Peppol Gateway"
+      ],
+      "Peppol Gateway": [
+        "Peppol Gateway"
+      ],
+      "%d Beispielrechnung angelegt.": [
+        "Inħolqot %d fattura kampjun.",
+        "Inħolqu %d fatturi kampjun.",
+        "Inħolqu %d fattura kampjun.",
+        "Inħolqu %d fattura kampjun."
+      ],
+      "%d Beispielrechnung entfernt.": [
+        "Tneħħiet %d fattura kampjun.",
+        "Tneħħew %d fatturi kampjun.",
+        "Tneħħew %d fattura kampjun.",
+        "Tneħħew %d fattura kampjun."
+      ],
+      "Übersicht": [
+        "Ħarsa ġenerali"
+      ],
+      "Rechnung erzeugen": [
+        "Oħloq fattura"
+      ],
+      "Einstellungen": [
+        "Settings"
+      ],
+      "Was das Plugin tut": [
+        "X'jagħmel il-plugin"
+      ],
+      "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben.": [
+        "Oħloq u aħżen fatturi UBL 2.1 skont Peppol BIS Billing 3.0 u għaddihom lil servizz Phase4 ikkonfigurat."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Parti mill-familja ta' plugins WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Awtonomu"
+      ],
+      "Bereiche": [
+        "Taqsimiet"
+      ],
+      "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet.": [
+        "L-e-fattura ġiet iġġenerata u maħżuna. Ma tintbagħatx permezz ta' din il-formola."
+      ],
+      "Die E-Rechnung wurde nicht erzeugt.": [
+        "L-e-fattura ma ġietx iġġenerata."
+      ],
+      "Eine Rechnung mit dieser Nummer ist bereits gespeichert.": [
+        "Fattura b'dan in-numru diġà hija maħżuna."
+      ],
+      "Die Rechnung wurde erzeugt, aber nicht gespeichert.": [
+        "Il-fattura ġiet iġġenerata iżda ma setgħetx tinħażen."
+      ],
+      "Einstellungen gespeichert.": [
+        "Settings maħżuna."
+      ],
+      "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet.": [
+        "Il-fatturi kampjun huma mmarkati bħala kampjun u ma jidhrux fil-portal pubbliku tal-istat."
+      ],
+      "Beispielrechnungen entfernt.": [
+        "Il-fatturi kampjun tneħħew."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s": [
+        "Data tal-bejjiegħ mhux kompluta: l-ebda e-fattura ma tista' tinħoloq. %s"
+      ],
+      "Zu den Einstellungen": [
+        "Mur fis-settings"
+      ],
+      "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben.": [
+        "It-trażmissjoni mhijiex ikkonfigurata: il-fatturi maħluqa jinħażnu iżda ma jintbagħtux."
+      ],
+      "ohne %d Beispielrechnungen": [
+        "minbarra %d fatturi kampjun"
+      ],
+      "mit messageId": [
+        "b'messageId"
+      ],
+      "positiv, per Webhook": [
+        "pożittiva, permezz ta' webhook"
+      ],
+      "Verkäuferdaten": [
+        "Data tal-bejjiegħ"
+      ],
+      "vollständig": [
+        "kompluta"
+      ],
+      "für die Rechnungserzeugung": [
+        "għall-ħolqien tal-fatturi"
+      ],
+      "Angaben fehlen": [
+        "data nieqsa"
+      ],
+      "Rechnungen": [
+        "Fatturi"
+      ],
+      "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status.": [
+        "L-aħħar 50 fattura maħżuna bl-istat irreġistrat tagħhom."
+      ],
+      "Rechnungsnummer": [
+        "Numru tal-fattura"
+      ],
+      "Peppol-ID des Käufers": [
+        "Peppol ID tax-xerrej"
+      ],
+      "Zahlbetrag": [
+        "Ammont pagabbli"
+      ],
+      "Status": [
+        "Stat"
+      ],
+      "Rechnungsdatum": [
+        "Data tal-fattura"
+      ],
+      "Noch keine Rechnungen gespeichert.": [
+        "Għad m'hemm l-ebda fattura maħżuna."
+      ],
+      "Beispielrechnungen": [
+        "Fatturi kampjun"
+      ],
+      "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen.": [
+        "Il-fatturi kampjun m'għandhomx XML, ma jgħoddux bħala fatturi u ma jidhrux fil-portal pubbliku. It-tneħħija tħassar lilhom biss, inklużi t-tliet ringieli ta' verżjonijiet preċedenti."
+      ],
+      "Beispielrechnungen anlegen": [
+        "Oħloq fatturi kampjun"
+      ],
+      "%d Beispielrechnung entfernen": [
+        "Neħħi %d fattura kampjun",
+        "Neħħi %d fatturi kampjun",
+        "Neħħi %d fattura kampjun",
+        "Neħħi %d fattura kampjun"
+      ],
+      "Beispiel": [
+        "Kampjun"
+      ],
+      "Erzeugt, nicht versendet": [
+        "Maħluqa, mhux mibgħuta"
+      ],
+      "An Phase4 übergeben": [
+        "Mgħoddija lil Phase4"
+      ],
+      "Zugestellt (Quittung)": [
+        "Ikunsinnata (irċevuta)"
+      ],
+      "Zustellung fehlgeschlagen": [
+        "Il-kunsinna falliet"
+      ],
+      "Versand fehlgeschlagen": [
+        "It-trażmissjoni falliet"
+      ],
+      "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s": [
+        "Mingħajr data kompluta tal-bejjiegħ ma tinħoloq l-ebda fattura. %s"
+      ],
+      "Käuferreferenz (BT-10), z. B. die Leitweg-ID": [
+        "Referenza tax-xerrej (BT-10), eż. Leitweg-ID"
+      ],
+      "Name des Käufers": [
+        "Isem ix-xerrej"
+      ],
+      "Straße": [
+        "Triq"
+      ],
+      "Postleitzahl": [
+        "Kodiċi postali"
+      ],
+      "Ort": [
+        "Belt / Lokalità"
+      ],
+      "Land (zweistelliger Code)": [
+        "Pajjiż (kodiċi ta' żewġ ittri)"
+      ],
+      "Peppol-ID des Käufers (Schema:Kennung)": [
+        "Peppol ID tax-xerrej (skema:identifikatur)"
+      ],
+      "USt-IdNr. des Käufers (optional)": [
+        "Numru tal-VAT tax-xerrej (mhux obbligatorju)"
+      ],
+      "Bezeichnung der Leistung": [
+        "Deskrizzjoni tas-servizz"
+      ],
+      "Menge": [
+        "Kwantità"
+      ],
+      "Nettopreis je Einheit": [
+        "Prezz nett għal kull unità"
+      ],
+      "Umsatzsteuersatz in Prozent": [
+        "Rata tal-VAT fil-mija"
+      ],
+      "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen.": [
+        "Jiġġenera fattura UBL b'linja waħda u jaħżinha. Xejn ma jintbagħat; id-data tal-bejjiegħ tiġi mis-settings."
+      ],
+      "Rechnung erzeugen und speichern": [
+        "Oħloq u aħżen il-fattura"
+      ],
+      "Peppol-ID des Verkäufers (Schema:Kennung)": [
+        "Peppol ID tal-bejjiegħ (skema:identifikatur)"
+      ],
+      "Name": [
+        "Isem"
+      ],
+      "Rechtlicher Name (leer: wie Name)": [
+        "Isem legali (vojt: bħal Isem)"
+      ],
+      "USt-IdNr.": [
+        "Numru tal-VAT"
+      ],
+      "Registernummer (optional)": [
+        "Numru tar-reġistrazzjoni (mhux obbligatorju)"
+      ],
+      "IBAN für Zahlung per Überweisung": [
+        "IBAN għal ħlas bi trasferiment bankarju"
+      ],
+      "Verkäufer": [
+        "Bejjiegħ"
+      ],
+      "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung.": [
+        "Din id-data tidher fuq kull fattura maħluqa. Jekk qasam obbligatorju jkun nieqes, il-plugin ma joħloqx fattura."
+      ],
+      "Versand": [
+        "Trażmissjoni"
+      ],
+      "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang.": [
+        "Iż-żewġ servizzi huma programmi separati barra mill-plugin. Sakemm ikun nieqes wieħed mill-indirizzi, xejn ma jintbagħat. Il-kostanti WM_PEPPOL_KOSIT_URL u WM_PEPPOL_PHASE4_URL f'wp-config.php għandhom preċedenza."
+      ],
+      "Adresse des KoSIT-Validators": [
+        "Indirizz tal-validatur KoSIT"
+      ],
+      "Adresse des Phase4-Dienstes": [
+        "Indirizz tas-servizz Phase4"
+      ],
+      "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen.": [
+        "Sigriet kondiviż huwa ssettjat; l-irċevuti b'firma valida jiġu aċċettati."
+      ],
+      "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret.": [
+        "L-ebda sigriet kondiviż issettjat; l-irċevuti kollha jiġu miċħuda. Issettja permezz ta' WM_PEPPOL_RECEIPT_SECRET jew wp option update wm_peppol_receipt_secret."
+      ],
+      "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)": [
+        "Marki tas-swaba' taċ-ċertifikati permessi għall-irċevuti AS4 (SHA-256, mhux obbligatorju)"
+      ],
+      "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang.": [
+        "Marki tas-swaba' SHA-256 ta' 64 karattru, separati b'virgoli, taċ-ċertifikati tal-iffirmar mistennija tal-punt ta' aċċess. Il-kostanti WM_PEPPOL_TRUSTED_SIGNER_SHA256 f'wp-config.php għandha l-prijorità."
+      ],
+      "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)": [
+        "Pakkett lokali ta' ċertifikati CA fil-format PEM (PKI ta' OpenPeppol, mhux obbligatorju)"
+      ],
+      "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang.": [
+        "Ċertifikat wieħed jew aktar ta' għerq u intermedji fdati fil-format PEM għal verifika tal-katina kompletament lokali, mingħajr aċċess għan-netwerk. Il-kostanti WM_PEPPOL_TRUST_BUNDLE_PEM u WM_PEPPOL_TRUST_BUNDLE_FILE għandhom il-prijorità."
+      ],
+      "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen": [
+        "Iċħad l-irċevuti AS4 meta ma tkunx maħżuna la marka tas-swaba' u lanqas pakkett ta' ċertifikati CA"
+      ],
+      "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen.": [
+        "Meta jkun attivat, jew issettjat bil-kostanti WM_PEPPOL_REQUIRE_TRUST_ANCHOR, l-irċevuti awtoffirmati jew mingħajr ankra jiġu miċħuda b'HTTP 422."
+      ],
+      "Deinstallation": [
+        "Diżinstallazzjoni"
+      ],
+      "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen": [
+        "Ħassar b'mod permanenti l-għażliet kollha tal-plugin u t-tliet tabelli tad-database meta tiddiżinstalla l-plugin"
+      ],
+      "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird.": [
+        "B'mod awtomatiku, il-fatturi kollha maħżuna, it-trażmissjonijiet, ir-reġistru tal-irċevuti u s-settings jinżammu meta jitneħħa l-plugin."
+      ],
+      "Einstellungen speichern": [
+        "Issejvja s-settings"
+      ],
+      "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz.": [
+        "Jiġġenera fatturi UBL 2.1 bl-identifikatur Peppol BIS Billing 3.0 u tqassim tal-VAT skont il-kategorija u r-rata."
+      ],
+      "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen.": [
+        "Jirrifjuta li joħloq fattura meta d-data obbligatorja tkun nieqsa minflok jivvintaha."
+      ],
+      "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung.": [
+        "Jivverifika l-oqsma obbligatorji, il-kodiċijiet u r-regoli tat-totali. Din mhijiex validazzjoni XSD jew Schematron."
+      ],
+      "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an.": [
+        "Jgħaddi l-fatturi ta' ordnijiet kompluti ta' WooCommerce lil KoSIT u Phase4 meta jkunu kkonfigurati, u jaċċetta rċevuti ffirmati."
+      ],
+      "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung.": [
+        "Juri lix-xerrejja l-istat maħżun ta' fattura fil-portal tal-istat."
+      ],
+      "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst.": [
+        "L-ebda trasport, iffirmar jew kodifikazzjoni AS4 interni: dan jagħmlu s-servizz Phase4."
+      ],
+      "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen.": [
+        "L-ebda noti ta' kreditu fis-sintassi UBL CreditNote u l-ebda eżenzjoni mit-taxxa."
+      ],
+      "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde.": [
+        "L-ebda arkivju ta' esportazzjoni: il-fatturi maħżuna u r-reġistru tal-irċevuti jinżammu awtomatikament waqt id-diżinstallazzjoni u jitħassru biss jekk ikun attivat espressament fis-settings."
+      ],
+      "Was es nicht tut": [
+        "X'ma jagħmilx"
+      ],
+      "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut.": [
+        "Wisq talbiet minn dan l-indirizz. Erġa' pprova aktar tard."
+      ],
+      "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich.": [
+        "In-numru tal-fattura u l-Peppol ID tax-xerrej huma meħtieġa."
+      ],
+      "Zu diesen Angaben liegt keine Rechnung vor.": [
+        "Ma nstabet l-ebda fattura għal din id-data."
+      ],
+      "Der Anfragekörper muss ein JSON-Objekt sein.": [
+        "Il-korp tat-talba jrid ikun oġġett JSON."
+      ],
+      "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt.": [
+        "Ir-ringiela %d ma tirreferix għar-ringiela ta' qabilha: ringiela tneħħiet jew ġiet imdaħħla."
+      ],
+      "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln.": [
+        "Ir-ringiela %d ġiet mibdula wara l-kitba jew id-database ġejja minn installazzjoni bi ċwievet differenti."
+      ],
+      "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast.": [
+        "L-irċevuta taqbeż %d bytes; irċevuta AS4 hija sinjal, mhux tagħbija."
+      ],
+      "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage.": [
+        "Id-dokument ma fihx eb:Receipt ġo eb:SignalMessage."
+      ],
+      "Die Quittung enthält kein prüfbares Signaturzertifikat.": [
+        "L-irċevuta ma fiha l-ebda ċertifikat tal-iffirmar li jista' jiġi vverifikat."
+      ],
+      "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden.": [
+        "L-irċevuta m'għandhiex firma XML. Messaġġ AS4 iffirmat IRID jitwieġeb b'irċevuta ffirmata."
+      ],
+      "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt.": [
+        "Il-firma mhijiex kompluta: ds:SignedInfo jew ds:SignatureValue nieqes."
+      ],
+      "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar.": [
+        "Il-firma ma ssemmix ċertifikat X.509; mingħajr iċ-ċavetta pubblika ma tistax tiġi vverifikata."
+      ],
+      "Signaturverfahren %s wird von dieser Installation nicht geprüft.": [
+        "L-algoritmu tal-firma %s ma jiġix ivverifikat minn din l-installazzjoni."
+      ],
+      "Das X.509-Zertifikat der Signatur ist nicht lesbar.": [
+        "Iċ-ċertifikat X.509 tal-firma ma jistax jinqara."
+      ],
+      "OpenSSL konnte die Signatur nicht prüfen.": [
+        "OpenSSL ma setax jivverifika l-firma."
+      ],
+      "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt.": [
+        "Il-firma ma taqbilx mal-kontenut tal-irċevuta: ġiet mibdula wara l-iffirmar jew maħluqa b'ċavetta oħra."
+      ],
+      "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert.": [
+        "Il-firma nnifisha hija valida, iżda %1$d biss minn %2$d somom ta' kontroll jaqblu mal-kontenut: l-irċevuta ġiet mibdula wara l-iffirmar."
+      ],
+      "Das X.509-Zertifikat der Quittung ist abgelaufen.": [
+        "Iċ-ċertifikat X.509 tal-irċevuta skada."
+      ],
+      "Das X.509-Zertifikat der Quittung ist noch nicht gültig.": [
+        "Iċ-ċertifikat X.509 tal-irċevuta għadu mhux validu."
+      ],
+      "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird.": [
+        "Ma hija maħżuna la marka tas-swaba' taċ-ċertifikat u lanqas pakkett ta' ċertifikati CA, għalkemm il-verifika tal-ankra ta' fiduċja hija obbligatorja."
+      ],
+      "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel.": [
+        "Iċ-ċertifikat tal-iffirmar tal-irċevuta ma jaqbel la ma' marka tas-swaba' SHA-256 maħżuna u lanqas ma' pakkett fdat ta' ċertifikati CA."
+      ],
+      "Die Quittung ist kein wohlgeformtes XML.": [
+        "L-irċevuta mhijiex XML iffurmat tajjeb."
+      ],
+      "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d).": [
+        "Il-validatur KoSIT ma aċċettax id-dokument (HTTP %d)."
+      ],
+      "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung.": [
+        "L-ID ta' min jibgħat jew jirċievi m'għandux il-forma skema:identifikatur."
+      ],
+      "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d).": [
+        "Is-servizz Phase4 irrifjuta t-trażmissjoni (HTTP %d)."
+      ],
+      "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen.": [
+        "Is-servizz Phase4 ma rritorna l-ebda messageId; mingħajru l-ebda irċevuta ma tista' titqabbel."
+      ],
+      "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet.": [
+        "Il-validatur KoSIT u s-servizz Phase4 mhumiex ikkonfigurati; xejn ma jintbagħat."
+      ],
+      "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete.": [
+        "L-irċevuta hija ffirmata b'mod validu iżda tirreferi għal dokument ieħor differenti minn dak mibgħut."
+      ],
+      "Peppol: Positive Empfangsquittung für messageId %s erhalten.": [
+        "Peppol: Waslet irċevuta pożittiva għal messageId %s."
+      ],
+      "Peppol-Empfangsquittung erhalten.": [
+        "Waslet irċevuta Peppol."
+      ],
+      "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s": [
+        "Peppol: It-trażmissjoni falliet (messageId %1$s): %2$s"
+      ],
+      "ohne Fehlerbeschreibung": [
+        "mingħajr deskrizzjoni tal-iżball"
+      ],
+      "Peppol-Versand fehlgeschlagen.": [
+        "It-trażmissjoni Peppol falliet."
+      ],
+      "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s": [
+        "Dawn ir-regoli ma setgħux jiġu evalwati u ma jgħoddu la bħala sodisfatti u lanqas bħala miksura: %s"
+      ],
+      "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s.": [
+        "WM Peppol AS4 Gateway ma setax jiġi attivat għax fuq dan is-server neqsin dawn l-estensjonijiet PHP meħtieġa: %s."
+      ],
+      "Fehlende PHP-Erweiterung": [
+        "Estensjoni PHP nieqsa"
+      ],
+      "Kein Peppol-Teilnehmerbezeichner angegeben.": [
+        "Ma ngħata l-ebda identifikatur ta' parteċipant Peppol."
+      ],
+      "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789.": [
+        "L-identifikatur \"%s\" m'għandux il-forma <skema EAS ta' erba' ċifri>:<identifikatur>, pereżempju 9930:DE123456789."
+      ],
+      "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen.": [
+        "L-iskema tal-identifikatur fiha karattri mhux permessi f'isem DNS."
+      ],
+      "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen.": [
+        "M'hemm l-ebda rekord NAPTR għal %s: il-parteċipant mhux irreġistrat f'din iż-żona SML jew ir-riżolvitur ma jweġibx għal NAPTR."
+      ],
+      "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL).": [
+        "Ir-rekord NAPTR ta' %s ma jsemmi l-ebda SMP (servizz \"Meta:SMP\" b'URL)."
+      ],
+      "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen.": [
+        "L-SMP jaf lill-parteċipant %1$s iżda mhux għat-tip ta' dokument %2$s: ir-riċevitur ma jaċċettax dan id-dokument."
+      ],
+      "Der SMP antwortete mit HTTP %1$d auf %2$s.": [
+        "L-SMP wieġeb b'HTTP %1$d fuq %2$s."
+      ],
+      "Der SMP lieferte einen leeren Körper.": [
+        "L-SMP irritorna korp vojt."
+      ],
+      "Die Antwort des SMP ist kein wohlgeformtes XML.": [
+        "It-tweġiba tal-SMP mhijiex XML iffurmat tajjeb."
+      ],
+      "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s.": [
+        "It-tweġiba tal-SMP ma fiha l-ebda endpoint bil-profil tat-trasport %s."
+      ],
+      "Peppol-Gateway-Status": [
+        "Stat ta' Peppol Gateway"
+      ],
+      "Tabellen des Plugins fehlen": [
+        "It-tabelli tal-plugin neqsin"
+      ],
+      "KoSIT-Validator und Phase4-Dienst konfiguriert": [
+        "Validatur KoSIT u servizz Phase4 ikkonfigurati"
+      ],
+      "Versand nicht konfiguriert": [
+        "Trażmissjoni mhux ikkonfigurata"
+      ],
+      "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen": [
+        "%1$d fatturi maħżuna, %2$d irċevuti tal-kunsinna"
+      ],
+      "Status wird abgefragt …": [
+        "Qed jiġi mistoqsi l-istat …"
+      ],
+      "Rechnung gefunden": [
+        "Il-fattura nstabet"
+      ],
+      "Die Abfrage ist fehlgeschlagen.": [
+        "It-tfittxija falliet."
+      ],
+      "Gespeicherter Status": [
+        "Stat maħżun"
+      ],
+      "Übergabe an Phase4": [
+        "Trasferiment lil Phase4"
+      ],
+      "keine Übergabe erfasst": [
+        "l-ebda trasferiment irreġistrat"
+      ],
+      "Empfangsquittung": [
+        "Irċevuta tal-kunsinna"
+      ],
+      "liegt vor": [
+        "preżenti"
+      ],
+      "liegt nicht vor": [
+        "mhux preżenti"
+      ],
+      "Fehlercode der Übertragung": [
+        "Kodiċi tal-iżball tat-trażmissjoni"
+      ],
+      "SHA-256 des gespeicherten XML": [
+        "SHA-256 tal-XML maħżun"
+      ],
+      "Rechnungsstatus abfragen": [
+        "Iċċekkja l-istat tal-fattura"
+      ],
+      "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten.": [
+        "Daħħal in-numru tal-fattura u l-Peppol ID tiegħek. Jintwera l-istat maħżun f'dan is-sistema. Id-dokument la jiġi vverifikat ma' EN 16931 u lanqas offrut għat-tniżżil hawnhekk."
+      ],
+      "Ihre Peppol-ID": [
+        "Il-Peppol ID tiegħek"
+      ],
+      "Schema:Kennung": [
+        "skema:identifikatur"
+      ],
+      "Status abfragen": [
+        "Iċċekkja l-istat"
+      ],
+      "Die Rechnungsnummer fehlt.": [
+        "In-numru tal-fattura nieqes."
+      ],
+      "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist.": [
+        "Ir-referenza tax-xerrej (BT-10) nieqsa; Peppol BIS jeħtieġha sakemm ma tingħatax referenza tal-ordni."
+      ],
+      "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT.": [
+        "Id-data tal-fattura m'għandhiex il-format SSSS-XX-JJ."
+      ],
+      "Es fehlen Rechnungspositionen oder ein Betrag.": [
+        "Il-linji tal-fattura jew ammont huma neqsin."
+      ],
+      "Ein Betrag ist keine Zahl.": [
+        "Ammont mhuwiex numru."
+      ],
+      "Eine Position hat keine Bezeichnung.": [
+        "Linja m'għandhiex deskrizzjoni."
+      ],
+      "Ein Steuersatz ist negativ.": [
+        "Rata tat-taxxa hija negattiva."
+      ],
+      "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen.": [
+        "Il-kodiċi tat-tip ta' fattura mhux fil-lista ta' Peppol għall-fatturi."
+      ],
+      "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt.": [
+        "Nota ta' kreditu (tip 381) teħtieġ is-sintassi UBL CreditNote, li dan il-ġeneratur ma jipproduċix."
+      ],
+      "Der Währungscode muss aus drei Großbuchstaben bestehen.": [
+        "Il-kodiċi tal-munita jrid ikun magħmul minn tliet ittri kbar."
+      ],
+      "Die Peppol-ID des Verkäufers fehlt.": [
+        "Il-Peppol ID tal-bejjiegħ nieqes."
+      ],
+      "Der Name des Verkäufers fehlt.": [
+        "L-isem tal-bejjiegħ nieqes."
+      ],
+      "Die Straße des Verkäufers fehlt.": [
+        "It-triq tal-bejjiegħ nieqsa."
+      ],
+      "Der Ort des Verkäufers fehlt.": [
+        "Il-belt tal-bejjiegħ nieqsa."
+      ],
+      "Die Postleitzahl des Verkäufers fehlt.": [
+        "Il-kodiċi postali tal-bejjiegħ nieqes."
+      ],
+      "Das Land des Verkäufers fehlt.": [
+        "Il-pajjiż tal-bejjiegħ nieqes."
+      ],
+      "Die USt-IdNr. des Verkäufers fehlt.": [
+        "In-numru tal-VAT tal-bejjiegħ nieqes."
+      ],
+      "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Il-Peppol ID tal-bejjiegħ m'għandux il-forma skema:identifikatur (skema ta' erba' ċifri)."
+      ],
+      "Das Land des Verkäufers muss ein zweistelliger Ländercode sein.": [
+        "Il-pajjiż tal-bejjiegħ irid ikun kodiċi tal-pajjiż ta' żewġ ittri."
+      ],
+      "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "In-numru tal-VAT tal-bejjiegħ ma jibdiex b'kodiċi tal-pajjiż ta' żewġ ittri."
+      ],
+      "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers.": [
+        "L-IBAN tal-bejjiegħ nieqes għall-ħlas bi trasferiment bankarju."
+      ],
+      "Die Peppol-ID des Käufers fehlt.": [
+        "Il-Peppol ID tax-xerrej nieqes."
+      ],
+      "Der Name des Käufers fehlt.": [
+        "L-isem tax-xerrej nieqes."
+      ],
+      "Das Land des Käufers fehlt.": [
+        "Il-pajjiż tax-xerrej nieqes."
+      ],
+      "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Il-Peppol ID tax-xerrej m'għandux il-forma skema:identifikatur (skema ta' erba' ċifri)."
+      ],
+      "Das Land des Käufers muss ein zweistelliger Ländercode sein.": [
+        "Il-pajjiż tax-xerrej irid ikun kodiċi tal-pajjiż ta' żewġ ittri."
+      ],
+      "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "In-numru tal-VAT tax-xerrej ma jibdiex b'kodiċi tal-pajjiż ta' żewġ ittri."
+      ],
+      "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null.": [
+        "Linja jew tnaqqis/ħlas fil-kategorija tat-taxxa S m'għandhiex rata ogħla minn żero."
+      ],
+      "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen.": [
+        "Il-fajl mhuwiex XML iffurmat tajjeb; m'hemm xejn x'jiġi ċċekkjat qabel ir-regoli."
+      ],
+      "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt.": [
+        "Peppol: L-ordni għandha Leitweg-ID iżda m'għandhiex Peppol ID tar-riċevitur; ma nħolqitx e-fattura."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab.": [
+        "Peppol: L-e-fattura ma nħolqitx. It-total tal-ordni %1$s u t-total tal-fattura %2$s ivarjaw b'aktar mit-tqarrib."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. %s": [
+        "Peppol: L-e-fattura ma nħolqitx. %s"
+      ],
+      "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden.": [
+        "Peppol: L-e-fattura maħluqa ma setgħetx tinħażen."
+      ],
+      "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant.": [
+        "Peppol: L-e-fattura %s inħolqot; it-trażmissjoni ġiet skedata."
+      ],
+      "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert.": [
+        "Peppol: L-e-fattura %s inħolqot u nħażnet, mhux mibgħuta: KoSIT u Phase4 mhumiex ikkonfigurati."
+      ],
+      "EN 16931: %1$d fatale Regelbefunde (%2$s).": [
+        "EN 16931: %1$d sejbiet fatali tar-regoli (%2$s)."
+      ],
+      "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen.": [
+        "Peppol: Il-kontroll EN 16931 jirrapporta %1$d sejbiet fatali (%2$s). Jintbagħat xorta waħda; issettja \"wm_peppol_schematron_gate\" għal 1 biex timblokka."
+      ],
+      "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung.": [
+        "Peppol: L-e-fattura %1$s mgħoddija lil Phase4 (messageId %2$s). Titqies ikkunsinnata biss mal-irċevuta."
+      ],
+      "Gebühr": [
+        "Miżata"
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab.": [
+        "Peppol: L-e-fattura ma nħolqitx. \"%s\" huwa mingħajr VAT; il-plugin ma jimmudellax eżenzjonijiet."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze.": [
+        "Peppol: L-e-fattura ma nħolqitx. \"%s\" għandu diversi rati tat-taxxa."
+      ],
+      "Peppol: E-Rechnung %1$s nicht versendet. %2$s": [
+        "Peppol: L-e-fattura %1$s ma ntbagħtitx. %2$s"
+      ],
+      "Peppol-E-Rechnung": [
+        "E-fattura Peppol"
+      ],
+      "Peppol-Empfänger-ID (Schema:Kennung)": [
+        "Peppol ID tar-riċevitur (skema:identifikatur)"
+      ],
+      "Leitweg-ID (öffentliche Auftraggeber)": [
+        "Leitweg-ID (xerrejja pubbliċi)"
+      ],
+      "Käuferreferenz (wenn keine Leitweg-ID)": [
+        "Referenza tax-xerrej (jekk m'hemmx Leitweg-ID)"
+      ],
+      "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert.": [
+        "Il-Leitweg-ID ma jissodisfax l-ispeċifikazzjoni KoSIT jew iċ-ċifri ta' kontroll huma żbaljati; mhux maħżun."
+      ],
+      "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert.": [
+        "Il-Peppol ID tar-riċevitur m'għandux il-forma ta' erba' ċifri skema:identifikatur; mhux maħżun."
+      ],
+      "Portal-Darstellung": [
+        "Dehra tal-portal"
+      ],
+      "Überschrift anzeigen": [
+        "Uri t-titlu"
+      ],
+      "Einleitungstext anzeigen": [
+        "Uri t-test introduttorju"
+      ],
+      "block title\u0004Peppol-Rechnungsstatus-Portal": [
+        "Portal tal-Istat tal-Fatturi Peppol"
+      ],
+      "block description\u0004Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID.": [
+        "Portal pubbliku biex tfittex e-fatturi Peppol maħżuna permezz tan-numru tal-fattura u l-Peppol ID."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004invoice": [
+        "fattura"
+      ],
+      "block keyword\u0004e-rechnung": [
+        "e-fattura"
+      ],
+      "block keyword\u0004ubl": [
+        "ubl"
+      ],
+      "block keyword\u0004status": [
+        "stat"
+      ]
+    }
+  }
+}

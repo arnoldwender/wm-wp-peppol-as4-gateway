@@ -1,0 +1,1362 @@
+# Translation of wm-peppol-as4-gateway in fi
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-peppol-as4-gateway 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-peppol-as4-"
+"gateway\n"
+"POT-Creation-Date: 2026-11-21T14:15:36+00:00\n"
+"PO-Revision-Date: 2026-11-21 15:24+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-peppol-as4-"
+"gateway/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-peppol-as4-"
+"gateway/issues>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-peppol-as4-gateway\n"
+
+#. Plugin Name of the plugin
+#: wm-peppol-as4-gateway.php includes/Admin/AdminDashboard.php:101
+msgid "WM Peppol AS4 Gateway"
+msgstr "WM Peppol AS4 Gateway"
+
+#. Plugin URI of the plugin
+#: wm-peppol-as4-gateway.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+
+#. Description of the plugin
+#: wm-peppol-as4-gateway.php
+msgid ""
+"Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das "
+"amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt "
+"Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten "
+"KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und "
+"zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die "
+"übernimmt der Phase4-Dienst."
+msgstr ""
+"Luo Peppol BIS Billing 3.0 -määrittelyn mukaisia UBL 2.1 -laskuja, tarkistaa "
+"ne virallista EN 16931 -sääntökokoelmaa vasten, hakee vastaanottajan SML:stä "
+"ja SMP:stä, välittää valmiiden WooCommerce-tilausten laskut määritetylle "
+"KoSIT-validaattorille ja Phase4-palvelulle, tarkistaa allekirjoitetun AS4-"
+"kuittauksen ja näyttää ostajille tallennetun tilan. Ei omaa AS4-siirtoa: "
+"siitä huolehtii Phase4."
+
+#. Author of the plugin
+#: wm-peppol-as4-gateway.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-peppol-as4-gateway.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#. translators: %s: action name
+#: includes/Adapters/Peppol_Spoke_Adapter.php:138
+#, php-format
+msgid "Unbekannte Spoke-Aktion \"%s\"."
+msgstr "Tuntematon spoke-toiminto \"%s\"."
+
+#. translators: %s: missing seller fields
+#: includes/Adapters/Peppol_Spoke_Adapter.php:155
+#, php-format
+msgid "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s)."
+msgstr "Itsetesti ei ole mahdollinen: myyjän tiedot puuttuvat (%s)."
+
+#. translators: %s: failed checks
+#: includes/Adapters/Peppol_Spoke_Adapter.php:181
+#, php-format
+msgid "Testdokument von den Strukturprüfungen abgelehnt: %s"
+msgstr "Rakennetarkistukset hylkäsivät testiasiakirjan: %s"
+
+#. translators: %d: size of the test document in bytes
+#: includes/Adapters/Peppol_Spoke_Adapter.php:188
+#, php-format
+msgid ""
+"Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins "
+"angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-"
+"Prüfung."
+msgstr ""
+"Testiasiakirja luotu (%d tavua) ja hyväksytty lisäosan "
+"rakennetarkistuksissa. Ei tallennettu, ei lähetetty, ei skeema- tai "
+"Schematron-tarkistusta."
+
+#: includes/Admin/AdminDashboard.php:113 includes/Admin/AdminDashboard.php:513
+msgid ""
+"Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder "
+"aktivieren."
+msgstr ""
+"Lisäosan tietokantataulut puuttuvat. Poista lisäosa käytöstä ja ota se "
+"uudelleen käyttöön."
+
+#: includes/Admin/AdminDashboard.php:117
+msgid "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden."
+msgstr "Myyjän tiedot puutteelliset: verkkolaskua ei voida luoda."
+
+#: includes/Admin/AdminDashboard.php:125
+msgid ""
+"Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind "
+"konfiguriert."
+msgstr ""
+"Myyjän tiedot täydelliset. KoSIT-validaattori ja Phase4-palvelu on "
+"määritetty."
+
+#: includes/Admin/AdminDashboard.php:126
+msgid ""
+"Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden "
+"nur gespeichert."
+msgstr ""
+"Myyjän tiedot täydelliset. Lähetystä ei ole määritetty: laskut vain "
+"tallennetaan."
+
+#: includes/Admin/AdminDashboard.php:136 includes/Admin/AdminDashboard.php:535
+msgid "Gespeicherte Rechnungen"
+msgstr "Tallennetut laskut"
+
+#: includes/Admin/AdminDashboard.php:140 includes/Admin/AdminDashboard.php:541
+msgid "Übergaben an Phase4"
+msgstr "Luovutukset Phase4:lle"
+
+#: includes/Admin/AdminDashboard.php:144 includes/Admin/AdminDashboard.php:546
+#: includes/Admin/AdminDashboard.php:717
+msgid "Empfangsquittungen"
+msgstr "Vastaanottokuittaukset"
+
+#: includes/Admin/AdminDashboard.php:149
+msgid "Peppol Gateway öffnen"
+msgstr "Avaa Peppol Gateway"
+
+#: includes/Admin/AdminDashboard.php:171 includes/Admin/AdminDashboard.php:172
+#: includes/Admin/AdminDashboard.php:437
+msgid "Peppol Gateway"
+msgstr "Peppol Gateway"
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:225
+#, php-format
+msgid "%d Beispielrechnung angelegt."
+msgid_plural "%d Beispielrechnungen angelegt."
+msgstr[0] "%d esimerkkilasku luotu."
+msgstr[1] "%d esimerkkilaskua luotu."
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:231
+#, php-format
+msgid "%d Beispielrechnung entfernt."
+msgid_plural "%d Beispielrechnungen entfernt."
+msgstr[0] "%d esimerkkilasku poistettu."
+msgstr[1] "%d esimerkkilaskua poistettu."
+
+#: includes/Admin/AdminDashboard.php:424
+msgid "Übersicht"
+msgstr "Yleiskatsaus"
+
+#: includes/Admin/AdminDashboard.php:425 includes/Admin/AdminDashboard.php:659
+msgid "Rechnung erzeugen"
+msgstr "Luo lasku"
+
+#: includes/Admin/AdminDashboard.php:426 includes/Admin/AdminDashboard.php:692
+msgid "Einstellungen"
+msgstr "Asetukset"
+
+#: includes/Admin/AdminDashboard.php:427 includes/Admin/AdminDashboard.php:775
+msgid "Was das Plugin tut"
+msgstr "Mitä lisäosa tekee"
+
+#: includes/Admin/AdminDashboard.php:438
+msgid ""
+"UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an "
+"einen konfigurierten Phase4-Dienst übergeben."
+msgstr ""
+"Luo ja tallenna Peppol BIS Billing 3.0 -mukaisia UBL 2.1 -laskuja ja välitä "
+"ne määritetylle Phase4-palvelulle."
+
+#: includes/Admin/AdminDashboard.php:442
+msgid "Part of the WM Suite plugin family"
+msgstr "Osa WM Suiten lisäosaperhettä"
+
+#: includes/Admin/AdminDashboard.php:444
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:445
+msgid "Hub"
+msgstr "Hub"
+
+#: includes/Admin/AdminDashboard.php:445
+msgid "Standalone"
+msgstr "Itsenäinen"
+
+#: includes/Admin/AdminDashboard.php:452
+msgid "Bereiche"
+msgstr "Osiot"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid ""
+"Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie "
+"nicht versendet."
+msgstr ""
+"Verkkolasku luotiin ja tallennettiin. Tällä lomakkeella sitä ei lähetetä."
+
+#: includes/Admin/AdminDashboard.php:489
+msgid "Die E-Rechnung wurde nicht erzeugt."
+msgstr "Verkkolaskua ei luotu."
+
+#: includes/Admin/AdminDashboard.php:490 includes/API/RestController.php:298
+msgid "Eine Rechnung mit dieser Nummer ist bereits gespeichert."
+msgstr "Tällä numerolla on jo tallennettu lasku."
+
+#: includes/Admin/AdminDashboard.php:491 includes/API/RestController.php:323
+msgid "Die Rechnung wurde erzeugt, aber nicht gespeichert."
+msgstr "Lasku luotiin, mutta sitä ei voitu tallentaa."
+
+#: includes/Admin/AdminDashboard.php:492
+msgid "Einstellungen gespeichert."
+msgstr "Asetukset tallennettu."
+
+#: includes/Admin/AdminDashboard.php:493
+msgid ""
+"Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen "
+"Statusportal nicht gemeldet."
+msgstr ""
+"Esimerkkilaskut on merkitty esimerkeiksi eikä niitä näytetä julkisessa "
+"tilaportaalissa."
+
+#: includes/Admin/AdminDashboard.php:494
+msgid "Beispielrechnungen entfernt."
+msgstr "Esimerkkilaskut poistettu."
+
+#. translators: %s: link to the settings tab
+#: includes/Admin/AdminDashboard.php:526
+#, php-format
+msgid ""
+"Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s"
+msgstr "Myyjän tiedot puutteelliset: verkkolaskua ei voida luoda. %s"
+
+#. translators: %s: link to the settings tab
+#: includes/Admin/AdminDashboard.php:526 includes/Admin/AdminDashboard.php:637
+msgid "Zu den Einstellungen"
+msgstr "Siirry asetuksiin"
+
+#: includes/Admin/AdminDashboard.php:530
+msgid ""
+"Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber "
+"nicht übergeben."
+msgstr ""
+"Lähetystä ei ole määritetty: luodut laskut tallennetaan, mutta niitä ei "
+"välitetä."
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:538
+#, php-format
+msgid "ohne %d Beispielrechnungen"
+msgstr "ilman %d esimerkkilaskua"
+
+#: includes/Admin/AdminDashboard.php:543
+msgid "mit messageId"
+msgstr "messageId-tunnuksella"
+
+#: includes/Admin/AdminDashboard.php:548
+msgid "positiv, per Webhook"
+msgstr "positiivinen, webhookilla"
+
+#: includes/Admin/AdminDashboard.php:551
+msgid "Verkäuferdaten"
+msgstr "Myyjän tiedot"
+
+#: includes/Admin/AdminDashboard.php:552
+msgid "vollständig"
+msgstr "täydelliset"
+
+#: includes/Admin/AdminDashboard.php:553
+msgid "für die Rechnungserzeugung"
+msgstr "laskujen luontiin"
+
+#: includes/Admin/AdminDashboard.php:553
+msgid "Angaben fehlen"
+msgstr "tietoja puuttuu"
+
+#: includes/Admin/AdminDashboard.php:558
+msgid "Rechnungen"
+msgstr "Laskut"
+
+#: includes/Admin/AdminDashboard.php:559
+msgid "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status."
+msgstr "Viimeisimmät 50 tallennettua laskua ja niiden tallennettu tila."
+
+#: includes/Admin/AdminDashboard.php:564 includes/Admin/AdminDashboard.php:643
+#: includes/Frontend/InvoicePortal.php:139
+msgid "Rechnungsnummer"
+msgstr "Laskun numero"
+
+#: includes/Admin/AdminDashboard.php:565
+msgid "Peppol-ID des Käufers"
+msgstr "Ostajan Peppol-tunnus"
+
+#: includes/Admin/AdminDashboard.php:566
+#: includes/Frontend/InvoicePortal.php:120
+msgid "Zahlbetrag"
+msgstr "Maksettava summa"
+
+#: includes/Admin/AdminDashboard.php:567
+msgid "Status"
+msgstr "Tila"
+
+#: includes/Admin/AdminDashboard.php:568
+#: includes/Frontend/InvoicePortal.php:121
+msgid "Rechnungsdatum"
+msgstr "Laskun päivämäärä"
+
+#: includes/Admin/AdminDashboard.php:573
+msgid "Noch keine Rechnungen gespeichert."
+msgstr "Yhtään laskua ei ole vielä tallennettu."
+
+#: includes/Admin/AdminDashboard.php:590
+msgid "Beispielrechnungen"
+msgstr "Esimerkkilaskut"
+
+#: includes/Admin/AdminDashboard.php:591
+msgid ""
+"Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im "
+"öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die "
+"drei Beispielzeilen früherer Versionen."
+msgstr ""
+"Esimerkkilaskuissa ei ole XML-sisältöä, niitä ei lasketa laskuiksi eikä "
+"niitä näytetä julkisessa portaalissa. Poistaminen poistaa vain ne, mukaan "
+"lukien aiempien versioiden kolme esimerkkiriviä."
+
+#: includes/Admin/AdminDashboard.php:596
+msgid "Beispielrechnungen anlegen"
+msgstr "Luo esimerkkilaskuja"
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:603
+#, php-format
+msgid "%d Beispielrechnung entfernen"
+msgid_plural "%d Beispielrechnungen entfernen"
+msgstr[0] "Poista %d esimerkkilasku"
+msgstr[1] "Poista %d esimerkkilaskua"
+
+#: includes/Admin/AdminDashboard.php:620
+msgid "Beispiel"
+msgstr "Esimerkki"
+
+#: includes/Admin/AdminDashboard.php:623
+msgid "Erzeugt, nicht versendet"
+msgstr "Luotu, ei lähetetty"
+
+#: includes/Admin/AdminDashboard.php:624
+msgid "An Phase4 übergeben"
+msgstr "Luovutettu Phase4:lle"
+
+#: includes/Admin/AdminDashboard.php:625
+msgid "Zugestellt (Quittung)"
+msgstr "Toimitettu (kuittaus)"
+
+#: includes/Admin/AdminDashboard.php:626
+msgid "Zustellung fehlgeschlagen"
+msgstr "Toimitus epäonnistui"
+
+#: includes/Admin/AdminDashboard.php:627
+msgid "Versand fehlgeschlagen"
+msgstr "Lähetys epäonnistui"
+
+#. translators: %s: link to the settings tab
+#: includes/Admin/AdminDashboard.php:637
+#, php-format
+msgid "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s"
+msgstr "Ilman täydellisiä myyjän tietoja laskua ei luoda. %s"
+
+#: includes/Admin/AdminDashboard.php:644
+msgid "Käuferreferenz (BT-10), z. B. die Leitweg-ID"
+msgstr "Ostajan viite (BT-10), esim. Leitweg-ID"
+
+#: includes/Admin/AdminDashboard.php:645
+msgid "Name des Käufers"
+msgstr "Ostajan nimi"
+
+#: includes/Admin/AdminDashboard.php:646 includes/Admin/AdminDashboard.php:682
+msgid "Straße"
+msgstr "Katuosoite"
+
+#: includes/Admin/AdminDashboard.php:647 includes/Admin/AdminDashboard.php:683
+msgid "Postleitzahl"
+msgstr "Postinumero"
+
+#: includes/Admin/AdminDashboard.php:648 includes/Admin/AdminDashboard.php:684
+msgid "Ort"
+msgstr "Postitoimipaikka"
+
+#: includes/Admin/AdminDashboard.php:649 includes/Admin/AdminDashboard.php:685
+msgid "Land (zweistelliger Code)"
+msgstr "Maa (kaksikirjaiminen koodi)"
+
+#: includes/Admin/AdminDashboard.php:650
+msgid "Peppol-ID des Käufers (Schema:Kennung)"
+msgstr "Ostajan Peppol-tunnus (skeema:tunniste)"
+
+#: includes/Admin/AdminDashboard.php:651
+msgid "USt-IdNr. des Käufers (optional)"
+msgstr "Ostajan ALV-tunniste (valinnainen)"
+
+#: includes/Admin/AdminDashboard.php:652
+msgid "Bezeichnung der Leistung"
+msgstr "Palvelun tai tuotteen kuvaus"
+
+#: includes/Admin/AdminDashboard.php:653
+msgid "Menge"
+msgstr "Määrä"
+
+#: includes/Admin/AdminDashboard.php:654
+msgid "Nettopreis je Einheit"
+msgstr "Nettoyksikköhinta"
+
+#: includes/Admin/AdminDashboard.php:655
+msgid "Umsatzsteuersatz in Prozent"
+msgstr "ALV-kanta prosentteina"
+
+#: includes/Admin/AdminDashboard.php:660
+msgid ""
+"Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet "
+"wird nichts; Verkäuferdaten kommen aus den Einstellungen."
+msgstr ""
+"Luo yksirivisen UBL-laskun ja tallentaa sen. Mitään ei lähetetä; myyjän "
+"tiedot haetaan asetuksista."
+
+#: includes/Admin/AdminDashboard.php:670
+msgid "Rechnung erzeugen und speichern"
+msgstr "Luo ja tallenna lasku"
+
+#: includes/Admin/AdminDashboard.php:679
+msgid "Peppol-ID des Verkäufers (Schema:Kennung)"
+msgstr "Myyjän Peppol-tunnus (skeema:tunniste)"
+
+#: includes/Admin/AdminDashboard.php:680
+msgid "Name"
+msgstr "Nimi"
+
+#: includes/Admin/AdminDashboard.php:681
+msgid "Rechtlicher Name (leer: wie Name)"
+msgstr "Virallinen nimi (tyhjä: sama kuin Nimi)"
+
+#: includes/Admin/AdminDashboard.php:686
+msgid "USt-IdNr."
+msgstr "ALV-tunniste"
+
+#: includes/Admin/AdminDashboard.php:687
+msgid "Registernummer (optional)"
+msgstr "Yritysrekisterinumero (valinnainen)"
+
+#: includes/Admin/AdminDashboard.php:688
+msgid "IBAN für Zahlung per Überweisung"
+msgstr "IBAN tilisiirtomaksua varten"
+
+#: includes/Admin/AdminDashboard.php:697
+msgid "Verkäufer"
+msgstr "Myyjä"
+
+#: includes/Admin/AdminDashboard.php:698
+msgid ""
+"Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, "
+"erzeugt das Plugin keine Rechnung."
+msgstr ""
+"Nämä tiedot merkitään jokaiselle luodulle laskulle. Jos pakollinen tieto "
+"puuttuu, lisäosa ei luo laskua."
+
+#: includes/Admin/AdminDashboard.php:706
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:309
+msgid "Versand"
+msgstr "Lähetys"
+
+#: includes/Admin/AdminDashboard.php:707
+msgid ""
+"Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine "
+"der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL "
+"und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang."
+msgstr ""
+"Molemmat palvelut ovat erillisiä ohjelmia lisäosan ulkopuolella. Niin kauan "
+"kuin jompikumpi osoite puuttuu, mitään ei lähetetä. wp-config.php-tiedoston "
+"vakiot WM_PEPPOL_KOSIT_URL ja WM_PEPPOL_PHASE4_URL ovat ensisijaisia."
+
+#: includes/Admin/AdminDashboard.php:709
+msgid "Adresse des KoSIT-Validators"
+msgstr "KoSIT-validaattorin osoite"
+
+#: includes/Admin/AdminDashboard.php:713
+msgid "Adresse des Phase4-Dienstes"
+msgstr "Phase4-palvelun osoite"
+
+#: includes/Admin/AdminDashboard.php:722
+msgid ""
+"Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur "
+"werden angenommen."
+msgstr ""
+"Jaettu salaisuus on asetettu; kelvollisesti allekirjoitetut kuittaukset "
+"hyväksytään."
+
+#: includes/Admin/AdminDashboard.php:723
+msgid ""
+"Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen "
+"per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update "
+"wm_peppol_receipt_secret."
+msgstr ""
+"Jaettua salaisuutta ei ole asetettu; kaikki kuittaukset hylätään. Aseta "
+"vakiolla WM_PEPPOL_RECEIPT_SECRET tai komennolla wp option update "
+"wm_peppol_receipt_secret."
+
+#: includes/Admin/AdminDashboard.php:728
+msgid ""
+"Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)"
+msgstr ""
+"Sallitut varmenteen sormenjäljet AS4-kuittauksille (SHA-256, valinnainen)"
+
+#: includes/Admin/AdminDashboard.php:730
+msgid ""
+"Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-"
+"Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der "
+"wp-config.php hat Vorrang."
+msgstr ""
+"Pilkuin erotetut 64-merkkiset SHA-256-sormenjäljet liityntäpisteen "
+"odotetuista allekirjoitusvarmenteista. Vakio WM_PEPPOL_TRUSTED_SIGNER_SHA256 "
+"tiedostossa wp-config.php on etusijalla."
+
+#: includes/Admin/AdminDashboard.php:733
+msgid "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)"
+msgstr ""
+"Paikallinen CA-varmennepaketti PEM-muodossa (OpenPeppol-PKI, valinnainen)"
+
+#: includes/Admin/AdminDashboard.php:735
+msgid ""
+"Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-"
+"Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten "
+"WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang."
+msgstr ""
+"Yksi tai useampi luotettu juuri- ja välivarmenne PEM-muodossa ketjun täysin "
+"paikalliseen tarkistukseen ilman verkkoyhteyttä. Vakiot "
+"WM_PEPPOL_TRUST_BUNDLE_PEM ja WM_PEPPOL_TRUST_BUNDLE_FILE ovat etusijalla."
+
+#: includes/Admin/AdminDashboard.php:740
+msgid ""
+"AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel "
+"ablehnen"
+msgstr ""
+"Hylkää AS4-kuittaukset, jos sormenjälkeä tai CA-varmennepakettia ei ole "
+"tallennettu"
+
+#: includes/Admin/AdminDashboard.php:742
+msgid ""
+"Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, "
+"werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 "
+"abgewiesen."
+msgstr ""
+"Kun asetus on käytössä tai asetettu vakiolla WM_PEPPOL_REQUIRE_TRUST_ANCHOR, "
+"itse allekirjoitetut tai ankkuroimattomat kuittaukset hylätään vastauksella "
+"HTTP 422."
+
+#: includes/Admin/AdminDashboard.php:745
+msgid "Deinstallation"
+msgstr "Poisto"
+
+#: includes/Admin/AdminDashboard.php:749
+msgid ""
+"Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen "
+"unwiderruflich löschen"
+msgstr ""
+"Poista pysyvästi kaikki lisäosan asetukset ja kolme tietokantataulua, kun "
+"lisäosa poistetaan"
+
+#: includes/Admin/AdminDashboard.php:751
+msgid ""
+"Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das "
+"Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt "
+"wird."
+msgstr ""
+"Oletuksena kaikki tallennetut laskut, siirrot, kuittausrekisteri ja "
+"asetukset säilytetään lisäosaa poistettaessa."
+
+#: includes/Admin/AdminDashboard.php:754
+msgid "Einstellungen speichern"
+msgstr "Tallenna asetukset"
+
+#: includes/Admin/AdminDashboard.php:762
+msgid ""
+"Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS "
+"Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und "
+"Steuersatz."
+msgstr ""
+"Luo UBL 2.1 -laskuja Peppol BIS Billing 3.0 -määritystunnisteella ja ALV-"
+"erittelyllä veroluokittain ja -kannoittain."
+
+#: includes/Admin/AdminDashboard.php:763
+msgid ""
+"Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen."
+msgstr ""
+"Kieltäytyy luomasta laskua puuttuvilla pakollisilla tiedoilla sen sijaan, "
+"että keksisi niitä."
+
+#: includes/Admin/AdminDashboard.php:764
+msgid ""
+"Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine "
+"Schema- und keine Schematron-Prüfung."
+msgstr ""
+"Tarkistaa pakolliset kentät, koodit ja summasäännöt. Tämä ei ole XSD-skeema- "
+"eikä Schematron-tarkistus."
+
+#: includes/Admin/AdminDashboard.php:765
+msgid ""
+"Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-"
+"Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt "
+"signierte Empfangsquittungen an."
+msgstr ""
+"Välittää valmiiden WooCommerce-tilausten laskut KoSIT-validaattorille ja "
+"Phase4-palvelulle, kun molemmat on määritetty, ja vastaanottaa "
+"allekirjoitetut kuittaukset."
+
+#: includes/Admin/AdminDashboard.php:766
+msgid "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung."
+msgstr "Näyttää ostajille laskun tallennetun tilan tilaportaalissa."
+
+#: includes/Admin/AdminDashboard.php:769
+msgid ""
+"Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt "
+"der Phase4-Dienst."
+msgstr ""
+"Ei omaa AS4-siirtoa, allekirjoitusta tai salausta: Phase4-palvelu hoitaa ne."
+
+#: includes/Admin/AdminDashboard.php:770
+msgid ""
+"Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen."
+msgstr "Ei hyvityslaskuja UBL CreditNote -syntaksilla eikä verovapautuksia."
+
+#: includes/Admin/AdminDashboard.php:771
+msgid ""
+"Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister "
+"bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, "
+"wenn dies in den Einstellungen ausdrücklich aktiviert wurde."
+msgstr ""
+"Ei vientiarkistoa: tallennetut laskut ja kuittausrekisteri säilyvät "
+"oletuksena poistettaessa ja poistetaan vain, jos se on erikseen otettu "
+"käyttöön asetuksissa."
+
+#: includes/Admin/AdminDashboard.php:781
+msgid "Was es nicht tut"
+msgstr "Mitä se ei tee"
+
+#: includes/API/RestController.php:148 includes/API/RestController.php:177
+msgid ""
+"Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut."
+msgstr "Liian monta kyselyä tästä osoitteesta. Yritä myöhemmin uudelleen."
+
+#: includes/API/RestController.php:189
+msgid "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich."
+msgstr "Laskun numero ja ostajan Peppol-tunnus vaaditaan."
+
+#: includes/API/RestController.php:215 includes/Frontend/InvoicePortal.php:110
+msgid "Zu diesen Angaben liegt keine Rechnung vor."
+msgstr "Näillä tiedoilla ei löytynyt laskua."
+
+#: includes/API/RestController.php:286
+msgid "Der Anfragekörper muss ein JSON-Objekt sein."
+msgstr "Pyynnön rungon on oltava JSON-objekti."
+
+#. translators: %d: row id
+#: includes/AS4/DeliveryRegister.php:135
+#, php-format
+msgid ""
+"Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder "
+"eingefügt."
+msgstr ""
+"Rivi %d ei viittaa edeltävään riviin: rivi on poistettu tai lisätty väliin."
+
+#. translators: %d: row id
+#: includes/AS4/DeliveryRegister.php:157
+#, php-format
+msgid ""
+"Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von "
+"einer Installation mit anderen Schlüsseln."
+msgstr ""
+"Riviä %d on muokattu kirjoittamisen jälkeen tai tietokanta on peräisin "
+"asennuksesta, jossa on eri avaimet."
+
+#. translators: %d: size limit in bytes
+#: includes/AS4/ReceiptEvidence.php:89
+#, php-format
+msgid ""
+"Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, "
+"keine Nutzlast."
+msgstr "Kuittaus ylittää %d tavua; AS4-kuittaus on signaali, ei hyötykuorma."
+
+#: includes/AS4/ReceiptEvidence.php:110
+msgid "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage."
+msgstr ""
+"Asiakirja ei sisällä eb:Receipt-elementtiä eb:SignalMessage-rakenteessa."
+
+#: includes/AS4/ReceiptEvidence.php:137
+msgid "Die Quittung enthält kein prüfbares Signaturzertifikat."
+msgstr "Kuittaus ei sisällä tarkistettavaa allekirjoitusvarmennetta."
+
+#: includes/AS4/ReceiptEvidence.php:200
+msgid ""
+"Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit "
+"einer signierten Quittung beantwortet werden."
+msgstr ""
+"Kuittauksessa ei ole XML-allekirjoitusta. Allekirjoitettuun AS4-sanomaan ON "
+"vastattava allekirjoitetulla kuittauksella."
+
+#: includes/AS4/ReceiptEvidence.php:209
+msgid ""
+"Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt."
+msgstr ""
+"Allekirjoitus on puutteellinen: ds:SignedInfo tai ds:SignatureValue puuttuu."
+
+#: includes/AS4/ReceiptEvidence.php:212
+msgid ""
+"Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel "
+"ist sie nicht prüfbar."
+msgstr ""
+"Allekirjoitus ei sisällä X.509-varmennetta; ilman julkista avainta sitä ei "
+"voi tarkistaa."
+
+#. translators: %s: signature algorithm identifier
+#: includes/AS4/ReceiptEvidence.php:222
+#, php-format
+msgid "Signaturverfahren %s wird von dieser Installation nicht geprüft."
+msgstr "Tämä asennus ei tarkista allekirjoitusmenetelmää %s."
+
+#: includes/AS4/ReceiptEvidence.php:251
+msgid "Das X.509-Zertifikat der Signatur ist nicht lesbar."
+msgstr "Allekirjoituksen X.509-varmennetta ei voida lukea."
+
+#: includes/AS4/ReceiptEvidence.php:269
+msgid "OpenSSL konnte die Signatur nicht prüfen."
+msgstr "OpenSSL ei pystynyt tarkistamaan allekirjoitusta."
+
+#: includes/AS4/ReceiptEvidence.php:270
+msgid ""
+"Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem "
+"Signieren verändert oder mit einem anderen Schlüssel erzeugt."
+msgstr ""
+"Allekirjoitus ei täsmää kuittauksen sisältöön: sitä on muutettu "
+"allekirjoituksen jälkeen tai se on luotu toisella avaimella."
+
+#. translators: 1: references that matched, 2: references in total
+#: includes/AS4/ReceiptEvidence.php:291
+#, php-format
+msgid ""
+"Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum "
+"Inhalt: die Quittung wurde nach dem Signieren verändert."
+msgstr ""
+"Itse allekirjoitus on kelvollinen, mutta vain %1$d / %2$d tarkistussummasta "
+"täsmää sisältöön: kuittausta on muutettu allekirjoituksen jälkeen."
+
+#: includes/AS4/ReceiptEvidence.php:308
+msgid "Das X.509-Zertifikat der Quittung ist abgelaufen."
+msgstr "Kuittauksen X.509-varmenne on vanhentunut."
+
+#: includes/AS4/ReceiptEvidence.php:322
+msgid "Das X.509-Zertifikat der Quittung ist noch nicht gültig."
+msgstr "Kuittauksen X.509-varmenne ei ole vielä voimassa."
+
+#: includes/AS4/ReceiptEvidence.php:521
+msgid ""
+"Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel "
+"hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird."
+msgstr ""
+"Varmenteen sormenjälkeä tai CA-varmennepakettia ei ole tallennettu, vaikka "
+"luottamusankkurin tarkistus on pakotettu."
+
+#: includes/AS4/ReceiptEvidence.php:534
+msgid ""
+"Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten "
+"SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel."
+msgstr ""
+"Kuittauksen allekirjoitusvarmenne ei vastaa mitään tallennettua SHA-256-"
+"sormenjälkeä eikä luotettua CA-varmennepakettia."
+
+#: includes/AS4/ReceiptEvidence.php:614
+msgid "Die Quittung ist kein wohlgeformtes XML."
+msgstr "Kuittaus ei ole hyvin muodostettua XML:ää."
+
+#. translators: %d: HTTP status code
+#: includes/class-peppol-phase4-client.php:86
+#, php-format
+msgid "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d)."
+msgstr "KoSIT-validaattori ei hyväksynyt asiakirjaa (HTTP %d)."
+
+#: includes/class-peppol-phase4-client.php:105
+msgid "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung."
+msgstr "Lähettäjän tai vastaanottajan tunnus ei ole muodossa skeema:tunniste."
+
+#. translators: %d: HTTP status code
+#: includes/class-peppol-phase4-client.php:132
+#, php-format
+msgid "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d)."
+msgstr "Phase4-palvelu hylkäsi lähetyksen (HTTP %d)."
+
+#: includes/class-peppol-phase4-client.php:138
+msgid ""
+"Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich "
+"keine Empfangsquittung zuordnen."
+msgstr ""
+"Phase4-palvelu ei palauttanut messageId-tunnusta; ilman sitä "
+"vastaanottokuittausta ei voida kohdistaa."
+
+#: includes/class-peppol-phase4-client.php:146
+msgid ""
+"KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts "
+"versendet."
+msgstr ""
+"KoSIT-validaattoria ja Phase4-palvelua ei ole määritetty; mitään ei lähetetä."
+
+#: includes/class-peppol-webhook-receiver.php:165
+msgid ""
+"Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument "
+"als das versendete."
+msgstr ""
+"Kuittaus on kelvollisesti allekirjoitettu, mutta se koskee eri asiakirjaa "
+"kuin lähetetty."
+
+#. translators: %s: message id
+#: includes/class-peppol-webhook-receiver.php:197
+#, php-format
+msgid "Peppol: Positive Empfangsquittung für messageId %s erhalten."
+msgstr ""
+"Peppol: Positiivinen vastaanottokuittaus vastaanotettu tunnukselle messageId "
+"%s."
+
+#: includes/class-peppol-webhook-receiver.php:198
+msgid "Peppol-Empfangsquittung erhalten."
+msgstr "Peppol-vastaanottokuittaus vastaanotettu."
+
+#. translators: 1: message id, 2: error text of the receipt
+#: includes/class-peppol-webhook-receiver.php:201
+#, php-format
+msgid "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s"
+msgstr "Peppol: Lähetys epäonnistui (messageId %1$s): %2$s"
+
+#. translators: 1: message id, 2: error text of the receipt
+#: includes/class-peppol-webhook-receiver.php:201
+msgid "ohne Fehlerbeschreibung"
+msgstr "ei virhekuvausta"
+
+#: includes/class-peppol-webhook-receiver.php:202
+msgid "Peppol-Versand fehlgeschlagen."
+msgstr "Peppol-lähetys epäonnistui."
+
+#. translators: %s: comma separated rule identifiers
+#: includes/CLI/PeppolCommand.php:367
+#, php-format
+msgid ""
+"Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt "
+"noch als verletzt: %s"
+msgstr ""
+"Näitä sääntöjä ei voitu arvioida, eikä niitä lasketa täytetyiksi tai "
+"rikotuiksi: %s"
+
+#. translators: %s: comma-separated list of missing PHP extensions
+#: includes/Database/Schema.php:42
+#, php-format
+msgid ""
+"WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende "
+"erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s."
+msgstr ""
+"WM Peppol AS4 Gateway -lisäosaa ei voitu ottaa käyttöön, koska tältä "
+"palvelimelta puuttuvat seuraavat vaaditut PHP-laajennukset: %s."
+
+#: includes/Database/Schema.php:46
+msgid "Fehlende PHP-Erweiterung"
+msgstr "Puuttuva PHP-laajennus"
+
+#: includes/Discovery/SmpClient.php:127
+msgid "Kein Peppol-Teilnehmerbezeichner angegeben."
+msgstr "Peppol-osallistujatunnistetta ei annettu."
+
+#. translators: %s: the identifier as given
+#: includes/Discovery/SmpClient.php:146
+#, php-format
+msgid ""
+"Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:"
+"<Kennung>, zum Beispiel 9930:DE123456789."
+msgstr ""
+"Tunniste \"%s\" ei ole muodossa <nelinumeroinen EAS-skeema>:<tunniste>, "
+"esimerkiksi 9930:DE123456789."
+
+#: includes/Discovery/SmpClient.php:154
+msgid ""
+"Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht "
+"vorkommen dürfen."
+msgstr ""
+"Tunnisteskeema sisältää merkkejä, jotka eivät ole sallittuja DNS-nimessä."
+
+#. translators: %s: DNS name that was asked
+#: includes/Discovery/SmpClient.php:216
+#, php-format
+msgid ""
+"Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone "
+"nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen."
+msgstr ""
+"Kohteelle %s ei ole NAPTR-tietuetta: osallistujaa ei ole rekisteröity tähän "
+"SML-vyöhykkeeseen tai nimipalvelin ei vastaa NAPTR-kyselyihin."
+
+#. translators: %s: DNS name that was asked
+#: includes/Discovery/SmpClient.php:244
+#, php-format
+msgid ""
+"Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer "
+"URL)."
+msgstr "Kohteen %s NAPTR-tietue ei nimeä SMP:tä (palvelu \"Meta:SMP\" ja URL)."
+
+#. translators: 1: participant id, 2: document type
+#: includes/Discovery/SmpClient.php:332
+#, php-format
+msgid ""
+"Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: "
+"dieser Empfänger nimmt dieses Dokument nicht entgegen."
+msgstr ""
+"SMP tuntee osallistujan %1$s, muttei asiakirjatyypille %2$s: vastaanottaja "
+"ei ota tätä asiakirjaa vastaan."
+
+#. translators: 1: HTTP status, 2: SMP URL
+#: includes/Discovery/SmpClient.php:345
+#, php-format
+msgid "Der SMP antwortete mit HTTP %1$d auf %2$s."
+msgstr "SMP vastasi tilakoodilla HTTP %1$d osoitteessa %2$s."
+
+#: includes/Discovery/SmpClient.php:384
+msgid "Der SMP lieferte einen leeren Körper."
+msgstr "SMP palautti tyhjän rungon."
+
+#: includes/Discovery/SmpClient.php:394
+msgid "Die Antwort des SMP ist kein wohlgeformtes XML."
+msgstr "SMP:n vastaus ei ole hyvin muodostettua XML:ää."
+
+#. translators: %s: the AS4 transport profile that was looked for
+#: includes/Discovery/SmpClient.php:445
+#, php-format
+msgid "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s."
+msgstr "SMP-vastauksessa ei ole päätepistettä siirtoprofiililla %s."
+
+#: includes/Frontend/DynamicBindings.php:41
+#: includes/Frontend/DynamicBindings.php:55
+msgid "Peppol-Gateway-Status"
+msgstr "Peppol Gatewayn tila"
+
+#: includes/Frontend/DynamicBindings.php:117
+msgid "Tabellen des Plugins fehlen"
+msgstr "Lisäosan taulut puuttuvat"
+
+#: includes/Frontend/DynamicBindings.php:125
+msgid "KoSIT-Validator und Phase4-Dienst konfiguriert"
+msgstr "KoSIT-validaattori ja Phase4-palvelu määritetty"
+
+#: includes/Frontend/DynamicBindings.php:126
+msgid "Versand nicht konfiguriert"
+msgstr "Lähetystä ei määritetty"
+
+#. translators: 1: stored invoices count, 2: delivered receipts count
+#: includes/Frontend/DynamicBindings.php:129
+#, php-format
+msgid "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen"
+msgstr "%1$d tallennettua laskua, %2$d vastaanottokuittausta"
+
+#: includes/Frontend/InvoicePortal.php:109
+msgid "Status wird abgefragt …"
+msgstr "Haetaan tilaa …"
+
+#: includes/Frontend/InvoicePortal.php:111
+msgid "Rechnung gefunden"
+msgstr "Lasku löytyi"
+
+#: includes/Frontend/InvoicePortal.php:112
+msgid "Die Abfrage ist fehlgeschlagen."
+msgstr "Kysely epäonnistui."
+
+#: includes/Frontend/InvoicePortal.php:113
+msgid "Gespeicherter Status"
+msgstr "Tallennettu tila"
+
+#: includes/Frontend/InvoicePortal.php:114
+msgid "Übergabe an Phase4"
+msgstr "Luovutus Phase4:lle"
+
+#: includes/Frontend/InvoicePortal.php:115
+msgid "keine Übergabe erfasst"
+msgstr "ei kirjattua luovutusta"
+
+#: includes/Frontend/InvoicePortal.php:116
+msgid "Empfangsquittung"
+msgstr "Vastaanottokuittaus"
+
+#: includes/Frontend/InvoicePortal.php:117
+msgid "liegt vor"
+msgstr "saatavilla"
+
+#: includes/Frontend/InvoicePortal.php:118
+msgid "liegt nicht vor"
+msgstr "ei saatavilla"
+
+#: includes/Frontend/InvoicePortal.php:119
+msgid "Fehlercode der Übertragung"
+msgstr "Siirron virhekoodi"
+
+#: includes/Frontend/InvoicePortal.php:122
+msgid "SHA-256 des gespeicherten XML"
+msgstr "Tallennetun XML:n SHA-256"
+
+#: includes/Frontend/InvoicePortal.php:128
+#: includes/Frontend/InvoicePortal.php:130
+msgid "Rechnungsstatus abfragen"
+msgstr "Tarkista laskun tila"
+
+#: includes/Frontend/InvoicePortal.php:133
+msgid ""
+"Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in "
+"diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN "
+"16931 geprüft noch zum Herunterladen angeboten."
+msgstr ""
+"Anna laskun numero ja Peppol-tunnuksesi. Näytetään tähän järjestelmään "
+"tallennettu tila. Asiakirjaa ei tarkisteta täällä EN 16931 -sääntöjä vasten "
+"eikä tarjota ladattavaksi."
+
+#: includes/Frontend/InvoicePortal.php:143
+msgid "Ihre Peppol-ID"
+msgstr "Peppol-tunnuksesi"
+
+#: includes/Frontend/InvoicePortal.php:144
+msgid "Schema:Kennung"
+msgstr "skeema:tunniste"
+
+#: includes/Frontend/InvoicePortal.php:147
+msgid "Status abfragen"
+msgstr "Tarkista tila"
+
+#: includes/UBL/InvoiceDataException.php:52
+msgid "Die Rechnungsnummer fehlt."
+msgstr "Laskun numero puuttuu."
+
+#: includes/UBL/InvoiceDataException.php:53
+msgid ""
+"Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine "
+"Bestellreferenz angegeben ist."
+msgstr ""
+"Ostajan viite (BT-10) puuttuu; Peppol BIS edellyttää sitä, jollei "
+"tilausviitettä ole annettu."
+
+#: includes/UBL/InvoiceDataException.php:54
+msgid "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT."
+msgstr "Laskun päivämäärä ei ole muodossa VVVV-KK-PP."
+
+#: includes/UBL/InvoiceDataException.php:55
+msgid "Es fehlen Rechnungspositionen oder ein Betrag."
+msgstr "Laskurivit tai summa puuttuvat."
+
+#: includes/UBL/InvoiceDataException.php:56
+msgid "Ein Betrag ist keine Zahl."
+msgstr "Summa ei ole luku."
+
+#: includes/UBL/InvoiceDataException.php:57
+msgid "Eine Position hat keine Bezeichnung."
+msgstr "Riviltä puuttuu nimike."
+
+#: includes/UBL/InvoiceDataException.php:58
+msgid "Ein Steuersatz ist negativ."
+msgstr "Verokanta on negatiivinen."
+
+#: includes/UBL/InvoiceDataException.php:59
+msgid "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen."
+msgstr "Laskutyyppikoodi ei ole Peppolin laskuluettelossa."
+
+#: includes/UBL/InvoiceDataException.php:60
+msgid ""
+"Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser "
+"Generator nicht erzeugt."
+msgstr ""
+"Hyvityslasku (tyyppi 381) vaatii UBL CreditNote -syntaksin, jota tämä "
+"generaattori ei tuota."
+
+#: includes/UBL/InvoiceDataException.php:61
+msgid "Der Währungscode muss aus drei Großbuchstaben bestehen."
+msgstr "Valuuttakoodin on koostuttava kolmesta isosta kirjaimesta."
+
+#: includes/UBL/InvoiceDataException.php:62
+msgid "Die Peppol-ID des Verkäufers fehlt."
+msgstr "Myyjän Peppol-tunnus puuttuu."
+
+#: includes/UBL/InvoiceDataException.php:63
+msgid "Der Name des Verkäufers fehlt."
+msgstr "Myyjän nimi puuttuu."
+
+#: includes/UBL/InvoiceDataException.php:64
+msgid "Die Straße des Verkäufers fehlt."
+msgstr "Myyjän katuosoite puuttuu."
+
+#: includes/UBL/InvoiceDataException.php:65
+msgid "Der Ort des Verkäufers fehlt."
+msgstr "Myyjän postitoimipaikka puuttuu."
+
+#: includes/UBL/InvoiceDataException.php:66
+msgid "Die Postleitzahl des Verkäufers fehlt."
+msgstr "Myyjän postinumero puuttuu."
+
+#: includes/UBL/InvoiceDataException.php:67
+msgid "Das Land des Verkäufers fehlt."
+msgstr "Myyjän maa puuttuu."
+
+#: includes/UBL/InvoiceDataException.php:68
+msgid "Die USt-IdNr. des Verkäufers fehlt."
+msgstr "Myyjän ALV-tunniste puuttuu."
+
+#: includes/UBL/InvoiceDataException.php:69
+msgid ""
+"Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung "
+"(vierstelliges Schema)."
+msgstr ""
+"Myyjän Peppol-tunnus ei ole muodossa skeema:tunniste (nelinumeroinen skeema)."
+
+#: includes/UBL/InvoiceDataException.php:70
+msgid "Das Land des Verkäufers muss ein zweistelliger Ländercode sein."
+msgstr "Myyjän maan on oltava kaksikirjaiminen maakoodi."
+
+#: includes/UBL/InvoiceDataException.php:71
+msgid ""
+"Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen "
+"Ländercode."
+msgstr "Myyjän ALV-tunniste ei ala kaksikirjaimisella maakoodilla."
+
+#: includes/UBL/InvoiceDataException.php:72
+msgid "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers."
+msgstr "Myyjän IBAN puuttuu tilisiirtomaksua varten."
+
+#: includes/UBL/InvoiceDataException.php:73
+msgid "Die Peppol-ID des Käufers fehlt."
+msgstr "Ostajan Peppol-tunnus puuttuu."
+
+#: includes/UBL/InvoiceDataException.php:74
+msgid "Der Name des Käufers fehlt."
+msgstr "Ostajan nimi puuttuu."
+
+#: includes/UBL/InvoiceDataException.php:75
+msgid "Das Land des Käufers fehlt."
+msgstr "Ostajan maa puuttuu."
+
+#: includes/UBL/InvoiceDataException.php:76
+msgid ""
+"Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges "
+"Schema)."
+msgstr ""
+"Ostajan Peppol-tunnus ei ole muodossa skeema:tunniste (nelinumeroinen "
+"skeema)."
+
+#: includes/UBL/InvoiceDataException.php:77
+msgid "Das Land des Käufers muss ein zweistelliger Ländercode sein."
+msgstr "Ostajan maan on oltava kaksikirjaiminen maakoodi."
+
+#: includes/UBL/InvoiceDataException.php:78
+msgid ""
+"Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode."
+msgstr "Ostajan ALV-tunniste ei ala kaksikirjaimisella maakoodilla."
+
+#: includes/UBL/InvoiceDataException.php:79
+msgid ""
+"Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen "
+"Steuersatz über null."
+msgstr ""
+"Veroluokan S rivillä tai alennuksella/lisämaksulla ei ole nollaa suurempaa "
+"verokantaa."
+
+#: includes/Validation/SchematronValidator.php:102
+msgid ""
+"Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu "
+"prüfen."
+msgstr ""
+"Tiedosto ei ole hyvin muodostettua XML:ää; mitään ei voida tarkistaa ennen "
+"sääntöarviointia."
+
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:87
+msgid ""
+"Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; "
+"es wurde keine E-Rechnung erzeugt."
+msgstr ""
+"Peppol: Tilauksella on Leitweg-ID, mutta ei Peppol-vastaanottajatunnusta; "
+"verkkolaskua ei luotu."
+
+#. translators: 1: order total, 2: total of the document
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:116
+#, php-format
+msgid ""
+"Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s "
+"weichen um mehr als die Rundung ab."
+msgstr ""
+"Peppol: Verkkolaskua ei luotu. Tilauksen loppusumma %1$s ja laskun "
+"loppusumma %2$s poikkeavat pyöristystä enemmän."
+
+#. translators: %s: list of missing or invalid data
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:124
+#, php-format
+msgid "Peppol: E-Rechnung nicht erzeugt. %s"
+msgstr "Peppol: Verkkolaskua ei luotu. %s"
+
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:148
+msgid "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden."
+msgstr "Peppol: Luotua verkkolaskua ei voitu tallentaa."
+
+#. translators: %s: invoice number
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:161
+#, php-format
+msgid "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant."
+msgstr "Peppol: Verkkolasku %s luotu; lähetys on ajastettu."
+
+#. translators: %s: invoice number
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:164
+#, php-format
+msgid ""
+"Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-"
+"Validator und Phase4-Dienst sind nicht konfiguriert."
+msgstr ""
+"Peppol: Verkkolasku %s luotu ja tallennettu, ei lähetetty: KoSIT-"
+"validaattoria ja Phase4-palvelua ei ole määritetty."
+
+#. translators: 1: number of fatal findings, 2: rule identifiers
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:207
+#, php-format
+msgid "EN 16931: %1$d fatale Regelbefunde (%2$s)."
+msgstr "EN 16931: %1$d vakavaa sääntöhavaintoa (%2$s)."
+
+#. translators: 1: number of fatal findings, 2: rule identifiers
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:219
+#, php-format
+msgid ""
+"Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). "
+"Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 "
+"setzen."
+msgstr ""
+"Peppol: EN 16931 -tarkistus ilmoittaa %1$d vakavaa havaintoa (%2$s). "
+"Lähetetään silti; estä asettamalla \"wm_peppol_schematron_gate\" arvoon 1."
+
+#. translators: 1: invoice number, 2: message id
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:262
+#, php-format
+msgid ""
+"Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). "
+"Zugestellt ist sie erst mit der Empfangsquittung."
+msgstr ""
+"Peppol: Verkkolasku %1$s luovutettu Phase4-palvelulle (messageId %2$s). "
+"Toimitettu vasta vastaanottokuittauksella."
+
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:309
+msgid "Gebühr"
+msgstr "Maksu"
+
+#. translators: %s: order item name
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:361
+#, php-format
+msgid ""
+"Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; "
+"Steuerbefreiungen bildet das Plugin nicht ab."
+msgstr ""
+"Peppol: Verkkolaskua ei luotu. \"%s\" on arvonlisäveroton; lisäosa ei "
+"mallinna verovapautuksia."
+
+#. translators: %s: order item name
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:363
+#, php-format
+msgid "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze."
+msgstr "Peppol: Verkkolaskua ei luotu. Kohteella \"%s\" on useita verokantoja."
+
+#. translators: 1: invoice number, 2: reason
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:399
+#, php-format
+msgid "Peppol: E-Rechnung %1$s nicht versendet. %2$s"
+msgstr "Peppol: Verkkolaskua %1$s ei lähetetty. %2$s"
+
+#: wm-peppol-as4-gateway.php:101
+msgid "Peppol-E-Rechnung"
+msgstr "Peppol-verkkolasku"
+
+#: wm-peppol-as4-gateway.php:104
+msgid "Peppol-Empfänger-ID (Schema:Kennung)"
+msgstr "Peppol-vastaanottajatunnus (skeema:tunniste)"
+
+#: wm-peppol-as4-gateway.php:110
+msgid "Leitweg-ID (öffentliche Auftraggeber)"
+msgstr "Leitweg-ID (julkishallinnon ostajat)"
+
+#: wm-peppol-as4-gateway.php:116
+msgid "Käuferreferenz (wenn keine Leitweg-ID)"
+msgstr "Ostajan viite (jos ei Leitweg-ID:tä)"
+
+#: wm-peppol-as4-gateway.php:140
+msgid ""
+"Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre "
+"Prüfziffer stimmt nicht; sie wurde nicht gespeichert."
+msgstr ""
+"Leitweg-ID ei vastaa KoSIT-määrittelyä tai tarkistussumma ei täsmää; ei "
+"tallennettu."
+
+#: wm-peppol-as4-gateway.php:149
+msgid ""
+"Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem "
+"Schema; sie wurde nicht gespeichert."
+msgstr ""
+"Peppol-vastaanottajatunnus ei ole muodossa skeema:tunniste nelinumeroisella "
+"skeemalla; ei tallennettu."
+
+#: blocks-src/index.js:25
+msgid "Portal-Darstellung"
+msgstr "Portaalin ulkoasu"
+
+#: blocks-src/index.js:29
+msgid "Überschrift anzeigen"
+msgstr "Näytä otsikko"
+
+#: blocks-src/index.js:36
+msgid "Einleitungstext anzeigen"
+msgstr "Näytä johdantoteksti"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block title"
+msgid "Peppol-Rechnungsstatus-Portal"
+msgstr "Peppol-laskujen tilaportaali"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block description"
+msgid ""
+"Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen "
+"anhand von Rechnungsnummer und Peppol-ID."
+msgstr ""
+"Julkinen tilaportaali tallennettujen Peppol-verkkolaskujen tilan "
+"tarkistamiseen laskun numerolla ja Peppol-tunnuksella."
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "peppol"
+msgstr "peppol"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "invoice"
+msgstr "lasku"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "e-rechnung"
+msgstr "verkkolasku"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "ubl"
+msgstr "ubl"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "status"
+msgstr "tila"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

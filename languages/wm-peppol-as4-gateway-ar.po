@@ -1,0 +1,1316 @@
+# Translation of wm-peppol-as4-gateway in ar
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-peppol-as4-gateway 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-peppol-as4-"
+"gateway\n"
+"POT-Creation-Date: 2026-11-21T14:15:36+00:00\n"
+"PO-Revision-Date: 2026-11-21 15:24+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-peppol-as4-"
+"gateway/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-peppol-as4-"
+"gateway/issues>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-peppol-as4-gateway\n"
+
+#. Plugin Name of the plugin
+#: wm-peppol-as4-gateway.php includes/Admin/AdminDashboard.php:101
+msgid "WM Peppol AS4 Gateway"
+msgstr "WM Peppol AS4 Gateway"
+
+#. Plugin URI of the plugin
+#: wm-peppol-as4-gateway.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+
+#. Description of the plugin
+#: wm-peppol-as4-gateway.php
+msgid ""
+"Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das "
+"amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt "
+"Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten "
+"KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und "
+"zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die "
+"übernimmt der Phase4-Dienst."
+msgstr ""
+"ينشئ فواتير UBL 2.1 وفق معيار Peppol BIS Billing 3.0، ويتحقق منها مقابل "
+"مجموعة قواعد EN 16931 الرسمية، ويبحث عن المستلم عبر SML وSMP، ويسلّم فواتير "
+"طلبات WooCommerce المكتملة إلى مدقق KoSIT وخدمة Phase4 المهيأين، ويتحقق من "
+"إيصال AS4 الموقّع ويعرض للمشترين الحالة المخزنة. لا يوجد نقل AS4 داخلي: تتولى "
+"Phase4 ذلك."
+
+#. Author of the plugin
+#: wm-peppol-as4-gateway.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-peppol-as4-gateway.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#. translators: %s: action name
+#: includes/Adapters/Peppol_Spoke_Adapter.php:138
+#, php-format
+msgid "Unbekannte Spoke-Aktion \"%s\"."
+msgstr "إجراء وحدة فرعية غير معروف \"%s\"."
+
+#. translators: %s: missing seller fields
+#: includes/Adapters/Peppol_Spoke_Adapter.php:155
+#, php-format
+msgid "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s)."
+msgstr "الاختبار الذاتي غير متاح: بيانات البائع ناقصة (%s)."
+
+#. translators: %s: failed checks
+#: includes/Adapters/Peppol_Spoke_Adapter.php:181
+#, php-format
+msgid "Testdokument von den Strukturprüfungen abgelehnt: %s"
+msgstr "رُفض مستند الاختبار بواسطة الفحوصات البنيوية: %s"
+
+#. translators: %d: size of the test document in bytes
+#: includes/Adapters/Peppol_Spoke_Adapter.php:188
+#, php-format
+msgid ""
+"Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins "
+"angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-"
+"Prüfung."
+msgstr ""
+"تم إنشاء مستند الاختبار (%d بايت) وقبوله بواسطة الفحوصات البنيوية للإضافة. "
+"لم يُحفظ ولم يُرسل، دون فحص مخطط أو Schematron."
+
+#: includes/Admin/AdminDashboard.php:113 includes/Admin/AdminDashboard.php:513
+msgid ""
+"Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder "
+"aktivieren."
+msgstr ""
+"جداول قاعدة بيانات الإضافة مفقودة. يرجى تعطيل الإضافة ثم إعادة تفعيلها."
+
+#: includes/Admin/AdminDashboard.php:117
+msgid "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden."
+msgstr "بيانات البائع غير مكتملة: لا يمكن إنشاء فاتورة إلكترونية."
+
+#: includes/Admin/AdminDashboard.php:125
+msgid ""
+"Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind "
+"konfiguriert."
+msgstr "بيانات البائع مكتملة. تم تكوين مدقق KoSIT وخدمة Phase4."
+
+#: includes/Admin/AdminDashboard.php:126
+msgid ""
+"Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden "
+"nur gespeichert."
+msgstr "بيانات البائع مكتملة. الإرسال غير مهيأ: يتم تخزين الفواتير فقط."
+
+#: includes/Admin/AdminDashboard.php:136 includes/Admin/AdminDashboard.php:535
+msgid "Gespeicherte Rechnungen"
+msgstr "الفواتير المخزنة"
+
+#: includes/Admin/AdminDashboard.php:140 includes/Admin/AdminDashboard.php:541
+msgid "Übergaben an Phase4"
+msgstr "التسليمات إلى Phase4"
+
+#: includes/Admin/AdminDashboard.php:144 includes/Admin/AdminDashboard.php:546
+#: includes/Admin/AdminDashboard.php:717
+msgid "Empfangsquittungen"
+msgstr "إيصالات الاستلام"
+
+#: includes/Admin/AdminDashboard.php:149
+msgid "Peppol Gateway öffnen"
+msgstr "فتح Peppol Gateway"
+
+#: includes/Admin/AdminDashboard.php:171 includes/Admin/AdminDashboard.php:172
+#: includes/Admin/AdminDashboard.php:437
+msgid "Peppol Gateway"
+msgstr "Peppol Gateway"
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:225
+#, php-format
+msgid "%d Beispielrechnung angelegt."
+msgid_plural "%d Beispielrechnungen angelegt."
+msgstr[0] "تم إنشاء %d فاتورة تجريبية."
+msgstr[1] "تم إنشاء %d فاتورة تجريبية."
+msgstr[2] "تم إنشاء %d فاتورتين تجريبيتين."
+msgstr[3] "تم إنشاء %d فواتير تجريبية."
+msgstr[4] "تم إنشاء %d فاتورة تجريبية."
+msgstr[5] "تم إنشاء %d فاتورة تجريبية."
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:231
+#, php-format
+msgid "%d Beispielrechnung entfernt."
+msgid_plural "%d Beispielrechnungen entfernt."
+msgstr[0] "تمت إزالة %d فاتورة تجريبية."
+msgstr[1] "تمت إزالة %d فاتورة تجريبية."
+msgstr[2] "تمت إزالة %d فاتورتين تجريبيتين."
+msgstr[3] "تمت إزالة %d فواتير تجريبية."
+msgstr[4] "تمت إزالة %d فاتورة تجريبية."
+msgstr[5] "تمت إزالة %d فاتورة تجريبية."
+
+#: includes/Admin/AdminDashboard.php:424
+msgid "Übersicht"
+msgstr "نظرة عامة"
+
+#: includes/Admin/AdminDashboard.php:425 includes/Admin/AdminDashboard.php:659
+msgid "Rechnung erzeugen"
+msgstr "إنشاء فاتورة"
+
+#: includes/Admin/AdminDashboard.php:426 includes/Admin/AdminDashboard.php:692
+msgid "Einstellungen"
+msgstr "الإعدادات"
+
+#: includes/Admin/AdminDashboard.php:427 includes/Admin/AdminDashboard.php:775
+msgid "Was das Plugin tut"
+msgstr "ما الذي تفعله الإضافة"
+
+#: includes/Admin/AdminDashboard.php:438
+msgid ""
+"UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an "
+"einen konfigurierten Phase4-Dienst übergeben."
+msgstr ""
+"إنشاء وحفظ فواتير UBL 2.1 وفق Peppol BIS Billing 3.0 وتسليمها إلى خدمة "
+"Phase4 مهيأة."
+
+#: includes/Admin/AdminDashboard.php:442
+msgid "Part of the WM Suite plugin family"
+msgstr "جزء من عائلة إضافات WM Suite"
+
+#: includes/Admin/AdminDashboard.php:444
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:445
+msgid "Hub"
+msgstr "Hub"
+
+#: includes/Admin/AdminDashboard.php:445
+msgid "Standalone"
+msgstr "مستقل"
+
+#: includes/Admin/AdminDashboard.php:452
+msgid "Bereiche"
+msgstr "الأقسام"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid ""
+"Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie "
+"nicht versendet."
+msgstr "تم إنشاء الفاتورة الإلكترونية وحفظها. لا يتم إرسالها عبر هذا النموذج."
+
+#: includes/Admin/AdminDashboard.php:489
+msgid "Die E-Rechnung wurde nicht erzeugt."
+msgstr "لم يتم إنشاء الفاتورة الإلكترونية."
+
+#: includes/Admin/AdminDashboard.php:490 includes/API/RestController.php:298
+msgid "Eine Rechnung mit dieser Nummer ist bereits gespeichert."
+msgstr "توجد فاتورة مخزنة بهذا الرقم مسبقاً."
+
+#: includes/Admin/AdminDashboard.php:491 includes/API/RestController.php:323
+msgid "Die Rechnung wurde erzeugt, aber nicht gespeichert."
+msgstr "تم إنشاء الفاتورة ولكن تعذر حفظها."
+
+#: includes/Admin/AdminDashboard.php:492
+msgid "Einstellungen gespeichert."
+msgstr "تم حفظ الإعدادات."
+
+#: includes/Admin/AdminDashboard.php:493
+msgid ""
+"Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen "
+"Statusportal nicht gemeldet."
+msgstr "الفواتير التجريبية مميزة كأمثلة ولا تُعرض في بوابة الحالة العامة."
+
+#: includes/Admin/AdminDashboard.php:494
+msgid "Beispielrechnungen entfernt."
+msgstr "تمت إزالة الفواتير التجريبية."
+
+#. translators: %s: link to the settings tab
+#: includes/Admin/AdminDashboard.php:526
+#, php-format
+msgid ""
+"Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s"
+msgstr "بيانات البائع غير مكتملة: لا يمكن إنشاء فاتورة إلكترونية. %s"
+
+#. translators: %s: link to the settings tab
+#: includes/Admin/AdminDashboard.php:526 includes/Admin/AdminDashboard.php:637
+msgid "Zu den Einstellungen"
+msgstr "الانتقال إلى الإعدادات"
+
+#: includes/Admin/AdminDashboard.php:530
+msgid ""
+"Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber "
+"nicht übergeben."
+msgstr "الإرسال غير مهيأ: تُحفظ الفواتير المنشأة دون تسليمها."
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:538
+#, php-format
+msgid "ohne %d Beispielrechnungen"
+msgstr "باستثناء %d فواتير تجريبية"
+
+#: includes/Admin/AdminDashboard.php:543
+msgid "mit messageId"
+msgstr "مع messageId"
+
+#: includes/Admin/AdminDashboard.php:548
+msgid "positiv, per Webhook"
+msgstr "إيجابي، عبر webhook"
+
+#: includes/Admin/AdminDashboard.php:551
+msgid "Verkäuferdaten"
+msgstr "بيانات البائع"
+
+#: includes/Admin/AdminDashboard.php:552
+msgid "vollständig"
+msgstr "مكتملة"
+
+#: includes/Admin/AdminDashboard.php:553
+msgid "für die Rechnungserzeugung"
+msgstr "لإنشاء الفواتير"
+
+#: includes/Admin/AdminDashboard.php:553
+msgid "Angaben fehlen"
+msgstr "بيانات ناقصة"
+
+#: includes/Admin/AdminDashboard.php:558
+msgid "Rechnungen"
+msgstr "الفواتير"
+
+#: includes/Admin/AdminDashboard.php:559
+msgid "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status."
+msgstr "آخر 50 فاتورة مخزنة مع حالتها المسجلة."
+
+#: includes/Admin/AdminDashboard.php:564 includes/Admin/AdminDashboard.php:643
+#: includes/Frontend/InvoicePortal.php:139
+msgid "Rechnungsnummer"
+msgstr "رقم الفاتورة"
+
+#: includes/Admin/AdminDashboard.php:565
+msgid "Peppol-ID des Käufers"
+msgstr "معرّف Peppol للمشتري"
+
+#: includes/Admin/AdminDashboard.php:566
+#: includes/Frontend/InvoicePortal.php:120
+msgid "Zahlbetrag"
+msgstr "المبلغ المستحق"
+
+#: includes/Admin/AdminDashboard.php:567
+msgid "Status"
+msgstr "الحالة"
+
+#: includes/Admin/AdminDashboard.php:568
+#: includes/Frontend/InvoicePortal.php:121
+msgid "Rechnungsdatum"
+msgstr "تاريخ الفاتورة"
+
+#: includes/Admin/AdminDashboard.php:573
+msgid "Noch keine Rechnungen gespeichert."
+msgstr "لا توجد فواتير مخزنة بعد."
+
+#: includes/Admin/AdminDashboard.php:590
+msgid "Beispielrechnungen"
+msgstr "فواتير تجريبية"
+
+#: includes/Admin/AdminDashboard.php:591
+msgid ""
+"Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im "
+"öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die "
+"drei Beispielzeilen früherer Versionen."
+msgstr ""
+"الفواتير التجريبية لا تحتوي على XML ولا تُحتسب كفواتير ولا تظهر في البوابة "
+"العامة. يحذف الإزالة هذه الصفوف فقط بما في ذلك الصفوف الثلاثة من الإصدارات "
+"السابقة."
+
+#: includes/Admin/AdminDashboard.php:596
+msgid "Beispielrechnungen anlegen"
+msgstr "إنشاء فواتير تجريبية"
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:603
+#, php-format
+msgid "%d Beispielrechnung entfernen"
+msgid_plural "%d Beispielrechnungen entfernen"
+msgstr[0] "إزالة %d فاتورة تجريبية"
+msgstr[1] "إزالة %d فاتورة تجريبية"
+msgstr[2] "إزالة %d فاتورتين تجريبيتين"
+msgstr[3] "إزالة %d فواتير تجريبية"
+msgstr[4] "إزالة %d فاتورة تجريبية"
+msgstr[5] "إزالة %d فاتورة تجريبية"
+
+#: includes/Admin/AdminDashboard.php:620
+msgid "Beispiel"
+msgstr "مثال"
+
+#: includes/Admin/AdminDashboard.php:623
+msgid "Erzeugt, nicht versendet"
+msgstr "تم الإنشاء، لم تُرسل"
+
+#: includes/Admin/AdminDashboard.php:624
+msgid "An Phase4 übergeben"
+msgstr "سُلّمت إلى Phase4"
+
+#: includes/Admin/AdminDashboard.php:625
+msgid "Zugestellt (Quittung)"
+msgstr "تم التسليم (إيصال)"
+
+#: includes/Admin/AdminDashboard.php:626
+msgid "Zustellung fehlgeschlagen"
+msgstr "فشل التسليم"
+
+#: includes/Admin/AdminDashboard.php:627
+msgid "Versand fehlgeschlagen"
+msgstr "فشل الإرسال"
+
+#. translators: %s: link to the settings tab
+#: includes/Admin/AdminDashboard.php:637
+#, php-format
+msgid "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s"
+msgstr "لن يتم إنشاء أي فاتورة بدون بيانات البائع الكاملة. %s"
+
+#: includes/Admin/AdminDashboard.php:644
+msgid "Käuferreferenz (BT-10), z. B. die Leitweg-ID"
+msgstr "مرجع المشتري (BT-10)، مثل Leitweg-ID"
+
+#: includes/Admin/AdminDashboard.php:645
+msgid "Name des Käufers"
+msgstr "اسم المشتري"
+
+#: includes/Admin/AdminDashboard.php:646 includes/Admin/AdminDashboard.php:682
+msgid "Straße"
+msgstr "الشارع"
+
+#: includes/Admin/AdminDashboard.php:647 includes/Admin/AdminDashboard.php:683
+msgid "Postleitzahl"
+msgstr "الرمز البريدي"
+
+#: includes/Admin/AdminDashboard.php:648 includes/Admin/AdminDashboard.php:684
+msgid "Ort"
+msgstr "المدينة"
+
+#: includes/Admin/AdminDashboard.php:649 includes/Admin/AdminDashboard.php:685
+msgid "Land (zweistelliger Code)"
+msgstr "الدولة (رمز من حرفين)"
+
+#: includes/Admin/AdminDashboard.php:650
+msgid "Peppol-ID des Käufers (Schema:Kennung)"
+msgstr "معرّف Peppol للمشتري (المخطط:المعرّف)"
+
+#: includes/Admin/AdminDashboard.php:651
+msgid "USt-IdNr. des Käufers (optional)"
+msgstr "الرقم الضريبي للمشتري (اختياري)"
+
+#: includes/Admin/AdminDashboard.php:652
+msgid "Bezeichnung der Leistung"
+msgstr "وصف الخدمة أو البند"
+
+#: includes/Admin/AdminDashboard.php:653
+msgid "Menge"
+msgstr "الكمية"
+
+#: includes/Admin/AdminDashboard.php:654
+msgid "Nettopreis je Einheit"
+msgstr "السعر الصافي للوحدة"
+
+#: includes/Admin/AdminDashboard.php:655
+msgid "Umsatzsteuersatz in Prozent"
+msgstr "نسبة ضريبة القيمة المضافة بالمئة"
+
+#: includes/Admin/AdminDashboard.php:660
+msgid ""
+"Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet "
+"wird nichts; Verkäuferdaten kommen aus den Einstellungen."
+msgstr ""
+"ينشئ فاتورة UBL ببند واحد ويحفظها. لا يُرسل شيء؛ تأتي بيانات البائع من "
+"الإعدادات."
+
+#: includes/Admin/AdminDashboard.php:670
+msgid "Rechnung erzeugen und speichern"
+msgstr "إنشاء وحفظ الفاتورة"
+
+#: includes/Admin/AdminDashboard.php:679
+msgid "Peppol-ID des Verkäufers (Schema:Kennung)"
+msgstr "معرّف Peppol للبائع (المخطط:المعرّف)"
+
+#: includes/Admin/AdminDashboard.php:680
+msgid "Name"
+msgstr "الاسم"
+
+#: includes/Admin/AdminDashboard.php:681
+msgid "Rechtlicher Name (leer: wie Name)"
+msgstr "الاسم القانوني (فارغ: مطابق للاسم)"
+
+#: includes/Admin/AdminDashboard.php:686
+msgid "USt-IdNr."
+msgstr "الرقم الضريبي"
+
+#: includes/Admin/AdminDashboard.php:687
+msgid "Registernummer (optional)"
+msgstr "رقم السجل التجاري (اختياري)"
+
+#: includes/Admin/AdminDashboard.php:688
+msgid "IBAN für Zahlung per Überweisung"
+msgstr "رقم IBAN للدفع عبر التحويل البنكي"
+
+#: includes/Admin/AdminDashboard.php:697
+msgid "Verkäufer"
+msgstr "البائع"
+
+#: includes/Admin/AdminDashboard.php:698
+msgid ""
+"Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, "
+"erzeugt das Plugin keine Rechnung."
+msgstr ""
+"تظهر هذه البيانات في كل فاتورة يتم إنشاؤها. إذا نقص حقل إلزامي فلن تنشئ "
+"الإضافة فاتورة."
+
+#: includes/Admin/AdminDashboard.php:706
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:309
+msgid "Versand"
+msgstr "الإرسال"
+
+#: includes/Admin/AdminDashboard.php:707
+msgid ""
+"Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine "
+"der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL "
+"und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang."
+msgstr ""
+"كلتا الخدمتين برنامجان مستقلان خارج الإضافة. طالما ينقص أحد العنوانين فلن "
+"يُرسل شيء. الثوابت WM_PEPPOL_KOSIT_URL وWM_PEPPOL_PHASE4_URL في wp-config.php "
+"لها الأولوية."
+
+#: includes/Admin/AdminDashboard.php:709
+msgid "Adresse des KoSIT-Validators"
+msgstr "عنوان مدقق KoSIT"
+
+#: includes/Admin/AdminDashboard.php:713
+msgid "Adresse des Phase4-Dienstes"
+msgstr "عنوان خدمة Phase4"
+
+#: includes/Admin/AdminDashboard.php:722
+msgid ""
+"Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur "
+"werden angenommen."
+msgstr "تم تعيين سر مشترك؛ تُقبل الإيصالات ذات التوقيع الصالح."
+
+#: includes/Admin/AdminDashboard.php:723
+msgid ""
+"Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen "
+"per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update "
+"wm_peppol_receipt_secret."
+msgstr ""
+"لم يتم تعيين سر مشترك؛ تُرفض جميع الإيصالات. عيّنه عبر "
+"WM_PEPPOL_RECEIPT_SECRET أو wp option update wm_peppol_receipt_secret."
+
+#: includes/Admin/AdminDashboard.php:728
+msgid ""
+"Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)"
+msgstr "بصمات الشهادات المسموح بها لإيصالات AS4 (SHA-256، اختياري)"
+
+#: includes/Admin/AdminDashboard.php:730
+msgid ""
+"Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-"
+"Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der "
+"wp-config.php hat Vorrang."
+msgstr ""
+"بصمات SHA-256 من 64 حرفًا مفصولة بفواصل لشهادات التوقيع المتوقعة لنقطة "
+"الوصول. للثابت WM_PEPPOL_TRUSTED_SIGNER_SHA256 في wp-config.php الأولوية."
+
+#: includes/Admin/AdminDashboard.php:733
+msgid "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)"
+msgstr "حزمة شهادات CA محلية بتنسيق PEM (OpenPeppol PKI، اختياري)"
+
+#: includes/Admin/AdminDashboard.php:735
+msgid ""
+"Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-"
+"Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten "
+"WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang."
+msgstr ""
+"شهادة جذر أو شهادة وسيطة موثوقة واحدة أو أكثر بتنسيق PEM للتحقق من السلسلة "
+"محليًا فقط دون الوصول إلى الشبكة. للثابتين WM_PEPPOL_TRUST_BUNDLE_PEM و "
+"WM_PEPPOL_TRUST_BUNDLE_FILE الأولوية."
+
+#: includes/Admin/AdminDashboard.php:740
+msgid ""
+"AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel "
+"ablehnen"
+msgstr "رفض إيصالات AS4 إذا لم تُحفظ بصمة أو حزمة شهادات CA"
+
+#: includes/Admin/AdminDashboard.php:742
+msgid ""
+"Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, "
+"werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 "
+"abgewiesen."
+msgstr ""
+"عند التفعيل، أو عند ضبطه بالثابت WM_PEPPOL_REQUIRE_TRUST_ANCHOR، تُرفض "
+"الإيصالات ذاتية التوقيع أو غير المرتبطة بمرساة ثقة برمز HTTP 422."
+
+#: includes/Admin/AdminDashboard.php:745
+msgid "Deinstallation"
+msgstr "إلغاء التثبيت"
+
+#: includes/Admin/AdminDashboard.php:749
+msgid ""
+"Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen "
+"unwiderruflich löschen"
+msgstr ""
+"حذف جميع خيارات الإضافة والجداول الثلاثة نهائياً عند إلغاء تثبيت الإضافة"
+
+#: includes/Admin/AdminDashboard.php:751
+msgid ""
+"Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das "
+"Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt "
+"wird."
+msgstr ""
+"افتراضياً، يتم الاحتفاظ بجميع الفواتير المخزنة وعمليات الإرسال وسجل الإيصالات "
+"والإعدادات عند إزالة الإضافة."
+
+#: includes/Admin/AdminDashboard.php:754
+msgid "Einstellungen speichern"
+msgstr "حفظ الإعدادات"
+
+#: includes/Admin/AdminDashboard.php:762
+msgid ""
+"Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS "
+"Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und "
+"Steuersatz."
+msgstr ""
+"ينشئ فواتير UBL 2.1 بمعرّف مواصفة Peppol BIS Billing 3.0 وتفصيل ضريبة القيمة "
+"المضافة حسب الفئة والنسبة."
+
+#: includes/Admin/AdminDashboard.php:763
+msgid ""
+"Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen."
+msgstr "يرفض إنشاء فاتورة عند نقص البيانات الإلزامية بدلاً من اختلاقها."
+
+#: includes/Admin/AdminDashboard.php:764
+msgid ""
+"Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine "
+"Schema- und keine Schematron-Prüfung."
+msgstr ""
+"يفحص الحقول الإلزامية والرموز وقواعد المجاميع. هذا ليس فحص XSD ولا "
+"Schematron."
+
+#: includes/Admin/AdminDashboard.php:765
+msgid ""
+"Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-"
+"Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt "
+"signierte Empfangsquittungen an."
+msgstr ""
+"يسلّم فواتير طلبات WooCommerce المكتملة إلى مدقق KoSIT وخدمة Phase4 عند "
+"تهيئتهما ويقبل الإيصالات الموقعة."
+
+#: includes/Admin/AdminDashboard.php:766
+msgid "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung."
+msgstr "يعرض للمشترين الحالة المخزنة للفاتورة في بوابة الحالة."
+
+#: includes/Admin/AdminDashboard.php:769
+msgid ""
+"Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt "
+"der Phase4-Dienst."
+msgstr "لا يوجد نقل أو توقيع أو تشفير AS4 داخلي: تتولى خدمة Phase4 ذلك."
+
+#: includes/Admin/AdminDashboard.php:770
+msgid ""
+"Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen."
+msgstr "لا توجد إشعارات دائنة بصيغة UBL CreditNote ولا إعفاءات ضريبية."
+
+#: includes/Admin/AdminDashboard.php:771
+msgid ""
+"Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister "
+"bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, "
+"wenn dies in den Einstellungen ausdrücklich aktiviert wurde."
+msgstr ""
+"لا يوجد أرشيف تصدير: تُحفظ الفواتير وسجل الإيصالات افتراضياً عند إلغاء التثبيت "
+"ولا تُحذف إلا عند تفعيل ذلك صراحة في الإعدادات."
+
+#: includes/Admin/AdminDashboard.php:781
+msgid "Was es nicht tut"
+msgstr "ما لا تفعله"
+
+#: includes/API/RestController.php:148 includes/API/RestController.php:177
+msgid ""
+"Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut."
+msgstr "طلبات كثيرة جداً من هذا العنوان. يرجى المحاولة لاحقاً."
+
+#: includes/API/RestController.php:189
+msgid "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich."
+msgstr "رقم الفاتورة ومعرّف Peppol للمشتري مطلوبان."
+
+#: includes/API/RestController.php:215 includes/Frontend/InvoicePortal.php:110
+msgid "Zu diesen Angaben liegt keine Rechnung vor."
+msgstr "لا توجد فاتورة مطابقة لهذه البيانات."
+
+#: includes/API/RestController.php:286
+msgid "Der Anfragekörper muss ein JSON-Objekt sein."
+msgstr "يجب أن يكون محتوى الطلب كائن JSON."
+
+#. translators: %d: row id
+#: includes/AS4/DeliveryRegister.php:135
+#, php-format
+msgid ""
+"Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder "
+"eingefügt."
+msgstr "الصف %d لا يشير إلى الصف السابق: تمت إزالة صف أو إدراجه."
+
+#. translators: %d: row id
+#: includes/AS4/DeliveryRegister.php:157
+#, php-format
+msgid ""
+"Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von "
+"einer Installation mit anderen Schlüsseln."
+msgstr ""
+"تم تعديل الصف %d بعد الكتابة، أو تعود قاعدة البيانات إلى تثبيت بمفاتيح "
+"مختلفة."
+
+#. translators: %d: size limit in bytes
+#: includes/AS4/ReceiptEvidence.php:89
+#, php-format
+msgid ""
+"Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, "
+"keine Nutzlast."
+msgstr "يتجاوز حجم الإيصال %d بايت؛ إيصال AS4 هو إشارة وليس حمولة بيانات."
+
+#: includes/AS4/ReceiptEvidence.php:110
+msgid "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage."
+msgstr "لا يحتوي المستند على eb:Receipt داخل eb:SignalMessage."
+
+#: includes/AS4/ReceiptEvidence.php:137
+msgid "Die Quittung enthält kein prüfbares Signaturzertifikat."
+msgstr "لا يحتوي الإيصال على شهادة توقيع قابلة للتحقق."
+
+#: includes/AS4/ReceiptEvidence.php:200
+msgid ""
+"Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit "
+"einer signierten Quittung beantwortet werden."
+msgstr "لا يحمل الإيصال توقيع XML. يجب الرد على رسالة AS4 الموقعة بإيصال موقّع."
+
+#: includes/AS4/ReceiptEvidence.php:209
+msgid ""
+"Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt."
+msgstr "التوقيع غير مكتمل: العنصر ds:SignedInfo أو ds:SignatureValue مفقود."
+
+#: includes/AS4/ReceiptEvidence.php:212
+msgid ""
+"Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel "
+"ist sie nicht prüfbar."
+msgstr "لا يذكر التوقيع شهادة X.509؛ وبدون المفتاح العام يتعذر التحقق منه."
+
+#. translators: %s: signature algorithm identifier
+#: includes/AS4/ReceiptEvidence.php:222
+#, php-format
+msgid "Signaturverfahren %s wird von dieser Installation nicht geprüft."
+msgstr "خوارزمية التوقيع %s غير مدعومة للتحقق في هذا التثبيت."
+
+#: includes/AS4/ReceiptEvidence.php:251
+msgid "Das X.509-Zertifikat der Signatur ist nicht lesbar."
+msgstr "تعذر قراءة شهادة X.509 الخاصة بالتوقيع."
+
+#: includes/AS4/ReceiptEvidence.php:269
+msgid "OpenSSL konnte die Signatur nicht prüfen."
+msgstr "تعذر على OpenSSL التحقق من التوقيع."
+
+#: includes/AS4/ReceiptEvidence.php:270
+msgid ""
+"Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem "
+"Signieren verändert oder mit einem anderen Schlüssel erzeugt."
+msgstr ""
+"التوقيع لا يطابق محتوى الإيصال: تم تعديله بعد التوقيع أو أُنشئ بمفتاح آخر."
+
+#. translators: 1: references that matched, 2: references in total
+#: includes/AS4/ReceiptEvidence.php:291
+#, php-format
+msgid ""
+"Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum "
+"Inhalt: die Quittung wurde nach dem Signieren verändert."
+msgstr ""
+"التوقيع نفسه صالح، لكن %1$d فقط من أصل %2$d من البصمات تطابق المحتوى: تم "
+"تعديل الإيصال بعد التوقيع."
+
+#: includes/AS4/ReceiptEvidence.php:308
+msgid "Das X.509-Zertifikat der Quittung ist abgelaufen."
+msgstr "انتهت صلاحية شهادة X.509 الخاصة بالإيصال."
+
+#: includes/AS4/ReceiptEvidence.php:322
+msgid "Das X.509-Zertifikat der Quittung ist noch nicht gültig."
+msgstr "شهادة X.509 الخاصة بالإيصال ليست صالحة بعد."
+
+#: includes/AS4/ReceiptEvidence.php:521
+msgid ""
+"Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel "
+"hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird."
+msgstr ""
+"لم تُحفظ بصمة شهادة ولا حزمة شهادات CA، رغم أن التحقق من مرساة الثقة إلزامي."
+
+#: includes/AS4/ReceiptEvidence.php:534
+msgid ""
+"Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten "
+"SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel."
+msgstr ""
+"شهادة توقيع الإيصال لا تطابق أي بصمة SHA-256 محفوظة ولا أي حزمة شهادات CA "
+"موثوقة."
+
+#: includes/AS4/ReceiptEvidence.php:614
+msgid "Die Quittung ist kein wohlgeformtes XML."
+msgstr "الإيصال ليس ملف XML سليم البنية."
+
+#. translators: %d: HTTP status code
+#: includes/class-peppol-phase4-client.php:86
+#, php-format
+msgid "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d)."
+msgstr "لم يقبل مدقق KoSIT المستند (HTTP %d)."
+
+#: includes/class-peppol-phase4-client.php:105
+msgid "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung."
+msgstr "معرّف المرسل أو المستلم ليس بالصيغة المخطط:المعرّف."
+
+#. translators: %d: HTTP status code
+#: includes/class-peppol-phase4-client.php:132
+#, php-format
+msgid "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d)."
+msgstr "رفضت خدمة Phase4 الإرسال (HTTP %d)."
+
+#: includes/class-peppol-phase4-client.php:138
+msgid ""
+"Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich "
+"keine Empfangsquittung zuordnen."
+msgstr ""
+"لم تُرجع خدمة Phase4 قيمة messageId؛ وبدونها لا يمكن ربط إيصال الاستلام."
+
+#: includes/class-peppol-phase4-client.php:146
+msgid ""
+"KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts "
+"versendet."
+msgstr "مدقق KoSIT وخدمة Phase4 غير مهيأين؛ لن يتم إرسال أي شيء."
+
+#: includes/class-peppol-webhook-receiver.php:165
+msgid ""
+"Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument "
+"als das versendete."
+msgstr "الإيصال موقّع بشكل صالح، لكنه يشير إلى مستند آخر غير المستند المرسل."
+
+#. translators: %s: message id
+#: includes/class-peppol-webhook-receiver.php:197
+#, php-format
+msgid "Peppol: Positive Empfangsquittung für messageId %s erhalten."
+msgstr "Peppol: تم استلام إيصال استلام إيجابي للرسالة messageId %s."
+
+#: includes/class-peppol-webhook-receiver.php:198
+msgid "Peppol-Empfangsquittung erhalten."
+msgstr "تم استلام إيصال Peppol."
+
+#. translators: 1: message id, 2: error text of the receipt
+#: includes/class-peppol-webhook-receiver.php:201
+#, php-format
+msgid "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s"
+msgstr "Peppol: فشل الإرسال (messageId %1$s): %2$s"
+
+#. translators: 1: message id, 2: error text of the receipt
+#: includes/class-peppol-webhook-receiver.php:201
+msgid "ohne Fehlerbeschreibung"
+msgstr "دون وصف للخطأ"
+
+#: includes/class-peppol-webhook-receiver.php:202
+msgid "Peppol-Versand fehlgeschlagen."
+msgstr "فشل إرسال Peppol."
+
+#. translators: %s: comma separated rule identifiers
+#: includes/CLI/PeppolCommand.php:367
+#, php-format
+msgid ""
+"Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt "
+"noch als verletzt: %s"
+msgstr "تعذر تقييم هذه القواعد ولا تُعد مستوفاة ولا منتهكة: %s"
+
+#. translators: %s: comma-separated list of missing PHP extensions
+#: includes/Database/Schema.php:42
+#, php-format
+msgid ""
+"WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende "
+"erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s."
+msgstr ""
+"تعذر تفعيل WM Peppol AS4 Gateway لأن إضافات PHP المطلوبة التالية مفقودة على "
+"هذا الخادم: %s."
+
+#: includes/Database/Schema.php:46
+msgid "Fehlende PHP-Erweiterung"
+msgstr "إضافة PHP مفقودة"
+
+#: includes/Discovery/SmpClient.php:127
+msgid "Kein Peppol-Teilnehmerbezeichner angegeben."
+msgstr "لم يتم تقديم معرّف مشارك Peppol."
+
+#. translators: %s: the identifier as given
+#: includes/Discovery/SmpClient.php:146
+#, php-format
+msgid ""
+"Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:"
+"<Kennung>, zum Beispiel 9930:DE123456789."
+msgstr ""
+"المعرّف \"%s\" ليس بالصيغة <مخطط EAS من أربعة أرقام>:<معرّف>، مثل "
+"9930:DE123456789."
+
+#: includes/Discovery/SmpClient.php:154
+msgid ""
+"Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht "
+"vorkommen dürfen."
+msgstr "يحتوي مخطط المعرّف على أحرف غير مسموح بها في اسم DNS."
+
+#. translators: %s: DNS name that was asked
+#: includes/Discovery/SmpClient.php:216
+#, php-format
+msgid ""
+"Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone "
+"nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen."
+msgstr ""
+"لا يوجد سجل NAPTR لـ %s: المشارك غير مسجل في نطاق SML هذا أو لا يجيب المحلل "
+"عن استعلامات NAPTR."
+
+#. translators: %s: DNS name that was asked
+#: includes/Discovery/SmpClient.php:244
+#, php-format
+msgid ""
+"Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer "
+"URL)."
+msgstr "سجل NAPTR الخاص بـ %s لا يسمي أي SMP (خدمة \"Meta:SMP\" مع عنوان URL)."
+
+#. translators: 1: participant id, 2: document type
+#: includes/Discovery/SmpClient.php:332
+#, php-format
+msgid ""
+"Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: "
+"dieser Empfänger nimmt dieses Dokument nicht entgegen."
+msgstr ""
+"يعرف SMP المشارك %1$s ولكن ليس لنوع المستند %2$s: هذا المستلم لا يقبل هذا "
+"المستند."
+
+#. translators: 1: HTTP status, 2: SMP URL
+#: includes/Discovery/SmpClient.php:345
+#, php-format
+msgid "Der SMP antwortete mit HTTP %1$d auf %2$s."
+msgstr "أجاب SMP برمز HTTP %1$d على %2$s."
+
+#: includes/Discovery/SmpClient.php:384
+msgid "Der SMP lieferte einen leeren Körper."
+msgstr "أعاد SMP محتوى فارغاً."
+
+#: includes/Discovery/SmpClient.php:394
+msgid "Die Antwort des SMP ist kein wohlgeformtes XML."
+msgstr "استجابة SMP ليست XML سليم البنية."
+
+#. translators: %s: the AS4 transport profile that was looked for
+#: includes/Discovery/SmpClient.php:445
+#, php-format
+msgid "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s."
+msgstr "لا تحتوي استجابة SMP على نقطة نهاية بملف النقل %s."
+
+#: includes/Frontend/DynamicBindings.php:41
+#: includes/Frontend/DynamicBindings.php:55
+msgid "Peppol-Gateway-Status"
+msgstr "حالة Peppol Gateway"
+
+#: includes/Frontend/DynamicBindings.php:117
+msgid "Tabellen des Plugins fehlen"
+msgstr "جداول الإضافة مفقودة"
+
+#: includes/Frontend/DynamicBindings.php:125
+msgid "KoSIT-Validator und Phase4-Dienst konfiguriert"
+msgstr "مدقق KoSIT وخدمة Phase4 مهيآن"
+
+#: includes/Frontend/DynamicBindings.php:126
+msgid "Versand nicht konfiguriert"
+msgstr "الإرسال غير مهيأ"
+
+#. translators: 1: stored invoices count, 2: delivered receipts count
+#: includes/Frontend/DynamicBindings.php:129
+#, php-format
+msgid "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen"
+msgstr "%1$d فواتير مخزنة، %2$d إيصالات استلام"
+
+#: includes/Frontend/InvoicePortal.php:109
+msgid "Status wird abgefragt …"
+msgstr "جاري الاستعلام عن الحالة …"
+
+#: includes/Frontend/InvoicePortal.php:111
+msgid "Rechnung gefunden"
+msgstr "تم العثور على الفاتورة"
+
+#: includes/Frontend/InvoicePortal.php:112
+msgid "Die Abfrage ist fehlgeschlagen."
+msgstr "فشل الاستعلام."
+
+#: includes/Frontend/InvoicePortal.php:113
+msgid "Gespeicherter Status"
+msgstr "الحالة المخزنة"
+
+#: includes/Frontend/InvoicePortal.php:114
+msgid "Übergabe an Phase4"
+msgstr "التسليم إلى Phase4"
+
+#: includes/Frontend/InvoicePortal.php:115
+msgid "keine Übergabe erfasst"
+msgstr "لم يُسجل أي تسليم"
+
+#: includes/Frontend/InvoicePortal.php:116
+msgid "Empfangsquittung"
+msgstr "إيصال الاستلام"
+
+#: includes/Frontend/InvoicePortal.php:117
+msgid "liegt vor"
+msgstr "متوفر"
+
+#: includes/Frontend/InvoicePortal.php:118
+msgid "liegt nicht vor"
+msgstr "غير متوفر"
+
+#: includes/Frontend/InvoicePortal.php:119
+msgid "Fehlercode der Übertragung"
+msgstr "رمز خطأ النقل"
+
+#: includes/Frontend/InvoicePortal.php:122
+msgid "SHA-256 des gespeicherten XML"
+msgstr "بصمة SHA-256 لملف XML المخزن"
+
+#: includes/Frontend/InvoicePortal.php:128
+#: includes/Frontend/InvoicePortal.php:130
+msgid "Rechnungsstatus abfragen"
+msgstr "الاستعلام عن حالة الفاتورة"
+
+#: includes/Frontend/InvoicePortal.php:133
+msgid ""
+"Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in "
+"diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN "
+"16931 geprüft noch zum Herunterladen angeboten."
+msgstr ""
+"أدخل رقم الفاتورة ومعرّف Peppol الخاص بك. تُعرض الحالة المخزنة في هذا النظام. "
+"لا يتم التحقق من المستند وفق EN 16931 ولا يُتاح للتنزيل هنا."
+
+#: includes/Frontend/InvoicePortal.php:143
+msgid "Ihre Peppol-ID"
+msgstr "معرّف Peppol الخاص بك"
+
+#: includes/Frontend/InvoicePortal.php:144
+msgid "Schema:Kennung"
+msgstr "المخطط:المعرّف"
+
+#: includes/Frontend/InvoicePortal.php:147
+msgid "Status abfragen"
+msgstr "استعلام عن الحالة"
+
+#: includes/UBL/InvoiceDataException.php:52
+msgid "Die Rechnungsnummer fehlt."
+msgstr "رقم الفاتورة مفقود."
+
+#: includes/UBL/InvoiceDataException.php:53
+msgid ""
+"Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine "
+"Bestellreferenz angegeben ist."
+msgstr "مرجع المشتري (BT-10) مفقود؛ يشترطه Peppol BIS ما لم يذكر مرجع طلب."
+
+#: includes/UBL/InvoiceDataException.php:54
+msgid "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT."
+msgstr "تاريخ الفاتورة ليس بالصيغة YYYY-MM-DD."
+
+#: includes/UBL/InvoiceDataException.php:55
+msgid "Es fehlen Rechnungspositionen oder ein Betrag."
+msgstr "بنود الفاتورة أو المبلغ مفقود."
+
+#: includes/UBL/InvoiceDataException.php:56
+msgid "Ein Betrag ist keine Zahl."
+msgstr "أحد المبالغ ليس رقماً."
+
+#: includes/UBL/InvoiceDataException.php:57
+msgid "Eine Position hat keine Bezeichnung."
+msgstr "أحد البنود بلا تسمية."
+
+#: includes/UBL/InvoiceDataException.php:58
+msgid "Ein Steuersatz ist negativ."
+msgstr "نسبة الضريبة سالبة."
+
+#: includes/UBL/InvoiceDataException.php:59
+msgid "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen."
+msgstr "رمز نوع الفاتورة غير موجود في قائمة فواتير Peppol."
+
+#: includes/UBL/InvoiceDataException.php:60
+msgid ""
+"Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser "
+"Generator nicht erzeugt."
+msgstr ""
+"يتطلب الإشعار الدائن (النوع 381) صياغة UBL CreditNote التي لا ينتجها هذا "
+"المولّد."
+
+#: includes/UBL/InvoiceDataException.php:61
+msgid "Der Währungscode muss aus drei Großbuchstaben bestehen."
+msgstr "يجب أن يتكون رمز العملة من ثلاثة أحرف كبيرة."
+
+#: includes/UBL/InvoiceDataException.php:62
+msgid "Die Peppol-ID des Verkäufers fehlt."
+msgstr "معرّف Peppol للبائع مفقود."
+
+#: includes/UBL/InvoiceDataException.php:63
+msgid "Der Name des Verkäufers fehlt."
+msgstr "اسم البائع مفقود."
+
+#: includes/UBL/InvoiceDataException.php:64
+msgid "Die Straße des Verkäufers fehlt."
+msgstr "شارع البائع مفقود."
+
+#: includes/UBL/InvoiceDataException.php:65
+msgid "Der Ort des Verkäufers fehlt."
+msgstr "مدينة البائع مفقودة."
+
+#: includes/UBL/InvoiceDataException.php:66
+msgid "Die Postleitzahl des Verkäufers fehlt."
+msgstr "الرمز البريدي للبائع مفقود."
+
+#: includes/UBL/InvoiceDataException.php:67
+msgid "Das Land des Verkäufers fehlt."
+msgstr "دولة البائع مفقودة."
+
+#: includes/UBL/InvoiceDataException.php:68
+msgid "Die USt-IdNr. des Verkäufers fehlt."
+msgstr "الرقم الضريبي للبائع مفقود."
+
+#: includes/UBL/InvoiceDataException.php:69
+msgid ""
+"Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung "
+"(vierstelliges Schema)."
+msgstr "معرّف Peppol للبائع ليس بالصيغة المخطط:المعرّف (مخطط رباعي الأرقام)."
+
+#: includes/UBL/InvoiceDataException.php:70
+msgid "Das Land des Verkäufers muss ein zweistelliger Ländercode sein."
+msgstr "يجب أن تكون دولة البائع رمز دولة من حرفين."
+
+#: includes/UBL/InvoiceDataException.php:71
+msgid ""
+"Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen "
+"Ländercode."
+msgstr "الرقم الضريبي للبائع لا يبدأ برمز دولة من حرفين."
+
+#: includes/UBL/InvoiceDataException.php:72
+msgid "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers."
+msgstr "رقم IBAN للبائع مفقود للدفع بالتحويل البنكي."
+
+#: includes/UBL/InvoiceDataException.php:73
+msgid "Die Peppol-ID des Käufers fehlt."
+msgstr "معرّف Peppol للمشتري مفقود."
+
+#: includes/UBL/InvoiceDataException.php:74
+msgid "Der Name des Käufers fehlt."
+msgstr "اسم المشتري مفقود."
+
+#: includes/UBL/InvoiceDataException.php:75
+msgid "Das Land des Käufers fehlt."
+msgstr "دولة المشتري مفقودة."
+
+#: includes/UBL/InvoiceDataException.php:76
+msgid ""
+"Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges "
+"Schema)."
+msgstr "معرّف Peppol للمشتري ليس بالصيغة المخطط:المعرّف (مخطط رباعي الأرقام)."
+
+#: includes/UBL/InvoiceDataException.php:77
+msgid "Das Land des Käufers muss ein zweistelliger Ländercode sein."
+msgstr "يجب أن تكون دولة المشتري رمز دولة من حرفين."
+
+#: includes/UBL/InvoiceDataException.php:78
+msgid ""
+"Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode."
+msgstr "الرقم الضريبي للمشتري لا يبدأ برمز دولة من حرفين."
+
+#: includes/UBL/InvoiceDataException.php:79
+msgid ""
+"Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen "
+"Steuersatz über null."
+msgstr "بند أو خصم/رسوم من الفئة الضريبية S لا يحمل نسبة أكبر من الصفر."
+
+#: includes/Validation/SchematronValidator.php:102
+msgid ""
+"Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu "
+"prüfen."
+msgstr "الملف ليس XML سليم البنية؛ لا يوجد ما يُفحص قبل فحص القواعد."
+
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:87
+msgid ""
+"Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; "
+"es wurde keine E-Rechnung erzeugt."
+msgstr ""
+"Peppol: يحتوي الطلب على Leitweg-ID دون معرّف مستلم Peppol؛ لم تُنشأ فاتورة "
+"إلكترونية."
+
+#. translators: 1: order total, 2: total of the document
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:116
+#, php-format
+msgid ""
+"Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s "
+"weichen um mehr als die Rundung ab."
+msgstr ""
+"Peppol: لم تُنشأ الفاتورة الإلكترونية. إجمالي الطلب %1$s وإجمالي الفاتورة "
+"%2$s يختلفان بأكثر من التقريب."
+
+#. translators: %s: list of missing or invalid data
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:124
+#, php-format
+msgid "Peppol: E-Rechnung nicht erzeugt. %s"
+msgstr "Peppol: لم تُنشأ الفاتورة الإلكترونية. %s"
+
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:148
+msgid "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden."
+msgstr "Peppol: تعذر حفظ الفاتورة الإلكترونية المنشأة."
+
+#. translators: %s: invoice number
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:161
+#, php-format
+msgid "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant."
+msgstr "Peppol: تم إنشاء الفاتورة الإلكترونية %s؛ وجُدول الإرسال."
+
+#. translators: %s: invoice number
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:164
+#, php-format
+msgid ""
+"Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-"
+"Validator und Phase4-Dienst sind nicht konfiguriert."
+msgstr ""
+"Peppol: تم إنشاء وحفظ الفاتورة الإلكترونية %s دون إرسال: KoSIT وPhase4 غير "
+"مهيأين."
+
+#. translators: 1: number of fatal findings, 2: rule identifiers
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:207
+#, php-format
+msgid "EN 16931: %1$d fatale Regelbefunde (%2$s)."
+msgstr "EN 16931: %1$d مخالفات حرجة للقواعد (%2$s)."
+
+#. translators: 1: number of fatal findings, 2: rule identifiers
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:219
+#, php-format
+msgid ""
+"Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). "
+"Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 "
+"setzen."
+msgstr ""
+"Peppol: يبلغ فحص EN 16931 عن %1$d مخالفات حرجة (%2$s). سيتم الإرسال رغم ذلك؛ "
+"اضبط \"wm_peppol_schematron_gate\" على 1 للحظر."
+
+#. translators: 1: invoice number, 2: message id
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:262
+#, php-format
+msgid ""
+"Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). "
+"Zugestellt ist sie erst mit der Empfangsquittung."
+msgstr ""
+"Peppol: سُلّمت الفاتورة الإلكترونية %1$s إلى Phase4 (messageId %2$s). لا يُعد "
+"التسليم مكتملاً إلا بإيصال الاستلام."
+
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:309
+msgid "Gebühr"
+msgstr "رسوم"
+
+#. translators: %s: order item name
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:361
+#, php-format
+msgid ""
+"Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; "
+"Steuerbefreiungen bildet das Plugin nicht ab."
+msgstr ""
+"Peppol: لم تُنشأ الفاتورة الإلكترونية. \"%s\" بدون ضريبة قيمة مضافة؛ الإضافة "
+"لا تمثّل الإعفاءات الضريبية."
+
+#. translators: %s: order item name
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:363
+#, php-format
+msgid "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze."
+msgstr "Peppol: لم تُنشأ الفاتورة الإلكترونية. يحمل \"%s\" عدة نسب ضريبية."
+
+#. translators: 1: invoice number, 2: reason
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:399
+#, php-format
+msgid "Peppol: E-Rechnung %1$s nicht versendet. %2$s"
+msgstr "Peppol: لم تُرسل الفاتورة الإلكترونية %1$s. %2$s"
+
+#: wm-peppol-as4-gateway.php:101
+msgid "Peppol-E-Rechnung"
+msgstr "فاتورة Peppol الإلكترونية"
+
+#: wm-peppol-as4-gateway.php:104
+msgid "Peppol-Empfänger-ID (Schema:Kennung)"
+msgstr "معرّف مستلم Peppol (المخطط:المعرّف)"
+
+#: wm-peppol-as4-gateway.php:110
+msgid "Leitweg-ID (öffentliche Auftraggeber)"
+msgstr "Leitweg-ID (الجهات الحكومية)"
+
+#: wm-peppol-as4-gateway.php:116
+msgid "Käuferreferenz (wenn keine Leitweg-ID)"
+msgstr "مرجع المشتري (عند عدم وجود Leitweg-ID)"
+
+#: wm-peppol-as4-gateway.php:140
+msgid ""
+"Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre "
+"Prüfziffer stimmt nicht; sie wurde nicht gespeichert."
+msgstr "لا يطابق Leitweg-ID مواصفة KoSIT أو رقم التحقق غير صحيح؛ لم يُحفظ."
+
+#: wm-peppol-as4-gateway.php:149
+msgid ""
+"Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem "
+"Schema; sie wurde nicht gespeichert."
+msgstr "معرّف مستلم Peppol ليس بالصيغة الرباعية المخطط:المعرّف؛ لم يُحفظ."
+
+#: blocks-src/index.js:25
+msgid "Portal-Darstellung"
+msgstr "عرض البوابة"
+
+#: blocks-src/index.js:29
+msgid "Überschrift anzeigen"
+msgstr "إظهار العنوان"
+
+#: blocks-src/index.js:36
+msgid "Einleitungstext anzeigen"
+msgstr "إظهار النص التمهيدي"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block title"
+msgid "Peppol-Rechnungsstatus-Portal"
+msgstr "بوابة حالة فواتير Peppol"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block description"
+msgid ""
+"Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen "
+"anhand von Rechnungsnummer und Peppol-ID."
+msgstr ""
+"بوابة عامة للاستعلام عن فواتير Peppol الإلكترونية المخزنة باستخدام رقم "
+"الفاتورة ومعرّف Peppol."
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "peppol"
+msgstr "peppol"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "invoice"
+msgstr "فاتورة"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "e-rechnung"
+msgstr "فاتورة-إلكترونية"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "ubl"
+msgstr "ubl"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "status"
+msgstr "الحالة"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

@@ -1,0 +1,732 @@
+{
+  "translation-revision-date": "2026-11-21T15:24:44+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-peppol-as4-gateway",
+        "lang": "el",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM Peppol AS4 Gateway": [
+        "WM Peppol AS4 Gateway"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+      ],
+      "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst.": [
+        "Δημιουργεί τιμολόγια UBL 2.1 κατά Peppol BIS Billing 3.0, τα ελέγχει βάσει του επίσημου συνόλου κανόνων EN 16931, αναζητά τον παραλήπτη μέσω SML και SMP, παραδίδει τιμολόγια ολοκληρωμένων παραγγελιών WooCommerce σε ρυθμισμένο επικυρωτή KoSIT και υπηρεσία Phase4, επαληθεύει την υπογεγραμμένη απόδειξη AS4 και εμφανίζει στους αγοραστές την αποθηκευμένη κατάσταση. Χωρίς εσωτερική μεταφορά AS4: αυτή αναλαμβάνεται από το Phase4."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Unbekannte Spoke-Aktion \"%s\".": [
+        "Άγνωστη ενέργεια μονάδας \"%s\"."
+      ],
+      "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s).": [
+        "Αυτοέλεγχος μη διαθέσιμος: λείπουν στοιχεία πωλητή (%s)."
+      ],
+      "Testdokument von den Strukturprüfungen abgelehnt: %s": [
+        "Το έγγραφο δοκιμής απορρίφθηκε από τους δομικούς ελέγχους: %s"
+      ],
+      "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung.": [
+        "Το έγγραφο δοκιμής δημιουργήθηκε (%d byte) και έγινε δεκτό από τους δομικούς ελέγχους του πρόσθετου. Δεν αποθηκεύτηκε, δεν εστάλη, χωρίς έλεγχο σχήματος ή Schematron."
+      ],
+      "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren.": [
+        "Λείπουν οι πίνακες βάσης δεδομένων του πρόσθετου. Απενεργοποιήστε και ενεργοποιήστε ξανά το πρόσθετο."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden.": [
+        "Ελλιπή στοιχεία πωλητή: δεν μπορεί να δημιουργηθεί ηλεκτρονικό τιμολόγιο."
+      ],
+      "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert.": [
+        "Πλήρη στοιχεία πωλητή. Ο επικυρωτής KoSIT και η υπηρεσία Phase4 έχουν ρυθμιστεί."
+      ],
+      "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert.": [
+        "Πλήρη στοιχεία πωλητή. Η αποστολή δεν έχει ρυθμιστεί: τα τιμολόγια μόνο αποθηκεύονται."
+      ],
+      "Gespeicherte Rechnungen": [
+        "Αποθηκευμένα τιμολόγια"
+      ],
+      "Übergaben an Phase4": [
+        "Παραδόσεις στο Phase4"
+      ],
+      "Empfangsquittungen": [
+        "Αποδείξεις παραλαβής"
+      ],
+      "Peppol Gateway öffnen": [
+        "Άνοιγμα Peppol Gateway"
+      ],
+      "Peppol Gateway": [
+        "Peppol Gateway"
+      ],
+      "%d Beispielrechnung angelegt.": [
+        "Δημιουργήθηκε %d ενδεικτικό τιμολόγιο.",
+        "Δημιουργήθηκαν %d ενδεικτικά τιμολόγια."
+      ],
+      "%d Beispielrechnung entfernt.": [
+        "Αφαιρέθηκε %d ενδεικτικό τιμολόγιο.",
+        "Αφαιρέθηκαν %d ενδεικτικά τιμολόγια."
+      ],
+      "Übersicht": [
+        "Επισκόπηση"
+      ],
+      "Rechnung erzeugen": [
+        "Δημιουργία τιμολογίου"
+      ],
+      "Einstellungen": [
+        "Ρυθμίσεις"
+      ],
+      "Was das Plugin tut": [
+        "Τι κάνει το πρόσθετο"
+      ],
+      "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben.": [
+        "Δημιουργία και αποθήκευση τιμολογίων UBL 2.1 κατά Peppol BIS Billing 3.0 και παράδοσή τους σε ρυθμισμένη υπηρεσία Phase4."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Μέρος της οικογένειας πρόσθετων WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Αυτόνομο"
+      ],
+      "Bereiche": [
+        "Ενότητες"
+      ],
+      "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet.": [
+        "Το ηλεκτρονικό τιμολόγιο δημιουργήθηκε και αποθηκεύτηκε. Μέσω αυτής της φόρμας δεν αποστέλλεται."
+      ],
+      "Die E-Rechnung wurde nicht erzeugt.": [
+        "Το ηλεκτρονικό τιμολόγιο δεν δημιουργήθηκε."
+      ],
+      "Eine Rechnung mit dieser Nummer ist bereits gespeichert.": [
+        "Υπάρχει ήδη αποθηκευμένο τιμολόγιο με αυτόν τον αριθμό."
+      ],
+      "Die Rechnung wurde erzeugt, aber nicht gespeichert.": [
+        "Το τιμολόγιο δημιουργήθηκε αλλά δεν αποθηκεύτηκε."
+      ],
+      "Einstellungen gespeichert.": [
+        "Οι ρυθμίσεις αποθηκεύτηκαν."
+      ],
+      "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet.": [
+        "Τα ενδεικτικά τιμολόγια επισημαίνονται ως δείγματα και δεν εμφανίζονται στη δημόσια πύλη κατάστασης."
+      ],
+      "Beispielrechnungen entfernt.": [
+        "Τα ενδεικτικά τιμολόγια αφαιρέθηκαν."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s": [
+        "Ελλιπή στοιχεία πωλητή: δεν μπορεί να δημιουργηθεί ηλεκτρονικό τιμολόγιο. %s"
+      ],
+      "Zu den Einstellungen": [
+        "Μετάβαση στις ρυθμίσεις"
+      ],
+      "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben.": [
+        "Η αποστολή δεν έχει ρυθμιστεί: τα τιμολόγια αποθηκεύονται αλλά δεν παραδίδονται."
+      ],
+      "ohne %d Beispielrechnungen": [
+        "χωρίς %d ενδεικτικά τιμολόγια"
+      ],
+      "mit messageId": [
+        "με messageId"
+      ],
+      "positiv, per Webhook": [
+        "θετική, μέσω webhook"
+      ],
+      "Verkäuferdaten": [
+        "Στοιχεία πωλητή"
+      ],
+      "vollständig": [
+        "πλήρη"
+      ],
+      "für die Rechnungserzeugung": [
+        "για έκδοση τιμολογίων"
+      ],
+      "Angaben fehlen": [
+        "λείπουν στοιχεία"
+      ],
+      "Rechnungen": [
+        "Τιμολόγια"
+      ],
+      "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status.": [
+        "Τα τελευταία 50 αποθηκευμένα τιμολόγια με την καταγεγραμμένη κατάστασή τους."
+      ],
+      "Rechnungsnummer": [
+        "Αριθμός τιμολογίου"
+      ],
+      "Peppol-ID des Käufers": [
+        "Peppol ID αγοραστή"
+      ],
+      "Zahlbetrag": [
+        "Πληρωτέο ποσό"
+      ],
+      "Status": [
+        "Κατάσταση"
+      ],
+      "Rechnungsdatum": [
+        "Ημερομηνία τιμολογίου"
+      ],
+      "Noch keine Rechnungen gespeichert.": [
+        "Δεν έχουν αποθηκευτεί ακόμη τιμολόγια."
+      ],
+      "Beispielrechnungen": [
+        "Ενδεικτικά τιμολόγια"
+      ],
+      "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen.": [
+        "Τα ενδεικτικά τιμολόγια δεν περιέχουν XML, δεν προσμετρώνται ως τιμολόγια και δεν εμφανίζονται στη δημόσια πύλη. Η αφαίρεση διαγράφει μόνο αυτά, συμπεριλαμβανομένων των τριών γραμμών παλαιότερων εκδόσεων."
+      ],
+      "Beispielrechnungen anlegen": [
+        "Δημιουργία ενδεικτικών τιμολογίων"
+      ],
+      "%d Beispielrechnung entfernen": [
+        "Αφαίρεση %d ενδεικτικού τιμολογίου",
+        "Αφαίρεση %d ενδεικτικών τιμολογίων"
+      ],
+      "Beispiel": [
+        "Δείγμα"
+      ],
+      "Erzeugt, nicht versendet": [
+        "Δημιουργήθηκε, δεν εστάλη"
+      ],
+      "An Phase4 übergeben": [
+        "Παραδόθηκε στο Phase4"
+      ],
+      "Zugestellt (Quittung)": [
+        "Παραδόθηκε (απόδειξη)"
+      ],
+      "Zustellung fehlgeschlagen": [
+        "Αποτυχία παράδοσης"
+      ],
+      "Versand fehlgeschlagen": [
+        "Αποτυχία αποστολής"
+      ],
+      "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s": [
+        "Χωρίς πλήρη στοιχεία πωλητή δεν δημιουργείται τιμολόγιο. %s"
+      ],
+      "Käuferreferenz (BT-10), z. B. die Leitweg-ID": [
+        "Αναφορά αγοραστή (BT-10), π.χ. Leitweg-ID"
+      ],
+      "Name des Käufers": [
+        "Επωνυμία αγοραστή"
+      ],
+      "Straße": [
+        "Οδός"
+      ],
+      "Postleitzahl": [
+        "Ταχυδρομικός κώδικας"
+      ],
+      "Ort": [
+        "Πόλη"
+      ],
+      "Land (zweistelliger Code)": [
+        "Χώρα (διψήφιος κωδικός)"
+      ],
+      "Peppol-ID des Käufers (Schema:Kennung)": [
+        "Peppol ID αγοραστή (σχήμα:αναγνωριστικό)"
+      ],
+      "USt-IdNr. des Käufers (optional)": [
+        "ΑΦΜ/ΦΠΑ αγοραστή (προαιρετικό)"
+      ],
+      "Bezeichnung der Leistung": [
+        "Περιγραφή υπηρεσίας"
+      ],
+      "Menge": [
+        "Ποσότητα"
+      ],
+      "Nettopreis je Einheit": [
+        "Καθαρή τιμή μονάδας"
+      ],
+      "Umsatzsteuersatz in Prozent": [
+        "Συντελεστής ΦΠΑ σε ποσοστό"
+      ],
+      "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen.": [
+        "Δημιουργεί τιμολόγιο UBL μιας γραμμής και το αποθηκεύει. Δεν αποστέλλεται τίποτα· τα στοιχεία πωλητή προέρχονται από τις ρυθμίσεις."
+      ],
+      "Rechnung erzeugen und speichern": [
+        "Δημιουργία και αποθήκευση τιμολογίου"
+      ],
+      "Peppol-ID des Verkäufers (Schema:Kennung)": [
+        "Peppol ID πωλητή (σχήμα:αναγνωριστικό)"
+      ],
+      "Name": [
+        "Επωνυμία"
+      ],
+      "Rechtlicher Name (leer: wie Name)": [
+        "Νόμιμη επωνυμία (κενό: όπως Επωνυμία)"
+      ],
+      "USt-IdNr.": [
+        "ΑΦΜ/ΦΠΑ"
+      ],
+      "Registernummer (optional)": [
+        "Αριθμός μητρώου (προαιρετικό)"
+      ],
+      "IBAN für Zahlung per Überweisung": [
+        "IBAN για πληρωμή με έμβασμα"
+      ],
+      "Verkäufer": [
+        "Πωλητής"
+      ],
+      "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung.": [
+        "Αυτά τα στοιχεία αναγράφονται σε κάθε παραγόμενο τιμολόγιο. Αν λείπει υποχρεωτικό στοιχείο, το πρόσθετο δεν δημιουργεί τιμολόγιο."
+      ],
+      "Versand": [
+        "Αποστολή"
+      ],
+      "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang.": [
+        "Και οι δύο υπηρεσίες είναι ανεξάρτητα προγράμματα εκτός πρόσθετου. Όσο λείπει μία διεύθυνση, δεν αποστέλλεται τίποτα. Οι σταθερές WM_PEPPOL_KOSIT_URL και WM_PEPPOL_PHASE4_URL στο wp-config.php υπερισχύουν."
+      ],
+      "Adresse des KoSIT-Validators": [
+        "Διεύθυνση επικυρωτή KoSIT"
+      ],
+      "Adresse des Phase4-Dienstes": [
+        "Διεύθυνση υπηρεσίας Phase4"
+      ],
+      "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen.": [
+        "Έχει οριστεί κοινό μυστικό· γίνονται δεκτές αποδείξεις με έγκυρη υπογραφή."
+      ],
+      "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret.": [
+        "Δεν έχει οριστεί κοινό μυστικό· όλες οι αποδείξεις απορρίπτονται. Ορίστε μέσω WM_PEPPOL_RECEIPT_SECRET ή wp option update wm_peppol_receipt_secret."
+      ],
+      "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)": [
+        "Επιτρεπόμενα αποτυπώματα πιστοποιητικών για αποδείξεις AS4 (SHA-256, προαιρετικό)"
+      ],
+      "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang.": [
+        "Αποτυπώματα SHA-256 64 χαρακτήρων, χωρισμένα με κόμμα, των αναμενόμενων πιστοποιητικών υπογραφής του σημείου πρόσβασης. Προτεραιότητα έχει η σταθερά WM_PEPPOL_TRUSTED_SIGNER_SHA256 στο wp-config.php."
+      ],
+      "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)": [
+        "Τοπική δέσμη πιστοποιητικών CA σε μορφή PEM (OpenPeppol PKI, προαιρετικό)"
+      ],
+      "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang.": [
+        "Ένα ή περισσότερα αξιόπιστα πιστοποιητικά ρίζας και ενδιάμεσα σε μορφή PEM για αποκλειστικά τοπικό έλεγχο της αλυσίδας χωρίς πρόσβαση στο δίκτυο. Προτεραιότητα έχουν οι σταθερές WM_PEPPOL_TRUST_BUNDLE_PEM και WM_PEPPOL_TRUST_BUNDLE_FILE."
+      ],
+      "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen": [
+        "Απόρριψη αποδείξεων AS4 όταν δεν έχει αποθηκευτεί αποτύπωμα ή δέσμη πιστοποιητικών CA"
+      ],
+      "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen.": [
+        "Όταν είναι ενεργοποιημένο ή ορίζεται με τη σταθερά WM_PEPPOL_REQUIRE_TRUST_ANCHOR, οι αυτοϋπογεγραμμένες ή μη αγκυρωμένες αποδείξεις απορρίπτονται με HTTP 422."
+      ],
+      "Deinstallation": [
+        "Απεγκατάσταση"
+      ],
+      "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen": [
+        "Οριστική διαγραφή όλων των επιλογών του πρόσθετου και των τριών πινάκων βάσης δεδομένων κατά την απεγκατάσταση"
+      ],
+      "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird.": [
+        "Από προεπιλογή, όλα τα αποθηκευμένα τιμολόγια, οι μεταδόσεις, το μητρώο αποδείξεων και οι ρυθμίσεις διατηρούνται κατά την αφαίρεση του πρόσθετου."
+      ],
+      "Einstellungen speichern": [
+        "Αποθήκευση ρυθμίσεων"
+      ],
+      "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz.": [
+        "Δημιουργεί τιμολόγια UBL 2.1 με το αναγνωριστικό Peppol BIS Billing 3.0 και ανάλυση ΦΠΑ ανά κατηγορία και συντελεστή."
+      ],
+      "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen.": [
+        "Αρνείται να δημιουργήσει τιμολόγιο όταν λείπουν υποχρεωτικά στοιχεία αντί να τα συμπληρώνει αυθαίρετα."
+      ],
+      "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung.": [
+        "Ελέγχει υποχρεωτικά πεδία, κωδικούς και κανόνες αθροισμάτων. Δεν αποτελεί έλεγχο XSD ή Schematron."
+      ],
+      "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an.": [
+        "Παραδίδει τιμολόγια ολοκληρωμένων παραγγελιών WooCommerce στον KoSIT και στο Phase4 όταν έχουν ρυθμιστεί και δέχεται υπογεγραμμένες αποδείξεις."
+      ],
+      "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung.": [
+        "Εμφανίζει στους αγοραστές την αποθηκευμένη κατάσταση ενός τιμολογίου στην πύλη κατάστασης."
+      ],
+      "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst.": [
+        "Χωρίς εσωτερική μεταφορά, υπογραφή ή κρυπτογράφηση AS4: αυτό το αναλαμβάνει το Phase4."
+      ],
+      "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen.": [
+        "Χωρίς πιστωτικά τιμολόγια σε σύνταξη UBL CreditNote και χωρίς απαλλαγές ΦΠΑ."
+      ],
+      "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde.": [
+        "Χωρίς αρχείο εξαγωγής: τα αποθηκευμένα τιμολόγια και το μητρώο αποδείξεων διατηρούνται από προεπιλογή κατά την απεγκατάσταση και διαγράφονται μόνο αν ενεργοποιηθεί ρητά στις ρυθμίσεις."
+      ],
+      "Was es nicht tut": [
+        "Τι δεν κάνει"
+      ],
+      "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut.": [
+        "Πάρα πολλά αιτήματα από αυτή τη διεύθυνση. Δοκιμάστε ξανά αργότερα."
+      ],
+      "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich.": [
+        "Απαιτούνται ο αριθμός τιμολογίου και το Peppol ID του αγοραστή."
+      ],
+      "Zu diesen Angaben liegt keine Rechnung vor.": [
+        "Δεν βρέθηκε τιμολόγιο για αυτά τα στοιχεία."
+      ],
+      "Der Anfragekörper muss ein JSON-Objekt sein.": [
+        "Το σώμα του αιτήματος πρέπει να είναι αντικείμενο JSON."
+      ],
+      "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt.": [
+        "Η γραμμή %d δεν παραπέμπει στην προηγούμενη γραμμή: αφαιρέθηκε ή παρεμβλήθηκε γραμμή."
+      ],
+      "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln.": [
+        "Η γραμμή %d τροποποιήθηκε μετά την εγγραφή ή η βάση προέρχεται από εγκατάσταση με διαφορετικά κλειδιά."
+      ],
+      "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast.": [
+        "Η απόδειξη υπερβαίνει τα %d byte· μια απόδειξη AS4 είναι σήμα, όχι ωφέλιμο φορτίο."
+      ],
+      "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage.": [
+        "Το έγγραφο δεν περιέχει eb:Receipt εντός eb:SignalMessage."
+      ],
+      "Die Quittung enthält kein prüfbares Signaturzertifikat.": [
+        "Η απόδειξη δεν περιέχει πιστοποιητικό υπογραφής που να μπορεί να ελεγχθεί."
+      ],
+      "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden.": [
+        "Η απόδειξη δεν φέρει υπογραφή XML. Ένα υπογεγραμμένο μήνυμα AS4 ΠΡΕΠΕΙ να απαντάται με υπογεγραμμένη απόδειξη."
+      ],
+      "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt.": [
+        "Η υπογραφή είναι ελλιπής: λείπει το ds:SignedInfo ή το ds:SignatureValue."
+      ],
+      "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar.": [
+        "Η υπογραφή δεν αναφέρει πιστοποιητικό X.509· χωρίς δημόσιο κλειδί δεν επαληθεύεται."
+      ],
+      "Signaturverfahren %s wird von dieser Installation nicht geprüft.": [
+        "Ο αλγόριθμος υπογραφής %s δεν επαληθεύεται από αυτή την εγκατάσταση."
+      ],
+      "Das X.509-Zertifikat der Signatur ist nicht lesbar.": [
+        "Το πιστοποιητικό X.509 της υπογραφής δεν είναι αναγνώσιμο."
+      ],
+      "OpenSSL konnte die Signatur nicht prüfen.": [
+        "Το OpenSSL δεν μπόρεσε να επαληθεύσει την υπογραφή."
+      ],
+      "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt.": [
+        "Η υπογραφή δεν ταιριάζει με το περιεχόμενο της απόδειξης: τροποποιήθηκε μετά την υπογραφή ή δημιουργήθηκε με άλλο κλειδί."
+      ],
+      "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert.": [
+        "Η ίδια η υπογραφή είναι έγκυρη, αλλά μόνο %1$d από %2$d αθροίσματα ελέγχου ταιριάζουν με το περιεχόμενο: η απόδειξη τροποποιήθηκε μετά την υπογραφή."
+      ],
+      "Das X.509-Zertifikat der Quittung ist abgelaufen.": [
+        "Το πιστοποιητικό X.509 της απόδειξης έχει λήξει."
+      ],
+      "Das X.509-Zertifikat der Quittung ist noch nicht gültig.": [
+        "Το πιστοποιητικό X.509 της απόδειξης δεν είναι ακόμη έγκυρο."
+      ],
+      "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird.": [
+        "Δεν έχει αποθηκευτεί ούτε αποτύπωμα πιστοποιητικού ούτε δέσμη πιστοποιητικών CA, παρόλο που ο έλεγχος της άγκυρας εμπιστοσύνης είναι υποχρεωτικός."
+      ],
+      "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel.": [
+        "Το πιστοποιητικό υπογραφής της απόδειξης δεν αντιστοιχεί ούτε σε αποθηκευμένο αποτύπωμα SHA-256 ούτε σε αξιόπιστη δέσμη πιστοποιητικών CA."
+      ],
+      "Die Quittung ist kein wohlgeformtes XML.": [
+        "Η απόδειξη δεν είναι καλοσχηματισμένο XML."
+      ],
+      "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d).": [
+        "Ο επικυρωτής KoSIT δεν δέχθηκε το έγγραφο (HTTP %d)."
+      ],
+      "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung.": [
+        "Το ID αποστολέα ή παραλήπτη δεν έχει τη μορφή σχήμα:αναγνωριστικό."
+      ],
+      "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d).": [
+        "Η υπηρεσία Phase4 απέρριψε την αποστολή (HTTP %d)."
+      ],
+      "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen.": [
+        "Η υπηρεσία Phase4 δεν επέστρεψε messageId· χωρίς αυτό δεν αντιστοιχίζεται απόδειξη."
+      ],
+      "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet.": [
+        "Ο επικυρωτής KoSIT και η υπηρεσία Phase4 δεν έχουν ρυθμιστεί· δεν αποστέλλεται τίποτα."
+      ],
+      "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete.": [
+        "Η απόδειξη έχει έγκυρη υπογραφή αλλά αφορά διαφορετικό έγγραφο από το απεσταλμένο."
+      ],
+      "Peppol: Positive Empfangsquittung für messageId %s erhalten.": [
+        "Peppol: Λήφθηκε θετική απόδειξη παραλαβής για messageId %s."
+      ],
+      "Peppol-Empfangsquittung erhalten.": [
+        "Λήφθηκε απόδειξη παραλαβής Peppol."
+      ],
+      "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s": [
+        "Peppol: Αποτυχία αποστολής (messageId %1$s): %2$s"
+      ],
+      "ohne Fehlerbeschreibung": [
+        "χωρίς περιγραφή σφάλματος"
+      ],
+      "Peppol-Versand fehlgeschlagen.": [
+        "Αποτυχία αποστολής Peppol."
+      ],
+      "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s": [
+        "Αυτοί οι κανόνες δεν μπόρεσαν να αξιολογηθούν και δεν μετρούν ούτε ως τηρηθέντες ούτε ως παραβιασθέντες: %s"
+      ],
+      "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s.": [
+        "Το WM Peppol AS4 Gateway δεν ήταν δυνατό να ενεργοποιηθεί, επειδή λείπουν από αυτόν τον διακομιστή οι ακόλουθες απαιτούμενες επεκτάσεις PHP: %s."
+      ],
+      "Fehlende PHP-Erweiterung": [
+        "Λείπει επέκταση PHP"
+      ],
+      "Kein Peppol-Teilnehmerbezeichner angegeben.": [
+        "Δεν δόθηκε αναγνωριστικό συμμετέχοντα Peppol."
+      ],
+      "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789.": [
+        "Το αναγνωριστικό \"%s\" δεν έχει τη μορφή <τετραψήφιο σχήμα EAS>:<αναγνωριστικό>, π.χ. 9930:DE123456789."
+      ],
+      "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen.": [
+        "Το σχήμα αναγνωριστικού περιέχει χαρακτήρες μη επιτρεπτούς σε όνομα DNS."
+      ],
+      "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen.": [
+        "Δεν υπάρχει εγγραφή NAPTR για %s: ο συμμετέχων δεν είναι εγγεγραμμένος σε αυτή τη ζώνη SML ή ο επιλυτής δεν απαντά σε NAPTR."
+      ],
+      "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL).": [
+        "Η εγγραφή NAPTR του %s δεν ορίζει SMP (υπηρεσία \"Meta:SMP\" με URL)."
+      ],
+      "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen.": [
+        "Το SMP γνωρίζει τον συμμετέχοντα %1$s αλλά όχι για τον τύπο εγγράφου %2$s: ο παραλήπτης δεν δέχεται αυτό το έγγραφο."
+      ],
+      "Der SMP antwortete mit HTTP %1$d auf %2$s.": [
+        "Το SMP απάντησε με HTTP %1$d στο %2$s."
+      ],
+      "Der SMP lieferte einen leeren Körper.": [
+        "Το SMP επέστρεψε κενό σώμα."
+      ],
+      "Die Antwort des SMP ist kein wohlgeformtes XML.": [
+        "Η απάντηση του SMP δεν είναι καλοσχηματισμένο XML."
+      ],
+      "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s.": [
+        "Η απάντηση του SMP δεν περιέχει τελικό σημείο με προφίλ μεταφοράς %s."
+      ],
+      "Peppol-Gateway-Status": [
+        "Κατάσταση Peppol Gateway"
+      ],
+      "Tabellen des Plugins fehlen": [
+        "Λείπουν οι πίνακες του πρόσθετου"
+      ],
+      "KoSIT-Validator und Phase4-Dienst konfiguriert": [
+        "Επικυρωτής KoSIT και υπηρεσία Phase4 ρυθμισμένα"
+      ],
+      "Versand nicht konfiguriert": [
+        "Η αποστολή δεν έχει ρυθμιστεί"
+      ],
+      "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen": [
+        "%1$d αποθηκευμένα τιμολόγια, %2$d αποδείξεις παραλαβής"
+      ],
+      "Status wird abgefragt …": [
+        "Αναζήτηση κατάστασης …"
+      ],
+      "Rechnung gefunden": [
+        "Το τιμολόγιο βρέθηκε"
+      ],
+      "Die Abfrage ist fehlgeschlagen.": [
+        "Το ερώτημα απέτυχε."
+      ],
+      "Gespeicherter Status": [
+        "Αποθηκευμένη κατάσταση"
+      ],
+      "Übergabe an Phase4": [
+        "Παράδοση στο Phase4"
+      ],
+      "keine Übergabe erfasst": [
+        "δεν καταγράφηκε παράδοση"
+      ],
+      "Empfangsquittung": [
+        "Απόδειξη παραλαβής"
+      ],
+      "liegt vor": [
+        "υπάρχει"
+      ],
+      "liegt nicht vor": [
+        "δεν υπάρχει"
+      ],
+      "Fehlercode der Übertragung": [
+        "Κωδικός σφάλματος μετάδοσης"
+      ],
+      "SHA-256 des gespeicherten XML": [
+        "SHA-256 αποθηκευμένου XML"
+      ],
+      "Rechnungsstatus abfragen": [
+        "Έλεγχος κατάστασης τιμολογίου"
+      ],
+      "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten.": [
+        "Εισαγάγετε τον αριθμό τιμολογίου και το Peppol ID σας. Εμφανίζεται η κατάσταση που είναι αποθηκευμένη σε αυτό το σύστημα. Το έγγραφο δεν ελέγχεται εδώ κατά EN 16931 ούτε διατίθεται για λήψη."
+      ],
+      "Ihre Peppol-ID": [
+        "Το Peppol ID σας"
+      ],
+      "Schema:Kennung": [
+        "σχήμα:αναγνωριστικό"
+      ],
+      "Status abfragen": [
+        "Έλεγχος κατάστασης"
+      ],
+      "Die Rechnungsnummer fehlt.": [
+        "Λείπει ο αριθμός τιμολογίου."
+      ],
+      "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist.": [
+        "Λείπει η αναφορά αγοραστή (BT-10)· το Peppol BIS την απαιτεί όταν δεν δίνεται αναφορά παραγγελίας."
+      ],
+      "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT.": [
+        "Η ημερομηνία τιμολογίου δεν έχει τη μορφή ΕΕΕΕ-ΜΜ-ΗΗ."
+      ],
+      "Es fehlen Rechnungspositionen oder ein Betrag.": [
+        "Λείπουν γραμμές τιμολογίου ή ποσό."
+      ],
+      "Ein Betrag ist keine Zahl.": [
+        "Ένα ποσό δεν είναι αριθμός."
+      ],
+      "Eine Position hat keine Bezeichnung.": [
+        "Μια γραμμή δεν έχει περιγραφή."
+      ],
+      "Ein Steuersatz ist negativ.": [
+        "Ένας συντελεστής φόρου είναι αρνητικός."
+      ],
+      "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen.": [
+        "Ο κωδικός τύπου τιμολογίου δεν περιλαμβάνεται στη λίστα Peppol για τιμολόγια."
+      ],
+      "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt.": [
+        "Ένα πιστωτικό τιμολόγιο (τύπος 381) απαιτεί τη σύνταξη UBL CreditNote, την οποία δεν παράγει αυτή η γεννήτρια."
+      ],
+      "Der Währungscode muss aus drei Großbuchstaben bestehen.": [
+        "Ο κωδικός νομίσματος πρέπει να αποτελείται από τρία κεφαλαία γράμματα."
+      ],
+      "Die Peppol-ID des Verkäufers fehlt.": [
+        "Λείπει το Peppol ID του πωλητή."
+      ],
+      "Der Name des Verkäufers fehlt.": [
+        "Λείπει η επωνυμία του πωλητή."
+      ],
+      "Die Straße des Verkäufers fehlt.": [
+        "Λείπει η οδός του πωλητή."
+      ],
+      "Der Ort des Verkäufers fehlt.": [
+        "Λείπει η πόλη του πωλητή."
+      ],
+      "Die Postleitzahl des Verkäufers fehlt.": [
+        "Λείπει ο ταχυδρομικός κώδικας του πωλητή."
+      ],
+      "Das Land des Verkäufers fehlt.": [
+        "Λείπει η χώρα του πωλητή."
+      ],
+      "Die USt-IdNr. des Verkäufers fehlt.": [
+        "Λείπει το ΑΦΜ/ΦΠΑ του πωλητή."
+      ],
+      "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Το Peppol ID του πωλητή δεν έχει τη μορφή σχήμα:αναγνωριστικό (τετραψήφιο σχήμα)."
+      ],
+      "Das Land des Verkäufers muss ein zweistelliger Ländercode sein.": [
+        "Η χώρα του πωλητή πρέπει να είναι διψήφιος κωδικός χώρας."
+      ],
+      "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Το ΑΦΜ/ΦΠΑ του πωλητή δεν ξεκινά με διψήφιο κωδικό χώρας."
+      ],
+      "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers.": [
+        "Λείπει το IBAN του πωλητή για πληρωμή με έμβασμα."
+      ],
+      "Die Peppol-ID des Käufers fehlt.": [
+        "Λείπει το Peppol ID του αγοραστή."
+      ],
+      "Der Name des Käufers fehlt.": [
+        "Λείπει η επωνυμία του αγοραστή."
+      ],
+      "Das Land des Käufers fehlt.": [
+        "Λείπει η χώρα του αγοραστή."
+      ],
+      "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Το Peppol ID του αγοραστή δεν έχει τη μορφή σχήμα:αναγνωριστικό (τετραψήφιο σχήμα)."
+      ],
+      "Das Land des Käufers muss ein zweistelliger Ländercode sein.": [
+        "Η χώρα του αγοραστή πρέπει να είναι διψήφιος κωδικός χώρας."
+      ],
+      "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Το ΑΦΜ/ΦΠΑ του αγοραστή δεν ξεκινά με διψήφιο κωδικό χώρας."
+      ],
+      "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null.": [
+        "Γραμμή ή έκπτωση/χρέωση με κατηγορία S δεν έχει συντελεστή πάνω από το μηδέν."
+      ],
+      "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen.": [
+        "Το αρχείο δεν είναι καλοσχηματισμένο XML· πριν από τον έλεγχο κανόνων δεν μπορεί να ελεγχθεί τίποτα."
+      ],
+      "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt.": [
+        "Peppol: Η παραγγελία έχει Leitweg-ID αλλά όχι Peppol ID παραλήπτη· δεν δημιουργήθηκε ηλ. τιμολόγιο."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab.": [
+        "Peppol: Δεν δημιουργήθηκε ηλ. τιμολόγιο. Το σύνολο παραγγελίας %1$s και τιμολογίου %2$s διαφέρουν πέραν της στρογγυλοποίησης."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. %s": [
+        "Peppol: Δεν δημιουργήθηκε ηλ. τιμολόγιο. %s"
+      ],
+      "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden.": [
+        "Peppol: Δεν ήταν δυνατή η αποθήκευση του ηλ. τιμολογίου."
+      ],
+      "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant.": [
+        "Peppol: Το ηλ. τιμολόγιο %s δημιουργήθηκε· η αποστολή προγραμματίστηκε."
+      ],
+      "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert.": [
+        "Peppol: Το ηλ. τιμολόγιο %s δημιουργήθηκε και αποθηκεύτηκε, δεν εστάλη: KoSIT και Phase4 δεν έχουν ρυθμιστεί."
+      ],
+      "EN 16931: %1$d fatale Regelbefunde (%2$s).": [
+        "EN 16931: %1$d κρίσιμα ευρήματα κανόνων (%2$s)."
+      ],
+      "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen.": [
+        "Peppol: Ο έλεγχος EN 16931 αναφέρει %1$d κρίσιμα ευρήματα (%2$s). Η αποστολή συνεχίζεται· ορίστε \"wm_peppol_schematron_gate\" σε 1 για φραγή."
+      ],
+      "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung.": [
+        "Peppol: Το ηλ. τιμολόγιο %1$s παραδόθηκε στο Phase4 (messageId %2$s). Θεωρείται παραδοθέν μόνο με την απόδειξη."
+      ],
+      "Gebühr": [
+        "Χρέωση"
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab.": [
+        "Peppol: Δεν δημιουργήθηκε ηλ. τιμολόγιο. Το \"%s\" είναι χωρίς ΦΠΑ· το πρόσθετο δεν υποστηρίζει απαλλαγές."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze.": [
+        "Peppol: Δεν δημιουργήθηκε ηλ. τιμολόγιο. Το \"%s\" φέρει πολλαπλούς συντελεστές ΦΠΑ."
+      ],
+      "Peppol: E-Rechnung %1$s nicht versendet. %2$s": [
+        "Peppol: Το ηλ. τιμολόγιο %1$s δεν εστάλη. %2$s"
+      ],
+      "Peppol-E-Rechnung": [
+        "Ηλεκτρονικό τιμολόγιο Peppol"
+      ],
+      "Peppol-Empfänger-ID (Schema:Kennung)": [
+        "Peppol ID παραλήπτη (σχήμα:αναγνωριστικό)"
+      ],
+      "Leitweg-ID (öffentliche Auftraggeber)": [
+        "Leitweg-ID (δημόσιοι φορείς)"
+      ],
+      "Käuferreferenz (wenn keine Leitweg-ID)": [
+        "Αναφορά αγοραστή (αν δεν υπάρχει Leitweg-ID)"
+      ],
+      "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert.": [
+        "Το Leitweg-ID δεν πληροί την προδιαγραφή KoSIT ή τα ψηφία ελέγχου δεν συμφωνούν· δεν αποθηκεύτηκε."
+      ],
+      "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert.": [
+        "Το Peppol ID παραλήπτη δεν έχει τη μορφή τετραψήφιου σχήμα:αναγνωριστικό· δεν αποθηκεύτηκε."
+      ],
+      "Portal-Darstellung": [
+        "Εμφάνιση πύλης"
+      ],
+      "Überschrift anzeigen": [
+        "Εμφάνιση επικεφαλίδας"
+      ],
+      "Einleitungstext anzeigen": [
+        "Εμφάνιση εισαγωγικού κειμένου"
+      ],
+      "block title\u0004Peppol-Rechnungsstatus-Portal": [
+        "Πύλη κατάστασης τιμολογίων Peppol"
+      ],
+      "block description\u0004Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID.": [
+        "Δημόσια πύλη για αναζήτηση αποθηκευμένων ηλεκτρονικών τιμολογίων Peppol βάσει αριθμού τιμολογίου και Peppol ID."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004invoice": [
+        "τιμολόγιο"
+      ],
+      "block keyword\u0004e-rechnung": [
+        "ηλεκτρονικό-τιμολόγιο"
+      ],
+      "block keyword\u0004ubl": [
+        "ubl"
+      ],
+      "block keyword\u0004status": [
+        "κατάσταση"
+      ]
+    }
+  }
+}

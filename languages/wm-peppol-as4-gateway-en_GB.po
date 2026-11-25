@@ -1,0 +1,1342 @@
+# Translation of wm-peppol-as4-gateway in en_GB
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-peppol-as4-gateway 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-peppol-as4-"
+"gateway\n"
+"POT-Creation-Date: 2026-11-21T14:15:36+00:00\n"
+"PO-Revision-Date: 2026-11-21 15:24+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-peppol-as4-"
+"gateway/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-peppol-as4-"
+"gateway/issues>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-peppol-as4-gateway\n"
+
+#. Plugin Name of the plugin
+#: wm-peppol-as4-gateway.php includes/Admin/AdminDashboard.php:101
+msgid "WM Peppol AS4 Gateway"
+msgstr "WM Peppol AS4 Gateway"
+
+#. Plugin URI of the plugin
+#: wm-peppol-as4-gateway.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+
+#. Description of the plugin
+#: wm-peppol-as4-gateway.php
+msgid ""
+"Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das "
+"amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt "
+"Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten "
+"KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und "
+"zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die "
+"übernimmt der Phase4-Dienst."
+msgstr ""
+"Builds UBL 2.1 invoices under Peppol BIS Billing 3.0, checks them against "
+"the official EN 16931 rule set, resolves receivers via SML and SMP, hands "
+"completed WooCommerce order invoices to a configured KoSIT validator and "
+"Phase4 service, verifies signed AS4 receipts, and shows buyers the stored "
+"status. No built-in AS4 transport: Phase4 handles transmission."
+
+#. Author of the plugin
+#: wm-peppol-as4-gateway.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-peppol-as4-gateway.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#. translators: %s: action name
+#: includes/Adapters/Peppol_Spoke_Adapter.php:138
+#, php-format
+msgid "Unbekannte Spoke-Aktion \"%s\"."
+msgstr "Unknown spoke action \"%s\"."
+
+#. translators: %s: missing seller fields
+#: includes/Adapters/Peppol_Spoke_Adapter.php:155
+#, php-format
+msgid "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s)."
+msgstr "Self-test unavailable: seller data missing (%s)."
+
+#. translators: %s: failed checks
+#: includes/Adapters/Peppol_Spoke_Adapter.php:181
+#, php-format
+msgid "Testdokument von den Strukturprüfungen abgelehnt: %s"
+msgstr "Test document rejected by structural checks: %s"
+
+#. translators: %d: size of the test document in bytes
+#: includes/Adapters/Peppol_Spoke_Adapter.php:188
+#, php-format
+msgid ""
+"Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins "
+"angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-"
+"Prüfung."
+msgstr ""
+"Test document built (%d bytes) and accepted by the plugin structural checks. "
+"Not stored, not sent, no schema or Schematron check."
+
+#: includes/Admin/AdminDashboard.php:113 includes/Admin/AdminDashboard.php:513
+msgid ""
+"Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder "
+"aktivieren."
+msgstr ""
+"Plugin database tables are missing. Please deactivate and reactivate the "
+"plugin."
+
+#: includes/Admin/AdminDashboard.php:117
+msgid "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden."
+msgstr "Seller data incomplete: no e-invoice can be generated."
+
+#: includes/Admin/AdminDashboard.php:125
+msgid ""
+"Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind "
+"konfiguriert."
+msgstr ""
+"Seller data complete. KoSIT validator and Phase4 service are configured."
+
+#: includes/Admin/AdminDashboard.php:126
+msgid ""
+"Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden "
+"nur gespeichert."
+msgstr ""
+"Seller data complete. Dispatch not configured: invoices are stored only."
+
+#: includes/Admin/AdminDashboard.php:136 includes/Admin/AdminDashboard.php:535
+msgid "Gespeicherte Rechnungen"
+msgstr "Stored invoices"
+
+#: includes/Admin/AdminDashboard.php:140 includes/Admin/AdminDashboard.php:541
+msgid "Übergaben an Phase4"
+msgstr "Hand-overs to Phase4"
+
+#: includes/Admin/AdminDashboard.php:144 includes/Admin/AdminDashboard.php:546
+#: includes/Admin/AdminDashboard.php:717
+msgid "Empfangsquittungen"
+msgstr "Delivery receipts"
+
+#: includes/Admin/AdminDashboard.php:149
+msgid "Peppol Gateway öffnen"
+msgstr "Open Peppol Gateway"
+
+#: includes/Admin/AdminDashboard.php:171 includes/Admin/AdminDashboard.php:172
+#: includes/Admin/AdminDashboard.php:437
+msgid "Peppol Gateway"
+msgstr "Peppol Gateway"
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:225
+#, php-format
+msgid "%d Beispielrechnung angelegt."
+msgid_plural "%d Beispielrechnungen angelegt."
+msgstr[0] "%d sample invoice created."
+msgstr[1] "%d sample invoices created."
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:231
+#, php-format
+msgid "%d Beispielrechnung entfernt."
+msgid_plural "%d Beispielrechnungen entfernt."
+msgstr[0] "%d sample invoice removed."
+msgstr[1] "%d sample invoices removed."
+
+#: includes/Admin/AdminDashboard.php:424
+msgid "Übersicht"
+msgstr "Overview"
+
+#: includes/Admin/AdminDashboard.php:425 includes/Admin/AdminDashboard.php:659
+msgid "Rechnung erzeugen"
+msgstr "Generate invoice"
+
+#: includes/Admin/AdminDashboard.php:426 includes/Admin/AdminDashboard.php:692
+msgid "Einstellungen"
+msgstr "Settings"
+
+#: includes/Admin/AdminDashboard.php:427 includes/Admin/AdminDashboard.php:775
+msgid "Was das Plugin tut"
+msgstr "What the plugin does"
+
+#: includes/Admin/AdminDashboard.php:438
+msgid ""
+"UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an "
+"einen konfigurierten Phase4-Dienst übergeben."
+msgstr ""
+"Generate and store UBL 2.1 invoices under Peppol BIS Billing 3.0 and hand "
+"them to a configured Phase4 service."
+
+#: includes/Admin/AdminDashboard.php:442
+msgid "Part of the WM Suite plugin family"
+msgstr "Part of the WM Suite plugin family"
+
+#: includes/Admin/AdminDashboard.php:444
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:445
+msgid "Hub"
+msgstr "Hub"
+
+#: includes/Admin/AdminDashboard.php:445
+msgid "Standalone"
+msgstr "Standalone"
+
+#: includes/Admin/AdminDashboard.php:452
+msgid "Bereiche"
+msgstr "Sections"
+
+#: includes/Admin/AdminDashboard.php:488
+msgid ""
+"Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie "
+"nicht versendet."
+msgstr "The e-invoice was generated and stored. This form does not send it."
+
+#: includes/Admin/AdminDashboard.php:489
+msgid "Die E-Rechnung wurde nicht erzeugt."
+msgstr "The e-invoice was not generated."
+
+#: includes/Admin/AdminDashboard.php:490 includes/API/RestController.php:298
+msgid "Eine Rechnung mit dieser Nummer ist bereits gespeichert."
+msgstr "An invoice with this number is already stored."
+
+#: includes/Admin/AdminDashboard.php:491 includes/API/RestController.php:323
+msgid "Die Rechnung wurde erzeugt, aber nicht gespeichert."
+msgstr "The invoice was generated, but could not be stored."
+
+#: includes/Admin/AdminDashboard.php:492
+msgid "Einstellungen gespeichert."
+msgstr "Settings saved."
+
+#: includes/Admin/AdminDashboard.php:493
+msgid ""
+"Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen "
+"Statusportal nicht gemeldet."
+msgstr ""
+"Sample invoices are marked as samples and are never reported in the public "
+"status portal."
+
+#: includes/Admin/AdminDashboard.php:494
+msgid "Beispielrechnungen entfernt."
+msgstr "Sample invoices removed."
+
+#. translators: %s: link to the settings tab
+#: includes/Admin/AdminDashboard.php:526
+#, php-format
+msgid ""
+"Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s"
+msgstr "Seller data incomplete: no e-invoice can be generated. %s"
+
+#. translators: %s: link to the settings tab
+#: includes/Admin/AdminDashboard.php:526 includes/Admin/AdminDashboard.php:637
+msgid "Zu den Einstellungen"
+msgstr "Go to settings"
+
+#: includes/Admin/AdminDashboard.php:530
+msgid ""
+"Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber "
+"nicht übergeben."
+msgstr ""
+"Dispatch not configured: generated invoices are stored, not handed over."
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:538
+#, php-format
+msgid "ohne %d Beispielrechnungen"
+msgstr "excluding %d sample invoices"
+
+#: includes/Admin/AdminDashboard.php:543
+msgid "mit messageId"
+msgstr "with messageId"
+
+#: includes/Admin/AdminDashboard.php:548
+msgid "positiv, per Webhook"
+msgstr "positive, via webhook"
+
+#: includes/Admin/AdminDashboard.php:551
+msgid "Verkäuferdaten"
+msgstr "Seller data"
+
+#: includes/Admin/AdminDashboard.php:552
+msgid "vollständig"
+msgstr "complete"
+
+#: includes/Admin/AdminDashboard.php:553
+msgid "für die Rechnungserzeugung"
+msgstr "for invoice generation"
+
+#: includes/Admin/AdminDashboard.php:553
+msgid "Angaben fehlen"
+msgstr "fields missing"
+
+#: includes/Admin/AdminDashboard.php:558
+msgid "Rechnungen"
+msgstr "Invoices"
+
+#: includes/Admin/AdminDashboard.php:559
+msgid "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status."
+msgstr "The 50 most recent stored invoices with their recorded status."
+
+#: includes/Admin/AdminDashboard.php:564 includes/Admin/AdminDashboard.php:643
+#: includes/Frontend/InvoicePortal.php:139
+msgid "Rechnungsnummer"
+msgstr "Invoice number"
+
+#: includes/Admin/AdminDashboard.php:565
+msgid "Peppol-ID des Käufers"
+msgstr "Buyer Peppol ID"
+
+#: includes/Admin/AdminDashboard.php:566
+#: includes/Frontend/InvoicePortal.php:120
+msgid "Zahlbetrag"
+msgstr "Payable amount"
+
+#: includes/Admin/AdminDashboard.php:567
+msgid "Status"
+msgstr "Status"
+
+#: includes/Admin/AdminDashboard.php:568
+#: includes/Frontend/InvoicePortal.php:121
+msgid "Rechnungsdatum"
+msgstr "Issue date"
+
+#: includes/Admin/AdminDashboard.php:573
+msgid "Noch keine Rechnungen gespeichert."
+msgstr "No invoices stored yet."
+
+#: includes/Admin/AdminDashboard.php:590
+msgid "Beispielrechnungen"
+msgstr "Sample invoices"
+
+#: includes/Admin/AdminDashboard.php:591
+msgid ""
+"Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im "
+"öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die "
+"drei Beispielzeilen früherer Versionen."
+msgstr ""
+"Sample invoices carry no XML, do not count as invoices, and are not reported "
+"in the public status portal. Removing deletes only sample rows, including "
+"the three sample rows of earlier versions."
+
+#: includes/Admin/AdminDashboard.php:596
+msgid "Beispielrechnungen anlegen"
+msgstr "Create sample invoices"
+
+#. translators: %d: number of demo rows
+#: includes/Admin/AdminDashboard.php:603
+#, php-format
+msgid "%d Beispielrechnung entfernen"
+msgid_plural "%d Beispielrechnungen entfernen"
+msgstr[0] "Remove %d sample invoice"
+msgstr[1] "Remove %d sample invoices"
+
+#: includes/Admin/AdminDashboard.php:620
+msgid "Beispiel"
+msgstr "Sample"
+
+#: includes/Admin/AdminDashboard.php:623
+msgid "Erzeugt, nicht versendet"
+msgstr "Generated, not sent"
+
+#: includes/Admin/AdminDashboard.php:624
+msgid "An Phase4 übergeben"
+msgstr "Handed to Phase4"
+
+#: includes/Admin/AdminDashboard.php:625
+msgid "Zugestellt (Quittung)"
+msgstr "Delivered (receipt)"
+
+#: includes/Admin/AdminDashboard.php:626
+msgid "Zustellung fehlgeschlagen"
+msgstr "Delivery failed"
+
+#: includes/Admin/AdminDashboard.php:627
+msgid "Versand fehlgeschlagen"
+msgstr "Dispatch failed"
+
+#. translators: %s: link to the settings tab
+#: includes/Admin/AdminDashboard.php:637
+#, php-format
+msgid "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s"
+msgstr "No invoice will be generated without complete seller data. %s"
+
+#: includes/Admin/AdminDashboard.php:644
+msgid "Käuferreferenz (BT-10), z. B. die Leitweg-ID"
+msgstr "Buyer reference (BT-10), e.g. Leitweg-ID"
+
+#: includes/Admin/AdminDashboard.php:645
+msgid "Name des Käufers"
+msgstr "Buyer name"
+
+#: includes/Admin/AdminDashboard.php:646 includes/Admin/AdminDashboard.php:682
+msgid "Straße"
+msgstr "Street"
+
+#: includes/Admin/AdminDashboard.php:647 includes/Admin/AdminDashboard.php:683
+msgid "Postleitzahl"
+msgstr "Postal code"
+
+#: includes/Admin/AdminDashboard.php:648 includes/Admin/AdminDashboard.php:684
+msgid "Ort"
+msgstr "City"
+
+#: includes/Admin/AdminDashboard.php:649 includes/Admin/AdminDashboard.php:685
+msgid "Land (zweistelliger Code)"
+msgstr "Country (two-letter code)"
+
+#: includes/Admin/AdminDashboard.php:650
+msgid "Peppol-ID des Käufers (Schema:Kennung)"
+msgstr "Buyer Peppol ID (scheme:identifier)"
+
+#: includes/Admin/AdminDashboard.php:651
+msgid "USt-IdNr. des Käufers (optional)"
+msgstr "Buyer VAT ID (optional)"
+
+#: includes/Admin/AdminDashboard.php:652
+msgid "Bezeichnung der Leistung"
+msgstr "Service or item description"
+
+#: includes/Admin/AdminDashboard.php:653
+msgid "Menge"
+msgstr "Quantity"
+
+#: includes/Admin/AdminDashboard.php:654
+msgid "Nettopreis je Einheit"
+msgstr "Net unit price"
+
+#: includes/Admin/AdminDashboard.php:655
+msgid "Umsatzsteuersatz in Prozent"
+msgstr "VAT rate in percent"
+
+#: includes/Admin/AdminDashboard.php:660
+msgid ""
+"Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet "
+"wird nichts; Verkäuferdaten kommen aus den Einstellungen."
+msgstr ""
+"Generates a single-line UBL invoice and stores it. Nothing is sent; seller "
+"details come from settings."
+
+#: includes/Admin/AdminDashboard.php:670
+msgid "Rechnung erzeugen und speichern"
+msgstr "Generate and store invoice"
+
+#: includes/Admin/AdminDashboard.php:679
+msgid "Peppol-ID des Verkäufers (Schema:Kennung)"
+msgstr "Seller Peppol ID (scheme:identifier)"
+
+#: includes/Admin/AdminDashboard.php:680
+msgid "Name"
+msgstr "Name"
+
+#: includes/Admin/AdminDashboard.php:681
+msgid "Rechtlicher Name (leer: wie Name)"
+msgstr "Legal name (blank: same as Name)"
+
+#: includes/Admin/AdminDashboard.php:686
+msgid "USt-IdNr."
+msgstr "VAT ID"
+
+#: includes/Admin/AdminDashboard.php:687
+msgid "Registernummer (optional)"
+msgstr "Company registration number (optional)"
+
+#: includes/Admin/AdminDashboard.php:688
+msgid "IBAN für Zahlung per Überweisung"
+msgstr "IBAN for credit transfer payment"
+
+#: includes/Admin/AdminDashboard.php:697
+msgid "Verkäufer"
+msgstr "Seller"
+
+#: includes/Admin/AdminDashboard.php:698
+msgid ""
+"Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, "
+"erzeugt das Plugin keine Rechnung."
+msgstr ""
+"These details appear on every generated invoice. If a required field is "
+"missing, no invoice is built."
+
+#: includes/Admin/AdminDashboard.php:706
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:309
+msgid "Versand"
+msgstr "Dispatch"
+
+#: includes/Admin/AdminDashboard.php:707
+msgid ""
+"Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine "
+"der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL "
+"und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang."
+msgstr ""
+"Both services are standalone programs outside this plugin. Nothing is sent "
+"while either URL is empty. Constants WM_PEPPOL_KOSIT_URL and "
+"WM_PEPPOL_PHASE4_URL in wp-config.php take precedence."
+
+#: includes/Admin/AdminDashboard.php:709
+msgid "Adresse des KoSIT-Validators"
+msgstr "KoSIT validator URL"
+
+#: includes/Admin/AdminDashboard.php:713
+msgid "Adresse des Phase4-Dienstes"
+msgstr "Phase4 service URL"
+
+#: includes/Admin/AdminDashboard.php:722
+msgid ""
+"Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur "
+"werden angenommen."
+msgstr ""
+"A shared secret is configured; receipts with a valid signature are accepted."
+
+#: includes/Admin/AdminDashboard.php:723
+msgid ""
+"Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen "
+"per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update "
+"wm_peppol_receipt_secret."
+msgstr ""
+"No shared secret configured; all receipts are refused. Set via constant "
+"WM_PEPPOL_RECEIPT_SECRET or wp option update wm_peppol_receipt_secret."
+
+#: includes/Admin/AdminDashboard.php:728
+msgid ""
+"Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)"
+msgstr "Allowed certificate fingerprints for AS4 receipts (SHA-256, optional)"
+
+#: includes/Admin/AdminDashboard.php:730
+msgid ""
+"Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-"
+"Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der "
+"wp-config.php hat Vorrang."
+msgstr ""
+"Comma-separated 64-character SHA-256 fingerprints of the expected access "
+"point signing certificates. The constant WM_PEPPOL_TRUSTED_SIGNER_SHA256 in "
+"wp-config.php takes precedence."
+
+#: includes/Admin/AdminDashboard.php:733
+msgid "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)"
+msgstr "Local CA certificate bundle in PEM format (OpenPeppol PKI, optional)"
+
+#: includes/Admin/AdminDashboard.php:735
+msgid ""
+"Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-"
+"Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten "
+"WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang."
+msgstr ""
+"One or more trusted root and intermediate certificates in PEM format for a "
+"purely local chain check without network access. The constants "
+"WM_PEPPOL_TRUST_BUNDLE_PEM and WM_PEPPOL_TRUST_BUNDLE_FILE take precedence."
+
+#: includes/Admin/AdminDashboard.php:740
+msgid ""
+"AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel "
+"ablehnen"
+msgstr ""
+"Reject AS4 receipts when no fingerprint or CA certificate bundle is stored"
+
+#: includes/Admin/AdminDashboard.php:742
+msgid ""
+"Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, "
+"werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 "
+"abgewiesen."
+msgstr ""
+"When enabled, or set with the constant WM_PEPPOL_REQUIRE_TRUST_ANCHOR, self-"
+"signed or unanchored receipts are rejected with HTTP 422."
+
+#: includes/Admin/AdminDashboard.php:745
+msgid "Deinstallation"
+msgstr "Uninstall"
+
+#: includes/Admin/AdminDashboard.php:749
+msgid ""
+"Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen "
+"unwiderruflich löschen"
+msgstr ""
+"Permanently delete all plugin options and drop the three database tables "
+"when uninstalling the plugin"
+
+#: includes/Admin/AdminDashboard.php:751
+msgid ""
+"Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das "
+"Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt "
+"wird."
+msgstr ""
+"By default, all stored invoices, transmissions, the receipt register, and "
+"settings are preserved when the plugin is removed."
+
+#: includes/Admin/AdminDashboard.php:754
+msgid "Einstellungen speichern"
+msgstr "Save settings"
+
+#: includes/Admin/AdminDashboard.php:762
+msgid ""
+"Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS "
+"Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und "
+"Steuersatz."
+msgstr ""
+"Builds UBL 2.1 invoices carrying the Peppol BIS Billing 3.0 specification "
+"identifier, with one VAT breakdown per tax category and rate."
+
+#: includes/Admin/AdminDashboard.php:763
+msgid ""
+"Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen."
+msgstr ""
+"Refuses to build an invoice when required fields are missing instead of "
+"inventing values."
+
+#: includes/Admin/AdminDashboard.php:764
+msgid ""
+"Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine "
+"Schema- und keine Schematron-Prüfung."
+msgstr ""
+"Checks documents for mandatory elements, codes, and sum rules. This is "
+"neither XSD schema nor Schematron validation."
+
+#: includes/Admin/AdminDashboard.php:765
+msgid ""
+"Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-"
+"Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt "
+"signierte Empfangsquittungen an."
+msgstr ""
+"Hands completed WooCommerce order invoices to a KoSIT validator and a Phase4 "
+"service when both are configured, and accepts signed delivery receipts."
+
+#: includes/Admin/AdminDashboard.php:766
+msgid "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung."
+msgstr "Shows buyers the stored status of an invoice in the status portal."
+
+#: includes/Admin/AdminDashboard.php:769
+msgid ""
+"Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt "
+"der Phase4-Dienst."
+msgstr ""
+"No built-in AS4 transport, signing, or encryption: the Phase4 service "
+"handles that."
+
+#: includes/Admin/AdminDashboard.php:770
+msgid ""
+"Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen."
+msgstr ""
+"No credit notes in the UBL CreditNote syntax and no tax exemption categories."
+
+#: includes/Admin/AdminDashboard.php:771
+msgid ""
+"Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister "
+"bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, "
+"wenn dies in den Einstellungen ausdrücklich aktiviert wurde."
+msgstr ""
+"No export archive: stored invoices and the receipt register are preserved by "
+"default on uninstall and deleted only if explicitly enabled in settings."
+
+#: includes/Admin/AdminDashboard.php:781
+msgid "Was es nicht tut"
+msgstr "What it does not do"
+
+#: includes/API/RestController.php:148 includes/API/RestController.php:177
+msgid ""
+"Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut."
+msgstr "Too many requests from this address. Please try again later."
+
+#: includes/API/RestController.php:189
+msgid "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich."
+msgstr "Invoice number and buyer Peppol ID are required."
+
+#: includes/API/RestController.php:215 includes/Frontend/InvoicePortal.php:110
+msgid "Zu diesen Angaben liegt keine Rechnung vor."
+msgstr "No invoice was found for the details provided."
+
+#: includes/API/RestController.php:286
+msgid "Der Anfragekörper muss ein JSON-Objekt sein."
+msgstr "Request body must be a JSON object."
+
+#. translators: %d: row id
+#: includes/AS4/DeliveryRegister.php:135
+#, php-format
+msgid ""
+"Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder "
+"eingefügt."
+msgstr ""
+"Row %d does not reference the preceding row: a row was removed or inserted."
+
+#. translators: %d: row id
+#: includes/AS4/DeliveryRegister.php:157
+#, php-format
+msgid ""
+"Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von "
+"einer Installation mit anderen Schlüsseln."
+msgstr ""
+"Row %d was modified after writing, or the database comes from an "
+"installation with different keys."
+
+#. translators: %d: size limit in bytes
+#: includes/AS4/ReceiptEvidence.php:89
+#, php-format
+msgid ""
+"Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, "
+"keine Nutzlast."
+msgstr "Receipt exceeds %d bytes; an AS4 receipt is a signal, not a payload."
+
+#: includes/AS4/ReceiptEvidence.php:110
+msgid "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage."
+msgstr "Document contains no eb:Receipt inside an eb:SignalMessage."
+
+#: includes/AS4/ReceiptEvidence.php:137
+msgid "Die Quittung enthält kein prüfbares Signaturzertifikat."
+msgstr "The receipt contains no signing certificate that can be checked."
+
+#: includes/AS4/ReceiptEvidence.php:200
+msgid ""
+"Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit "
+"einer signierten Quittung beantwortet werden."
+msgstr ""
+"Receipt carries no XML signature. A signed AS4 message MUST be acknowledged "
+"with a signed receipt."
+
+#: includes/AS4/ReceiptEvidence.php:209
+msgid ""
+"Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt."
+msgstr ""
+"Signature is incomplete: ds:SignedInfo or ds:SignatureValue is missing."
+
+#: includes/AS4/ReceiptEvidence.php:212
+msgid ""
+"Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel "
+"ist sie nicht prüfbar."
+msgstr ""
+"Signature includes no X.509 certificate; without the public key it cannot be "
+"verified."
+
+#. translators: %s: signature algorithm identifier
+#: includes/AS4/ReceiptEvidence.php:222
+#, php-format
+msgid "Signaturverfahren %s wird von dieser Installation nicht geprüft."
+msgstr "Signature algorithm %s is not verified by this installation."
+
+#: includes/AS4/ReceiptEvidence.php:251
+msgid "Das X.509-Zertifikat der Signatur ist nicht lesbar."
+msgstr "The signature X.509 certificate cannot be read."
+
+#: includes/AS4/ReceiptEvidence.php:269
+msgid "OpenSSL konnte die Signatur nicht prüfen."
+msgstr "OpenSSL could not verify the signature."
+
+#: includes/AS4/ReceiptEvidence.php:270
+msgid ""
+"Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem "
+"Signieren verändert oder mit einem anderen Schlüssel erzeugt."
+msgstr ""
+"Signature does not match the receipt content: it was modified after signing "
+"or created with another key."
+
+#. translators: 1: references that matched, 2: references in total
+#: includes/AS4/ReceiptEvidence.php:291
+#, php-format
+msgid ""
+"Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum "
+"Inhalt: die Quittung wurde nach dem Signieren verändert."
+msgstr ""
+"The signature itself is valid, but only %1$d of %2$d digests match the "
+"content: the receipt was modified after signing."
+
+#: includes/AS4/ReceiptEvidence.php:308
+msgid "Das X.509-Zertifikat der Quittung ist abgelaufen."
+msgstr "The receipt's X.509 certificate has expired."
+
+#: includes/AS4/ReceiptEvidence.php:322
+msgid "Das X.509-Zertifikat der Quittung ist noch nicht gültig."
+msgstr "The receipt's X.509 certificate is not yet valid."
+
+#: includes/AS4/ReceiptEvidence.php:521
+msgid ""
+"Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel "
+"hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird."
+msgstr ""
+"Neither a certificate fingerprint nor a CA certificate bundle is stored, "
+"although the trust anchor check is enforced."
+
+#: includes/AS4/ReceiptEvidence.php:534
+msgid ""
+"Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten "
+"SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel."
+msgstr ""
+"The receipt's signing certificate matches neither a stored SHA-256 "
+"fingerprint nor a trusted CA certificate bundle."
+
+#: includes/AS4/ReceiptEvidence.php:614
+msgid "Die Quittung ist kein wohlgeformtes XML."
+msgstr "The receipt is not well-formed XML."
+
+#. translators: %d: HTTP status code
+#: includes/class-peppol-phase4-client.php:86
+#, php-format
+msgid "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d)."
+msgstr "The KoSIT validator did not accept the document (HTTP %d)."
+
+#: includes/class-peppol-phase4-client.php:105
+msgid "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung."
+msgstr "Sender or receiver ID does not have the format scheme:identifier."
+
+#. translators: %d: HTTP status code
+#: includes/class-peppol-phase4-client.php:132
+#, php-format
+msgid "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d)."
+msgstr "The Phase4 service rejected the transmission (HTTP %d)."
+
+#: includes/class-peppol-phase4-client.php:138
+msgid ""
+"Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich "
+"keine Empfangsquittung zuordnen."
+msgstr ""
+"The Phase4 service returned no messageId; without it no delivery receipt can "
+"be matched."
+
+#: includes/class-peppol-phase4-client.php:146
+msgid ""
+"KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts "
+"versendet."
+msgstr ""
+"KoSIT validator and Phase4 service are not configured; nothing is sent."
+
+#: includes/class-peppol-webhook-receiver.php:165
+msgid ""
+"Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument "
+"als das versendete."
+msgstr ""
+"The receipt is validly signed, but refers to a different document than the "
+"one sent."
+
+#. translators: %s: message id
+#: includes/class-peppol-webhook-receiver.php:197
+#, php-format
+msgid "Peppol: Positive Empfangsquittung für messageId %s erhalten."
+msgstr "Peppol: Positive delivery receipt received for messageId %s."
+
+#: includes/class-peppol-webhook-receiver.php:198
+msgid "Peppol-Empfangsquittung erhalten."
+msgstr "Peppol delivery receipt received."
+
+#. translators: 1: message id, 2: error text of the receipt
+#: includes/class-peppol-webhook-receiver.php:201
+#, php-format
+msgid "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s"
+msgstr "Peppol: Dispatch failed (messageId %1$s): %2$s"
+
+#. translators: 1: message id, 2: error text of the receipt
+#: includes/class-peppol-webhook-receiver.php:201
+msgid "ohne Fehlerbeschreibung"
+msgstr "no error description"
+
+#: includes/class-peppol-webhook-receiver.php:202
+msgid "Peppol-Versand fehlgeschlagen."
+msgstr "Peppol dispatch failed."
+
+#. translators: %s: comma separated rule identifiers
+#: includes/CLI/PeppolCommand.php:367
+#, php-format
+msgid ""
+"Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt "
+"noch als verletzt: %s"
+msgstr ""
+"These rules could not be evaluated and count neither as satisfied nor as "
+"violated: %s"
+
+#. translators: %s: comma-separated list of missing PHP extensions
+#: includes/Database/Schema.php:42
+#, php-format
+msgid ""
+"WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende "
+"erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s."
+msgstr ""
+"WM Peppol AS4 Gateway could not be activated because the following required "
+"PHP extensions are missing on this server: %s."
+
+#: includes/Database/Schema.php:46
+msgid "Fehlende PHP-Erweiterung"
+msgstr "Missing PHP extension"
+
+#: includes/Discovery/SmpClient.php:127
+msgid "Kein Peppol-Teilnehmerbezeichner angegeben."
+msgstr "No Peppol participant identifier provided."
+
+#. translators: %s: the identifier as given
+#: includes/Discovery/SmpClient.php:146
+#, php-format
+msgid ""
+"Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:"
+"<Kennung>, zum Beispiel 9930:DE123456789."
+msgstr ""
+"Identifier \"%s\" does not match <four-digit EAS scheme>:<identifier>, for "
+"example 9930:DE123456789."
+
+#: includes/Discovery/SmpClient.php:154
+msgid ""
+"Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht "
+"vorkommen dürfen."
+msgstr "The identifier scheme contains characters not permitted in a DNS name."
+
+#. translators: %s: DNS name that was asked
+#: includes/Discovery/SmpClient.php:216
+#, php-format
+msgid ""
+"Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone "
+"nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen."
+msgstr ""
+"No NAPTR record exists for %s: the participant is not registered in this SML "
+"zone, or the resolver does not answer NAPTR queries."
+
+#. translators: %s: DNS name that was asked
+#: includes/Discovery/SmpClient.php:244
+#, php-format
+msgid ""
+"Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer "
+"URL)."
+msgstr "The NAPTR record of %s names no SMP (service \"Meta:SMP\" with a URL)."
+
+#. translators: 1: participant id, 2: document type
+#: includes/Discovery/SmpClient.php:332
+#, php-format
+msgid ""
+"Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: "
+"dieser Empfänger nimmt dieses Dokument nicht entgegen."
+msgstr ""
+"The SMP knows participant %1$s, but not for document type %2$s: this "
+"receiver does not accept this document."
+
+#. translators: 1: HTTP status, 2: SMP URL
+#: includes/Discovery/SmpClient.php:345
+#, php-format
+msgid "Der SMP antwortete mit HTTP %1$d auf %2$s."
+msgstr "The SMP responded with HTTP %1$d at %2$s."
+
+#: includes/Discovery/SmpClient.php:384
+msgid "Der SMP lieferte einen leeren Körper."
+msgstr "The SMP returned an empty body."
+
+#: includes/Discovery/SmpClient.php:394
+msgid "Die Antwort des SMP ist kein wohlgeformtes XML."
+msgstr "The SMP response is not well-formed XML."
+
+#. translators: %s: the AS4 transport profile that was looked for
+#: includes/Discovery/SmpClient.php:445
+#, php-format
+msgid "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s."
+msgstr "The SMP response contains no endpoint with transport profile %s."
+
+#: includes/Frontend/DynamicBindings.php:41
+#: includes/Frontend/DynamicBindings.php:55
+msgid "Peppol-Gateway-Status"
+msgstr "Peppol Gateway Status"
+
+#: includes/Frontend/DynamicBindings.php:117
+msgid "Tabellen des Plugins fehlen"
+msgstr "Plugin tables missing"
+
+#: includes/Frontend/DynamicBindings.php:125
+msgid "KoSIT-Validator und Phase4-Dienst konfiguriert"
+msgstr "KoSIT validator and Phase4 service configured"
+
+#: includes/Frontend/DynamicBindings.php:126
+msgid "Versand nicht konfiguriert"
+msgstr "Dispatch not configured"
+
+#. translators: 1: stored invoices count, 2: delivered receipts count
+#: includes/Frontend/DynamicBindings.php:129
+#, php-format
+msgid "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen"
+msgstr "%1$d stored invoices, %2$d delivery receipts"
+
+#: includes/Frontend/InvoicePortal.php:109
+msgid "Status wird abgefragt …"
+msgstr "Querying status …"
+
+#: includes/Frontend/InvoicePortal.php:111
+msgid "Rechnung gefunden"
+msgstr "Invoice found"
+
+#: includes/Frontend/InvoicePortal.php:112
+msgid "Die Abfrage ist fehlgeschlagen."
+msgstr "The status lookup failed."
+
+#: includes/Frontend/InvoicePortal.php:113
+msgid "Gespeicherter Status"
+msgstr "Stored status"
+
+#: includes/Frontend/InvoicePortal.php:114
+msgid "Übergabe an Phase4"
+msgstr "Hand-over to Phase4"
+
+#: includes/Frontend/InvoicePortal.php:115
+msgid "keine Übergabe erfasst"
+msgstr "no hand-over recorded"
+
+#: includes/Frontend/InvoicePortal.php:116
+msgid "Empfangsquittung"
+msgstr "Delivery receipt"
+
+#: includes/Frontend/InvoicePortal.php:117
+msgid "liegt vor"
+msgstr "present"
+
+#: includes/Frontend/InvoicePortal.php:118
+msgid "liegt nicht vor"
+msgstr "not present"
+
+#: includes/Frontend/InvoicePortal.php:119
+msgid "Fehlercode der Übertragung"
+msgstr "Transmission error code"
+
+#: includes/Frontend/InvoicePortal.php:122
+msgid "SHA-256 des gespeicherten XML"
+msgstr "SHA-256 of stored XML"
+
+#: includes/Frontend/InvoicePortal.php:128
+#: includes/Frontend/InvoicePortal.php:130
+msgid "Rechnungsstatus abfragen"
+msgstr "Check invoice status"
+
+#: includes/Frontend/InvoicePortal.php:133
+msgid ""
+"Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in "
+"diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN "
+"16931 geprüft noch zum Herunterladen angeboten."
+msgstr ""
+"Enter the invoice number and your Peppol ID. The status stored in this "
+"system is displayed. The document is neither validated against EN 16931 nor "
+"offered for download here."
+
+#: includes/Frontend/InvoicePortal.php:143
+msgid "Ihre Peppol-ID"
+msgstr "Your Peppol ID"
+
+#: includes/Frontend/InvoicePortal.php:144
+msgid "Schema:Kennung"
+msgstr "scheme:identifier"
+
+#: includes/Frontend/InvoicePortal.php:147
+msgid "Status abfragen"
+msgstr "Check status"
+
+#: includes/UBL/InvoiceDataException.php:52
+msgid "Die Rechnungsnummer fehlt."
+msgstr "Invoice number is missing."
+
+#: includes/UBL/InvoiceDataException.php:53
+msgid ""
+"Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine "
+"Bestellreferenz angegeben ist."
+msgstr ""
+"Buyer reference (BT-10) is missing; Peppol BIS requires it whenever no order "
+"reference is given."
+
+#: includes/UBL/InvoiceDataException.php:54
+msgid "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT."
+msgstr "Issue date does not match YYYY-MM-DD."
+
+#: includes/UBL/InvoiceDataException.php:55
+msgid "Es fehlen Rechnungspositionen oder ein Betrag."
+msgstr "Invoice lines or an amount are missing."
+
+#: includes/UBL/InvoiceDataException.php:56
+msgid "Ein Betrag ist keine Zahl."
+msgstr "An amount is not numeric."
+
+#: includes/UBL/InvoiceDataException.php:57
+msgid "Eine Position hat keine Bezeichnung."
+msgstr "An invoice line has no item name."
+
+#: includes/UBL/InvoiceDataException.php:58
+msgid "Ein Steuersatz ist negativ."
+msgstr "A tax rate is negative."
+
+#: includes/UBL/InvoiceDataException.php:59
+msgid "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen."
+msgstr "Invoice type code is not in the Peppol invoice code list."
+
+#: includes/UBL/InvoiceDataException.php:60
+msgid ""
+"Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser "
+"Generator nicht erzeugt."
+msgstr ""
+"A credit note (type 381) requires the UBL CreditNote syntax, which this "
+"generator does not produce."
+
+#: includes/UBL/InvoiceDataException.php:61
+msgid "Der Währungscode muss aus drei Großbuchstaben bestehen."
+msgstr "Currency code must consist of three uppercase letters."
+
+#: includes/UBL/InvoiceDataException.php:62
+msgid "Die Peppol-ID des Verkäufers fehlt."
+msgstr "Seller Peppol ID is missing."
+
+#: includes/UBL/InvoiceDataException.php:63
+msgid "Der Name des Verkäufers fehlt."
+msgstr "Seller name is missing."
+
+#: includes/UBL/InvoiceDataException.php:64
+msgid "Die Straße des Verkäufers fehlt."
+msgstr "Seller street is missing."
+
+#: includes/UBL/InvoiceDataException.php:65
+msgid "Der Ort des Verkäufers fehlt."
+msgstr "Seller city is missing."
+
+#: includes/UBL/InvoiceDataException.php:66
+msgid "Die Postleitzahl des Verkäufers fehlt."
+msgstr "Seller postal code is missing."
+
+#: includes/UBL/InvoiceDataException.php:67
+msgid "Das Land des Verkäufers fehlt."
+msgstr "Seller country is missing."
+
+#: includes/UBL/InvoiceDataException.php:68
+msgid "Die USt-IdNr. des Verkäufers fehlt."
+msgstr "Seller VAT ID is missing."
+
+#: includes/UBL/InvoiceDataException.php:69
+msgid ""
+"Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung "
+"(vierstelliges Schema)."
+msgstr "Seller Peppol ID does not match scheme:identifier (four-digit scheme)."
+
+#: includes/UBL/InvoiceDataException.php:70
+msgid "Das Land des Verkäufers muss ein zweistelliger Ländercode sein."
+msgstr "Seller country must be a two-letter country code."
+
+#: includes/UBL/InvoiceDataException.php:71
+msgid ""
+"Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen "
+"Ländercode."
+msgstr "Seller VAT ID does not start with a two-letter country code."
+
+#: includes/UBL/InvoiceDataException.php:72
+msgid "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers."
+msgstr "Seller IBAN is missing for credit transfer payment."
+
+#: includes/UBL/InvoiceDataException.php:73
+msgid "Die Peppol-ID des Käufers fehlt."
+msgstr "Buyer Peppol ID is missing."
+
+#: includes/UBL/InvoiceDataException.php:74
+msgid "Der Name des Käufers fehlt."
+msgstr "Buyer name is missing."
+
+#: includes/UBL/InvoiceDataException.php:75
+msgid "Das Land des Käufers fehlt."
+msgstr "Buyer country is missing."
+
+#: includes/UBL/InvoiceDataException.php:76
+msgid ""
+"Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges "
+"Schema)."
+msgstr "Buyer Peppol ID does not match scheme:identifier (four-digit scheme)."
+
+#: includes/UBL/InvoiceDataException.php:77
+msgid "Das Land des Käufers muss ein zweistelliger Ländercode sein."
+msgstr "Buyer country must be a two-letter country code."
+
+#: includes/UBL/InvoiceDataException.php:78
+msgid ""
+"Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode."
+msgstr "Buyer VAT ID does not start with a two-letter country code."
+
+#: includes/UBL/InvoiceDataException.php:79
+msgid ""
+"Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen "
+"Steuersatz über null."
+msgstr ""
+"A line or allowance/charge in tax category S does not have a tax rate above "
+"zero."
+
+#: includes/Validation/SchematronValidator.php:102
+msgid ""
+"Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu "
+"prüfen."
+msgstr ""
+"File is not well-formed XML; nothing can be checked before rule evaluation."
+
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:87
+msgid ""
+"Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; "
+"es wurde keine E-Rechnung erzeugt."
+msgstr ""
+"Peppol: Order has a Leitweg-ID, but no Peppol receiver ID; no e-invoice was "
+"generated."
+
+#. translators: 1: order total, 2: total of the document
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:116
+#, php-format
+msgid ""
+"Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s "
+"weichen um mehr als die Rundung ab."
+msgstr ""
+"Peppol: E-invoice not generated. Order total %1$s and invoice total %2$s "
+"differ by more than rounding tolerance."
+
+#. translators: %s: list of missing or invalid data
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:124
+#, php-format
+msgid "Peppol: E-Rechnung nicht erzeugt. %s"
+msgstr "Peppol: E-invoice not generated. %s"
+
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:148
+msgid "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden."
+msgstr "Peppol: The generated e-invoice could not be stored."
+
+#. translators: %s: invoice number
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:161
+#, php-format
+msgid "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant."
+msgstr "Peppol: E-invoice %s generated; dispatch is scheduled."
+
+#. translators: %s: invoice number
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:164
+#, php-format
+msgid ""
+"Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-"
+"Validator und Phase4-Dienst sind nicht konfiguriert."
+msgstr ""
+"Peppol: E-invoice %s generated and stored, not sent: KoSIT validator and "
+"Phase4 service are not configured."
+
+#. translators: 1: number of fatal findings, 2: rule identifiers
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:207
+#, php-format
+msgid "EN 16931: %1$d fatale Regelbefunde (%2$s)."
+msgstr "EN 16931: %1$d fatal rule findings (%2$s)."
+
+#. translators: 1: number of fatal findings, 2: rule identifiers
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:219
+#, php-format
+msgid ""
+"Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). "
+"Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 "
+"setzen."
+msgstr ""
+"Peppol: EN 16931 rule check reports %1$d fatal findings (%2$s). Dispatching "
+"anyway; set \"wm_peppol_schematron_gate\" to 1 to block."
+
+#. translators: 1: invoice number, 2: message id
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:262
+#, php-format
+msgid ""
+"Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). "
+"Zugestellt ist sie erst mit der Empfangsquittung."
+msgstr ""
+"Peppol: E-invoice %1$s handed over to Phase4 service (messageId %2$s). "
+"Delivery is confirmed only upon receipt."
+
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:309
+msgid "Gebühr"
+msgstr "Fee"
+
+#. translators: %s: order item name
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:361
+#, php-format
+msgid ""
+"Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; "
+"Steuerbefreiungen bildet das Plugin nicht ab."
+msgstr ""
+"Peppol: E-invoice not generated. \"%s\" carries zero VAT; tax exemptions are "
+"not modelled by this plugin."
+
+#. translators: %s: order item name
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:363
+#, php-format
+msgid "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze."
+msgstr "Peppol: E-invoice not generated. \"%s\" carries multiple tax rates."
+
+#. translators: 1: invoice number, 2: reason
+#: includes/WooCommerce/WooCommerceInvoiceHook.php:399
+#, php-format
+msgid "Peppol: E-Rechnung %1$s nicht versendet. %2$s"
+msgstr "Peppol: E-invoice %1$s not sent. %2$s"
+
+#: wm-peppol-as4-gateway.php:101
+msgid "Peppol-E-Rechnung"
+msgstr "Peppol E-Invoice"
+
+#: wm-peppol-as4-gateway.php:104
+msgid "Peppol-Empfänger-ID (Schema:Kennung)"
+msgstr "Peppol receiver ID (scheme:identifier)"
+
+#: wm-peppol-as4-gateway.php:110
+msgid "Leitweg-ID (öffentliche Auftraggeber)"
+msgstr "Leitweg-ID (public-sector buyers)"
+
+#: wm-peppol-as4-gateway.php:116
+msgid "Käuferreferenz (wenn keine Leitweg-ID)"
+msgstr "Buyer reference (when no Leitweg-ID)"
+
+#: wm-peppol-as4-gateway.php:140
+msgid ""
+"Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre "
+"Prüfziffer stimmt nicht; sie wurde nicht gespeichert."
+msgstr ""
+"Leitweg-ID does not match the KoSIT specification structure or its check "
+"digits failed; it was not saved."
+
+#: wm-peppol-as4-gateway.php:149
+msgid ""
+"Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem "
+"Schema; sie wurde nicht gespeichert."
+msgstr ""
+"Peppol receiver ID does not match scheme:identifier with a four-digit "
+"scheme; it was not saved."
+
+#: blocks-src/index.js:25
+msgid "Portal-Darstellung"
+msgstr "Portal display"
+
+#: blocks-src/index.js:29
+msgid "Überschrift anzeigen"
+msgstr "Show heading"
+
+#: blocks-src/index.js:36
+msgid "Einleitungstext anzeigen"
+msgstr "Show introductory text"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block title"
+msgid "Peppol-Rechnungsstatus-Portal"
+msgstr "Peppol Invoice Status Portal"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block description"
+msgid ""
+"Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen "
+"anhand von Rechnungsnummer und Peppol-ID."
+msgstr ""
+"Public status portal for querying stored Peppol e-invoices by invoice number "
+"and Peppol ID."
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "peppol"
+msgstr "peppol"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "invoice"
+msgstr "invoice"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "e-rechnung"
+msgstr "e-invoice"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "ubl"
+msgstr "ubl"
+
+#: blocks/invoice-portal/block.json
+msgctxt "block keyword"
+msgid "status"
+msgstr "status"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

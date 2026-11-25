@@ -1,0 +1,735 @@
+{
+  "translation-revision-date": "2026-11-21T15:24:44+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-peppol-as4-gateway",
+        "lang": "cs_CZ",
+        "plural-forms": "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+      },
+      "WM Peppol AS4 Gateway": [
+        "WM Peppol AS4 Gateway"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+      ],
+      "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst.": [
+        "Vytváří faktury UBL 2.1 podle Peppol BIS Billing 3.0, kontroluje je vůči oficiální sadě pravidel EN 16931, vyhledává příjemce přes SML a SMP, předává faktury dokončených objednávek WooCommerce nakonfigurovanému validátoru KoSIT a službě Phase4, ověřuje podepsané potvrzení AS4 a zobrazuje kupujícím uložený stav. Bez vlastního přenosu AS4: ten zajišťuje Phase4."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Unbekannte Spoke-Aktion \"%s\".": [
+        "Neznámá akce modulu \"%s\"."
+      ],
+      "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s).": [
+        "Autotest není možný: chybějí údaje prodávajícího (%s)."
+      ],
+      "Testdokument von den Strukturprüfungen abgelehnt: %s": [
+        "Testovací dokument byl odmítnut strukturálními kontrolami: %s"
+      ],
+      "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung.": [
+        "Testovací dokument vygenerován (%d bajtů) a přijat strukturálními kontrolami pluginu. Neuložen, neodeslán, bez kontroly schématu či Schematronu."
+      ],
+      "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren.": [
+        "Chybějí databázové tabulky pluginu. Plugin deaktivujte a znovu aktivujte."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden.": [
+        "Údaje prodávajícího nejsou úplné: nelze vytvořit e-fakturu."
+      ],
+      "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert.": [
+        "Údaje prodávajícího jsou úplné. Validátor KoSIT a služba Phase4 jsou nastaveny."
+      ],
+      "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert.": [
+        "Údaje prodávajícího jsou úplné. Odesílání není nastaveno: faktury se pouze ukládají."
+      ],
+      "Gespeicherte Rechnungen": [
+        "Uložené faktury"
+      ],
+      "Übergaben an Phase4": [
+        "Předání do Phase4"
+      ],
+      "Empfangsquittungen": [
+        "Potvrzení o doručení"
+      ],
+      "Peppol Gateway öffnen": [
+        "Otevřít Peppol Gateway"
+      ],
+      "Peppol Gateway": [
+        "Peppol Gateway"
+      ],
+      "%d Beispielrechnung angelegt.": [
+        "Vytvořena %d ukázková faktura.",
+        "Vytvořeny %d ukázkové faktury.",
+        "Vytvořeno %d ukázkových faktur."
+      ],
+      "%d Beispielrechnung entfernt.": [
+        "Odstraněna %d ukázková faktura.",
+        "Odstraněny %d ukázkové faktury.",
+        "Odstraněno %d ukázkových faktur."
+      ],
+      "Übersicht": [
+        "Přehled"
+      ],
+      "Rechnung erzeugen": [
+        "Vytvořit fakturu"
+      ],
+      "Einstellungen": [
+        "Nastavení"
+      ],
+      "Was das Plugin tut": [
+        "Co plugin dělá"
+      ],
+      "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben.": [
+        "Vytvářejte a ukládejte faktury UBL 2.1 podle Peppol BIS Billing 3.0 a předávejte je nastavené službě Phase4."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Součást rodiny pluginů WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Samostatný"
+      ],
+      "Bereiche": [
+        "Sekce"
+      ],
+      "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet.": [
+        "E-faktura byla vytvořena a uložena. Z tohoto formuláře se neodesílá."
+      ],
+      "Die E-Rechnung wurde nicht erzeugt.": [
+        "E-faktura nebyla vytvořena."
+      ],
+      "Eine Rechnung mit dieser Nummer ist bereits gespeichert.": [
+        "Faktura s tímto číslem je již uložena."
+      ],
+      "Die Rechnung wurde erzeugt, aber nicht gespeichert.": [
+        "Faktura byla vytvořena, ale nepodařilo se ji uložit."
+      ],
+      "Einstellungen gespeichert.": [
+        "Nastavení uloženo."
+      ],
+      "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet.": [
+        "Ukázkové faktury jsou označeny jako vzorové a nezobrazují se ve veřejném portálu."
+      ],
+      "Beispielrechnungen entfernt.": [
+        "Ukázkové faktury odstraněny."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s": [
+        "Údaje prodávajícího nejsou úplné: nelze vytvořit e-fakturu. %s"
+      ],
+      "Zu den Einstellungen": [
+        "Přejít do nastavení"
+      ],
+      "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben.": [
+        "Odesílání není nastaveno: vytvořené faktury se ukládají, ale nepředávají."
+      ],
+      "ohne %d Beispielrechnungen": [
+        "bez %d ukázkových faktur"
+      ],
+      "mit messageId": [
+        "s messageId"
+      ],
+      "positiv, per Webhook": [
+        "kladné, přes webhook"
+      ],
+      "Verkäuferdaten": [
+        "Údaje prodávajícího"
+      ],
+      "vollständig": [
+        "úplné"
+      ],
+      "für die Rechnungserzeugung": [
+        "pro vystavování faktur"
+      ],
+      "Angaben fehlen": [
+        "chybějí údaje"
+      ],
+      "Rechnungen": [
+        "Faktury"
+      ],
+      "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status.": [
+        "Posledních 50 uložených faktur s jejich evidovaným stavem."
+      ],
+      "Rechnungsnummer": [
+        "Číslo faktury"
+      ],
+      "Peppol-ID des Käufers": [
+        "Peppol ID kupujícího"
+      ],
+      "Zahlbetrag": [
+        "Částka k úhradě"
+      ],
+      "Status": [
+        "Stav"
+      ],
+      "Rechnungsdatum": [
+        "Datum vystavení"
+      ],
+      "Noch keine Rechnungen gespeichert.": [
+        "Zatím nejsou uloženy žádné faktury."
+      ],
+      "Beispielrechnungen": [
+        "Ukázkové faktury"
+      ],
+      "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen.": [
+        "Ukázkové faktury neobsahují XML, nepočítají se mezi faktury a nezobrazují se ve veřejném portálu. Odstranění smaže pouze je, včetně tří vzorových řádků ze starších verzí."
+      ],
+      "Beispielrechnungen anlegen": [
+        "Vytvořit ukázkové faktury"
+      ],
+      "%d Beispielrechnung entfernen": [
+        "Odstranit %d ukázkovou fakturu",
+        "Odstranit %d ukázkové faktury",
+        "Odstranit %d ukázkových faktur"
+      ],
+      "Beispiel": [
+        "Ukázka"
+      ],
+      "Erzeugt, nicht versendet": [
+        "Vytvořeno, neodesláno"
+      ],
+      "An Phase4 übergeben": [
+        "Předáno do Phase4"
+      ],
+      "Zugestellt (Quittung)": [
+        "Doručeno (potvrzení)"
+      ],
+      "Zustellung fehlgeschlagen": [
+        "Doručení selhalo"
+      ],
+      "Versand fehlgeschlagen": [
+        "Odeslání selhalo"
+      ],
+      "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s": [
+        "Bez úplných údajů prodávajícího nebude faktura vytvořena. %s"
+      ],
+      "Käuferreferenz (BT-10), z. B. die Leitweg-ID": [
+        "Reference kupujícího (BT-10), např. Leitweg-ID"
+      ],
+      "Name des Käufers": [
+        "Název kupujícího"
+      ],
+      "Straße": [
+        "Ulice"
+      ],
+      "Postleitzahl": [
+        "PSČ"
+      ],
+      "Ort": [
+        "Město"
+      ],
+      "Land (zweistelliger Code)": [
+        "Země (dvoupísmenný kód)"
+      ],
+      "Peppol-ID des Käufers (Schema:Kennung)": [
+        "Peppol ID kupujícího (schéma:identifikátor)"
+      ],
+      "USt-IdNr. des Käufers (optional)": [
+        "DIČ kupujícího (volitelné)"
+      ],
+      "Bezeichnung der Leistung": [
+        "Popis plnění"
+      ],
+      "Menge": [
+        "Množství"
+      ],
+      "Nettopreis je Einheit": [
+        "Jednotková cena bez DPH"
+      ],
+      "Umsatzsteuersatz in Prozent": [
+        "Sazba DPH v procentech"
+      ],
+      "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen.": [
+        "Vytvoří jednořádkovou fakturu UBL a uloží ji. Nic se neodesílá; údaje prodávajícího pocházejí z nastavení."
+      ],
+      "Rechnung erzeugen und speichern": [
+        "Vytvořit a uložit fakturu"
+      ],
+      "Peppol-ID des Verkäufers (Schema:Kennung)": [
+        "Peppol ID prodávajícího (schéma:identifikátor)"
+      ],
+      "Name": [
+        "Název"
+      ],
+      "Rechtlicher Name (leer: wie Name)": [
+        "Obchodní firma (prázdné: stejné jako Název)"
+      ],
+      "USt-IdNr.": [
+        "DIČ"
+      ],
+      "Registernummer (optional)": [
+        "Registrační číslo / IČO (volitelné)"
+      ],
+      "IBAN für Zahlung per Überweisung": [
+        "IBAN pro platbu převodem"
+      ],
+      "Verkäufer": [
+        "Prodávající"
+      ],
+      "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung.": [
+        "Tyto údaje jsou uvedeny na každé vytvořené faktuře. Chybí-li povinný údaj, plugin fakturu nevytvoří."
+      ],
+      "Versand": [
+        "Odesílání"
+      ],
+      "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang.": [
+        "Obě služby jsou samostatné programy mimo plugin. Dokud chybí některá adresa, nic se neodesílá. Konstanty WM_PEPPOL_KOSIT_URL a WM_PEPPOL_PHASE4_URL ve wp-config.php mají přednost."
+      ],
+      "Adresse des KoSIT-Validators": [
+        "Adresa validátoru KoSIT"
+      ],
+      "Adresse des Phase4-Dienstes": [
+        "Adresa služby Phase4"
+      ],
+      "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen.": [
+        "Sdílené tajemství je nastaveno; potvrzení s platným podpisem jsou přijímána."
+      ],
+      "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret.": [
+        "Sdílené tajemství není nastaveno; všechna potvrzení jsou odmítána. Nastavte konstantou WM_PEPPOL_RECEIPT_SECRET nebo wp option update wm_peppol_receipt_secret."
+      ],
+      "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)": [
+        "Povolené otisky certifikátů pro potvrzení AS4 (SHA-256, volitelné)"
+      ],
+      "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang.": [
+        "Čárkami oddělené 64znakové otisky SHA-256 očekávaných podpisových certifikátů přístupového bodu. Přednost má konstanta WM_PEPPOL_TRUSTED_SIGNER_SHA256 v souboru wp-config.php."
+      ],
+      "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)": [
+        "Místní balík certifikátů CA ve formátu PEM (PKI OpenPeppol, volitelné)"
+      ],
+      "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang.": [
+        "Jeden nebo více důvěryhodných kořenových a zprostředkujících certifikátů ve formátu PEM pro čistě místní kontrolu řetězce bez přístupu k síti. Přednost mají konstanty WM_PEPPOL_TRUST_BUNDLE_PEM a WM_PEPPOL_TRUST_BUNDLE_FILE."
+      ],
+      "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen": [
+        "Odmítat potvrzení AS4, pokud není uložen otisk ani balík certifikátů CA"
+      ],
+      "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen.": [
+        "Je-li zapnuto nebo nastaveno konstantou WM_PEPPOL_REQUIRE_TRUST_ANCHOR, jsou potvrzení podepsaná sama sebou nebo bez kotvy důvěry odmítnuta s HTTP 422."
+      ],
+      "Deinstallation": [
+        "Odinstalace"
+      ],
+      "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen": [
+        "Při odinstalaci pluginu nevratně smazat všechny volby a tři databázové tabulky"
+      ],
+      "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird.": [
+        "Ve výchozím stavu zůstávají všechny uložené faktury, přenosy, registr potvrzení i nastavení při odebrání pluginu zachovány."
+      ],
+      "Einstellungen speichern": [
+        "Uložit nastavení"
+      ],
+      "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz.": [
+        "Vytváří faktury UBL 2.1 s identifikátorem Peppol BIS Billing 3.0 a rozpisem DPH podle kategorie a sazby."
+      ],
+      "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen.": [
+        "Odmítne vytvořit fakturu při chybějících povinných údajích místo jejich doplňování."
+      ],
+      "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung.": [
+        "Kontroluje povinná pole, kódy a součtová pravidla. Nejde o validaci XSD ani Schematron."
+      ],
+      "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an.": [
+        "Předává faktury dokončených objednávek WooCommerce validátoru KoSIT a službě Phase4, pokud jsou nastaveny, a přijímá podepsaná potvrzení."
+      ],
+      "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung.": [
+        "Zobrazuje kupujícím uložený stav faktury ve stavovém portálu."
+      ],
+      "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst.": [
+        "Žádný vlastní přenos, podpis ani šifrování AS4: to obstarává služba Phase4."
+      ],
+      "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen.": [
+        "Žádné dobropisy v syntaxi UBL CreditNote a žádná osvobození od daně."
+      ],
+      "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde.": [
+        "Žádný exportní archiv: uložené faktury a registr potvrzení zůstávají při odinstalaci standardně zachovány a smažou se jen při výslovném zapnutí v nastavení."
+      ],
+      "Was es nicht tut": [
+        "Co nedělá"
+      ],
+      "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut.": [
+        "Příliš mnoho dotazů z této adresy. Zkuste to prosím později."
+      ],
+      "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich.": [
+        "Číslo faktury a Peppol ID kupujícího jsou povinné."
+      ],
+      "Zu diesen Angaben liegt keine Rechnung vor.": [
+        "Pro zadané údaje nebyla nalezena žádná faktura."
+      ],
+      "Der Anfragekörper muss ein JSON-Objekt sein.": [
+        "Tělo požadavku musí být objekt JSON."
+      ],
+      "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt.": [
+        "Řádek %d neodkazuje na předchozí řádek: řádek byl odstraněn nebo vložen."
+      ],
+      "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln.": [
+        "Řádek %d byl po zápisu změněn, nebo databáze pochází z instalace s jinými klíči."
+      ],
+      "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast.": [
+        "Potvrzení přesahuje %d bajtů; potvrzení AS4 je signál, nikoli náklad."
+      ],
+      "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage.": [
+        "Dokument neobsahuje eb:Receipt v rámci eb:SignalMessage."
+      ],
+      "Die Quittung enthält kein prüfbares Signaturzertifikat.": [
+        "Potvrzení neobsahuje žádný ověřitelný podpisový certifikát."
+      ],
+      "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden.": [
+        "Potvrzení neobsahuje podpis XML. Podepsaná zpráva AS4 MUSÍ být potvrzena podepsaným potvrzením."
+      ],
+      "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt.": [
+        "Podpis je neúplný: chybí ds:SignedInfo nebo ds:SignatureValue."
+      ],
+      "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar.": [
+        "Podpis neuvádí certifikát X.509; bez veřejného klíče jej nelze ověřit."
+      ],
+      "Signaturverfahren %s wird von dieser Installation nicht geprüft.": [
+        "Algoritmus podpisu %s tato instalace neověřuje."
+      ],
+      "Das X.509-Zertifikat der Signatur ist nicht lesbar.": [
+        "Certifikát X.509 podpisu nelze přečíst."
+      ],
+      "OpenSSL konnte die Signatur nicht prüfen.": [
+        "OpenSSL nemohl podpis ověřit."
+      ],
+      "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt.": [
+        "Podpis neodpovídá obsahu potvrzení: bylo po podpisu změněno nebo podepsáno jiným klíčem."
+      ],
+      "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert.": [
+        "Samotný podpis je platný, ale jen %1$d z %2$d otisků odpovídá obsahu: potvrzení bylo po podpisu upraveno."
+      ],
+      "Das X.509-Zertifikat der Quittung ist abgelaufen.": [
+        "Platnost certifikátu X.509 potvrzení vypršela."
+      ],
+      "Das X.509-Zertifikat der Quittung ist noch nicht gültig.": [
+        "Certifikát X.509 potvrzení ještě není platný."
+      ],
+      "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird.": [
+        "Není uložen otisk certifikátu ani balík certifikátů CA, přestože je kontrola kotvy důvěry vynucena."
+      ],
+      "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel.": [
+        "Podpisový certifikát potvrzení neodpovídá žádnému uloženému otisku SHA-256 ani důvěryhodnému balíku certifikátů CA."
+      ],
+      "Die Quittung ist kein wohlgeformtes XML.": [
+        "Potvrzení není správně utvořené XML."
+      ],
+      "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d).": [
+        "Validátor KoSIT dokument nepřijal (HTTP %d)."
+      ],
+      "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung.": [
+        "ID odesílatele nebo příjemce nemá tvar schéma:identifikátor."
+      ],
+      "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d).": [
+        "Služba Phase4 odeslání odmítla (HTTP %d)."
+      ],
+      "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen.": [
+        "Služba Phase4 nevrátila žádné messageId; bez něj nelze přiřadit potvrzení o doručení."
+      ],
+      "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet.": [
+        "Validátor KoSIT a služba Phase4 nejsou nastaveny; nic se neodesílá."
+      ],
+      "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete.": [
+        "Potvrzení je platně podepsáno, ale vztahuje se k jinému dokumentu než odeslanému."
+      ],
+      "Peppol: Positive Empfangsquittung für messageId %s erhalten.": [
+        "Peppol: Přijato kladné potvrzení o doručení pro messageId %s."
+      ],
+      "Peppol-Empfangsquittung erhalten.": [
+        "Potvrzení o doručení Peppol přijato."
+      ],
+      "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s": [
+        "Peppol: Odeslání selhalo (messageId %1$s): %2$s"
+      ],
+      "ohne Fehlerbeschreibung": [
+        "bez popisu chyby"
+      ],
+      "Peppol-Versand fehlgeschlagen.": [
+        "Odeslání Peppol selhalo."
+      ],
+      "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s": [
+        "Tato pravidla nebylo možné vyhodnotit a nepočítají se ani jako splněná, ani jako porušená: %s"
+      ],
+      "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s.": [
+        "WM Peppol AS4 Gateway nebylo možné aktivovat, protože na tomto serveru chybí následující požadovaná rozšíření PHP: %s."
+      ],
+      "Fehlende PHP-Erweiterung": [
+        "Chybějící rozšíření PHP"
+      ],
+      "Kein Peppol-Teilnehmerbezeichner angegeben.": [
+        "Nebyl zadán identifikátor účastníka Peppol."
+      ],
+      "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789.": [
+        "Identifikátor \"%s\" nemá tvar <čtyřmístné schéma EAS>:<identifikátor>, například 9930:DE123456789."
+      ],
+      "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen.": [
+        "Schéma identifikátoru obsahuje znaky nepovolené v názvu DNS."
+      ],
+      "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen.": [
+        "Pro %s neexistuje záznam NAPTR: účastník není v této zóně SML registrován nebo resolver neodpovídá na dotazy NAPTR."
+      ],
+      "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL).": [
+        "Záznam NAPTR pro %s neuvádí žádný SMP (služba \"Meta:SMP\" s URL)."
+      ],
+      "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen.": [
+        "SMP zná účastníka %1$s, ale ne pro typ dokumentu %2$s: příjemce tento dokument nepřijímá."
+      ],
+      "Der SMP antwortete mit HTTP %1$d auf %2$s.": [
+        "SMP odpověděl kódem HTTP %1$d na %2$s."
+      ],
+      "Der SMP lieferte einen leeren Körper.": [
+        "SMP vrátil prázdné tělo."
+      ],
+      "Die Antwort des SMP ist kein wohlgeformtes XML.": [
+        "Odpověď SMP není správně utvořené XML."
+      ],
+      "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s.": [
+        "Odpověď SMP neobsahuje koncový bod s transportním profilem %s."
+      ],
+      "Peppol-Gateway-Status": [
+        "Stav Peppol Gateway"
+      ],
+      "Tabellen des Plugins fehlen": [
+        "Tabulky pluginu chybějí"
+      ],
+      "KoSIT-Validator und Phase4-Dienst konfiguriert": [
+        "Validátor KoSIT a služba Phase4 nastaveny"
+      ],
+      "Versand nicht konfiguriert": [
+        "Odesílání není nastaveno"
+      ],
+      "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen": [
+        "%1$d uložených faktur, %2$d potvrzení o doručení"
+      ],
+      "Status wird abgefragt …": [
+        "Načítání stavu …"
+      ],
+      "Rechnung gefunden": [
+        "Faktura nalezena"
+      ],
+      "Die Abfrage ist fehlgeschlagen.": [
+        "Dotaz se nezdařil."
+      ],
+      "Gespeicherter Status": [
+        "Uložený stav"
+      ],
+      "Übergabe an Phase4": [
+        "Předání do Phase4"
+      ],
+      "keine Übergabe erfasst": [
+        "žádné předání neevidováno"
+      ],
+      "Empfangsquittung": [
+        "Potvrzení o doručení"
+      ],
+      "liegt vor": [
+        "k dispozici"
+      ],
+      "liegt nicht vor": [
+        "není k dispozici"
+      ],
+      "Fehlercode der Übertragung": [
+        "Chybový kód přenosu"
+      ],
+      "SHA-256 des gespeicherten XML": [
+        "SHA-256 uloženého XML"
+      ],
+      "Rechnungsstatus abfragen": [
+        "Zjistit stav faktury"
+      ],
+      "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten.": [
+        "Zadejte číslo faktury a své Peppol ID. Zobrazí se stav uložený v tomto systému. Dokument zde není ověřován podle EN 16931 ani nabízen ke stažení."
+      ],
+      "Ihre Peppol-ID": [
+        "Vaše Peppol ID"
+      ],
+      "Schema:Kennung": [
+        "schéma:identifikátor"
+      ],
+      "Status abfragen": [
+        "Zjistit stav"
+      ],
+      "Die Rechnungsnummer fehlt.": [
+        "Chybí číslo faktury."
+      ],
+      "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist.": [
+        "Chybí reference kupujícího (BT-10); Peppol BIS ji vyžaduje, pokud není uvedena reference objednávky."
+      ],
+      "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT.": [
+        "Datum vystavení nemá formát RRRR-MM-DD."
+      ],
+      "Es fehlen Rechnungspositionen oder ein Betrag.": [
+        "Chybějí položky faktury nebo částka."
+      ],
+      "Ein Betrag ist keine Zahl.": [
+        "Částka není číslo."
+      ],
+      "Eine Position hat keine Bezeichnung.": [
+        "Položka nemá název."
+      ],
+      "Ein Steuersatz ist negativ.": [
+        "Sazba daně je záporná."
+      ],
+      "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen.": [
+        "Kód typu faktury není v seznamu Peppol pro faktury."
+      ],
+      "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt.": [
+        "Dobropis (typ 381) vyžaduje syntaxi UBL CreditNote, kterou tento generátor nevytváří."
+      ],
+      "Der Währungscode muss aus drei Großbuchstaben bestehen.": [
+        "Kód měny musí tvořit tři velká písmena."
+      ],
+      "Die Peppol-ID des Verkäufers fehlt.": [
+        "Chybí Peppol ID prodávajícího."
+      ],
+      "Der Name des Verkäufers fehlt.": [
+        "Chybí název prodávajícího."
+      ],
+      "Die Straße des Verkäufers fehlt.": [
+        "Chybí ulice prodávajícího."
+      ],
+      "Der Ort des Verkäufers fehlt.": [
+        "Chybí město prodávajícího."
+      ],
+      "Die Postleitzahl des Verkäufers fehlt.": [
+        "Chybí PSČ prodávajícího."
+      ],
+      "Das Land des Verkäufers fehlt.": [
+        "Chybí země prodávajícího."
+      ],
+      "Die USt-IdNr. des Verkäufers fehlt.": [
+        "Chybí DIČ prodávajícího."
+      ],
+      "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Peppol ID prodávajícího nemá tvar schéma:identifikátor (čtyřmístné schéma)."
+      ],
+      "Das Land des Verkäufers muss ein zweistelliger Ländercode sein.": [
+        "Země prodávajícího musí být dvoupísmenný kód země."
+      ],
+      "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "DIČ prodávajícího nezačíná dvoupísmenným kódem země."
+      ],
+      "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers.": [
+        "Pro platbu převodem chybí IBAN prodávajícího."
+      ],
+      "Die Peppol-ID des Käufers fehlt.": [
+        "Chybí Peppol ID kupujícího."
+      ],
+      "Der Name des Käufers fehlt.": [
+        "Chybí název kupujícího."
+      ],
+      "Das Land des Käufers fehlt.": [
+        "Chybí země kupujícího."
+      ],
+      "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Peppol ID kupujícího nemá tvar schéma:identifikátor (čtyřmístné schéma)."
+      ],
+      "Das Land des Käufers muss ein zweistelliger Ländercode sein.": [
+        "Země kupujícího musí být dvoupísmenný kód země."
+      ],
+      "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "DIČ kupujícího nezačíná dvoupísmenným kódem země."
+      ],
+      "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null.": [
+        "Položka nebo přirážka/sleva s daňovou kategorií S nemá sazbu vyšší než nula."
+      ],
+      "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen.": [
+        "Soubor není správně utvořené XML; před kontrolou pravidel nelze nic ověřit."
+      ],
+      "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt.": [
+        "Peppol: Objednávka má Leitweg-ID, ale žádné Peppol ID příjemce; e-faktura nebyla vytvořena."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab.": [
+        "Peppol: E-faktura nevytvořena. Celková částka objednávky %1$s a faktury %2$s se liší o více než zaokrouhlení."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. %s": [
+        "Peppol: E-faktura nevytvořena. %s"
+      ],
+      "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden.": [
+        "Peppol: Vytvořenou e-fakturu se nepodařilo uložit."
+      ],
+      "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant.": [
+        "Peppol: E-faktura %s vytvořena; odeslání je naplánováno."
+      ],
+      "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert.": [
+        "Peppol: E-faktura %s vytvořena a uložena, neodeslána: KoSIT a Phase4 nejsou nastaveny."
+      ],
+      "EN 16931: %1$d fatale Regelbefunde (%2$s).": [
+        "EN 16931: %1$d závažných nálezů pravidel (%2$s)."
+      ],
+      "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen.": [
+        "Peppol: Kontrola EN 16931 hlásí %1$d závažných nálezů (%2$s). Přesto se odesílá; pro blokování nastavte \"wm_peppol_schematron_gate\" na 1."
+      ],
+      "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung.": [
+        "Peppol: E-faktura %1$s předána službě Phase4 (messageId %2$s). Doručena je až s potvrzením."
+      ],
+      "Gebühr": [
+        "Poplatek"
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab.": [
+        "Peppol: E-faktura nevytvořena. Položka \"%s\" je bez DPH; osvobození od daně plugin nezobrazuje."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze.": [
+        "Peppol: E-faktura nevytvořena. Položka \"%s\" má více sazeb DPH."
+      ],
+      "Peppol: E-Rechnung %1$s nicht versendet. %2$s": [
+        "Peppol: E-faktura %1$s neodeslána. %2$s"
+      ],
+      "Peppol-E-Rechnung": [
+        "E-faktura Peppol"
+      ],
+      "Peppol-Empfänger-ID (Schema:Kennung)": [
+        "Peppol ID příjemce (schéma:identifikátor)"
+      ],
+      "Leitweg-ID (öffentliche Auftraggeber)": [
+        "Leitweg-ID (veřejní zadavatelé)"
+      ],
+      "Käuferreferenz (wenn keine Leitweg-ID)": [
+        "Reference kupujícího (pokud není Leitweg-ID)"
+      ],
+      "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert.": [
+        "Leitweg-ID neodpovídá specifikaci KoSIT nebo nesouhlasí kontrolní číslice; neuloženo."
+      ],
+      "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert.": [
+        "Peppol ID příjemce nemá tvar schéma:identifikátor se čtyřmístným schématem; neuloženo."
+      ],
+      "Portal-Darstellung": [
+        "Zobrazení portálu"
+      ],
+      "Überschrift anzeigen": [
+        "Zobrazit nadpis"
+      ],
+      "Einleitungstext anzeigen": [
+        "Zobrazit úvodní text"
+      ],
+      "block title\u0004Peppol-Rechnungsstatus-Portal": [
+        "Portál stavu faktur Peppol"
+      ],
+      "block description\u0004Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID.": [
+        "Veřejný portál pro dotazování uložených e-faktur Peppol podle čísla faktury a Peppol ID."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004invoice": [
+        "faktura"
+      ],
+      "block keyword\u0004e-rechnung": [
+        "e-faktura"
+      ],
+      "block keyword\u0004ubl": [
+        "ubl"
+      ],
+      "block keyword\u0004status": [
+        "stav"
+      ]
+    }
+  }
+}

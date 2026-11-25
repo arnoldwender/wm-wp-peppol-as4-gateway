@@ -1,0 +1,735 @@
+{
+  "translation-revision-date": "2026-11-21T15:24:44+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-peppol-as4-gateway",
+        "lang": "lv",
+        "plural-forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+      },
+      "WM Peppol AS4 Gateway": [
+        "WM Peppol AS4 Gateway"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+      ],
+      "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst.": [
+        "Ģenerē UBL 2.1 rēķinus atbilstoši Peppol BIS Billing 3.0, pārbauda tos pret oficiālo EN 16931 noteikumu kopumu, atrod saņēmēju caur SML un SMP, nodod izpildīto WooCommerce pasūtījumu rēķinus konfigurētam KoSIT validatoram un Phase4 pakalpojumam, pārbauda parakstīto AS4 kvīti un rāda pircējiem saglabāto statusu. Nav sava AS4 transporta: to nodrošina Phase4."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Unbekannte Spoke-Aktion \"%s\".": [
+        "Nezināma moduļa darbība \"%s\"."
+      ],
+      "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s).": [
+        "Pašpārbaude nav iespējama: trūkst pārdevēja datu (%s)."
+      ],
+      "Testdokument von den Strukturprüfungen abgelehnt: %s": [
+        "Testa dokumentu noraidīja struktūras pārbaudes: %s"
+      ],
+      "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung.": [
+        "Testa dokuments izveidots (%d baiti) un pieņemts spraudņa struktūras pārbaudēs. Nav saglabāts, nav nosūtīts, bez shēmas vai Schematron pārbaudes."
+      ],
+      "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren.": [
+        "Trūkst spraudņa datubāzes tabulu. Deaktivizējiet un atkārtoti aktivizējiet spraudni."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden.": [
+        "Pārdevēja dati nepilnīgi: nevar izveidot e-rēķinu."
+      ],
+      "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert.": [
+        "Pārdevēja dati pilnīgi. KoSIT validators un Phase4 pakalpojums ir konfigurēti."
+      ],
+      "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert.": [
+        "Pārdevēja dati pilnīgi. Nosūtīšana nav konfigurēta: rēķini tiek tikai saglabāti."
+      ],
+      "Gespeicherte Rechnungen": [
+        "Saglabātie rēķini"
+      ],
+      "Übergaben an Phase4": [
+        "Nodošanas uz Phase4"
+      ],
+      "Empfangsquittungen": [
+        "Saņemšanas kvītis"
+      ],
+      "Peppol Gateway öffnen": [
+        "Atvērt Peppol Gateway"
+      ],
+      "Peppol Gateway": [
+        "Peppol Gateway"
+      ],
+      "%d Beispielrechnung angelegt.": [
+        "Izveidots %d paraugrēķins.",
+        "Izveidoti %d paraugrēķini.",
+        "Izveidots %d paraugrēķinu."
+      ],
+      "%d Beispielrechnung entfernt.": [
+        "Noņemts %d paraugrēķins.",
+        "Noņemti %d paraugrēķini.",
+        "Noņemts %d paraugrēķinu."
+      ],
+      "Übersicht": [
+        "Pārskats"
+      ],
+      "Rechnung erzeugen": [
+        "Izveidot rēķinu"
+      ],
+      "Einstellungen": [
+        "Iestatījumi"
+      ],
+      "Was das Plugin tut": [
+        "Ko dara spraudnis"
+      ],
+      "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben.": [
+        "Ģenerējiet un saglabājiet UBL 2.1 rēķinus pēc Peppol BIS Billing 3.0 un nododiet tos konfigurētam Phase4 pakalpojumam."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Daļa no WM Suite spraudņu saimes"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Patstāvīgs"
+      ],
+      "Bereiche": [
+        "Sadaļas"
+      ],
+      "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet.": [
+        "E-rēķins tika izveidots un saglabāts. Caur šo veidlapu tas netiek sūtīts."
+      ],
+      "Die E-Rechnung wurde nicht erzeugt.": [
+        "E-rēķins netika izveidots."
+      ],
+      "Eine Rechnung mit dieser Nummer ist bereits gespeichert.": [
+        "Rēķins ar šādu numuru jau ir saglabāts."
+      ],
+      "Die Rechnung wurde erzeugt, aber nicht gespeichert.": [
+        "Rēķins tika izveidots, bet netika saglabāts."
+      ],
+      "Einstellungen gespeichert.": [
+        "Iestatījumi saglabāti."
+      ],
+      "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet.": [
+        "Paraugrēķini ir atzīmēti kā paraugs un netiek rādīti publiskajā statusa portālā."
+      ],
+      "Beispielrechnungen entfernt.": [
+        "Paraugrēķini noņemti."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s": [
+        "Pārdevēja dati nepilnīgi: nevar izveidot e-rēķinu. %s"
+      ],
+      "Zu den Einstellungen": [
+        "Doties uz iestatījumiem"
+      ],
+      "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben.": [
+        "Nosūtīšana nav konfigurēta: izveidotie rēķini tiek saglabāti, bet netiek nodoti."
+      ],
+      "ohne %d Beispielrechnungen": [
+        "bez %d paraugrēķiniem"
+      ],
+      "mit messageId": [
+        "ar messageId"
+      ],
+      "positiv, per Webhook": [
+        "pozitīva, caur webhook"
+      ],
+      "Verkäuferdaten": [
+        "Pārdevēja dati"
+      ],
+      "vollständig": [
+        "pilnīgi"
+      ],
+      "für die Rechnungserzeugung": [
+        "rēķinu izveidei"
+      ],
+      "Angaben fehlen": [
+        "trūkst datu"
+      ],
+      "Rechnungen": [
+        "Rēķini"
+      ],
+      "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status.": [
+        "Pēdējie 50 saglabātie rēķini ar to reģistrēto statusu."
+      ],
+      "Rechnungsnummer": [
+        "Rēķina numurs"
+      ],
+      "Peppol-ID des Käufers": [
+        "Pircēja Peppol ID"
+      ],
+      "Zahlbetrag": [
+        "Maksājamā summa"
+      ],
+      "Status": [
+        "Statuss"
+      ],
+      "Rechnungsdatum": [
+        "Rēķina datums"
+      ],
+      "Noch keine Rechnungen gespeichert.": [
+        "Vēl nav saglabātu rēķinu."
+      ],
+      "Beispielrechnungen": [
+        "Paraugrēķini"
+      ],
+      "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen.": [
+        "Paraugrēķiniem nav XML, tie netiek skaitīti kā rēķini un netiek rādīti publiskajā portālā. Dzēšana izdzēš tikai tos, ieskaitot trīs rindas no iepriekšējām versijām."
+      ],
+      "Beispielrechnungen anlegen": [
+        "Izveidot paraugrēķinus"
+      ],
+      "%d Beispielrechnung entfernen": [
+        "Noņemt %d paraugrēķinu",
+        "Noņemt %d paraugrēķinus",
+        "Noņemt %d paraugrēķinu"
+      ],
+      "Beispiel": [
+        "Paraugs"
+      ],
+      "Erzeugt, nicht versendet": [
+        "Izveidots, nav nosūtīts"
+      ],
+      "An Phase4 übergeben": [
+        "Nodots Phase4"
+      ],
+      "Zugestellt (Quittung)": [
+        "Piegādāts (kvīts)"
+      ],
+      "Zustellung fehlgeschlagen": [
+        "Piegāde neizdevās"
+      ],
+      "Versand fehlgeschlagen": [
+        "Nosūtīšana neizdevās"
+      ],
+      "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s": [
+        "Bez pilnīgiem pārdevēja datiem rēķins netiek veidots. %s"
+      ],
+      "Käuferreferenz (BT-10), z. B. die Leitweg-ID": [
+        "Pircēja atsauce (BT-10), piem., Leitweg-ID"
+      ],
+      "Name des Käufers": [
+        "Pircēja nosaukums"
+      ],
+      "Straße": [
+        "Iela"
+      ],
+      "Postleitzahl": [
+        "Pasta indekss"
+      ],
+      "Ort": [
+        "Pilsēta"
+      ],
+      "Land (zweistelliger Code)": [
+        "Valsts (divu burtu kods)"
+      ],
+      "Peppol-ID des Käufers (Schema:Kennung)": [
+        "Pircēja Peppol ID (shēma:identifikators)"
+      ],
+      "USt-IdNr. des Käufers (optional)": [
+        "Pircēja PVN numurs (neobligāti)"
+      ],
+      "Bezeichnung der Leistung": [
+        "Pakalpojuma apraksts"
+      ],
+      "Menge": [
+        "Daudzums"
+      ],
+      "Nettopreis je Einheit": [
+        "Vienības neto cena"
+      ],
+      "Umsatzsteuersatz in Prozent": [
+        "PVN likme procentos"
+      ],
+      "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen.": [
+        "Izveido vienas rindas UBL rēķinu un saglabā to. Nekas netiek sūtīts; pārdevēja dati nāk no iestatījumiem."
+      ],
+      "Rechnung erzeugen und speichern": [
+        "Izveidot un saglabāt rēķinu"
+      ],
+      "Peppol-ID des Verkäufers (Schema:Kennung)": [
+        "Pārdevēja Peppol ID (shēma:identifikators)"
+      ],
+      "Name": [
+        "Nosaukums"
+      ],
+      "Rechtlicher Name (leer: wie Name)": [
+        "Juridiskais nosaukums (tukšs: kā Nosaukums)"
+      ],
+      "USt-IdNr.": [
+        "PVN numurs"
+      ],
+      "Registernummer (optional)": [
+        "Reģistrācijas numurs (neobligāti)"
+      ],
+      "IBAN für Zahlung per Überweisung": [
+        "IBAN maksājumam ar pārskaitījumu"
+      ],
+      "Verkäufer": [
+        "Pārdevējs"
+      ],
+      "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung.": [
+        "Šie dati ir norādīti katrā izveidotajā rēķinā. Ja trūkst obligāta lauka, spraudnis rēķinu neveido."
+      ],
+      "Versand": [
+        "Nosūtīšana"
+      ],
+      "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang.": [
+        "Abi pakalpojumi ir atsevišķas programmas ārpus spraudņa. Kamēr trūkst vienas adreses, nekas netiek sūtīts. Konstantes WM_PEPPOL_KOSIT_URL un WM_PEPPOL_PHASE4_URL failā wp-config.php ir prioritāras."
+      ],
+      "Adresse des KoSIT-Validators": [
+        "KoSIT validatora adrese"
+      ],
+      "Adresse des Phase4-Dienstes": [
+        "Phase4 pakalpojuma adrese"
+      ],
+      "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen.": [
+        "Koplietotais noslēpums ir iestatīts; kvītis ar derīgu parakstu tiek pieņemtas."
+      ],
+      "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret.": [
+        "Koplietotais noslēpums nav iestatīts; visas kvītis tiek noraidītas. Iestatiet ar WM_PEPPOL_RECEIPT_SECRET vai wp option update wm_peppol_receipt_secret."
+      ],
+      "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)": [
+        "Atļautie sertifikātu pirkstu nospiedumi AS4 kvītīm (SHA-256, neobligāti)"
+      ],
+      "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang.": [
+        "Ar komatiem atdalīti 64 rakstzīmju SHA-256 pirkstu nospiedumi piekļuves punkta paredzētajiem parakstīšanas sertifikātiem. Prioritāte ir konstantei WM_PEPPOL_TRUSTED_SIGNER_SHA256 failā wp-config.php."
+      ],
+      "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)": [
+        "Vietējā CA sertifikātu kopa PEM formātā (OpenPeppol PKI, neobligāti)"
+      ],
+      "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang.": [
+        "Viens vai vairāki uzticami saknes un starpsertifikāti PEM formātā ķēdes pārbaudei tikai lokāli, bez tīkla piekļuves. Prioritāte ir konstantēm WM_PEPPOL_TRUST_BUNDLE_PEM un WM_PEPPOL_TRUST_BUNDLE_FILE."
+      ],
+      "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen": [
+        "Noraidīt AS4 kvītis, ja nav saglabāts ne pirksta nospiedums, ne CA sertifikātu kopa"
+      ],
+      "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen.": [
+        "Ja iespējots vai iestatīts ar konstanti WM_PEPPOL_REQUIRE_TRUST_ANCHOR, pašparakstītas vai neenkurotas kvītis tiek noraidītas ar HTTP 422."
+      ],
+      "Deinstallation": [
+        "Atinstalēšana"
+      ],
+      "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen": [
+        "Atinstalējot spraudni, neatgriezeniski dzēst visas opcijas un trīs datubāzes tabulas"
+      ],
+      "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird.": [
+        "Pēc noklusējuma visi saglabātie rēķini, pārsūtījumi, kvīšu reģistrs un iestatījumi tiek saglabāti, noņemot spraudni."
+      ],
+      "Einstellungen speichern": [
+        "Saglabāt iestatījumus"
+      ],
+      "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz.": [
+        "Ģenerē UBL 2.1 rēķinus ar Peppol BIS Billing 3.0 identifikatoru un PVN sadalījumu pa kategorijām un likmēm."
+      ],
+      "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen.": [
+        "Atsakās veidot rēķinu, ja trūkst obligāto datu, nevis aizpilda tos patvaļīgi."
+      ],
+      "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung.": [
+        "Pārbauda obligātos laukus, kodus un summu noteikumus. Tā nav XSD vai Schematron pārbaude."
+      ],
+      "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an.": [
+        "Nodod pabeigto WooCommerce pasūtījumu rēķinus KoSIT validatoram un Phase4 pakalpojumam, kad abi ir konfigurēti, un pieņem parakstītas kvītis."
+      ],
+      "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung.": [
+        "Rāda pircējiem rēķina saglabāto statusu statusa portālā."
+      ],
+      "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst.": [
+        "Nav iebūvēta AS4 transporta, parakstīšanas vai šifrēšanas: to veic Phase4."
+      ],
+      "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen.": [
+        "Nav kredītrēķinu UBL CreditNote sintaksē un nodokļu atbrīvojumu."
+      ],
+      "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde.": [
+        "Nav eksporta arhīva: saglabātie rēķini un kvīšu reģistrs atinstalējot pēc noklusējuma paliek un tiek dzēsti tikai tad, ja tas ir skaidri ieslēgts iestatījumos."
+      ],
+      "Was es nicht tut": [
+        "Ko tas nedara"
+      ],
+      "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut.": [
+        "Pārāk daudz pieprasījumu no šīs adreses. Mēģiniet vēlāk."
+      ],
+      "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich.": [
+        "Rēķina numurs un pircēja Peppol ID ir obligāti."
+      ],
+      "Zu diesen Angaben liegt keine Rechnung vor.": [
+        "Šiem datiem rēķins nav atrasts."
+      ],
+      "Der Anfragekörper muss ein JSON-Objekt sein.": [
+        "Pieprasījuma saturam jābūt JSON objektam."
+      ],
+      "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt.": [
+        "Rinda %d nenorāda uz iepriekšējo rindu: rinda ir dzēsta vai ievietota."
+      ],
+      "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln.": [
+        "Rinda %d ir mainīta pēc ierakstīšanas vai datubāze nāk no instalācijas ar citām atslēgām."
+      ],
+      "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast.": [
+        "Kvīts pārsniedz %d baitus; AS4 kvīts ir signāls, nevis krava."
+      ],
+      "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage.": [
+        "Dokuments nesatur eb:Receipt iekš eb:SignalMessage."
+      ],
+      "Die Quittung enthält kein prüfbares Signaturzertifikat.": [
+        "Kvītī nav pārbaudāma parakstīšanas sertifikāta."
+      ],
+      "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden.": [
+        "Kvītij nav XML paraksta. Parakstītam AS4 ziņojumam JĀATBILD ar parakstītu kvīti."
+      ],
+      "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt.": [
+        "Paraksts ir nepilnīgs: trūkst ds:SignedInfo vai ds:SignatureValue."
+      ],
+      "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar.": [
+        "Paraksts nenorāda X.509 sertifikātu; bez publiskās atslēgas to nevar pārbaudīt."
+      ],
+      "Signaturverfahren %s wird von dieser Installation nicht geprüft.": [
+        "Paraksta algoritmu %s šī instalācija nepārbauda."
+      ],
+      "Das X.509-Zertifikat der Signatur ist nicht lesbar.": [
+        "Paraksta X.509 sertifikāts nav nolasāms."
+      ],
+      "OpenSSL konnte die Signatur nicht prüfen.": [
+        "OpenSSL nevarēja pārbaudīt parakstu."
+      ],
+      "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt.": [
+        "Paraksts neatbilst kvīts saturam: tā ir mainīta pēc parakstīšanas vai parakstīta ar citu atslēgu."
+      ],
+      "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert.": [
+        "Pats paraksts ir derīgs, bet tikai %1$d no %2$d kontrolsummām atbilst saturam: kvīts tika mainīta pēc parakstīšanas."
+      ],
+      "Das X.509-Zertifikat der Quittung ist abgelaufen.": [
+        "Kvīts X.509 sertifikātam ir beidzies derīguma termiņš."
+      ],
+      "Das X.509-Zertifikat der Quittung ist noch nicht gültig.": [
+        "Kvīts X.509 sertifikāts vēl nav derīgs."
+      ],
+      "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird.": [
+        "Nav saglabāts ne sertifikāta pirksta nospiedums, ne CA sertifikātu kopa, lai gan uzticamības enkura pārbaude ir obligāta."
+      ],
+      "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel.": [
+        "Kvīts parakstīšanas sertifikāts neatbilst ne saglabātam SHA-256 pirksta nospiedumam, ne uzticamai CA sertifikātu kopai."
+      ],
+      "Die Quittung ist kein wohlgeformtes XML.": [
+        "Kvīts nav korekts XML."
+      ],
+      "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d).": [
+        "KoSIT validators nepieņēma dokumentu (HTTP %d)."
+      ],
+      "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung.": [
+        "Sūtītāja vai saņēmēja ID nav formātā shēma:identifikators."
+      ],
+      "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d).": [
+        "Phase4 pakalpojums noraidīja nosūtīšanu (HTTP %d)."
+      ],
+      "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen.": [
+        "Phase4 pakalpojums neatgrieza messageId; bez tā nevar piesaistīt kvīti."
+      ],
+      "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet.": [
+        "KoSIT validators un Phase4 pakalpojums nav konfigurēti; nekas netiek sūtīts."
+      ],
+      "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete.": [
+        "Kvīts ir derīgi parakstīta, bet attiecas uz citu dokumentu nekā nosūtītais."
+      ],
+      "Peppol: Positive Empfangsquittung für messageId %s erhalten.": [
+        "Peppol: Saņemta pozitīva kvīts par messageId %s."
+      ],
+      "Peppol-Empfangsquittung erhalten.": [
+        "Saņemta Peppol kvīts."
+      ],
+      "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s": [
+        "Peppol: Nosūtīšana neizdevās (messageId %1$s): %2$s"
+      ],
+      "ohne Fehlerbeschreibung": [
+        "bez kļūdas apraksta"
+      ],
+      "Peppol-Versand fehlgeschlagen.": [
+        "Peppol nosūtīšana neizdevās."
+      ],
+      "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s": [
+        "Šos noteikumus nevarēja novērtēt, un tie neskaitās ne izpildīti, ne pārkāpti: %s"
+      ],
+      "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s.": [
+        "WM Peppol AS4 Gateway nevarēja aktivizēt, jo šajā serverī trūkst šādu nepieciešamo PHP paplašinājumu: %s."
+      ],
+      "Fehlende PHP-Erweiterung": [
+        "Trūkst PHP paplašinājuma"
+      ],
+      "Kein Peppol-Teilnehmerbezeichner angegeben.": [
+        "Nav norādīts Peppol dalībnieka identifikators."
+      ],
+      "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789.": [
+        "Identifikators \"%s\" neatbilst formātam <četrciparu EAS shēma>:<identifikators>, piem., 9930:DE123456789."
+      ],
+      "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen.": [
+        "Identifikatora shēma satur DNS vārdā neatļautas rakstzīmes."
+      ],
+      "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen.": [
+        "Nav NAPTR ieraksta par %s: dalībnieks nav reģistrēts šajā SML zonā vai DNS neatbild uz NAPTR vaicājumiem."
+      ],
+      "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL).": [
+        "NAPTR ieraksts %s nenorāda nevienu SMP (pakalpojums \"Meta:SMP\" ar URL)."
+      ],
+      "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen.": [
+        "SMP pazīst dalībnieku %1$s, bet ne dokumenta tipam %2$s: saņēmējs šo dokumentu nepieņem."
+      ],
+      "Der SMP antwortete mit HTTP %1$d auf %2$s.": [
+        "SMP atbildēja ar HTTP %1$d vietnē %2$s."
+      ],
+      "Der SMP lieferte einen leeren Körper.": [
+        "SMP atgrieza tukšu saturu."
+      ],
+      "Die Antwort des SMP ist kein wohlgeformtes XML.": [
+        "SMP atbilde nav korekts XML."
+      ],
+      "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s.": [
+        "SMP atbildē nav galapunkta ar transporta profilu %s."
+      ],
+      "Peppol-Gateway-Status": [
+        "Peppol Gateway statuss"
+      ],
+      "Tabellen des Plugins fehlen": [
+        "Trūkst spraudņa tabulu"
+      ],
+      "KoSIT-Validator und Phase4-Dienst konfiguriert": [
+        "KoSIT validators un Phase4 pakalpojums konfigurēti"
+      ],
+      "Versand nicht konfiguriert": [
+        "Nosūtīšana nav konfigurēta"
+      ],
+      "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen": [
+        "%1$d saglabāti rēķini, %2$d saņemšanas kvītis"
+      ],
+      "Status wird abgefragt …": [
+        "Vaicā statusu …"
+      ],
+      "Rechnung gefunden": [
+        "Rēķins atrasts"
+      ],
+      "Die Abfrage ist fehlgeschlagen.": [
+        "Vaicājums neizdevās."
+      ],
+      "Gespeicherter Status": [
+        "Saglabātais statuss"
+      ],
+      "Übergabe an Phase4": [
+        "Nodošana Phase4"
+      ],
+      "keine Übergabe erfasst": [
+        "nodošana nav reģistrēta"
+      ],
+      "Empfangsquittung": [
+        "Saņemšanas kvīts"
+      ],
+      "liegt vor": [
+        "ir pieejama"
+      ],
+      "liegt nicht vor": [
+        "nav pieejama"
+      ],
+      "Fehlercode der Übertragung": [
+        "Pārsūtīšanas kļūdas kods"
+      ],
+      "SHA-256 des gespeicherten XML": [
+        "Saglabātā XML SHA-256"
+      ],
+      "Rechnungsstatus abfragen": [
+        "Pārbaudīt rēķina statusu"
+      ],
+      "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten.": [
+        "Ievadiet rēķina numuru un savu Peppol ID. Tiek parādīts šajā sistēmā saglabātais statuss. Dokuments šeit netiek pārbaudīts pret EN 16931 un netiek piedāvāts lejupielādei."
+      ],
+      "Ihre Peppol-ID": [
+        "Jūsu Peppol ID"
+      ],
+      "Schema:Kennung": [
+        "shēma:identifikators"
+      ],
+      "Status abfragen": [
+        "Pārbaudīt statusu"
+      ],
+      "Die Rechnungsnummer fehlt.": [
+        "Trūkst rēķina numura."
+      ],
+      "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist.": [
+        "Trūkst pircēja atsauces (BT-10); Peppol BIS to pieprasa, ja nav pasūtījuma atsauces."
+      ],
+      "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT.": [
+        "Rēķina datums nav formātā GGGG-MM-DD."
+      ],
+      "Es fehlen Rechnungspositionen oder ein Betrag.": [
+        "Trūkst rēķina rindu vai summas."
+      ],
+      "Ein Betrag ist keine Zahl.": [
+        "Summa nav skaitlis."
+      ],
+      "Eine Position hat keine Bezeichnung.": [
+        "Rindai nav nosaukuma."
+      ],
+      "Ein Steuersatz ist negativ.": [
+        "Nodokļa likme ir negatīva."
+      ],
+      "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen.": [
+        "Rēķina tipa kods nav Peppol rēķinu sarakstā."
+      ],
+      "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt.": [
+        "Kredītrēķinam (tips 381) nepieciešama UBL CreditNote sintakse, ko šis ģenerators neveido."
+      ],
+      "Der Währungscode muss aus drei Großbuchstaben bestehen.": [
+        "Valūtas kodam jāsastāv no trim lielajiem burtiem."
+      ],
+      "Die Peppol-ID des Verkäufers fehlt.": [
+        "Trūkst pārdevēja Peppol ID."
+      ],
+      "Der Name des Verkäufers fehlt.": [
+        "Trūkst pārdevēja nosaukuma."
+      ],
+      "Die Straße des Verkäufers fehlt.": [
+        "Trūkst pārdevēja ielas."
+      ],
+      "Der Ort des Verkäufers fehlt.": [
+        "Trūkst pārdevēja pilsētas."
+      ],
+      "Die Postleitzahl des Verkäufers fehlt.": [
+        "Trūkst pārdevēja pasta indeksa."
+      ],
+      "Das Land des Verkäufers fehlt.": [
+        "Trūkst pārdevēja valsts."
+      ],
+      "Die USt-IdNr. des Verkäufers fehlt.": [
+        "Trūkst pārdevēja PVN numura."
+      ],
+      "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Pārdevēja Peppol ID nav formātā shēma:identifikators (četrciparu shēma)."
+      ],
+      "Das Land des Verkäufers muss ein zweistelliger Ländercode sein.": [
+        "Pārdevēja valstij jābūt divu burtu valsts kodam."
+      ],
+      "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Pārdevēja PVN numurs nesākas ar divu burtu valsts kodu."
+      ],
+      "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers.": [
+        "Maksājumam ar pārskaitījumu trūkst pārdevēja IBAN."
+      ],
+      "Die Peppol-ID des Käufers fehlt.": [
+        "Trūkst pircēja Peppol ID."
+      ],
+      "Der Name des Käufers fehlt.": [
+        "Trūkst pircēja nosaukuma."
+      ],
+      "Das Land des Käufers fehlt.": [
+        "Trūkst pircēja valsts."
+      ],
+      "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Pircēja Peppol ID nav formātā shēma:identifikators (četrciparu shēma)."
+      ],
+      "Das Land des Käufers muss ein zweistelliger Ländercode sein.": [
+        "Pircēja valstij jābūt divu burtu valsts kodam."
+      ],
+      "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Pircēja PVN numurs nesākas ar divu burtu valsts kodu."
+      ],
+      "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null.": [
+        "S kategorijas rindai vai atlaidei/piemaksai nav likmes virs nulles."
+      ],
+      "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen.": [
+        "Fails nav korekts XML; pirms noteikumu pārbaudes nav ko pārbaudīt."
+      ],
+      "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt.": [
+        "Peppol: Pasūtījumam ir Leitweg-ID, bet nav Peppol saņēmēja ID; e-rēķins netika izveidots."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab.": [
+        "Peppol: E-rēķins nav izveidots. Pasūtījuma summa %1$s un rēķina summa %2$s atšķiras vairāk par noapaļošanu."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. %s": [
+        "Peppol: E-rēķins nav izveidots. %s"
+      ],
+      "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden.": [
+        "Peppol: Izveidoto e-rēķinu neizdevās saglabāt."
+      ],
+      "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant.": [
+        "Peppol: E-rēķins %s izveidots; nosūtīšana ieplānota."
+      ],
+      "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert.": [
+        "Peppol: E-rēķins %s izveidots un saglabāts, nav nosūtīts: KoSIT un Phase4 nav konfigurēti."
+      ],
+      "EN 16931: %1$d fatale Regelbefunde (%2$s).": [
+        "EN 16931: %1$d kritiski noteikumu konstatējumi (%2$s)."
+      ],
+      "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen.": [
+        "Peppol: EN 16931 pārbaude ziņo par %1$d kritiskiem konstatējumiem (%2$s). Tomēr tiek sūtīts; iestatiet \"wm_peppol_schematron_gate\" uz 1 bloķēšanai."
+      ],
+      "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung.": [
+        "Peppol: E-rēķins %1$s nodots Phase4 (messageId %2$s). Piegādāts tikai pēc saņemšanas kvīts."
+      ],
+      "Gebühr": [
+        "Maksa"
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab.": [
+        "Peppol: E-rēķins nav izveidots. \"%s\" ir bez PVN; nodokļu atbrīvojumus spraudnis neatbalsta."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze.": [
+        "Peppol: E-rēķins nav izveidots. \"%s\" satur vairākas PVN likmes."
+      ],
+      "Peppol: E-Rechnung %1$s nicht versendet. %2$s": [
+        "Peppol: E-rēķins %1$s nav nosūtīts. %2$s"
+      ],
+      "Peppol-E-Rechnung": [
+        "Peppol e-rēķins"
+      ],
+      "Peppol-Empfänger-ID (Schema:Kennung)": [
+        "Peppol saņēmēja ID (shēma:identifikators)"
+      ],
+      "Leitweg-ID (öffentliche Auftraggeber)": [
+        "Leitweg-ID (publiskie pasūtītāji)"
+      ],
+      "Käuferreferenz (wenn keine Leitweg-ID)": [
+        "Pircēja atsauce (ja nav Leitweg-ID)"
+      ],
+      "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert.": [
+        "Leitweg-ID neatbilst KoSIT specifikācijai vai kontrolcipari nesakrīt; nav saglabāts."
+      ],
+      "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert.": [
+        "Peppol saņēmēja ID nav četrciparu shēma:identifikators formātā; nav saglabāts."
+      ],
+      "Portal-Darstellung": [
+        "Portāla attēlojums"
+      ],
+      "Überschrift anzeigen": [
+        "Rādīt virsrakstu"
+      ],
+      "Einleitungstext anzeigen": [
+        "Rādīt ievadtekstu"
+      ],
+      "block title\u0004Peppol-Rechnungsstatus-Portal": [
+        "Peppol rēķinu statusa portāls"
+      ],
+      "block description\u0004Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID.": [
+        "Publisks portāls saglabāto Peppol e-rēķinu statusa pārbaudei pēc rēķina numura un Peppol ID."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004invoice": [
+        "rekins"
+      ],
+      "block keyword\u0004e-rechnung": [
+        "e-rekins"
+      ],
+      "block keyword\u0004ubl": [
+        "ubl"
+      ],
+      "block keyword\u0004status": [
+        "statuss"
+      ]
+    }
+  }
+}

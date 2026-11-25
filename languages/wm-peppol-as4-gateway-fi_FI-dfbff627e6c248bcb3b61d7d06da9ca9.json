@@ -1,0 +1,732 @@
+{
+  "translation-revision-date": "2026-11-21T15:24:44+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-peppol-as4-gateway",
+        "lang": "fi_FI",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM Peppol AS4 Gateway": [
+        "WM Peppol AS4 Gateway"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+      ],
+      "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst.": [
+        "Luo Peppol BIS Billing 3.0 -määrittelyn mukaisia UBL 2.1 -laskuja, tarkistaa ne virallista EN 16931 -sääntökokoelmaa vasten, hakee vastaanottajan SML:stä ja SMP:stä, välittää valmiiden WooCommerce-tilausten laskut määritetylle KoSIT-validaattorille ja Phase4-palvelulle, tarkistaa allekirjoitetun AS4-kuittauksen ja näyttää ostajille tallennetun tilan. Ei omaa AS4-siirtoa: siitä huolehtii Phase4."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Unbekannte Spoke-Aktion \"%s\".": [
+        "Tuntematon spoke-toiminto \"%s\"."
+      ],
+      "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s).": [
+        "Itsetesti ei ole mahdollinen: myyjän tiedot puuttuvat (%s)."
+      ],
+      "Testdokument von den Strukturprüfungen abgelehnt: %s": [
+        "Rakennetarkistukset hylkäsivät testiasiakirjan: %s"
+      ],
+      "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung.": [
+        "Testiasiakirja luotu (%d tavua) ja hyväksytty lisäosan rakennetarkistuksissa. Ei tallennettu, ei lähetetty, ei skeema- tai Schematron-tarkistusta."
+      ],
+      "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren.": [
+        "Lisäosan tietokantataulut puuttuvat. Poista lisäosa käytöstä ja ota se uudelleen käyttöön."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden.": [
+        "Myyjän tiedot puutteelliset: verkkolaskua ei voida luoda."
+      ],
+      "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert.": [
+        "Myyjän tiedot täydelliset. KoSIT-validaattori ja Phase4-palvelu on määritetty."
+      ],
+      "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert.": [
+        "Myyjän tiedot täydelliset. Lähetystä ei ole määritetty: laskut vain tallennetaan."
+      ],
+      "Gespeicherte Rechnungen": [
+        "Tallennetut laskut"
+      ],
+      "Übergaben an Phase4": [
+        "Luovutukset Phase4:lle"
+      ],
+      "Empfangsquittungen": [
+        "Vastaanottokuittaukset"
+      ],
+      "Peppol Gateway öffnen": [
+        "Avaa Peppol Gateway"
+      ],
+      "Peppol Gateway": [
+        "Peppol Gateway"
+      ],
+      "%d Beispielrechnung angelegt.": [
+        "%d esimerkkilasku luotu.",
+        "%d esimerkkilaskua luotu."
+      ],
+      "%d Beispielrechnung entfernt.": [
+        "%d esimerkkilasku poistettu.",
+        "%d esimerkkilaskua poistettu."
+      ],
+      "Übersicht": [
+        "Yleiskatsaus"
+      ],
+      "Rechnung erzeugen": [
+        "Luo lasku"
+      ],
+      "Einstellungen": [
+        "Asetukset"
+      ],
+      "Was das Plugin tut": [
+        "Mitä lisäosa tekee"
+      ],
+      "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben.": [
+        "Luo ja tallenna Peppol BIS Billing 3.0 -mukaisia UBL 2.1 -laskuja ja välitä ne määritetylle Phase4-palvelulle."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Osa WM Suiten lisäosaperhettä"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Itsenäinen"
+      ],
+      "Bereiche": [
+        "Osiot"
+      ],
+      "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet.": [
+        "Verkkolasku luotiin ja tallennettiin. Tällä lomakkeella sitä ei lähetetä."
+      ],
+      "Die E-Rechnung wurde nicht erzeugt.": [
+        "Verkkolaskua ei luotu."
+      ],
+      "Eine Rechnung mit dieser Nummer ist bereits gespeichert.": [
+        "Tällä numerolla on jo tallennettu lasku."
+      ],
+      "Die Rechnung wurde erzeugt, aber nicht gespeichert.": [
+        "Lasku luotiin, mutta sitä ei voitu tallentaa."
+      ],
+      "Einstellungen gespeichert.": [
+        "Asetukset tallennettu."
+      ],
+      "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet.": [
+        "Esimerkkilaskut on merkitty esimerkeiksi eikä niitä näytetä julkisessa tilaportaalissa."
+      ],
+      "Beispielrechnungen entfernt.": [
+        "Esimerkkilaskut poistettu."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s": [
+        "Myyjän tiedot puutteelliset: verkkolaskua ei voida luoda. %s"
+      ],
+      "Zu den Einstellungen": [
+        "Siirry asetuksiin"
+      ],
+      "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben.": [
+        "Lähetystä ei ole määritetty: luodut laskut tallennetaan, mutta niitä ei välitetä."
+      ],
+      "ohne %d Beispielrechnungen": [
+        "ilman %d esimerkkilaskua"
+      ],
+      "mit messageId": [
+        "messageId-tunnuksella"
+      ],
+      "positiv, per Webhook": [
+        "positiivinen, webhookilla"
+      ],
+      "Verkäuferdaten": [
+        "Myyjän tiedot"
+      ],
+      "vollständig": [
+        "täydelliset"
+      ],
+      "für die Rechnungserzeugung": [
+        "laskujen luontiin"
+      ],
+      "Angaben fehlen": [
+        "tietoja puuttuu"
+      ],
+      "Rechnungen": [
+        "Laskut"
+      ],
+      "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status.": [
+        "Viimeisimmät 50 tallennettua laskua ja niiden tallennettu tila."
+      ],
+      "Rechnungsnummer": [
+        "Laskun numero"
+      ],
+      "Peppol-ID des Käufers": [
+        "Ostajan Peppol-tunnus"
+      ],
+      "Zahlbetrag": [
+        "Maksettava summa"
+      ],
+      "Status": [
+        "Tila"
+      ],
+      "Rechnungsdatum": [
+        "Laskun päivämäärä"
+      ],
+      "Noch keine Rechnungen gespeichert.": [
+        "Yhtään laskua ei ole vielä tallennettu."
+      ],
+      "Beispielrechnungen": [
+        "Esimerkkilaskut"
+      ],
+      "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen.": [
+        "Esimerkkilaskuissa ei ole XML-sisältöä, niitä ei lasketa laskuiksi eikä niitä näytetä julkisessa portaalissa. Poistaminen poistaa vain ne, mukaan lukien aiempien versioiden kolme esimerkkiriviä."
+      ],
+      "Beispielrechnungen anlegen": [
+        "Luo esimerkkilaskuja"
+      ],
+      "%d Beispielrechnung entfernen": [
+        "Poista %d esimerkkilasku",
+        "Poista %d esimerkkilaskua"
+      ],
+      "Beispiel": [
+        "Esimerkki"
+      ],
+      "Erzeugt, nicht versendet": [
+        "Luotu, ei lähetetty"
+      ],
+      "An Phase4 übergeben": [
+        "Luovutettu Phase4:lle"
+      ],
+      "Zugestellt (Quittung)": [
+        "Toimitettu (kuittaus)"
+      ],
+      "Zustellung fehlgeschlagen": [
+        "Toimitus epäonnistui"
+      ],
+      "Versand fehlgeschlagen": [
+        "Lähetys epäonnistui"
+      ],
+      "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s": [
+        "Ilman täydellisiä myyjän tietoja laskua ei luoda. %s"
+      ],
+      "Käuferreferenz (BT-10), z. B. die Leitweg-ID": [
+        "Ostajan viite (BT-10), esim. Leitweg-ID"
+      ],
+      "Name des Käufers": [
+        "Ostajan nimi"
+      ],
+      "Straße": [
+        "Katuosoite"
+      ],
+      "Postleitzahl": [
+        "Postinumero"
+      ],
+      "Ort": [
+        "Postitoimipaikka"
+      ],
+      "Land (zweistelliger Code)": [
+        "Maa (kaksikirjaiminen koodi)"
+      ],
+      "Peppol-ID des Käufers (Schema:Kennung)": [
+        "Ostajan Peppol-tunnus (skeema:tunniste)"
+      ],
+      "USt-IdNr. des Käufers (optional)": [
+        "Ostajan ALV-tunniste (valinnainen)"
+      ],
+      "Bezeichnung der Leistung": [
+        "Palvelun tai tuotteen kuvaus"
+      ],
+      "Menge": [
+        "Määrä"
+      ],
+      "Nettopreis je Einheit": [
+        "Nettoyksikköhinta"
+      ],
+      "Umsatzsteuersatz in Prozent": [
+        "ALV-kanta prosentteina"
+      ],
+      "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen.": [
+        "Luo yksirivisen UBL-laskun ja tallentaa sen. Mitään ei lähetetä; myyjän tiedot haetaan asetuksista."
+      ],
+      "Rechnung erzeugen und speichern": [
+        "Luo ja tallenna lasku"
+      ],
+      "Peppol-ID des Verkäufers (Schema:Kennung)": [
+        "Myyjän Peppol-tunnus (skeema:tunniste)"
+      ],
+      "Name": [
+        "Nimi"
+      ],
+      "Rechtlicher Name (leer: wie Name)": [
+        "Virallinen nimi (tyhjä: sama kuin Nimi)"
+      ],
+      "USt-IdNr.": [
+        "ALV-tunniste"
+      ],
+      "Registernummer (optional)": [
+        "Yritysrekisterinumero (valinnainen)"
+      ],
+      "IBAN für Zahlung per Überweisung": [
+        "IBAN tilisiirtomaksua varten"
+      ],
+      "Verkäufer": [
+        "Myyjä"
+      ],
+      "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung.": [
+        "Nämä tiedot merkitään jokaiselle luodulle laskulle. Jos pakollinen tieto puuttuu, lisäosa ei luo laskua."
+      ],
+      "Versand": [
+        "Lähetys"
+      ],
+      "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang.": [
+        "Molemmat palvelut ovat erillisiä ohjelmia lisäosan ulkopuolella. Niin kauan kuin jompikumpi osoite puuttuu, mitään ei lähetetä. wp-config.php-tiedoston vakiot WM_PEPPOL_KOSIT_URL ja WM_PEPPOL_PHASE4_URL ovat ensisijaisia."
+      ],
+      "Adresse des KoSIT-Validators": [
+        "KoSIT-validaattorin osoite"
+      ],
+      "Adresse des Phase4-Dienstes": [
+        "Phase4-palvelun osoite"
+      ],
+      "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen.": [
+        "Jaettu salaisuus on asetettu; kelvollisesti allekirjoitetut kuittaukset hyväksytään."
+      ],
+      "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret.": [
+        "Jaettua salaisuutta ei ole asetettu; kaikki kuittaukset hylätään. Aseta vakiolla WM_PEPPOL_RECEIPT_SECRET tai komennolla wp option update wm_peppol_receipt_secret."
+      ],
+      "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)": [
+        "Sallitut varmenteen sormenjäljet AS4-kuittauksille (SHA-256, valinnainen)"
+      ],
+      "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang.": [
+        "Pilkuin erotetut 64-merkkiset SHA-256-sormenjäljet liityntäpisteen odotetuista allekirjoitusvarmenteista. Vakio WM_PEPPOL_TRUSTED_SIGNER_SHA256 tiedostossa wp-config.php on etusijalla."
+      ],
+      "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)": [
+        "Paikallinen CA-varmennepaketti PEM-muodossa (OpenPeppol-PKI, valinnainen)"
+      ],
+      "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang.": [
+        "Yksi tai useampi luotettu juuri- ja välivarmenne PEM-muodossa ketjun täysin paikalliseen tarkistukseen ilman verkkoyhteyttä. Vakiot WM_PEPPOL_TRUST_BUNDLE_PEM ja WM_PEPPOL_TRUST_BUNDLE_FILE ovat etusijalla."
+      ],
+      "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen": [
+        "Hylkää AS4-kuittaukset, jos sormenjälkeä tai CA-varmennepakettia ei ole tallennettu"
+      ],
+      "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen.": [
+        "Kun asetus on käytössä tai asetettu vakiolla WM_PEPPOL_REQUIRE_TRUST_ANCHOR, itse allekirjoitetut tai ankkuroimattomat kuittaukset hylätään vastauksella HTTP 422."
+      ],
+      "Deinstallation": [
+        "Poisto"
+      ],
+      "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen": [
+        "Poista pysyvästi kaikki lisäosan asetukset ja kolme tietokantataulua, kun lisäosa poistetaan"
+      ],
+      "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird.": [
+        "Oletuksena kaikki tallennetut laskut, siirrot, kuittausrekisteri ja asetukset säilytetään lisäosaa poistettaessa."
+      ],
+      "Einstellungen speichern": [
+        "Tallenna asetukset"
+      ],
+      "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz.": [
+        "Luo UBL 2.1 -laskuja Peppol BIS Billing 3.0 -määritystunnisteella ja ALV-erittelyllä veroluokittain ja -kannoittain."
+      ],
+      "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen.": [
+        "Kieltäytyy luomasta laskua puuttuvilla pakollisilla tiedoilla sen sijaan, että keksisi niitä."
+      ],
+      "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung.": [
+        "Tarkistaa pakolliset kentät, koodit ja summasäännöt. Tämä ei ole XSD-skeema- eikä Schematron-tarkistus."
+      ],
+      "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an.": [
+        "Välittää valmiiden WooCommerce-tilausten laskut KoSIT-validaattorille ja Phase4-palvelulle, kun molemmat on määritetty, ja vastaanottaa allekirjoitetut kuittaukset."
+      ],
+      "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung.": [
+        "Näyttää ostajille laskun tallennetun tilan tilaportaalissa."
+      ],
+      "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst.": [
+        "Ei omaa AS4-siirtoa, allekirjoitusta tai salausta: Phase4-palvelu hoitaa ne."
+      ],
+      "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen.": [
+        "Ei hyvityslaskuja UBL CreditNote -syntaksilla eikä verovapautuksia."
+      ],
+      "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde.": [
+        "Ei vientiarkistoa: tallennetut laskut ja kuittausrekisteri säilyvät oletuksena poistettaessa ja poistetaan vain, jos se on erikseen otettu käyttöön asetuksissa."
+      ],
+      "Was es nicht tut": [
+        "Mitä se ei tee"
+      ],
+      "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut.": [
+        "Liian monta kyselyä tästä osoitteesta. Yritä myöhemmin uudelleen."
+      ],
+      "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich.": [
+        "Laskun numero ja ostajan Peppol-tunnus vaaditaan."
+      ],
+      "Zu diesen Angaben liegt keine Rechnung vor.": [
+        "Näillä tiedoilla ei löytynyt laskua."
+      ],
+      "Der Anfragekörper muss ein JSON-Objekt sein.": [
+        "Pyynnön rungon on oltava JSON-objekti."
+      ],
+      "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt.": [
+        "Rivi %d ei viittaa edeltävään riviin: rivi on poistettu tai lisätty väliin."
+      ],
+      "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln.": [
+        "Riviä %d on muokattu kirjoittamisen jälkeen tai tietokanta on peräisin asennuksesta, jossa on eri avaimet."
+      ],
+      "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast.": [
+        "Kuittaus ylittää %d tavua; AS4-kuittaus on signaali, ei hyötykuorma."
+      ],
+      "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage.": [
+        "Asiakirja ei sisällä eb:Receipt-elementtiä eb:SignalMessage-rakenteessa."
+      ],
+      "Die Quittung enthält kein prüfbares Signaturzertifikat.": [
+        "Kuittaus ei sisällä tarkistettavaa allekirjoitusvarmennetta."
+      ],
+      "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden.": [
+        "Kuittauksessa ei ole XML-allekirjoitusta. Allekirjoitettuun AS4-sanomaan ON vastattava allekirjoitetulla kuittauksella."
+      ],
+      "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt.": [
+        "Allekirjoitus on puutteellinen: ds:SignedInfo tai ds:SignatureValue puuttuu."
+      ],
+      "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar.": [
+        "Allekirjoitus ei sisällä X.509-varmennetta; ilman julkista avainta sitä ei voi tarkistaa."
+      ],
+      "Signaturverfahren %s wird von dieser Installation nicht geprüft.": [
+        "Tämä asennus ei tarkista allekirjoitusmenetelmää %s."
+      ],
+      "Das X.509-Zertifikat der Signatur ist nicht lesbar.": [
+        "Allekirjoituksen X.509-varmennetta ei voida lukea."
+      ],
+      "OpenSSL konnte die Signatur nicht prüfen.": [
+        "OpenSSL ei pystynyt tarkistamaan allekirjoitusta."
+      ],
+      "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt.": [
+        "Allekirjoitus ei täsmää kuittauksen sisältöön: sitä on muutettu allekirjoituksen jälkeen tai se on luotu toisella avaimella."
+      ],
+      "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert.": [
+        "Itse allekirjoitus on kelvollinen, mutta vain %1$d / %2$d tarkistussummasta täsmää sisältöön: kuittausta on muutettu allekirjoituksen jälkeen."
+      ],
+      "Das X.509-Zertifikat der Quittung ist abgelaufen.": [
+        "Kuittauksen X.509-varmenne on vanhentunut."
+      ],
+      "Das X.509-Zertifikat der Quittung ist noch nicht gültig.": [
+        "Kuittauksen X.509-varmenne ei ole vielä voimassa."
+      ],
+      "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird.": [
+        "Varmenteen sormenjälkeä tai CA-varmennepakettia ei ole tallennettu, vaikka luottamusankkurin tarkistus on pakotettu."
+      ],
+      "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel.": [
+        "Kuittauksen allekirjoitusvarmenne ei vastaa mitään tallennettua SHA-256-sormenjälkeä eikä luotettua CA-varmennepakettia."
+      ],
+      "Die Quittung ist kein wohlgeformtes XML.": [
+        "Kuittaus ei ole hyvin muodostettua XML:ää."
+      ],
+      "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d).": [
+        "KoSIT-validaattori ei hyväksynyt asiakirjaa (HTTP %d)."
+      ],
+      "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung.": [
+        "Lähettäjän tai vastaanottajan tunnus ei ole muodossa skeema:tunniste."
+      ],
+      "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d).": [
+        "Phase4-palvelu hylkäsi lähetyksen (HTTP %d)."
+      ],
+      "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen.": [
+        "Phase4-palvelu ei palauttanut messageId-tunnusta; ilman sitä vastaanottokuittausta ei voida kohdistaa."
+      ],
+      "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet.": [
+        "KoSIT-validaattoria ja Phase4-palvelua ei ole määritetty; mitään ei lähetetä."
+      ],
+      "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete.": [
+        "Kuittaus on kelvollisesti allekirjoitettu, mutta se koskee eri asiakirjaa kuin lähetetty."
+      ],
+      "Peppol: Positive Empfangsquittung für messageId %s erhalten.": [
+        "Peppol: Positiivinen vastaanottokuittaus vastaanotettu tunnukselle messageId %s."
+      ],
+      "Peppol-Empfangsquittung erhalten.": [
+        "Peppol-vastaanottokuittaus vastaanotettu."
+      ],
+      "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s": [
+        "Peppol: Lähetys epäonnistui (messageId %1$s): %2$s"
+      ],
+      "ohne Fehlerbeschreibung": [
+        "ei virhekuvausta"
+      ],
+      "Peppol-Versand fehlgeschlagen.": [
+        "Peppol-lähetys epäonnistui."
+      ],
+      "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s": [
+        "Näitä sääntöjä ei voitu arvioida, eikä niitä lasketa täytetyiksi tai rikotuiksi: %s"
+      ],
+      "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s.": [
+        "WM Peppol AS4 Gateway -lisäosaa ei voitu ottaa käyttöön, koska tältä palvelimelta puuttuvat seuraavat vaaditut PHP-laajennukset: %s."
+      ],
+      "Fehlende PHP-Erweiterung": [
+        "Puuttuva PHP-laajennus"
+      ],
+      "Kein Peppol-Teilnehmerbezeichner angegeben.": [
+        "Peppol-osallistujatunnistetta ei annettu."
+      ],
+      "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789.": [
+        "Tunniste \"%s\" ei ole muodossa <nelinumeroinen EAS-skeema>:<tunniste>, esimerkiksi 9930:DE123456789."
+      ],
+      "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen.": [
+        "Tunnisteskeema sisältää merkkejä, jotka eivät ole sallittuja DNS-nimessä."
+      ],
+      "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen.": [
+        "Kohteelle %s ei ole NAPTR-tietuetta: osallistujaa ei ole rekisteröity tähän SML-vyöhykkeeseen tai nimipalvelin ei vastaa NAPTR-kyselyihin."
+      ],
+      "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL).": [
+        "Kohteen %s NAPTR-tietue ei nimeä SMP:tä (palvelu \"Meta:SMP\" ja URL)."
+      ],
+      "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen.": [
+        "SMP tuntee osallistujan %1$s, muttei asiakirjatyypille %2$s: vastaanottaja ei ota tätä asiakirjaa vastaan."
+      ],
+      "Der SMP antwortete mit HTTP %1$d auf %2$s.": [
+        "SMP vastasi tilakoodilla HTTP %1$d osoitteessa %2$s."
+      ],
+      "Der SMP lieferte einen leeren Körper.": [
+        "SMP palautti tyhjän rungon."
+      ],
+      "Die Antwort des SMP ist kein wohlgeformtes XML.": [
+        "SMP:n vastaus ei ole hyvin muodostettua XML:ää."
+      ],
+      "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s.": [
+        "SMP-vastauksessa ei ole päätepistettä siirtoprofiililla %s."
+      ],
+      "Peppol-Gateway-Status": [
+        "Peppol Gatewayn tila"
+      ],
+      "Tabellen des Plugins fehlen": [
+        "Lisäosan taulut puuttuvat"
+      ],
+      "KoSIT-Validator und Phase4-Dienst konfiguriert": [
+        "KoSIT-validaattori ja Phase4-palvelu määritetty"
+      ],
+      "Versand nicht konfiguriert": [
+        "Lähetystä ei määritetty"
+      ],
+      "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen": [
+        "%1$d tallennettua laskua, %2$d vastaanottokuittausta"
+      ],
+      "Status wird abgefragt …": [
+        "Haetaan tilaa …"
+      ],
+      "Rechnung gefunden": [
+        "Lasku löytyi"
+      ],
+      "Die Abfrage ist fehlgeschlagen.": [
+        "Kysely epäonnistui."
+      ],
+      "Gespeicherter Status": [
+        "Tallennettu tila"
+      ],
+      "Übergabe an Phase4": [
+        "Luovutus Phase4:lle"
+      ],
+      "keine Übergabe erfasst": [
+        "ei kirjattua luovutusta"
+      ],
+      "Empfangsquittung": [
+        "Vastaanottokuittaus"
+      ],
+      "liegt vor": [
+        "saatavilla"
+      ],
+      "liegt nicht vor": [
+        "ei saatavilla"
+      ],
+      "Fehlercode der Übertragung": [
+        "Siirron virhekoodi"
+      ],
+      "SHA-256 des gespeicherten XML": [
+        "Tallennetun XML:n SHA-256"
+      ],
+      "Rechnungsstatus abfragen": [
+        "Tarkista laskun tila"
+      ],
+      "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten.": [
+        "Anna laskun numero ja Peppol-tunnuksesi. Näytetään tähän järjestelmään tallennettu tila. Asiakirjaa ei tarkisteta täällä EN 16931 -sääntöjä vasten eikä tarjota ladattavaksi."
+      ],
+      "Ihre Peppol-ID": [
+        "Peppol-tunnuksesi"
+      ],
+      "Schema:Kennung": [
+        "skeema:tunniste"
+      ],
+      "Status abfragen": [
+        "Tarkista tila"
+      ],
+      "Die Rechnungsnummer fehlt.": [
+        "Laskun numero puuttuu."
+      ],
+      "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist.": [
+        "Ostajan viite (BT-10) puuttuu; Peppol BIS edellyttää sitä, jollei tilausviitettä ole annettu."
+      ],
+      "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT.": [
+        "Laskun päivämäärä ei ole muodossa VVVV-KK-PP."
+      ],
+      "Es fehlen Rechnungspositionen oder ein Betrag.": [
+        "Laskurivit tai summa puuttuvat."
+      ],
+      "Ein Betrag ist keine Zahl.": [
+        "Summa ei ole luku."
+      ],
+      "Eine Position hat keine Bezeichnung.": [
+        "Riviltä puuttuu nimike."
+      ],
+      "Ein Steuersatz ist negativ.": [
+        "Verokanta on negatiivinen."
+      ],
+      "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen.": [
+        "Laskutyyppikoodi ei ole Peppolin laskuluettelossa."
+      ],
+      "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt.": [
+        "Hyvityslasku (tyyppi 381) vaatii UBL CreditNote -syntaksin, jota tämä generaattori ei tuota."
+      ],
+      "Der Währungscode muss aus drei Großbuchstaben bestehen.": [
+        "Valuuttakoodin on koostuttava kolmesta isosta kirjaimesta."
+      ],
+      "Die Peppol-ID des Verkäufers fehlt.": [
+        "Myyjän Peppol-tunnus puuttuu."
+      ],
+      "Der Name des Verkäufers fehlt.": [
+        "Myyjän nimi puuttuu."
+      ],
+      "Die Straße des Verkäufers fehlt.": [
+        "Myyjän katuosoite puuttuu."
+      ],
+      "Der Ort des Verkäufers fehlt.": [
+        "Myyjän postitoimipaikka puuttuu."
+      ],
+      "Die Postleitzahl des Verkäufers fehlt.": [
+        "Myyjän postinumero puuttuu."
+      ],
+      "Das Land des Verkäufers fehlt.": [
+        "Myyjän maa puuttuu."
+      ],
+      "Die USt-IdNr. des Verkäufers fehlt.": [
+        "Myyjän ALV-tunniste puuttuu."
+      ],
+      "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Myyjän Peppol-tunnus ei ole muodossa skeema:tunniste (nelinumeroinen skeema)."
+      ],
+      "Das Land des Verkäufers muss ein zweistelliger Ländercode sein.": [
+        "Myyjän maan on oltava kaksikirjaiminen maakoodi."
+      ],
+      "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Myyjän ALV-tunniste ei ala kaksikirjaimisella maakoodilla."
+      ],
+      "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers.": [
+        "Myyjän IBAN puuttuu tilisiirtomaksua varten."
+      ],
+      "Die Peppol-ID des Käufers fehlt.": [
+        "Ostajan Peppol-tunnus puuttuu."
+      ],
+      "Der Name des Käufers fehlt.": [
+        "Ostajan nimi puuttuu."
+      ],
+      "Das Land des Käufers fehlt.": [
+        "Ostajan maa puuttuu."
+      ],
+      "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Ostajan Peppol-tunnus ei ole muodossa skeema:tunniste (nelinumeroinen skeema)."
+      ],
+      "Das Land des Käufers muss ein zweistelliger Ländercode sein.": [
+        "Ostajan maan on oltava kaksikirjaiminen maakoodi."
+      ],
+      "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Ostajan ALV-tunniste ei ala kaksikirjaimisella maakoodilla."
+      ],
+      "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null.": [
+        "Veroluokan S rivillä tai alennuksella/lisämaksulla ei ole nollaa suurempaa verokantaa."
+      ],
+      "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen.": [
+        "Tiedosto ei ole hyvin muodostettua XML:ää; mitään ei voida tarkistaa ennen sääntöarviointia."
+      ],
+      "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt.": [
+        "Peppol: Tilauksella on Leitweg-ID, mutta ei Peppol-vastaanottajatunnusta; verkkolaskua ei luotu."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab.": [
+        "Peppol: Verkkolaskua ei luotu. Tilauksen loppusumma %1$s ja laskun loppusumma %2$s poikkeavat pyöristystä enemmän."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. %s": [
+        "Peppol: Verkkolaskua ei luotu. %s"
+      ],
+      "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden.": [
+        "Peppol: Luotua verkkolaskua ei voitu tallentaa."
+      ],
+      "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant.": [
+        "Peppol: Verkkolasku %s luotu; lähetys on ajastettu."
+      ],
+      "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert.": [
+        "Peppol: Verkkolasku %s luotu ja tallennettu, ei lähetetty: KoSIT-validaattoria ja Phase4-palvelua ei ole määritetty."
+      ],
+      "EN 16931: %1$d fatale Regelbefunde (%2$s).": [
+        "EN 16931: %1$d vakavaa sääntöhavaintoa (%2$s)."
+      ],
+      "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen.": [
+        "Peppol: EN 16931 -tarkistus ilmoittaa %1$d vakavaa havaintoa (%2$s). Lähetetään silti; estä asettamalla \"wm_peppol_schematron_gate\" arvoon 1."
+      ],
+      "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung.": [
+        "Peppol: Verkkolasku %1$s luovutettu Phase4-palvelulle (messageId %2$s). Toimitettu vasta vastaanottokuittauksella."
+      ],
+      "Gebühr": [
+        "Maksu"
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab.": [
+        "Peppol: Verkkolaskua ei luotu. \"%s\" on arvonlisäveroton; lisäosa ei mallinna verovapautuksia."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze.": [
+        "Peppol: Verkkolaskua ei luotu. Kohteella \"%s\" on useita verokantoja."
+      ],
+      "Peppol: E-Rechnung %1$s nicht versendet. %2$s": [
+        "Peppol: Verkkolaskua %1$s ei lähetetty. %2$s"
+      ],
+      "Peppol-E-Rechnung": [
+        "Peppol-verkkolasku"
+      ],
+      "Peppol-Empfänger-ID (Schema:Kennung)": [
+        "Peppol-vastaanottajatunnus (skeema:tunniste)"
+      ],
+      "Leitweg-ID (öffentliche Auftraggeber)": [
+        "Leitweg-ID (julkishallinnon ostajat)"
+      ],
+      "Käuferreferenz (wenn keine Leitweg-ID)": [
+        "Ostajan viite (jos ei Leitweg-ID:tä)"
+      ],
+      "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert.": [
+        "Leitweg-ID ei vastaa KoSIT-määrittelyä tai tarkistussumma ei täsmää; ei tallennettu."
+      ],
+      "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert.": [
+        "Peppol-vastaanottajatunnus ei ole muodossa skeema:tunniste nelinumeroisella skeemalla; ei tallennettu."
+      ],
+      "Portal-Darstellung": [
+        "Portaalin ulkoasu"
+      ],
+      "Überschrift anzeigen": [
+        "Näytä otsikko"
+      ],
+      "Einleitungstext anzeigen": [
+        "Näytä johdantoteksti"
+      ],
+      "block title\u0004Peppol-Rechnungsstatus-Portal": [
+        "Peppol-laskujen tilaportaali"
+      ],
+      "block description\u0004Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID.": [
+        "Julkinen tilaportaali tallennettujen Peppol-verkkolaskujen tilan tarkistamiseen laskun numerolla ja Peppol-tunnuksella."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004invoice": [
+        "lasku"
+      ],
+      "block keyword\u0004e-rechnung": [
+        "verkkolasku"
+      ],
+      "block keyword\u0004ubl": [
+        "ubl"
+      ],
+      "block keyword\u0004status": [
+        "tila"
+      ]
+    }
+  }
+}

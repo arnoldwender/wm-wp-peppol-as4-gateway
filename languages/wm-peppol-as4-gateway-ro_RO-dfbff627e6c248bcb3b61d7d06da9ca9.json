@@ -1,0 +1,735 @@
+{
+  "translation-revision-date": "2026-11-21T15:24:44+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-peppol-as4-gateway",
+        "lang": "ro_RO",
+        "plural-forms": "nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);"
+      },
+      "WM Peppol AS4 Gateway": [
+        "WM Peppol AS4 Gateway"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+      ],
+      "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst.": [
+        "Generează facturi UBL 2.1 conform Peppol BIS Billing 3.0, le verifică față de setul oficial de reguli EN 16931, caută destinatarul prin SML și SMP, predă facturile comenzilor WooCommerce finalizate unui validator KoSIT și unui serviciu Phase4 configurate, verifică recipisa AS4 semnată și afișează cumpărătorilor starea stocată. Fără transport AS4 propriu: acesta este realizat de Phase4."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Unbekannte Spoke-Aktion \"%s\".": [
+        "Acțiune modul necunoscută \"%s\"."
+      ],
+      "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s).": [
+        "Autotest indisponibil: lipsesc datele vânzătorului (%s)."
+      ],
+      "Testdokument von den Strukturprüfungen abgelehnt: %s": [
+        "Documentul de test a fost respins de verificările structurale: %s"
+      ],
+      "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung.": [
+        "Document de test generat (%d octeți) și acceptat de verificările structurale ale modulului. Nesalvat, netrimis, fără validare XSD sau Schematron."
+      ],
+      "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren.": [
+        "Tabelele modulului lipsesc. Dezactivați și reactivați modulul."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden.": [
+        "Datele vânzătorului sunt incomplete: nu se poate genera nicio e-factură."
+      ],
+      "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert.": [
+        "Datele vânzătorului sunt complete. Validatorul KoSIT și serviciul Phase4 sunt configurate."
+      ],
+      "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert.": [
+        "Datele vânzătorului sunt complete. Expedierea nu este configurată: facturile sunt doar stocate."
+      ],
+      "Gespeicherte Rechnungen": [
+        "Facturi stocate"
+      ],
+      "Übergaben an Phase4": [
+        "Predări către Phase4"
+      ],
+      "Empfangsquittungen": [
+        "Recipise de primire"
+      ],
+      "Peppol Gateway öffnen": [
+        "Deschide Peppol Gateway"
+      ],
+      "Peppol Gateway": [
+        "Peppol Gateway"
+      ],
+      "%d Beispielrechnung angelegt.": [
+        "%d factură demonstrativă creată.",
+        "%d facturi demonstrative create.",
+        "%d de facturi demonstrative create."
+      ],
+      "%d Beispielrechnung entfernt.": [
+        "%d factură demonstrativă eliminată.",
+        "%d facturi demonstrative eliminate.",
+        "%d de facturi demonstrative eliminate."
+      ],
+      "Übersicht": [
+        "Prezentare generală"
+      ],
+      "Rechnung erzeugen": [
+        "Generează factură"
+      ],
+      "Einstellungen": [
+        "Setări"
+      ],
+      "Was das Plugin tut": [
+        "Ce face modulul"
+      ],
+      "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben.": [
+        "Generați și stocați facturi UBL 2.1 conform Peppol BIS Billing 3.0 și predați-le unui serviciu Phase4 configurat."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Parte a familiei de module WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Independent"
+      ],
+      "Bereiche": [
+        "Secțiuni"
+      ],
+      "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet.": [
+        "E-factura a fost generată și stocată. Prin acest formular nu se expediază."
+      ],
+      "Die E-Rechnung wurde nicht erzeugt.": [
+        "E-factura nu a fost generată."
+      ],
+      "Eine Rechnung mit dieser Nummer ist bereits gespeichert.": [
+        "Există deja o factură stocată cu acest număr."
+      ],
+      "Die Rechnung wurde erzeugt, aber nicht gespeichert.": [
+        "Factura a fost generată, dar nu a putut fi stocată."
+      ],
+      "Einstellungen gespeichert.": [
+        "Setări salvate."
+      ],
+      "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet.": [
+        "Facturile demonstrative sunt marcate ca exemplu și nu sunt raportate în portalul public de stare."
+      ],
+      "Beispielrechnungen entfernt.": [
+        "Facturile demonstrative au fost eliminate."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s": [
+        "Datele vânzătorului sunt incomplete: nu se poate genera nicio e-factură. %s"
+      ],
+      "Zu den Einstellungen": [
+        "Mergi la setări"
+      ],
+      "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben.": [
+        "Expediere neconfigurată: facturile generate sunt salvate, dar nu sunt predate."
+      ],
+      "ohne %d Beispielrechnungen": [
+        "fără %d facturi demonstrative"
+      ],
+      "mit messageId": [
+        "cu messageId"
+      ],
+      "positiv, per Webhook": [
+        "pozitiv, prin webhook"
+      ],
+      "Verkäuferdaten": [
+        "Date vânzător"
+      ],
+      "vollständig": [
+        "complete"
+      ],
+      "für die Rechnungserzeugung": [
+        "pentru emiterea facturilor"
+      ],
+      "Angaben fehlen": [
+        "date lipsă"
+      ],
+      "Rechnungen": [
+        "Facturi"
+      ],
+      "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status.": [
+        "Ultimele 50 de facturi stocate împreună cu starea lor înregistrată."
+      ],
+      "Rechnungsnummer": [
+        "Număr factură"
+      ],
+      "Peppol-ID des Käufers": [
+        "ID Peppol cumpărător"
+      ],
+      "Zahlbetrag": [
+        "Sumă de plată"
+      ],
+      "Status": [
+        "Stare"
+      ],
+      "Rechnungsdatum": [
+        "Data facturii"
+      ],
+      "Noch keine Rechnungen gespeichert.": [
+        "Nicio factură stocată momentan."
+      ],
+      "Beispielrechnungen": [
+        "Facturi demonstrative"
+      ],
+      "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen.": [
+        "Facturile demonstrative nu conțin XML, nu sunt numărate drept facturi și nu apar în portalul public. Eliminarea le șterge doar pe ele, inclusiv cele trei rânduri din versiunile anterioare."
+      ],
+      "Beispielrechnungen anlegen": [
+        "Creează facturi demonstrative"
+      ],
+      "%d Beispielrechnung entfernen": [
+        "Elimină %d factură demonstrativă",
+        "Elimină %d facturi demonstrative",
+        "Elimină %d de facturi demonstrative"
+      ],
+      "Beispiel": [
+        "Exemplu"
+      ],
+      "Erzeugt, nicht versendet": [
+        "Generată, netrimisă"
+      ],
+      "An Phase4 übergeben": [
+        "Predată către Phase4"
+      ],
+      "Zugestellt (Quittung)": [
+        "Livrată (recipisă)"
+      ],
+      "Zustellung fehlgeschlagen": [
+        "Livrare eșuată"
+      ],
+      "Versand fehlgeschlagen": [
+        "Expediere eșuată"
+      ],
+      "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s": [
+        "Fără date complete ale vânzătorului nu se generează nicio factură. %s"
+      ],
+      "Käuferreferenz (BT-10), z. B. die Leitweg-ID": [
+        "Referința cumpărătorului (BT-10), de ex. Leitweg-ID"
+      ],
+      "Name des Käufers": [
+        "Numele cumpărătorului"
+      ],
+      "Straße": [
+        "Stradă"
+      ],
+      "Postleitzahl": [
+        "Cod poștal"
+      ],
+      "Ort": [
+        "Localitate"
+      ],
+      "Land (zweistelliger Code)": [
+        "Țară (cod din două litere)"
+      ],
+      "Peppol-ID des Käufers (Schema:Kennung)": [
+        "ID Peppol cumpărător (schemă:identificator)"
+      ],
+      "USt-IdNr. des Käufers (optional)": [
+        "Cod TVA cumpărător (opțional)"
+      ],
+      "Bezeichnung der Leistung": [
+        "Descrierea serviciului"
+      ],
+      "Menge": [
+        "Cantitate"
+      ],
+      "Nettopreis je Einheit": [
+        "Preț net unitar"
+      ],
+      "Umsatzsteuersatz in Prozent": [
+        "Cota TVA în procente"
+      ],
+      "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen.": [
+        "Generează o factură UBL cu o poziție și o stochează. Nu se trimite nimic; datele vânzătorului provin din setări."
+      ],
+      "Rechnung erzeugen und speichern": [
+        "Generează și salvează factura"
+      ],
+      "Peppol-ID des Verkäufers (Schema:Kennung)": [
+        "ID Peppol vânzător (schemă:identificator)"
+      ],
+      "Name": [
+        "Nume"
+      ],
+      "Rechtlicher Name (leer: wie Name)": [
+        "Denumire legală (gol: ca Nume)"
+      ],
+      "USt-IdNr.": [
+        "Cod TVA"
+      ],
+      "Registernummer (optional)": [
+        "Număr registrul comerțului (opțional)"
+      ],
+      "IBAN für Zahlung per Überweisung": [
+        "IBAN pentru plată prin transfer bancar"
+      ],
+      "Verkäufer": [
+        "Vânzător"
+      ],
+      "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung.": [
+        "Aceste date apar pe fiecare factură generată. Dacă lipsește un câmp obligatoriu, modulul nu generează factura."
+      ],
+      "Versand": [
+        "Expediere"
+      ],
+      "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang.": [
+        "Ambele servicii sunt programe separate în afara modulului. Cât timp lipsește una dintre adrese, nu se trimite nimic. Constantele WM_PEPPOL_KOSIT_URL și WM_PEPPOL_PHASE4_URL din wp-config.php au prioritate."
+      ],
+      "Adresse des KoSIT-Validators": [
+        "Adresa validatorului KoSIT"
+      ],
+      "Adresse des Phase4-Dienstes": [
+        "Adresa serviciului Phase4"
+      ],
+      "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen.": [
+        "Este setat un secret partajat; recipisele cu semnătură validă sunt acceptate."
+      ],
+      "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret.": [
+        "Nu este setat niciun secret partajat; toate recipisele sunt refuzate. Setați prin WM_PEPPOL_RECEIPT_SECRET sau wp option update wm_peppol_receipt_secret."
+      ],
+      "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)": [
+        "Amprente de certificat permise pentru recipisele AS4 (SHA-256, opțional)"
+      ],
+      "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang.": [
+        "Amprente SHA-256 de 64 de caractere, separate prin virgulă, ale certificatelor de semnare așteptate ale punctului de acces. Constanta WM_PEPPOL_TRUSTED_SIGNER_SHA256 din wp-config.php are prioritate."
+      ],
+      "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)": [
+        "Pachet local de certificate CA în format PEM (PKI OpenPeppol, opțional)"
+      ],
+      "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang.": [
+        "Unul sau mai multe certificate rădăcină și intermediare de încredere în format PEM, pentru o verificare a lanțului strict locală, fără acces la rețea. Constantele WM_PEPPOL_TRUST_BUNDLE_PEM și WM_PEPPOL_TRUST_BUNDLE_FILE au prioritate."
+      ],
+      "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen": [
+        "Respinge recipisele AS4 dacă nu este salvată nicio amprentă și niciun pachet de certificate CA"
+      ],
+      "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen.": [
+        "Dacă este activat sau setat prin constanta WM_PEPPOL_REQUIRE_TRUST_ANCHOR, recipisele autosemnate sau fără ancoră de încredere sunt respinse cu HTTP 422."
+      ],
+      "Deinstallation": [
+        "Dezinstalare"
+      ],
+      "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen": [
+        "Șterge definitiv toate opțiunile modulului și cele trei tabele din baza de date la dezinstalarea modulului"
+      ],
+      "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird.": [
+        "Implicit, toate facturile stocate, transmisiile, registrul de recipise și setările sunt păstrate la eliminarea modulului."
+      ],
+      "Einstellungen speichern": [
+        "Salvează setările"
+      ],
+      "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz.": [
+        "Generează facturi UBL 2.1 cu identificatorul Peppol BIS Billing 3.0 și defalcare TVA pe categorie și cotă."
+      ],
+      "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen.": [
+        "Refuză generarea facturii când lipsesc date obligatorii, în loc să le completeze fictiv."
+      ],
+      "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung.": [
+        "Verifică câmpurile obligatorii, codurile și regulile de total. Aceasta nu este validare XSD sau Schematron."
+      ],
+      "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an.": [
+        "Predă facturile comenzilor WooCommerce finalizate către KoSIT și Phase4 când ambele sunt configurate și acceptă recipise semnate."
+      ],
+      "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung.": [
+        "Afișează cumpărătorilor starea stocată a unei facturi în portalul de stare."
+      ],
+      "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst.": [
+        "Fără transport, semnătură sau criptare AS4 interne: acestea revin serviciului Phase4."
+      ],
+      "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen.": [
+        "Fără note de credit în sintaxa UBL CreditNote și fără scutiri de TVA."
+      ],
+      "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde.": [
+        "Fără arhivă de export: facturile stocate și registrul de recipise se păstrează implicit la dezinstalare și se șterg doar dacă opțiunea este activată explicit în setări."
+      ],
+      "Was es nicht tut": [
+        "Ce nu face"
+      ],
+      "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut.": [
+        "Prea multe cereri de la această adresă. Încercați din nou mai târziu."
+      ],
+      "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich.": [
+        "Numărul facturii și ID-ul Peppol al cumpărătorului sunt obligatorii."
+      ],
+      "Zu diesen Angaben liegt keine Rechnung vor.": [
+        "Nu există nicio factură pentru aceste date."
+      ],
+      "Der Anfragekörper muss ein JSON-Objekt sein.": [
+        "Corpul cererii trebuie să fie un obiect JSON."
+      ],
+      "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt.": [
+        "Rândul %d nu trimite la rândul anterior: un rând a fost șters sau inserat."
+      ],
+      "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln.": [
+        "Rândul %d a fost modificat după scriere sau baza de date provine dintr-o instalare cu alte chei."
+      ],
+      "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast.": [
+        "Recipisa depășște %d octeți; o recipisă AS4 este un semnal, nu un conținut util."
+      ],
+      "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage.": [
+        "Documentul nu conține eb:Receipt într-un eb:SignalMessage."
+      ],
+      "Die Quittung enthält kein prüfbares Signaturzertifikat.": [
+        "Recipisa nu conține niciun certificat de semnare verificabil."
+      ],
+      "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden.": [
+        "Recipisa nu poartă semnătură XML. Un mesaj AS4 semnat TREBUIE confirmat printr-o recipisă semnată."
+      ],
+      "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt.": [
+        "Semnătura este incompletă: lipsește ds:SignedInfo sau ds:SignatureValue."
+      ],
+      "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar.": [
+        "Semnătura nu indică niciun certificat X.509; fără cheia publică nu poate fi verificată."
+      ],
+      "Signaturverfahren %s wird von dieser Installation nicht geprüft.": [
+        "Algoritmul de semnătură %s nu este verificat de această instalare."
+      ],
+      "Das X.509-Zertifikat der Signatur ist nicht lesbar.": [
+        "Certificatul X.509 al semnăturii nu poate fi citit."
+      ],
+      "OpenSSL konnte die Signatur nicht prüfen.": [
+        "OpenSSL nu a putut verifica semnătura."
+      ],
+      "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt.": [
+        "Semnătura nu corespunde conținutului recipisei: a fost modificată după semnare sau creată cu altă cheie."
+      ],
+      "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert.": [
+        "Semnătura este validă, dar numai %1$d din %2$d rezumate corespund conținutului: recipisa a fost modificată după semnare."
+      ],
+      "Das X.509-Zertifikat der Quittung ist abgelaufen.": [
+        "Certificatul X.509 al recipisei a expirat."
+      ],
+      "Das X.509-Zertifikat der Quittung ist noch nicht gültig.": [
+        "Certificatul X.509 al recipisei nu este încă valid."
+      ],
+      "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird.": [
+        "Nu este salvată nicio amprentă de certificat și niciun pachet de certificate CA, deși verificarea ancorei de încredere este impusă."
+      ],
+      "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel.": [
+        "Certificatul de semnare al recipisei nu corespunde nici unei amprente SHA-256 salvate, nici unui pachet de certificate CA de încredere."
+      ],
+      "Die Quittung ist kein wohlgeformtes XML.": [
+        "Recipisa nu este XML bine format."
+      ],
+      "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d).": [
+        "Validatorul KoSIT nu a acceptat documentul (HTTP %d)."
+      ],
+      "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung.": [
+        "ID-ul expeditorului sau destinatarului nu are forma schemă:identificator."
+      ],
+      "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d).": [
+        "Serviciul Phase4 a respins expedierea (HTTP %d)."
+      ],
+      "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen.": [
+        "Serviciul Phase4 nu a returnat niciun messageId; fără acesta nu se poate asocia recipisa."
+      ],
+      "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet.": [
+        "Validatorul KoSIT și serviciul Phase4 nu sunt configurate; nu se trimite nimic."
+      ],
+      "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete.": [
+        "Recipisa este semnată valid, dar se referă la alt document decât cel trimis."
+      ],
+      "Peppol: Positive Empfangsquittung für messageId %s erhalten.": [
+        "Peppol: Recipisă pozitivă primită pentru messageId %s."
+      ],
+      "Peppol-Empfangsquittung erhalten.": [
+        "Recipisă de primire Peppol recepționată."
+      ],
+      "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s": [
+        "Peppol: Expediere eșuată (messageId %1$s): %2$s"
+      ],
+      "ohne Fehlerbeschreibung": [
+        "fără descrierea erorii"
+      ],
+      "Peppol-Versand fehlgeschlagen.": [
+        "Expediere Peppol eșuată."
+      ],
+      "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s": [
+        "Aceste reguli nu au putut fi evaluate și nu contează nici ca îndeplinite, nici ca încălcate: %s"
+      ],
+      "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s.": [
+        "WM Peppol AS4 Gateway nu a putut fi activat, deoarece pe acest server lipsesc următoarele extensii PHP necesare: %s."
+      ],
+      "Fehlende PHP-Erweiterung": [
+        "Extensie PHP lipsă"
+      ],
+      "Kein Peppol-Teilnehmerbezeichner angegeben.": [
+        "Nu a fost indicat niciun identificator de participant Peppol."
+      ],
+      "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789.": [
+        "Identificatorul \"%s\" nu are forma <schemă EAS din patru cifre>:<identificator>, de exemplu 9930:DE123456789."
+      ],
+      "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen.": [
+        "Schema identificatorului conține caractere nepermise într-un nume DNS."
+      ],
+      "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen.": [
+        "Nu există înregistrare NAPTR pentru %s: participantul nu este înregistrat în această zonă SML sau rezolverul nu răspunde la interogări NAPTR."
+      ],
+      "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL).": [
+        "Înregistrarea NAPTR pentru %s nu indică niciun SMP (serviciu \"Meta:SMP\" cu URL)."
+      ],
+      "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen.": [
+        "SMP cunoaște participantul %1$s, dar nu pentru tipul de document %2$s: destinatarul nu acceptă acest document."
+      ],
+      "Der SMP antwortete mit HTTP %1$d auf %2$s.": [
+        "SMP a răspuns cu HTTP %1$d la %2$s."
+      ],
+      "Der SMP lieferte einen leeren Körper.": [
+        "SMP a returnat un corp gol."
+      ],
+      "Die Antwort des SMP ist kein wohlgeformtes XML.": [
+        "Răspunsul SMP nu este XML bine format."
+      ],
+      "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s.": [
+        "Răspunsul SMP nu conține niciun punct final cu profilul de transport %s."
+      ],
+      "Peppol-Gateway-Status": [
+        "Stare Peppol Gateway"
+      ],
+      "Tabellen des Plugins fehlen": [
+        "Tabelele modulului lipsesc"
+      ],
+      "KoSIT-Validator und Phase4-Dienst konfiguriert": [
+        "Validator KoSIT și serviciu Phase4 configurate"
+      ],
+      "Versand nicht konfiguriert": [
+        "Expediere neconfigurată"
+      ],
+      "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen": [
+        "%1$d facturi stocate, %2$d recipise de primire"
+      ],
+      "Status wird abgefragt …": [
+        "Se interoghează starea …"
+      ],
+      "Rechnung gefunden": [
+        "Factură găsită"
+      ],
+      "Die Abfrage ist fehlgeschlagen.": [
+        "Interogarea a eșuat."
+      ],
+      "Gespeicherter Status": [
+        "Stare stocată"
+      ],
+      "Übergabe an Phase4": [
+        "Predare către Phase4"
+      ],
+      "keine Übergabe erfasst": [
+        "nicio predare înregistrată"
+      ],
+      "Empfangsquittung": [
+        "Recipisă de primire"
+      ],
+      "liegt vor": [
+        "existentă"
+      ],
+      "liegt nicht vor": [
+        "inexistentă"
+      ],
+      "Fehlercode der Übertragung": [
+        "Cod eroare transmisie"
+      ],
+      "SHA-256 des gespeicherten XML": [
+        "SHA-256 al XML-ului stocat"
+      ],
+      "Rechnungsstatus abfragen": [
+        "Verifică starea facturii"
+      ],
+      "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten.": [
+        "Introduceți numărul facturii și ID-ul dvs. Peppol. Se afișează starea stocată în acest sistem. Documentul nu este verificat față de EN 16931 și nici oferit spre descărcare aici."
+      ],
+      "Ihre Peppol-ID": [
+        "ID-ul dvs. Peppol"
+      ],
+      "Schema:Kennung": [
+        "schemă:identificator"
+      ],
+      "Status abfragen": [
+        "Verifică starea"
+      ],
+      "Die Rechnungsnummer fehlt.": [
+        "Lipsește numărul facturii."
+      ],
+      "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist.": [
+        "Lipsește referința cumpărătorului (BT-10); Peppol BIS o impune când nu există referință de comandă."
+      ],
+      "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT.": [
+        "Data facturii nu are formatul AAAA-LL-ZZ."
+      ],
+      "Es fehlen Rechnungspositionen oder ein Betrag.": [
+        "Lipsesc liniile facturii sau o sumă."
+      ],
+      "Ein Betrag ist keine Zahl.": [
+        "O sumă nu este numerică."
+      ],
+      "Eine Position hat keine Bezeichnung.": [
+        "O linie nu are denumire."
+      ],
+      "Ein Steuersatz ist negativ.": [
+        "O cotă de taxă este negativă."
+      ],
+      "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen.": [
+        "Codul tipului de factură nu se află în lista Peppol pentru facturi."
+      ],
+      "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt.": [
+        "O notă de credit (tip 381) necesită sintaxa UBL CreditNote, pe care acest generator nu o produce."
+      ],
+      "Der Währungscode muss aus drei Großbuchstaben bestehen.": [
+        "Codul monedei trebuie să conțină trei litere mari."
+      ],
+      "Die Peppol-ID des Verkäufers fehlt.": [
+        "Lipsește ID-ul Peppol al vânzătorului."
+      ],
+      "Der Name des Verkäufers fehlt.": [
+        "Lipsește numele vânzătorului."
+      ],
+      "Die Straße des Verkäufers fehlt.": [
+        "Lipsește strada vânzătorului."
+      ],
+      "Der Ort des Verkäufers fehlt.": [
+        "Lipsește localitatea vânzătorului."
+      ],
+      "Die Postleitzahl des Verkäufers fehlt.": [
+        "Lipsește codul poștal al vânzătorului."
+      ],
+      "Das Land des Verkäufers fehlt.": [
+        "Lipsește țara vânzătorului."
+      ],
+      "Die USt-IdNr. des Verkäufers fehlt.": [
+        "Lipsește codul TVA al vânzătorului."
+      ],
+      "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "ID-ul Peppol al vânzătorului nu are forma schemă:identificator (schemă din patru cifre)."
+      ],
+      "Das Land des Verkäufers muss ein zweistelliger Ländercode sein.": [
+        "Țara vânzătorului trebuie să fie un cod de țară din două litere."
+      ],
+      "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Codul TVA al vânzătorului nu începe cu un cod de țară din două litere."
+      ],
+      "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers.": [
+        "Lipsește IBAN-ul vânzătorului pentru plata prin transfer bancar."
+      ],
+      "Die Peppol-ID des Käufers fehlt.": [
+        "Lipsește ID-ul Peppol al cumpărătorului."
+      ],
+      "Der Name des Käufers fehlt.": [
+        "Lipsește numele cumpărătorului."
+      ],
+      "Das Land des Käufers fehlt.": [
+        "Lipsește țara cumpărătorului."
+      ],
+      "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "ID-ul Peppol al cumpărătorului nu are forma schemă:identificator (schemă din patru cifre)."
+      ],
+      "Das Land des Käufers muss ein zweistelliger Ländercode sein.": [
+        "Țara cumpărătorului trebuie să fie un cod de țară din două litere."
+      ],
+      "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Codul TVA al cumpărătorului nu începe cu un cod de țară din două litere."
+      ],
+      "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null.": [
+        "O linie sau reducere/taxă suplimentară cu categoria S nu are o cotă peste zero."
+      ],
+      "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen.": [
+        "Fișierul nu este XML bine format; nu se poate verifica nimic înainte de reguli."
+      ],
+      "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt.": [
+        "Peppol: Comanda are Leitweg-ID, dar nu are ID destinatar Peppol; nu s-a generat e-factură."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab.": [
+        "Peppol: E-factura nu a fost generată. Totalul comenzii %1$s și totalul facturii %2$s diferă mai mult decât rotunjirea."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. %s": [
+        "Peppol: E-factura nu a fost generată. %s"
+      ],
+      "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden.": [
+        "Peppol: E-factura generată nu a putut fi stocată."
+      ],
+      "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant.": [
+        "Peppol: E-factura %s a fost generată; expedierea este programată."
+      ],
+      "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert.": [
+        "Peppol: E-factura %s a fost generată și stocată, netrimisă: KoSIT și Phase4 nu sunt configurate."
+      ],
+      "EN 16931: %1$d fatale Regelbefunde (%2$s).": [
+        "EN 16931: %1$d constatări fatale (%2$s)."
+      ],
+      "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen.": [
+        "Peppol: Verificarea EN 16931 raportează %1$d constatări fatale (%2$s). Se trimite totuși; setați \"wm_peppol_schematron_gate\" la 1 pentru blocare."
+      ],
+      "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung.": [
+        "Peppol: E-factura %1$s predată serviciului Phase4 (messageId %2$s). Este livrată abia la primirea recipisei."
+      ],
+      "Gebühr": [
+        "Taxă"
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab.": [
+        "Peppol: E-factura nu a fost generată. \"%s\" este fără TVA; modulul nu modelează scutiri."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze.": [
+        "Peppol: E-factura nu a fost generată. \"%s\" are mai multe cote TVA."
+      ],
+      "Peppol: E-Rechnung %1$s nicht versendet. %2$s": [
+        "Peppol: E-factura %1$s netrimisă. %2$s"
+      ],
+      "Peppol-E-Rechnung": [
+        "E-factură Peppol"
+      ],
+      "Peppol-Empfänger-ID (Schema:Kennung)": [
+        "ID destinatar Peppol (schemă:identificator)"
+      ],
+      "Leitweg-ID (öffentliche Auftraggeber)": [
+        "Leitweg-ID (autorități publice)"
+      ],
+      "Käuferreferenz (wenn keine Leitweg-ID)": [
+        "Referința cumpărătorului (dacă nu există Leitweg-ID)"
+      ],
+      "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert.": [
+        "Leitweg-ID nu respectă specificația KoSIT sau cifrele de control nu corespund; nesalvat."
+      ],
+      "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert.": [
+        "ID-ul destinatar Peppol nu are forma schemă:identificator cu patru cifre; nesalvat."
+      ],
+      "Portal-Darstellung": [
+        "Afișare portal"
+      ],
+      "Überschrift anzeigen": [
+        "Afișează titlul"
+      ],
+      "Einleitungstext anzeigen": [
+        "Afișează textul introductiv"
+      ],
+      "block title\u0004Peppol-Rechnungsstatus-Portal": [
+        "Portal stare facturi Peppol"
+      ],
+      "block description\u0004Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID.": [
+        "Portal public pentru verificarea e-facturilor Peppol stocate după numărul facturii și ID-ul Peppol."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004invoice": [
+        "factura"
+      ],
+      "block keyword\u0004e-rechnung": [
+        "e-factura"
+      ],
+      "block keyword\u0004ubl": [
+        "ubl"
+      ],
+      "block keyword\u0004status": [
+        "stare"
+      ]
+    }
+  }
+}

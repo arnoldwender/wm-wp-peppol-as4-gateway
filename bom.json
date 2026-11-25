@@ -1,0 +1,35 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-18T21:50:41Z",
+    "component": {
+      "type": "application",
+      "name": "wm-peppol-as4-gateway",
+      "version": "1.2.2",
+      "description": "Peppol BIS Billing 3.0 UBL 2.1 invoice generator, EN 16931 Schematron validator, SML/SMP receiver discovery and verified AS4 receipts.",
+      "supplier": {
+        "name": "Arnold Wender",
+        "url": [
+          "https://arnoldwender.com"
+        ]
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:wordpress/wm-peppol-as4-gateway@1.2.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6de03d0aab950ff28588c7c7622bf47bca937a054599e000550529ad334718a5"
+        }
+      ]
+    }
+  },
+  "components": []
+}

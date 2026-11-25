@@ -1,0 +1,34 @@
+# Local KoSIT validator and Phase4 sender for development. Not part of the plugin ZIP (.distignore).
+#
+# The plugin sends nothing until both URLs are configured (Peppol Gateway > Einstellungen, or the constants
+# WM_PEPPOL_KOSIT_URL and WM_PEPPOL_PHASE4_URL). Phase4 needs a Peppol access point keystore and truststore in
+# ./certs and their passwords in the environment, e.g. a .env file next to this one (never committed):
+#   PHASE4_KEYSTORE_PASSWORD=...  PHASE4_KEY_PASSWORD=...  PHASE4_TRUSTSTORE_PASSWORD=...
+# Until 2026-09-15 this file carried literal default passwords.
+#
+# Image names, ports and the Phase4 variables are not verified against the images' current documentation.
+
+services:
+  kosit-validator:
+    image: kosit/validator:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - JAVA_OPTS=-Xmx512m
+    restart: unless-stopped
+
+  phase4-peppol-standalone:
+    image: phax/phase4-peppol-standalone:latest
+    ports:
+      - "8081:8080"
+    environment:
+      - PHASE4_PROFILE=peppol
+      - PHASE4_KEYSTORE_PATH=/certs/keystore.jks
+      - PHASE4_KEYSTORE_PASSWORD=${PHASE4_KEYSTORE_PASSWORD:?set PHASE4_KEYSTORE_PASSWORD}
+      - PHASE4_KEY_ALIAS=peppol-ap
+      - PHASE4_KEY_PASSWORD=${PHASE4_KEY_PASSWORD:?set PHASE4_KEY_PASSWORD}
+      - PHASE4_TRUSTSTORE_PATH=/certs/truststore.jks
+      - PHASE4_TRUSTSTORE_PASSWORD=${PHASE4_TRUSTSTORE_PASSWORD:?set PHASE4_TRUSTSTORE_PASSWORD}
+    volumes:
+      - ./certs:/certs:ro
+    restart: unless-stopped

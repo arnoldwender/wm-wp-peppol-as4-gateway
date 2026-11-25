@@ -1,0 +1,741 @@
+{
+  "translation-revision-date": "2026-11-21T15:24:44+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-peppol-as4-gateway",
+        "lang": "ga",
+        "plural-forms": "nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);"
+      },
+      "WM Peppol AS4 Gateway": [
+        "WM Peppol AS4 Gateway"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+      ],
+      "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst.": [
+        "Cruthaíonn sé sonraisc UBL 2.1 faoi Peppol BIS Billing 3.0, seiceálann sé iad i gcoinne rialacha oifigiúla EN 16931, aimsíonn sé an faighteoir trí SML agus SMP, tugann sé sonraisc orduithe críochnaithe WooCommerce do bhailíochtóir KoSIT agus seirbhís Phase4 cumraithe, fíoraíonn sé an admháil shínithe AS4 agus taispeánann sé an stádas stóráilte do cheannaitheoirí. Gan iompar AS4 inmheánach: déanann Phase4 sin."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Unbekannte Spoke-Aktion \"%s\".": [
+        "Gníomh anaithnid modúil \"%s\"."
+      ],
+      "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s).": [
+        "Níl féintástáil ar fáil: tá sonraí an díoltóra in easnamh (%s)."
+      ],
+      "Testdokument von den Strukturprüfungen abgelehnt: %s": [
+        "Dhiúltaigh na seiceálacha struchtúracha don cháipéis tástála: %s"
+      ],
+      "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung.": [
+        "Cruthaíodh cáipéis tástála (%d beart) agus ghlac seiceálacha struchtúracha an bhreiseáin léi. Gan sábháil, gan seoladh, gan seiceáil scéime ná Schematron."
+      ],
+      "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren.": [
+        "Tá táblaí bunachar sonraí an bhreiseáin in easnamh. Díghníomhachtaigh agus athghníomhachtaigh an breiseán."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden.": [
+        "Sonraí díoltóra neamhiomlán: ní féidir r-shonrasc a chruthú."
+      ],
+      "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert.": [
+        "Sonraí díoltóra iomlán. Tá bailíochtóir KoSIT agus seirbhís Phase4 cumraithe."
+      ],
+      "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert.": [
+        "Sonraí díoltóra iomlán. Níl seoladh cumraithe: stóráiltear sonraisc amháin."
+      ],
+      "Gespeicherte Rechnungen": [
+        "Sonraisc stóráilte"
+      ],
+      "Übergaben an Phase4": [
+        "Aistrithe chuig Phase4"
+      ],
+      "Empfangsquittungen": [
+        "Admhálacha fála"
+      ],
+      "Peppol Gateway öffnen": [
+        "Oscail Peppol Gateway"
+      ],
+      "Peppol Gateway": [
+        "Peppol Gateway"
+      ],
+      "%d Beispielrechnung angelegt.": [
+        "Cruthaíodh sonrasc samplach: %d.",
+        "Cruthaíodh sonraisc shamplacha: %d.",
+        "Cruthaíodh sonraisc shamplacha: %d.",
+        "Cruthaíodh sonraisc shamplacha: %d.",
+        "Cruthaíodh sonraisc shamplacha: %d."
+      ],
+      "%d Beispielrechnung entfernt.": [
+        "Baineadh sonrasc samplach: %d.",
+        "Baineadh sonraisc shamplacha: %d.",
+        "Baineadh sonraisc shamplacha: %d.",
+        "Baineadh sonraisc shamplacha: %d.",
+        "Baineadh sonraisc shamplacha: %d."
+      ],
+      "Übersicht": [
+        "Forbhreathnú"
+      ],
+      "Rechnung erzeugen": [
+        "Cruthaigh sonrasc"
+      ],
+      "Einstellungen": [
+        "Socruithe"
+      ],
+      "Was das Plugin tut": [
+        "Cad a dhéanann an breiseán"
+      ],
+      "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben.": [
+        "Cruthaigh agus stóráil sonraisc UBL 2.1 faoi Peppol BIS Billing 3.0 agus tabhair ar láimh do sheirbhís Phase4 cumraithe iad."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Cuid d'fhine breiseán WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Neamhspleách"
+      ],
+      "Bereiche": [
+        "Rannóga"
+      ],
+      "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet.": [
+        "Cruthaíodh agus sábháladh an r-shonrasc. Ní sheoltar tríd an bhfoirm seo é."
+      ],
+      "Die E-Rechnung wurde nicht erzeugt.": [
+        "Níor cruthaíodh an r-shonrasc."
+      ],
+      "Eine Rechnung mit dieser Nummer ist bereits gespeichert.": [
+        "Tá sonrasc leis an uimhir seo stóráilte cheana."
+      ],
+      "Die Rechnung wurde erzeugt, aber nicht gespeichert.": [
+        "Cruthaíodh an sonrasc ach níor sábháladh é."
+      ],
+      "Einstellungen gespeichert.": [
+        "Socruithe sábháilte."
+      ],
+      "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet.": [
+        "Tá sonraisc shamplacha marcáilte mar shamplaí agus ní thuairiscítear sa tairseach phoiblí iad."
+      ],
+      "Beispielrechnungen entfernt.": [
+        "Sonraisc shamplacha bainte."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s": [
+        "Sonraí díoltóra neamhiomlán: ní féidir r-shonrasc a chruthú. %s"
+      ],
+      "Zu den Einstellungen": [
+        "Téigh go socruithe"
+      ],
+      "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben.": [
+        "Níl seoladh cumraithe: stóráiltear sonraisc ach ní aistrítear iad."
+      ],
+      "ohne %d Beispielrechnungen": [
+        "gan %d sonrasc samplach"
+      ],
+      "mit messageId": [
+        "le messageId"
+      ],
+      "positiv, per Webhook": [
+        "dearfach, trí webhook"
+      ],
+      "Verkäuferdaten": [
+        "Sonraí díoltóra"
+      ],
+      "vollständig": [
+        "iomlán"
+      ],
+      "für die Rechnungserzeugung": [
+        "le haghaidh cruthú sonrasc"
+      ],
+      "Angaben fehlen": [
+        "sonraí in easnamh"
+      ],
+      "Rechnungen": [
+        "Sonraisc"
+      ],
+      "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status.": [
+        "Na 50 sonrasc is déanaí a stóráiltear lena stádas taifeadta."
+      ],
+      "Rechnungsnummer": [
+        "Uimhir shonraisc"
+      ],
+      "Peppol-ID des Käufers": [
+        "Aitheantas Peppol an cheannaitheora"
+      ],
+      "Zahlbetrag": [
+        "Suim iníoctha"
+      ],
+      "Status": [
+        "Stádas"
+      ],
+      "Rechnungsdatum": [
+        "Dáta sonraisc"
+      ],
+      "Noch keine Rechnungen gespeichert.": [
+        "Níl aon sonrasc stóráilte fós."
+      ],
+      "Beispielrechnungen": [
+        "Sonraisc shamplacha"
+      ],
+      "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen.": [
+        "Níl XML ag sonraisc shamplacha, ní áirítear mar shonraisc iad agus ní thaispeántar sa tairseach phoiblí iad. Scriosann baint iad siúd amháin, lena n-áirítear na trí ró ó leaganacha roimhe seo."
+      ],
+      "Beispielrechnungen anlegen": [
+        "Cruthaigh sonraisc shamplacha"
+      ],
+      "%d Beispielrechnung entfernen": [
+        "Bain sonrasc samplach (%d)",
+        "Bain sonraisc shamplacha (%d)",
+        "Bain sonraisc shamplacha (%d)",
+        "Bain sonraisc shamplacha (%d)",
+        "Bain sonraisc shamplacha (%d)"
+      ],
+      "Beispiel": [
+        "Sampla"
+      ],
+      "Erzeugt, nicht versendet": [
+        "Cruthaithe, gan seoladh"
+      ],
+      "An Phase4 übergeben": [
+        "Tugtha do Phase4"
+      ],
+      "Zugestellt (Quittung)": [
+        "Seachadta (admháil)"
+      ],
+      "Zustellung fehlgeschlagen": [
+        "Theip ar sheachadadh"
+      ],
+      "Versand fehlgeschlagen": [
+        "Theip ar sheoladh"
+      ],
+      "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s": [
+        "Gan sonraí iomlána díoltóra ní chruthófar aon sonrasc. %s"
+      ],
+      "Käuferreferenz (BT-10), z. B. die Leitweg-ID": [
+        "Tagairt cheannaitheora (BT-10), m.sh. Leitweg-ID"
+      ],
+      "Name des Käufers": [
+        "Ainm an cheannaitheora"
+      ],
+      "Straße": [
+        "Sráid"
+      ],
+      "Postleitzahl": [
+        "Cód poist"
+      ],
+      "Ort": [
+        "Cathair / Baile"
+      ],
+      "Land (zweistelliger Code)": [
+        "Tír (cód dhá litir)"
+      ],
+      "Peppol-ID des Käufers (Schema:Kennung)": [
+        "Aitheantas Peppol an cheannaitheora (scéim:aitheantóir)"
+      ],
+      "USt-IdNr. des Käufers (optional)": [
+        "Uimhir CBL an cheannaitheora (roghnach)"
+      ],
+      "Bezeichnung der Leistung": [
+        "Cur síos ar an tseirbhís"
+      ],
+      "Menge": [
+        "Cainníocht"
+      ],
+      "Nettopreis je Einheit": [
+        "Glanphraghas in aghaidh an aonaid"
+      ],
+      "Umsatzsteuersatz in Prozent": [
+        "Ráta CBL faoin gcéad"
+      ],
+      "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen.": [
+        "Cruthaíonn sé sonrasc UBL aonlíne agus sábhálann sé é. Ní sheoltar tada; tagann sonraí an díoltóra ó na socruithe."
+      ],
+      "Rechnung erzeugen und speichern": [
+        "Cruthaigh agus sábháil sonrasc"
+      ],
+      "Peppol-ID des Verkäufers (Schema:Kennung)": [
+        "Aitheantas Peppol an díoltóra (scéim:aitheantóir)"
+      ],
+      "Name": [
+        "Ainm"
+      ],
+      "Rechtlicher Name (leer: wie Name)": [
+        "Ainm dlíthiúil (folamh: mar Ainm)"
+      ],
+      "USt-IdNr.": [
+        "Uimhir CBL"
+      ],
+      "Registernummer (optional)": [
+        "Uimhir chlárúcháin cuideachta (roghnach)"
+      ],
+      "IBAN für Zahlung per Überweisung": [
+        "IBAN le haghaidh íocaíochta trí aistriú creidmheasa"
+      ],
+      "Verkäufer": [
+        "Díoltóir"
+      ],
+      "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung.": [
+        "Tá na sonraí seo ar gach sonrasc a chruthaítear. Má tá réimse riachtanach in easnamh, ní chruthaíonn an breiseán sonrasc."
+      ],
+      "Versand": [
+        "Seoladh"
+      ],
+      "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang.": [
+        "Is cláir neamhspleácha lasmuigh den bhreiseán iad an dá sheirbhís. Fad a bhíonn seoladh amháin in easnamh, ní sheoltar tada. Tá tús áite ag tairisigh WM_PEPPOL_KOSIT_URL agus WM_PEPPOL_PHASE4_URL in wp-config.php."
+      ],
+      "Adresse des KoSIT-Validators": [
+        "Seoladh bhailíochtóir KoSIT"
+      ],
+      "Adresse des Phase4-Dienstes": [
+        "Seoladh sheirbhís Phase4"
+      ],
+      "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen.": [
+        "Tá rún comhroinnte socraithe; glactar le hadmhálacha le síniú bailí."
+      ],
+      "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret.": [
+        "Níl rún comhroinnte socraithe; diúltaítear do gach admháil. Socraigh trí WM_PEPPOL_RECEIPT_SECRET nó wp option update wm_peppol_receipt_secret."
+      ],
+      "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)": [
+        "Méarloirg deimhnithe ceadaithe d'admhálacha AS4 (SHA-256, roghnach)"
+      ],
+      "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang.": [
+        "Méarloirg SHA-256 64 charachtar, scartha le camóga, de na deimhnithe sínithe a bhfuiltear ag súil leo ón bpointe rochtana. Tá tosaíocht ag an tairiseach WM_PEPPOL_TRUSTED_SIGNER_SHA256 in wp-config.php."
+      ],
+      "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)": [
+        "Beart áitiúil deimhnithe CA i bhformáid PEM (PKI OpenPeppol, roghnach)"
+      ],
+      "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang.": [
+        "Deimhniú fréimhe agus idirmheánach iontaofa amháin nó níos mó i bhformáid PEM chun an slabhra a sheiceáil go háitiúil amháin, gan rochtain líonra. Tá tosaíocht ag na tairisigh WM_PEPPOL_TRUST_BUNDLE_PEM agus WM_PEPPOL_TRUST_BUNDLE_FILE."
+      ],
+      "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen": [
+        "Diúltaigh d'admhálacha AS4 mura bhfuil méarlorg ná beart deimhnithe CA stóráilte"
+      ],
+      "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen.": [
+        "Nuair atá sé cumasaithe, nó socraithe leis an tairiseach WM_PEPPOL_REQUIRE_TRUST_ANCHOR, diúltaítear d'admhálacha féinsínithe nó gan ancaire le HTTP 422."
+      ],
+      "Deinstallation": [
+        "Díshuiteáil"
+      ],
+      "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen": [
+        "Scrios go buan gach rogha breiseáin agus na trí thábla bunachar sonraí nuair a dhíshuiteáiltear an breiseán"
+      ],
+      "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird.": [
+        "De réir réamhshocraithe, coinnítear gach sonrasc stóráilte, tarchur, clár admhálacha agus socrú nuair a bhaintear an breiseán."
+      ],
+      "Einstellungen speichern": [
+        "Sábháil socruithe"
+      ],
+      "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz.": [
+        "Cruthaíonn sé sonraisc UBL 2.1 le haitheantóir Peppol BIS Billing 3.0 agus miondealú CBL de réir catagóire agus ráta."
+      ],
+      "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen.": [
+        "Diúltaíonn sé sonrasc a chruthú nuair a bhíonn sonraí riachtanacha in easnamh seachas iad a chumadh."
+      ],
+      "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung.": [
+        "Seiceálann sé réimsí riachtanacha, cóid agus rialacha suime. Ní bailíochtú XSD ná Schematron é seo."
+      ],
+      "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an.": [
+        "Tugann sé sonraisc orduithe críochnaithe WooCommerce do KoSIT agus Phase4 nuair atá an dá cheann cumraithe, agus glacann sé le hadmhálacha sínithe."
+      ],
+      "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung.": [
+        "Taispeánann sé stádas stóráilte sonraisc do cheannaitheoirí sa tairseach stádais."
+      ],
+      "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst.": [
+        "Gan iompar, síniú ná criptiú AS4 inmheánach: láimhseálann Phase4 sin."
+      ],
+      "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen.": [
+        "Gan nótaí creidmheasa i gcomhréir UBL CreditNote ná díolúintí cánach."
+      ],
+      "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde.": [
+        "Gan chartlann easpórtála: coinnítear sonraisc stóráilte agus an clár admhálacha de réir réamhshocraithe le linn díshuiteála agus ní scriostar iad ach má chumasaítear go sainráite sna socruithe é."
+      ],
+      "Was es nicht tut": [
+        "Cad nach ndéanann sé"
+      ],
+      "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut.": [
+        "An iomarca iarratas ón seoladh seo. Bain triail eile as níos déanaí."
+      ],
+      "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich.": [
+        "Tá uimhir an tsonraisc agus aitheantas Peppol an cheannaitheora riachtanach."
+      ],
+      "Zu diesen Angaben liegt keine Rechnung vor.": [
+        "Níor aimsíodh aon sonrasc do na sonraí seo."
+      ],
+      "Der Anfragekörper muss ein JSON-Objekt sein.": [
+        "Ní mór do chorp an iarratais a bheith ina réad JSON."
+      ],
+      "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt.": [
+        "Ní thagraíonn ró %d don ró roimhe: baineadh nó cuireadh ró isteach."
+      ],
+      "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln.": [
+        "Athraíodh ró %d tar éis a scríofa, nó tagann an bunachar sonraí ó shuiteáil le heochracha eile."
+      ],
+      "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast.": [
+        "Sáraíonn an admháil %d beart; is comhartha í admháil AS4, ní ualach sonraí."
+      ],
+      "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage.": [
+        "Níl eb:Receipt laistigh de eb:SignalMessage sa cháipéis."
+      ],
+      "Die Quittung enthält kein prüfbares Signaturzertifikat.": [
+        "Níl aon deimhniú sínithe is féidir a sheiceáil san admháil."
+      ],
+      "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden.": [
+        "Níl síniú XML ar an admháil. NÍ MÓR freagra le hadmháil shínithe a thabhairt ar theachtaireacht shínithe AS4."
+      ],
+      "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt.": [
+        "Tá an síniú neamhiomlán: tá ds:SignedInfo nó ds:SignatureValue in easnamh."
+      ],
+      "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar.": [
+        "Ní luann an síniú teastas X.509; gan an eochair phoiblí ní féidir é a fhíorú."
+      ],
+      "Signaturverfahren %s wird von dieser Installation nicht geprüft.": [
+        "Ní fhíoraíonn an tsuiteáil seo algartam sínithe %s."
+      ],
+      "Das X.509-Zertifikat der Signatur ist nicht lesbar.": [
+        "Ní féidir teastas X.509 an tsínithe a léamh."
+      ],
+      "OpenSSL konnte die Signatur nicht prüfen.": [
+        "Níorbh fhéidir le OpenSSL an síniú a fhíorú."
+      ],
+      "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt.": [
+        "Ní mheaitseálann an síniú ábhar na hadmhála: athraíodh í tar éis a sínithe nó cruthaíodh le heochair eile í."
+      ],
+      "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert.": [
+        "Tá an síniú féin bailí, ach ní mheaitseálann ach %1$d as %2$d haiseanna leis an ábhar: athraíodh an admháil tar éis a sínithe."
+      ],
+      "Das X.509-Zertifikat der Quittung ist abgelaufen.": [
+        "Tá deimhniú X.509 na hadmhála imithe in éag."
+      ],
+      "Das X.509-Zertifikat der Quittung ist noch nicht gültig.": [
+        "Níl deimhniú X.509 na hadmhála bailí fós."
+      ],
+      "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird.": [
+        "Níl méarlorg deimhnithe ná beart deimhnithe CA stóráilte, cé go bhfuil seiceáil an ancaire iontaobhais éigeantach."
+      ],
+      "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel.": [
+        "Ní mheaitseálann deimhniú sínithe na hadmhála méarlorg SHA-256 stóráilte ná beart deimhnithe CA iontaofa."
+      ],
+      "Die Quittung ist kein wohlgeformtes XML.": [
+        "Ní XML dea-chumtha í an admháil."
+      ],
+      "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d).": [
+        "Níor ghlac bailíochtóir KoSIT leis an gcáipéis (HTTP %d)."
+      ],
+      "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung.": [
+        "Níl an fhoirm scéim:aitheantóir ar ID an tseoltóra ná an fhaighteora."
+      ],
+      "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d).": [
+        "Dhiúltaigh seirbhís Phase4 don tarchur (HTTP %d)."
+      ],
+      "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen.": [
+        "Níor chuir Phase4 messageId ar ais; gan é ní féidir admháil a mheaitseáil."
+      ],
+      "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet.": [
+        "Níl bailíochtóir KoSIT agus seirbhís Phase4 cumraithe; ní sheoltar tada."
+      ],
+      "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete.": [
+        "Tá síniú bailí ar an admháil ach baineann sí le cáipéis eile seachas an ceann a seoladh."
+      ],
+      "Peppol: Positive Empfangsquittung für messageId %s erhalten.": [
+        "Peppol: Fuarthas admháil dhearfach fála do messageId %s."
+      ],
+      "Peppol-Empfangsquittung erhalten.": [
+        "Fuarthas admháil fála Peppol."
+      ],
+      "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s": [
+        "Peppol: Theip ar sheoladh (messageId %1$s): %2$s"
+      ],
+      "ohne Fehlerbeschreibung": [
+        "gan tuairisc earráide"
+      ],
+      "Peppol-Versand fehlgeschlagen.": [
+        "Theip ar sheoladh Peppol."
+      ],
+      "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s": [
+        "Níorbh fhéidir na rialacha seo a mheas agus ní áirítear mar chomhlíonta ná mar sháraithe iad: %s"
+      ],
+      "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s.": [
+        "Níorbh fhéidir WM Peppol AS4 Gateway a ghníomhachtú toisc go bhfuil na síntí PHP riachtanacha seo a leanas in easnamh ar an bhfreastalaí seo: %s."
+      ],
+      "Fehlende PHP-Erweiterung": [
+        "Síneadh PHP in easnamh"
+      ],
+      "Kein Peppol-Teilnehmerbezeichner angegeben.": [
+        "Níor tugadh aitheantóir rannpháirtí Peppol."
+      ],
+      "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789.": [
+        "Níl an fhoirm <scéim EAS ceithre dhigit>:<aitheantóir> ar \"%s\", mar shampla 9930:DE123456789."
+      ],
+      "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen.": [
+        "Tá carachtair sa scéim aitheantóra nach gceadaítear in ainm DNS."
+      ],
+      "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen.": [
+        "Níl taifead NAPTR ann do %s: níl an rannpháirtí cláraithe sa chrios SML seo nó ní fhreagraíonn an réiteoir iarratais NAPTR."
+      ],
+      "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL).": [
+        "Ní ainmníonn taifead NAPTR %s aon SMP (seirbhís \"Meta:SMP\" le URL)."
+      ],
+      "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen.": [
+        "Aithníonn an SMP rannpháirtí %1$s ach ní don chineál cáipéise %2$s: ní ghlacann an faighteoir leis an gcáipéis seo."
+      ],
+      "Der SMP antwortete mit HTTP %1$d auf %2$s.": [
+        "D'fhreagair an SMP le HTTP %1$d ag %2$s."
+      ],
+      "Der SMP lieferte einen leeren Körper.": [
+        "Chuir an SMP corp folamh ar ais."
+      ],
+      "Die Antwort des SMP ist kein wohlgeformtes XML.": [
+        "Ní XML dea-chumtha é freagra an SMP."
+      ],
+      "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s.": [
+        "Níl aon chríochphointe le próifíl iompair %s i bhfreagra an SMP."
+      ],
+      "Peppol-Gateway-Status": [
+        "Stádas Peppol Gateway"
+      ],
+      "Tabellen des Plugins fehlen": [
+        "Táblaí an bhreiseáin in easnamh"
+      ],
+      "KoSIT-Validator und Phase4-Dienst konfiguriert": [
+        "Bailíochtóir KoSIT agus seirbhís Phase4 cumraithe"
+      ],
+      "Versand nicht konfiguriert": [
+        "Seoladh gan chumrú"
+      ],
+      "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen": [
+        "%1$d sonrasc stóráilte, %2$d admháil fála"
+      ],
+      "Status wird abgefragt …": [
+        "Ag fiosrú stádais …"
+      ],
+      "Rechnung gefunden": [
+        "Aimsíodh an sonrasc"
+      ],
+      "Die Abfrage ist fehlgeschlagen.": [
+        "Theip ar an bhfiosrúchán."
+      ],
+      "Gespeicherter Status": [
+        "Stádas stóráilte"
+      ],
+      "Übergabe an Phase4": [
+        "Aistriú chuig Phase4"
+      ],
+      "keine Übergabe erfasst": [
+        "gan aistriú taifeadta"
+      ],
+      "Empfangsquittung": [
+        "Admháil fála"
+      ],
+      "liegt vor": [
+        "ar fáil"
+      ],
+      "liegt nicht vor": [
+        "níl ar fáil"
+      ],
+      "Fehlercode der Übertragung": [
+        "Cód earráide tarchuir"
+      ],
+      "SHA-256 des gespeicherten XML": [
+        "SHA-256 an XML stóráilte"
+      ],
+      "Rechnungsstatus abfragen": [
+        "Seiceáil stádas sonraisc"
+      ],
+      "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten.": [
+        "Cuir isteach uimhir an tsonraisc agus d'aitheantas Peppol. Taispeántar an stádas atá stóráilte sa chóras seo. Ní dhéantar an cháipéis a sheiceáil in aghaidh EN 16931 ná a thairiscint le híoslódáil anseo."
+      ],
+      "Ihre Peppol-ID": [
+        "D'aitheantas Peppol"
+      ],
+      "Schema:Kennung": [
+        "scéim:aitheantóir"
+      ],
+      "Status abfragen": [
+        "Seiceáil stádas"
+      ],
+      "Die Rechnungsnummer fehlt.": [
+        "Tá uimhir an tsonraisc in easnamh."
+      ],
+      "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist.": [
+        "Tá tagairt an cheannaitheora (BT-10) in easnamh; éilíonn Peppol BIS í mura bhfuil tagairt ordaithe ann."
+      ],
+      "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT.": [
+        "Níl dáta an tsonraisc i bhformáid BBBB-MM-LL."
+      ],
+      "Es fehlen Rechnungspositionen oder ein Betrag.": [
+        "Tá línte sonraisc nó suim in easnamh."
+      ],
+      "Ein Betrag ist keine Zahl.": [
+        "Ní uimhir í suim amháin."
+      ],
+      "Eine Position hat keine Bezeichnung.": [
+        "Níl ainm míre ar líne amháin."
+      ],
+      "Ein Steuersatz ist negativ.": [
+        "Tá ráta cánach diúltach."
+      ],
+      "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen.": [
+        "Níl cód cineáil an tsonraisc ar liosta sonrasc Peppol."
+      ],
+      "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt.": [
+        "Teastaíonn comhréir UBL CreditNote ó nóta creidmheasa (cineál 381), rud nach dtáirgeann an gineadóir seo."
+      ],
+      "Der Währungscode muss aus drei Großbuchstaben bestehen.": [
+        "Ní mór trí chás uachtair a bheith sa chód airgeadra."
+      ],
+      "Die Peppol-ID des Verkäufers fehlt.": [
+        "Tá aitheantas Peppol an díoltóra in easnamh."
+      ],
+      "Der Name des Verkäufers fehlt.": [
+        "Tá ainm an díoltóra in easnamh."
+      ],
+      "Die Straße des Verkäufers fehlt.": [
+        "Tá sráid an díoltóra in easnamh."
+      ],
+      "Der Ort des Verkäufers fehlt.": [
+        "Tá cathair an díoltóra in easnamh."
+      ],
+      "Die Postleitzahl des Verkäufers fehlt.": [
+        "Tá cód poist an díoltóra in easnamh."
+      ],
+      "Das Land des Verkäufers fehlt.": [
+        "Tá tír an díoltóra in easnamh."
+      ],
+      "Die USt-IdNr. des Verkäufers fehlt.": [
+        "Tá uimhir CBL an díoltóra in easnamh."
+      ],
+      "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Níl foirm scéim:aitheantóir (scéim ceithre dhigit) ar aitheantas Peppol an díoltóra."
+      ],
+      "Das Land des Verkäufers muss ein zweistelliger Ländercode sein.": [
+        "Ní mór cód tíre dhá litir a bheith i dtír an díoltóra."
+      ],
+      "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Ní thosaíonn uimhir CBL an díoltóra le cód tíre dhá litir."
+      ],
+      "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers.": [
+        "Tá IBAN an díoltóra in easnamh le haghaidh aistrithe creidmheasa."
+      ],
+      "Die Peppol-ID des Käufers fehlt.": [
+        "Tá aitheantas Peppol an cheannaitheora in easnamh."
+      ],
+      "Der Name des Käufers fehlt.": [
+        "Tá ainm an cheannaitheora in easnamh."
+      ],
+      "Das Land des Käufers fehlt.": [
+        "Tá tír an cheannaitheora in easnamh."
+      ],
+      "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Níl foirm scéim:aitheantóir (scéim ceithre dhigit) ar aitheantas Peppol an cheannaitheora."
+      ],
+      "Das Land des Käufers muss ein zweistelliger Ländercode sein.": [
+        "Ní mór cód tíre dhá litir a bheith i dtír an cheannaitheora."
+      ],
+      "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Ní thosaíonn uimhir CBL an cheannaitheora le cód tíre dhá litir."
+      ],
+      "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null.": [
+        "Níl ráta os cionn nialais ag líne nó lascaine/muirear i gcatagóir cánach S."
+      ],
+      "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen.": [
+        "Ní XML dea-chumtha é an comhad; ní féidir dada a sheiceáil roimh sheiceáil na rialacha."
+      ],
+      "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt.": [
+        "Peppol: Tá Leitweg-ID ar an ordú ach níl ID faighteora Peppol ann; níor cruthaíodh r-shonrasc."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab.": [
+        "Peppol: Níor cruthaíodh r-shonrasc. Tá difríocht níos mó ná slánú idir iomlán an ordaithe %1$s agus iomlán an tsonraisc %2$s."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. %s": [
+        "Peppol: Níor cruthaíodh r-shonrasc. %s"
+      ],
+      "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden.": [
+        "Peppol: Níorbh fhéidir an r-shonrasc cruthaithe a shábháil."
+      ],
+      "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant.": [
+        "Peppol: Cruthaíodh r-shonrasc %s; tá an seoladh sceidealaithe."
+      ],
+      "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert.": [
+        "Peppol: Cruthaíodh agus sábháladh r-shonrasc %s, gan seoladh: níl KoSIT agus Phase4 cumraithe."
+      ],
+      "EN 16931: %1$d fatale Regelbefunde (%2$s).": [
+        "EN 16931: %1$d torthaí marfacha rialacha (%2$s)."
+      ],
+      "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen.": [
+        "Peppol: Tuairiscíonn seiceáil EN 16931 %1$d torthaí marfacha (%2$s). Seoltar mar sin féin é; socraigh \"wm_peppol_schematron_gate\" go 1 chun blocáil."
+      ],
+      "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung.": [
+        "Peppol: Tugadh r-shonrasc %1$s do Phase4 (messageId %2$s). Ní dhearbhaítear seachadadh ach leis an admháil."
+      ],
+      "Gebühr": [
+        "Táille"
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab.": [
+        "Peppol: Níor cruthaíodh r-shonrasc. Tá \"%s\" gan CBL; ní shamhlaíonn an breiseán díolúintí cánach."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze.": [
+        "Peppol: Níor cruthaíodh r-shonrasc. Tá níos mó ná ráta cánach amháin ag \"%s\"."
+      ],
+      "Peppol: E-Rechnung %1$s nicht versendet. %2$s": [
+        "Peppol: Níor seoladh r-shonrasc %1$s. %2$s"
+      ],
+      "Peppol-E-Rechnung": [
+        "R-shonrasc Peppol"
+      ],
+      "Peppol-Empfänger-ID (Schema:Kennung)": [
+        "ID faighteora Peppol (scéim:aitheantóir)"
+      ],
+      "Leitweg-ID (öffentliche Auftraggeber)": [
+        "Leitweg-ID (ceannaitheoirí poiblí)"
+      ],
+      "Käuferreferenz (wenn keine Leitweg-ID)": [
+        "Tagairt cheannaitheora (mura bhfuil Leitweg-ID ann)"
+      ],
+      "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert.": [
+        "Ní chomhlíonann an Leitweg-ID sonraíocht KoSIT nó theip ar na digití seiceála; gan sábháil."
+      ],
+      "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert.": [
+        "Níl foirm scéim:aitheantóir ceithre dhigit ar ID faighteora Peppol; gan sábháil."
+      ],
+      "Portal-Darstellung": [
+        "Taispeáint tairsí"
+      ],
+      "Überschrift anzeigen": [
+        "Taispeáin ceannteideal"
+      ],
+      "Einleitungstext anzeigen": [
+        "Taispeáin téacs tosaigh"
+      ],
+      "block title\u0004Peppol-Rechnungsstatus-Portal": [
+        "Tairseach Stádais Sonrasc Peppol"
+      ],
+      "block description\u0004Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID.": [
+        "Tairseach phoiblí chun r-shonraisc stóráilte Peppol a chuardach de réir uimhir shonraisc agus aitheantas Peppol."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004invoice": [
+        "sonrasc"
+      ],
+      "block keyword\u0004e-rechnung": [
+        "r-shonrasc"
+      ],
+      "block keyword\u0004ubl": [
+        "ubl"
+      ],
+      "block keyword\u0004status": [
+        "stadas"
+      ]
+    }
+  }
+}

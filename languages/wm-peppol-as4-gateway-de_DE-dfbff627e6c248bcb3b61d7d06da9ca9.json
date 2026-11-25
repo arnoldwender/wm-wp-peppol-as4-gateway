@@ -1,0 +1,732 @@
+{
+  "translation-revision-date": "2026-11-21T15:24:44+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-peppol-as4-gateway",
+        "lang": "de_DE",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM Peppol AS4 Gateway": [
+        "WM Peppol AS4 Gateway"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+      ],
+      "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst.": [
+        "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Unbekannte Spoke-Aktion \"%s\".": [
+        "Unbekannte Spoke-Aktion \"%s\"."
+      ],
+      "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s).": [
+        "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s)."
+      ],
+      "Testdokument von den Strukturprüfungen abgelehnt: %s": [
+        "Testdokument von den Strukturprüfungen abgelehnt: %s"
+      ],
+      "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung.": [
+        "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung."
+      ],
+      "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren.": [
+        "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden.": [
+        "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden."
+      ],
+      "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert.": [
+        "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert."
+      ],
+      "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert.": [
+        "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert."
+      ],
+      "Gespeicherte Rechnungen": [
+        "Gespeicherte Rechnungen"
+      ],
+      "Übergaben an Phase4": [
+        "Übergaben an Phase4"
+      ],
+      "Empfangsquittungen": [
+        "Empfangsquittungen"
+      ],
+      "Peppol Gateway öffnen": [
+        "Peppol Gateway öffnen"
+      ],
+      "Peppol Gateway": [
+        "Peppol Gateway"
+      ],
+      "%d Beispielrechnung angelegt.": [
+        "%d Beispielrechnung angelegt.",
+        "%d Beispielrechnungen angelegt."
+      ],
+      "%d Beispielrechnung entfernt.": [
+        "%d Beispielrechnung entfernt.",
+        "%d Beispielrechnungen entfernt."
+      ],
+      "Übersicht": [
+        "Übersicht"
+      ],
+      "Rechnung erzeugen": [
+        "Rechnung erzeugen"
+      ],
+      "Einstellungen": [
+        "Einstellungen"
+      ],
+      "Was das Plugin tut": [
+        "Was das Plugin tut"
+      ],
+      "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben.": [
+        "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Teil der WM-Suite-Plugin-Familie"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Eigenständig"
+      ],
+      "Bereiche": [
+        "Bereiche"
+      ],
+      "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet.": [
+        "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet."
+      ],
+      "Die E-Rechnung wurde nicht erzeugt.": [
+        "Die E-Rechnung wurde nicht erzeugt."
+      ],
+      "Eine Rechnung mit dieser Nummer ist bereits gespeichert.": [
+        "Eine Rechnung mit dieser Nummer ist bereits gespeichert."
+      ],
+      "Die Rechnung wurde erzeugt, aber nicht gespeichert.": [
+        "Die Rechnung wurde erzeugt, aber nicht gespeichert."
+      ],
+      "Einstellungen gespeichert.": [
+        "Einstellungen gespeichert."
+      ],
+      "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet.": [
+        "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet."
+      ],
+      "Beispielrechnungen entfernt.": [
+        "Beispielrechnungen entfernt."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s": [
+        "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s"
+      ],
+      "Zu den Einstellungen": [
+        "Zu den Einstellungen"
+      ],
+      "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben.": [
+        "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben."
+      ],
+      "ohne %d Beispielrechnungen": [
+        "ohne %d Beispielrechnungen"
+      ],
+      "mit messageId": [
+        "mit messageId"
+      ],
+      "positiv, per Webhook": [
+        "positiv, per Webhook"
+      ],
+      "Verkäuferdaten": [
+        "Verkäuferdaten"
+      ],
+      "vollständig": [
+        "vollständig"
+      ],
+      "für die Rechnungserzeugung": [
+        "für die Rechnungserzeugung"
+      ],
+      "Angaben fehlen": [
+        "Angaben fehlen"
+      ],
+      "Rechnungen": [
+        "Rechnungen"
+      ],
+      "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status.": [
+        "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status."
+      ],
+      "Rechnungsnummer": [
+        "Rechnungsnummer"
+      ],
+      "Peppol-ID des Käufers": [
+        "Peppol-ID des Käufers"
+      ],
+      "Zahlbetrag": [
+        "Zahlbetrag"
+      ],
+      "Status": [
+        "Status"
+      ],
+      "Rechnungsdatum": [
+        "Rechnungsdatum"
+      ],
+      "Noch keine Rechnungen gespeichert.": [
+        "Noch keine Rechnungen gespeichert."
+      ],
+      "Beispielrechnungen": [
+        "Beispielrechnungen"
+      ],
+      "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen.": [
+        "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen."
+      ],
+      "Beispielrechnungen anlegen": [
+        "Beispielrechnungen anlegen"
+      ],
+      "%d Beispielrechnung entfernen": [
+        "%d Beispielrechnung entfernen",
+        "%d Beispielrechnungen entfernen"
+      ],
+      "Beispiel": [
+        "Beispiel"
+      ],
+      "Erzeugt, nicht versendet": [
+        "Erzeugt, nicht versendet"
+      ],
+      "An Phase4 übergeben": [
+        "An Phase4 übergeben"
+      ],
+      "Zugestellt (Quittung)": [
+        "Zugestellt (Quittung)"
+      ],
+      "Zustellung fehlgeschlagen": [
+        "Zustellung fehlgeschlagen"
+      ],
+      "Versand fehlgeschlagen": [
+        "Versand fehlgeschlagen"
+      ],
+      "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s": [
+        "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s"
+      ],
+      "Käuferreferenz (BT-10), z. B. die Leitweg-ID": [
+        "Käuferreferenz (BT-10), z. B. die Leitweg-ID"
+      ],
+      "Name des Käufers": [
+        "Name des Käufers"
+      ],
+      "Straße": [
+        "Straße"
+      ],
+      "Postleitzahl": [
+        "Postleitzahl"
+      ],
+      "Ort": [
+        "Ort"
+      ],
+      "Land (zweistelliger Code)": [
+        "Land (zweistelliger Code)"
+      ],
+      "Peppol-ID des Käufers (Schema:Kennung)": [
+        "Peppol-ID des Käufers (Schema:Kennung)"
+      ],
+      "USt-IdNr. des Käufers (optional)": [
+        "USt-IdNr. des Käufers (optional)"
+      ],
+      "Bezeichnung der Leistung": [
+        "Bezeichnung der Leistung"
+      ],
+      "Menge": [
+        "Menge"
+      ],
+      "Nettopreis je Einheit": [
+        "Nettopreis je Einheit"
+      ],
+      "Umsatzsteuersatz in Prozent": [
+        "Umsatzsteuersatz in Prozent"
+      ],
+      "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen.": [
+        "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen."
+      ],
+      "Rechnung erzeugen und speichern": [
+        "Rechnung erzeugen und speichern"
+      ],
+      "Peppol-ID des Verkäufers (Schema:Kennung)": [
+        "Peppol-ID des Verkäufers (Schema:Kennung)"
+      ],
+      "Name": [
+        "Name"
+      ],
+      "Rechtlicher Name (leer: wie Name)": [
+        "Rechtlicher Name (leer: wie Name)"
+      ],
+      "USt-IdNr.": [
+        "USt-IdNr."
+      ],
+      "Registernummer (optional)": [
+        "Registernummer (optional)"
+      ],
+      "IBAN für Zahlung per Überweisung": [
+        "IBAN für Zahlung per Überweisung"
+      ],
+      "Verkäufer": [
+        "Verkäufer"
+      ],
+      "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung.": [
+        "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung."
+      ],
+      "Versand": [
+        "Versand"
+      ],
+      "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang.": [
+        "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang."
+      ],
+      "Adresse des KoSIT-Validators": [
+        "Adresse des KoSIT-Validators"
+      ],
+      "Adresse des Phase4-Dienstes": [
+        "Adresse des Phase4-Dienstes"
+      ],
+      "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen.": [
+        "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen."
+      ],
+      "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret.": [
+        "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret."
+      ],
+      "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)": [
+        "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)"
+      ],
+      "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang.": [
+        "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang."
+      ],
+      "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)": [
+        "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)"
+      ],
+      "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang.": [
+        "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang."
+      ],
+      "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen": [
+        "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen"
+      ],
+      "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen.": [
+        "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen."
+      ],
+      "Deinstallation": [
+        "Deinstallation"
+      ],
+      "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen": [
+        "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen"
+      ],
+      "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird.": [
+        "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird."
+      ],
+      "Einstellungen speichern": [
+        "Einstellungen speichern"
+      ],
+      "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz.": [
+        "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz."
+      ],
+      "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen.": [
+        "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen."
+      ],
+      "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung.": [
+        "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung."
+      ],
+      "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an.": [
+        "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an."
+      ],
+      "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung.": [
+        "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung."
+      ],
+      "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst.": [
+        "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst."
+      ],
+      "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen.": [
+        "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen."
+      ],
+      "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde.": [
+        "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde."
+      ],
+      "Was es nicht tut": [
+        "Was es nicht tut"
+      ],
+      "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut.": [
+        "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut."
+      ],
+      "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich.": [
+        "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich."
+      ],
+      "Zu diesen Angaben liegt keine Rechnung vor.": [
+        "Zu diesen Angaben liegt keine Rechnung vor."
+      ],
+      "Der Anfragekörper muss ein JSON-Objekt sein.": [
+        "Der Anfragekörper muss ein JSON-Objekt sein."
+      ],
+      "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt.": [
+        "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt."
+      ],
+      "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln.": [
+        "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln."
+      ],
+      "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast.": [
+        "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast."
+      ],
+      "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage.": [
+        "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage."
+      ],
+      "Die Quittung enthält kein prüfbares Signaturzertifikat.": [
+        "Die Quittung enthält kein prüfbares Signaturzertifikat."
+      ],
+      "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden.": [
+        "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden."
+      ],
+      "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt.": [
+        "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt."
+      ],
+      "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar.": [
+        "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar."
+      ],
+      "Signaturverfahren %s wird von dieser Installation nicht geprüft.": [
+        "Signaturverfahren %s wird von dieser Installation nicht geprüft."
+      ],
+      "Das X.509-Zertifikat der Signatur ist nicht lesbar.": [
+        "Das X.509-Zertifikat der Signatur ist nicht lesbar."
+      ],
+      "OpenSSL konnte die Signatur nicht prüfen.": [
+        "OpenSSL konnte die Signatur nicht prüfen."
+      ],
+      "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt.": [
+        "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt."
+      ],
+      "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert.": [
+        "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert."
+      ],
+      "Das X.509-Zertifikat der Quittung ist abgelaufen.": [
+        "Das X.509-Zertifikat der Quittung ist abgelaufen."
+      ],
+      "Das X.509-Zertifikat der Quittung ist noch nicht gültig.": [
+        "Das X.509-Zertifikat der Quittung ist noch nicht gültig."
+      ],
+      "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird.": [
+        "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird."
+      ],
+      "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel.": [
+        "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel."
+      ],
+      "Die Quittung ist kein wohlgeformtes XML.": [
+        "Die Quittung ist kein wohlgeformtes XML."
+      ],
+      "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d).": [
+        "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d)."
+      ],
+      "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung.": [
+        "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung."
+      ],
+      "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d).": [
+        "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d)."
+      ],
+      "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen.": [
+        "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen."
+      ],
+      "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet.": [
+        "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet."
+      ],
+      "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete.": [
+        "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete."
+      ],
+      "Peppol: Positive Empfangsquittung für messageId %s erhalten.": [
+        "Peppol: Positive Empfangsquittung für messageId %s erhalten."
+      ],
+      "Peppol-Empfangsquittung erhalten.": [
+        "Peppol-Empfangsquittung erhalten."
+      ],
+      "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s": [
+        "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s"
+      ],
+      "ohne Fehlerbeschreibung": [
+        "ohne Fehlerbeschreibung"
+      ],
+      "Peppol-Versand fehlgeschlagen.": [
+        "Peppol-Versand fehlgeschlagen."
+      ],
+      "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s": [
+        "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s"
+      ],
+      "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s.": [
+        "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s."
+      ],
+      "Fehlende PHP-Erweiterung": [
+        "Fehlende PHP-Erweiterung"
+      ],
+      "Kein Peppol-Teilnehmerbezeichner angegeben.": [
+        "Kein Peppol-Teilnehmerbezeichner angegeben."
+      ],
+      "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789.": [
+        "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789."
+      ],
+      "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen.": [
+        "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen."
+      ],
+      "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen.": [
+        "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen."
+      ],
+      "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL).": [
+        "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL)."
+      ],
+      "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen.": [
+        "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen."
+      ],
+      "Der SMP antwortete mit HTTP %1$d auf %2$s.": [
+        "Der SMP antwortete mit HTTP %1$d auf %2$s."
+      ],
+      "Der SMP lieferte einen leeren Körper.": [
+        "Der SMP lieferte einen leeren Körper."
+      ],
+      "Die Antwort des SMP ist kein wohlgeformtes XML.": [
+        "Die Antwort des SMP ist kein wohlgeformtes XML."
+      ],
+      "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s.": [
+        "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s."
+      ],
+      "Peppol-Gateway-Status": [
+        "Peppol-Gateway-Status"
+      ],
+      "Tabellen des Plugins fehlen": [
+        "Tabellen des Plugins fehlen"
+      ],
+      "KoSIT-Validator und Phase4-Dienst konfiguriert": [
+        "KoSIT-Validator und Phase4-Dienst konfiguriert"
+      ],
+      "Versand nicht konfiguriert": [
+        "Versand nicht konfiguriert"
+      ],
+      "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen": [
+        "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen"
+      ],
+      "Status wird abgefragt …": [
+        "Status wird abgefragt …"
+      ],
+      "Rechnung gefunden": [
+        "Rechnung gefunden"
+      ],
+      "Die Abfrage ist fehlgeschlagen.": [
+        "Die Abfrage ist fehlgeschlagen."
+      ],
+      "Gespeicherter Status": [
+        "Gespeicherter Status"
+      ],
+      "Übergabe an Phase4": [
+        "Übergabe an Phase4"
+      ],
+      "keine Übergabe erfasst": [
+        "keine Übergabe erfasst"
+      ],
+      "Empfangsquittung": [
+        "Empfangsquittung"
+      ],
+      "liegt vor": [
+        "liegt vor"
+      ],
+      "liegt nicht vor": [
+        "liegt nicht vor"
+      ],
+      "Fehlercode der Übertragung": [
+        "Fehlercode der Übertragung"
+      ],
+      "SHA-256 des gespeicherten XML": [
+        "SHA-256 des gespeicherten XML"
+      ],
+      "Rechnungsstatus abfragen": [
+        "Rechnungsstatus abfragen"
+      ],
+      "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten.": [
+        "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten."
+      ],
+      "Ihre Peppol-ID": [
+        "Ihre Peppol-ID"
+      ],
+      "Schema:Kennung": [
+        "Schema:Kennung"
+      ],
+      "Status abfragen": [
+        "Status abfragen"
+      ],
+      "Die Rechnungsnummer fehlt.": [
+        "Die Rechnungsnummer fehlt."
+      ],
+      "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist.": [
+        "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist."
+      ],
+      "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT.": [
+        "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT."
+      ],
+      "Es fehlen Rechnungspositionen oder ein Betrag.": [
+        "Es fehlen Rechnungspositionen oder ein Betrag."
+      ],
+      "Ein Betrag ist keine Zahl.": [
+        "Ein Betrag ist keine Zahl."
+      ],
+      "Eine Position hat keine Bezeichnung.": [
+        "Eine Position hat keine Bezeichnung."
+      ],
+      "Ein Steuersatz ist negativ.": [
+        "Ein Steuersatz ist negativ."
+      ],
+      "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen.": [
+        "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen."
+      ],
+      "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt.": [
+        "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt."
+      ],
+      "Der Währungscode muss aus drei Großbuchstaben bestehen.": [
+        "Der Währungscode muss aus drei Großbuchstaben bestehen."
+      ],
+      "Die Peppol-ID des Verkäufers fehlt.": [
+        "Die Peppol-ID des Verkäufers fehlt."
+      ],
+      "Der Name des Verkäufers fehlt.": [
+        "Der Name des Verkäufers fehlt."
+      ],
+      "Die Straße des Verkäufers fehlt.": [
+        "Die Straße des Verkäufers fehlt."
+      ],
+      "Der Ort des Verkäufers fehlt.": [
+        "Der Ort des Verkäufers fehlt."
+      ],
+      "Die Postleitzahl des Verkäufers fehlt.": [
+        "Die Postleitzahl des Verkäufers fehlt."
+      ],
+      "Das Land des Verkäufers fehlt.": [
+        "Das Land des Verkäufers fehlt."
+      ],
+      "Die USt-IdNr. des Verkäufers fehlt.": [
+        "Die USt-IdNr. des Verkäufers fehlt."
+      ],
+      "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema)."
+      ],
+      "Das Land des Verkäufers muss ein zweistelliger Ländercode sein.": [
+        "Das Land des Verkäufers muss ein zweistelliger Ländercode sein."
+      ],
+      "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode."
+      ],
+      "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers.": [
+        "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers."
+      ],
+      "Die Peppol-ID des Käufers fehlt.": [
+        "Die Peppol-ID des Käufers fehlt."
+      ],
+      "Der Name des Käufers fehlt.": [
+        "Der Name des Käufers fehlt."
+      ],
+      "Das Land des Käufers fehlt.": [
+        "Das Land des Käufers fehlt."
+      ],
+      "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema)."
+      ],
+      "Das Land des Käufers muss ein zweistelliger Ländercode sein.": [
+        "Das Land des Käufers muss ein zweistelliger Ländercode sein."
+      ],
+      "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode."
+      ],
+      "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null.": [
+        "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null."
+      ],
+      "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen.": [
+        "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen."
+      ],
+      "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt.": [
+        "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab.": [
+        "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. %s": [
+        "Peppol: E-Rechnung nicht erzeugt. %s"
+      ],
+      "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden.": [
+        "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden."
+      ],
+      "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant.": [
+        "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant."
+      ],
+      "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert.": [
+        "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert."
+      ],
+      "EN 16931: %1$d fatale Regelbefunde (%2$s).": [
+        "EN 16931: %1$d fatale Regelbefunde (%2$s)."
+      ],
+      "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen.": [
+        "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen."
+      ],
+      "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung.": [
+        "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung."
+      ],
+      "Gebühr": [
+        "Gebühr"
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab.": [
+        "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze.": [
+        "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze."
+      ],
+      "Peppol: E-Rechnung %1$s nicht versendet. %2$s": [
+        "Peppol: E-Rechnung %1$s nicht versendet. %2$s"
+      ],
+      "Peppol-E-Rechnung": [
+        "Peppol-E-Rechnung"
+      ],
+      "Peppol-Empfänger-ID (Schema:Kennung)": [
+        "Peppol-Empfänger-ID (Schema:Kennung)"
+      ],
+      "Leitweg-ID (öffentliche Auftraggeber)": [
+        "Leitweg-ID (öffentliche Auftraggeber)"
+      ],
+      "Käuferreferenz (wenn keine Leitweg-ID)": [
+        "Käuferreferenz (wenn keine Leitweg-ID)"
+      ],
+      "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert.": [
+        "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert."
+      ],
+      "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert.": [
+        "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert."
+      ],
+      "Portal-Darstellung": [
+        "Portal-Darstellung"
+      ],
+      "Überschrift anzeigen": [
+        "Überschrift anzeigen"
+      ],
+      "Einleitungstext anzeigen": [
+        "Einleitungstext anzeigen"
+      ],
+      "block title\u0004Peppol-Rechnungsstatus-Portal": [
+        "Peppol-Rechnungsstatus-Portal"
+      ],
+      "block description\u0004Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID.": [
+        "Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004invoice": [
+        "rechnung"
+      ],
+      "block keyword\u0004e-rechnung": [
+        "e-rechnung"
+      ],
+      "block keyword\u0004ubl": [
+        "ubl"
+      ],
+      "block keyword\u0004status": [
+        "status"
+      ]
+    }
+  }
+}

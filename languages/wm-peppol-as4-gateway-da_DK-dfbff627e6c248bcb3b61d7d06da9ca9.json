@@ -1,0 +1,732 @@
+{
+  "translation-revision-date": "2026-11-21T15:24:44+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-peppol-as4-gateway",
+        "lang": "da_DK",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM Peppol AS4 Gateway": [
+        "WM Peppol AS4 Gateway"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+      ],
+      "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst.": [
+        "Opretter UBL 2.1-fakturaer efter Peppol BIS Billing 3.0, kontrollerer dem mod det officielle EN 16931-regelsæt, slår modtageren op via SML og SMP, overdrager fakturaer fra gennemførte WooCommerce-ordrer til en konfigureret KoSIT-validator og Phase4-tjeneste, verificerer den signerede AS4-kvittering og viser købere den gemte status. Ingen egen AS4-overførsel: det varetages af Phase4."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Unbekannte Spoke-Aktion \"%s\".": [
+        "Ukendt spoke-handling \"%s\"."
+      ],
+      "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s).": [
+        "Selvtest ikke mulig: sælgerdata mangler (%s)."
+      ],
+      "Testdokument von den Strukturprüfungen abgelehnt: %s": [
+        "Testdokument afvist af strukturkontrollerne: %s"
+      ],
+      "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung.": [
+        "Testdokument oprettet (%d bytes) og godkendt af pluginets strukturkontroller. Ikke gemt, ikke sendt, ingen skema- eller Schematron-kontrol."
+      ],
+      "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren.": [
+        "Pluginets databasetabeller mangler. Deaktiver og genaktiver pluginet."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden.": [
+        "Sælgerdata er ufuldstændige: der kan ikke oprettes en e-faktura."
+      ],
+      "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert.": [
+        "Sælgerdata er komplette. KoSIT-validator og Phase4-tjeneste er konfigureret."
+      ],
+      "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert.": [
+        "Sælgerdata er komplette. Afsendelse ikke konfigureret: fakturaer gemmes kun."
+      ],
+      "Gespeicherte Rechnungen": [
+        "Gemte fakturaer"
+      ],
+      "Übergaben an Phase4": [
+        "Overdragelser til Phase4"
+      ],
+      "Empfangsquittungen": [
+        "Modtagelseskvitteringer"
+      ],
+      "Peppol Gateway öffnen": [
+        "Åbn Peppol Gateway"
+      ],
+      "Peppol Gateway": [
+        "Peppol Gateway"
+      ],
+      "%d Beispielrechnung angelegt.": [
+        "%d eksempelfaktura oprettet.",
+        "%d eksempelfakturaer oprettet."
+      ],
+      "%d Beispielrechnung entfernt.": [
+        "%d eksempelfaktura fjernet.",
+        "%d eksempelfakturaer fjernet."
+      ],
+      "Übersicht": [
+        "Oversigt"
+      ],
+      "Rechnung erzeugen": [
+        "Opret faktura"
+      ],
+      "Einstellungen": [
+        "Indstillinger"
+      ],
+      "Was das Plugin tut": [
+        "Hvad pluginet gør"
+      ],
+      "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben.": [
+        "Opret og gem UBL 2.1-fakturaer efter Peppol BIS Billing 3.0 og overdrag dem til en konfigureret Phase4-tjeneste."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Del af WM Suite-pluginfamilien"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Selvstændig"
+      ],
+      "Bereiche": [
+        "Sektioner"
+      ],
+      "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet.": [
+        "E-fakturaen blev oprettet og gemt. Den sendes ikke via denne formular."
+      ],
+      "Die E-Rechnung wurde nicht erzeugt.": [
+        "E-fakturaen blev ikke oprettet."
+      ],
+      "Eine Rechnung mit dieser Nummer ist bereits gespeichert.": [
+        "En faktura med dette nummer er allerede gemt."
+      ],
+      "Die Rechnung wurde erzeugt, aber nicht gespeichert.": [
+        "Fakturaen blev oprettet, men kunne ikke gemmes."
+      ],
+      "Einstellungen gespeichert.": [
+        "Indstillinger gemt."
+      ],
+      "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet.": [
+        "Eksempelfakturaer er markeret som eksempler og vises ikke i den offentlige statusportal."
+      ],
+      "Beispielrechnungen entfernt.": [
+        "Eksempelfakturaer fjernet."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s": [
+        "Sælgerdata er ufuldstændige: der kan ikke oprettes en e-faktura. %s"
+      ],
+      "Zu den Einstellungen": [
+        "Gå til indstillinger"
+      ],
+      "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben.": [
+        "Afsendelse ikke konfigureret: oprettede fakturaer gemmes, men overdrages ikke."
+      ],
+      "ohne %d Beispielrechnungen": [
+        "ekskl. %d eksempelfakturaer"
+      ],
+      "mit messageId": [
+        "med messageId"
+      ],
+      "positiv, per Webhook": [
+        "positiv, via webhook"
+      ],
+      "Verkäuferdaten": [
+        "Sælgerdata"
+      ],
+      "vollständig": [
+        "komplette"
+      ],
+      "für die Rechnungserzeugung": [
+        "til fakturaoprettelse"
+      ],
+      "Angaben fehlen": [
+        "oplysninger mangler"
+      ],
+      "Rechnungen": [
+        "Fakturaer"
+      ],
+      "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status.": [
+        "De seneste 50 gemte fakturaer med deres registrerede status."
+      ],
+      "Rechnungsnummer": [
+        "Fakturanummer"
+      ],
+      "Peppol-ID des Käufers": [
+        "Købers Peppol-ID"
+      ],
+      "Zahlbetrag": [
+        "Betalingsbeløb"
+      ],
+      "Status": [
+        "Status"
+      ],
+      "Rechnungsdatum": [
+        "Fakturadato"
+      ],
+      "Noch keine Rechnungen gespeichert.": [
+        "Endnu ingen gemte fakturaer."
+      ],
+      "Beispielrechnungen": [
+        "Eksempelfakturaer"
+      ],
+      "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen.": [
+        "Eksempelfakturaer har ingen XML, tæller ikke som fakturaer og vises ikke i den offentlige statusportal. Fjernelse sletter kun dem, også de tre eksempelrækker fra tidligere versioner."
+      ],
+      "Beispielrechnungen anlegen": [
+        "Opret eksempelfakturaer"
+      ],
+      "%d Beispielrechnung entfernen": [
+        "Fjern %d eksempelfaktura",
+        "Fjern %d eksempelfakturaer"
+      ],
+      "Beispiel": [
+        "Eksempel"
+      ],
+      "Erzeugt, nicht versendet": [
+        "Oprettet, ikke sendt"
+      ],
+      "An Phase4 übergeben": [
+        "Overdraget til Phase4"
+      ],
+      "Zugestellt (Quittung)": [
+        "Leveret (kvittering)"
+      ],
+      "Zustellung fehlgeschlagen": [
+        "Levering mislykkedes"
+      ],
+      "Versand fehlgeschlagen": [
+        "Afsendelse mislykkedes"
+      ],
+      "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s": [
+        "Uden komplette sælgerdata oprettes der ingen faktura. %s"
+      ],
+      "Käuferreferenz (BT-10), z. B. die Leitweg-ID": [
+        "Køberreference (BT-10), f.eks. Leitweg-ID"
+      ],
+      "Name des Käufers": [
+        "Købers navn"
+      ],
+      "Straße": [
+        "Gade"
+      ],
+      "Postleitzahl": [
+        "Postnummer"
+      ],
+      "Ort": [
+        "By"
+      ],
+      "Land (zweistelliger Code)": [
+        "Land (tobogstavskode)"
+      ],
+      "Peppol-ID des Käufers (Schema:Kennung)": [
+        "Købers Peppol-ID (skema:identifikator)"
+      ],
+      "USt-IdNr. des Käufers (optional)": [
+        "Købers momsnummer (valgfrit)"
+      ],
+      "Bezeichnung der Leistung": [
+        "Beskrivelse af ydelsen"
+      ],
+      "Menge": [
+        "Antal"
+      ],
+      "Nettopreis je Einheit": [
+        "Nettopris pr. enhed"
+      ],
+      "Umsatzsteuersatz in Prozent": [
+        "Momssats i procent"
+      ],
+      "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen.": [
+        "Opretter en UBL-faktura med én linje og gemmer den. Intet sendes; sælgerdata hentes fra indstillingerne."
+      ],
+      "Rechnung erzeugen und speichern": [
+        "Opret og gem faktura"
+      ],
+      "Peppol-ID des Verkäufers (Schema:Kennung)": [
+        "Sælgers Peppol-ID (skema:identifikator)"
+      ],
+      "Name": [
+        "Navn"
+      ],
+      "Rechtlicher Name (leer: wie Name)": [
+        "Juridisk navn (tomt: som Navn)"
+      ],
+      "USt-IdNr.": [
+        "Momsnummer"
+      ],
+      "Registernummer (optional)": [
+        "CVR-/registreringsnummer (valgfrit)"
+      ],
+      "IBAN für Zahlung per Überweisung": [
+        "IBAN til betaling via bankoverførsel"
+      ],
+      "Verkäufer": [
+        "Sælger"
+      ],
+      "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung.": [
+        "Disse oplysninger fremgår af hver oprettet faktura. Mangler et obligatorisk felt, opretter pluginet ingen faktura."
+      ],
+      "Versand": [
+        "Afsendelse"
+      ],
+      "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang.": [
+        "Begge tjenester er selvstændige programmer uden for pluginet. Så længe en adresse mangler, sendes intet. Konstanterne WM_PEPPOL_KOSIT_URL og WM_PEPPOL_PHASE4_URL i wp-config.php har forrang."
+      ],
+      "Adresse des KoSIT-Validators": [
+        "KoSIT-validatorens adresse"
+      ],
+      "Adresse des Phase4-Dienstes": [
+        "Phase4-tjenestens adresse"
+      ],
+      "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen.": [
+        "En delt hemmelighed er sat; kvitteringer med gyldig signatur accepteres."
+      ],
+      "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret.": [
+        "Ingen delt hemmelighed sat; alle kvitteringer afvises. Angiv via WM_PEPPOL_RECEIPT_SECRET eller wp option update wm_peppol_receipt_secret."
+      ],
+      "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)": [
+        "Tilladte certifikatfingeraftryk for AS4-kvitteringer (SHA-256, valgfrit)"
+      ],
+      "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang.": [
+        "Kommaseparerede SHA-256-fingeraftryk på 64 tegn for de forventede signeringscertifikater fra adgangspunktet. Konstanten WM_PEPPOL_TRUSTED_SIGNER_SHA256 i wp-config.php har forrang."
+      ],
+      "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)": [
+        "Lokalt CA-certifikatbundt i PEM-format (OpenPeppol-PKI, valgfrit)"
+      ],
+      "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang.": [
+        "Et eller flere betroede rod- og mellemcertifikater i PEM-format til en rent lokal kædekontrol uden netværksadgang. Konstanterne WM_PEPPOL_TRUST_BUNDLE_PEM og WM_PEPPOL_TRUST_BUNDLE_FILE har forrang."
+      ],
+      "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen": [
+        "Afvis AS4-kvitteringer, når der ikke er gemt et fingeraftryk eller et CA-certifikatbundt"
+      ],
+      "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen.": [
+        "Når den er aktiveret eller sat med konstanten WM_PEPPOL_REQUIRE_TRUST_ANCHOR, afvises selvsignerede eller ikke-forankrede kvitteringer med HTTP 422."
+      ],
+      "Deinstallation": [
+        "Afinstallation"
+      ],
+      "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen": [
+        "Slet alle plugin-indstillinger og de tre databasetabeller permanent ved afinstallation af pluginet"
+      ],
+      "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird.": [
+        "Som standard bevares alle gemte fakturaer, overførsler, kvitteringsregistret og indstillingerne, når pluginet fjernes."
+      ],
+      "Einstellungen speichern": [
+        "Gem indstillinger"
+      ],
+      "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz.": [
+        "Opretter UBL 2.1-fakturaer med Peppol BIS Billing 3.0-identifikatoren og momsspecifikation pr. kategori og sats."
+      ],
+      "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen.": [
+        "Opretter ingen faktura, når påkrævede oplysninger mangler, i stedet for at udfylde dem."
+      ],
+      "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung.": [
+        "Kontrollerer dokumenter for påkrævede felter, koder og sumregler. Dette er hverken XSD-skema- eller Schematron-validering."
+      ],
+      "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an.": [
+        "Overdrager fakturaer for gennemførte WooCommerce-ordrer til en KoSIT-validator og Phase4-tjeneste, når begge er sat op, og modtager signerede kvitteringer."
+      ],
+      "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung.": [
+        "Viser købere den gemte status for en faktura i statusportalen."
+      ],
+      "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst.": [
+        "Ingen egen AS4-transport, signering eller kryptering: det håndterer Phase4-tjenesten."
+      ],
+      "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen.": [
+        "Ingen kreditnotaer i UBL CreditNote-syntaks og ingen momsfritagelser."
+      ],
+      "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde.": [
+        "Intet eksportarkiv: gemte fakturaer og kvitteringsregistret bevares som standard ved afinstallation og slettes kun, hvis det udtrykkeligt er aktiveret i indstillingerne."
+      ],
+      "Was es nicht tut": [
+        "Hvad det ikke gør"
+      ],
+      "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut.": [
+        "For mange forespørgsler fra denne adresse. Prøv igen senere."
+      ],
+      "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich.": [
+        "Fakturanummer og købers Peppol-ID er påkrævet."
+      ],
+      "Zu diesen Angaben liegt keine Rechnung vor.": [
+        "Der foreligger ingen faktura med disse oplysninger."
+      ],
+      "Der Anfragekörper muss ein JSON-Objekt sein.": [
+        "Anmodningens indhold skal være et JSON-objekt."
+      ],
+      "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt.": [
+        "Række %d henviser ikke til den forrige række: en række er fjernet eller indsat."
+      ],
+      "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln.": [
+        "Række %d er ændret efter skrivning, eller databasen stammer fra en installation med andre nøgler."
+      ],
+      "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast.": [
+        "Kvitteringen overstiger %d bytes; en AS4-kvittering er et signal, ikke en nyttelast."
+      ],
+      "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage.": [
+        "Dokumentet indeholder ingen eb:Receipt i en eb:SignalMessage."
+      ],
+      "Die Quittung enthält kein prüfbares Signaturzertifikat.": [
+        "Kvitteringen indeholder intet signeringscertifikat, der kan kontrolleres."
+      ],
+      "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden.": [
+        "Kvitteringen bærer ingen XML-signatur. En signeret AS4-besked SKAL besvares med en signeret kvittering."
+      ],
+      "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt.": [
+        "Signaturen er ufuldstændig: ds:SignedInfo eller ds:SignatureValue mangler."
+      ],
+      "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar.": [
+        "Signaturen angiver intet X.509-certifikat; uden den offentlige nøgle kan den ikke kontrolleres."
+      ],
+      "Signaturverfahren %s wird von dieser Installation nicht geprüft.": [
+        "Signaturalgoritmen %s kontrolleres ikke af denne installation."
+      ],
+      "Das X.509-Zertifikat der Signatur ist nicht lesbar.": [
+        "Signaturens X.509-certifikat kan ikke læses."
+      ],
+      "OpenSSL konnte die Signatur nicht prüfen.": [
+        "OpenSSL kunne ikke verificere signaturen."
+      ],
+      "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt.": [
+        "Signaturen passer ikke til kvitteringens indhold: den blev ændret efter signering eller oprettet med en anden nøgle."
+      ],
+      "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert.": [
+        "Selve signaturen er gyldig, men kun %1$d af %2$d kontrolsummer passer til indholdet: kvitteringen blev ændret efter signering."
+      ],
+      "Das X.509-Zertifikat der Quittung ist abgelaufen.": [
+        "Kvitteringens X.509-certifikat er udløbet."
+      ],
+      "Das X.509-Zertifikat der Quittung ist noch nicht gültig.": [
+        "Kvitteringens X.509-certifikat er endnu ikke gyldigt."
+      ],
+      "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird.": [
+        "Der er hverken gemt et certifikatfingeraftryk eller et CA-certifikatbundt, selvom kontrollen af tillidsankeret er påkrævet."
+      ],
+      "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel.": [
+        "Kvitteringens signeringscertifikat passer hverken til et gemt SHA-256-fingeraftryk eller til et betroet CA-certifikatbundt."
+      ],
+      "Die Quittung ist kein wohlgeformtes XML.": [
+        "Kvitteringen er ikke velformet XML."
+      ],
+      "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d).": [
+        "KoSIT-validatoren afviste dokumentet (HTTP %d)."
+      ],
+      "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung.": [
+        "Afsender- eller modtager-ID har ikke formen skema:identifikator."
+      ],
+      "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d).": [
+        "Phase4-tjenesten afviste afsendelsen (HTTP %d)."
+      ],
+      "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen.": [
+        "Phase4-tjenesten returnerede intet messageId; uden det kan ingen kvittering knyttes til."
+      ],
+      "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet.": [
+        "KoSIT-validator og Phase4-tjeneste er ikke konfigureret; intet sendes."
+      ],
+      "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete.": [
+        "Kvitteringen er gyldigt signeret, men vedrører et andet dokument end det afsendte."
+      ],
+      "Peppol: Positive Empfangsquittung für messageId %s erhalten.": [
+        "Peppol: Positiv modtagelseskvittering modtaget for messageId %s."
+      ],
+      "Peppol-Empfangsquittung erhalten.": [
+        "Peppol-modtagelseskvittering modtaget."
+      ],
+      "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s": [
+        "Peppol: Afsendelse mislykkedes (messageId %1$s): %2$s"
+      ],
+      "ohne Fehlerbeschreibung": [
+        "uden fejlbeskrivelse"
+      ],
+      "Peppol-Versand fehlgeschlagen.": [
+        "Peppol-afsendelse mislykkedes."
+      ],
+      "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s": [
+        "Disse regler kunne ikke evalueres og tæller hverken som opfyldt eller overtrådt: %s"
+      ],
+      "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s.": [
+        "WM Peppol AS4 Gateway kunne ikke aktiveres, fordi følgende påkrævede PHP-udvidelser mangler på denne server: %s."
+      ],
+      "Fehlende PHP-Erweiterung": [
+        "Manglende PHP-udvidelse"
+      ],
+      "Kein Peppol-Teilnehmerbezeichner angegeben.": [
+        "Ingen Peppol-deltageridentifikator angivet."
+      ],
+      "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789.": [
+        "Identifikatoren \"%s\" har ikke formen <firecifret EAS-skema>:<identifikator>, f.eks. 9930:DE123456789."
+      ],
+      "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen.": [
+        "Identifikatorskemaet indeholder tegn, der ikke er tilladt i et DNS-navn."
+      ],
+      "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen.": [
+        "Der findes ingen NAPTR-post for %s: deltageren er ikke registreret i denne SML-zone, eller resolveren besvarer ikke NAPTR-forespørgsler."
+      ],
+      "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL).": [
+        "NAPTR-posten for %s angiver ingen SMP (tjeneste \"Meta:SMP\" med en URL)."
+      ],
+      "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen.": [
+        "SMP kender deltageren %1$s, men ikke for dokumenttypen %2$s: denne modtager modtager ikke dette dokument."
+      ],
+      "Der SMP antwortete mit HTTP %1$d auf %2$s.": [
+        "SMP svarede med HTTP %1$d på %2$s."
+      ],
+      "Der SMP lieferte einen leeren Körper.": [
+        "SMP returnerede et tomt svar."
+      ],
+      "Die Antwort des SMP ist kein wohlgeformtes XML.": [
+        "Svaret fra SMP er ikke velformet XML."
+      ],
+      "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s.": [
+        "SMP-svaret indeholder intet slutpunkt med transportprofilen %s."
+      ],
+      "Peppol-Gateway-Status": [
+        "Peppol Gateway-status"
+      ],
+      "Tabellen des Plugins fehlen": [
+        "Pluginets tabeller mangler"
+      ],
+      "KoSIT-Validator und Phase4-Dienst konfiguriert": [
+        "KoSIT-validator og Phase4-tjeneste konfigureret"
+      ],
+      "Versand nicht konfiguriert": [
+        "Afsendelse ikke konfigureret"
+      ],
+      "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen": [
+        "%1$d gemte fakturaer, %2$d modtagelseskvitteringer"
+      ],
+      "Status wird abgefragt …": [
+        "Henter status …"
+      ],
+      "Rechnung gefunden": [
+        "Faktura fundet"
+      ],
+      "Die Abfrage ist fehlgeschlagen.": [
+        "Forespørgslen mislykkedes."
+      ],
+      "Gespeicherter Status": [
+        "Gemt status"
+      ],
+      "Übergabe an Phase4": [
+        "Overdragelse til Phase4"
+      ],
+      "keine Übergabe erfasst": [
+        "ingen overdragelse registreret"
+      ],
+      "Empfangsquittung": [
+        "Modtagelseskvittering"
+      ],
+      "liegt vor": [
+        "foreligger"
+      ],
+      "liegt nicht vor": [
+        "foreligger ikke"
+      ],
+      "Fehlercode der Übertragung": [
+        "Overførselsfejlkode"
+      ],
+      "SHA-256 des gespeicherten XML": [
+        "SHA-256 for gemt XML"
+      ],
+      "Rechnungsstatus abfragen": [
+        "Tjek fakturastatus"
+      ],
+      "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten.": [
+        "Indtast fakturanummer og dit Peppol-ID. Den status, der er gemt i dette system, vises. Dokumentet kontrolleres hverken mod EN 16931 eller tilbydes til download her."
+      ],
+      "Ihre Peppol-ID": [
+        "Dit Peppol-ID"
+      ],
+      "Schema:Kennung": [
+        "skema:identifikator"
+      ],
+      "Status abfragen": [
+        "Tjek status"
+      ],
+      "Die Rechnungsnummer fehlt.": [
+        "Fakturanummeret mangler."
+      ],
+      "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist.": [
+        "Køberreferencen (BT-10) mangler; Peppol BIS kræver den, når der ikke er angivet nogen ordrereference."
+      ],
+      "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT.": [
+        "Fakturadatoen har ikke formatet ÅÅÅÅ-MM-DD."
+      ],
+      "Es fehlen Rechnungspositionen oder ein Betrag.": [
+        "Der mangler fakturalinjer eller et beløb."
+      ],
+      "Ein Betrag ist keine Zahl.": [
+        "Et beløb er ikke et tal."
+      ],
+      "Eine Position hat keine Bezeichnung.": [
+        "En linje mangler beskrivelse."
+      ],
+      "Ein Steuersatz ist negativ.": [
+        "En skattesats er negativ."
+      ],
+      "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen.": [
+        "Fakturatypekoden står ikke på Peppols liste over fakturaer."
+      ],
+      "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt.": [
+        "En kreditnota (type 381) kræver UBL-syntaksen CreditNote, som denne generator ikke opretter."
+      ],
+      "Der Währungscode muss aus drei Großbuchstaben bestehen.": [
+        "Valutakoden skal bestå af tre store bogstaver."
+      ],
+      "Die Peppol-ID des Verkäufers fehlt.": [
+        "Sælgers Peppol-ID mangler."
+      ],
+      "Der Name des Verkäufers fehlt.": [
+        "Sælgers navn mangler."
+      ],
+      "Die Straße des Verkäufers fehlt.": [
+        "Sælgers gade mangler."
+      ],
+      "Der Ort des Verkäufers fehlt.": [
+        "Sælgers by mangler."
+      ],
+      "Die Postleitzahl des Verkäufers fehlt.": [
+        "Sælgers postnummer mangler."
+      ],
+      "Das Land des Verkäufers fehlt.": [
+        "Sælgers land mangler."
+      ],
+      "Die USt-IdNr. des Verkäufers fehlt.": [
+        "Sælgers momsnummer mangler."
+      ],
+      "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Sælgers Peppol-ID har ikke formen skema:identifikator (firecifret skema)."
+      ],
+      "Das Land des Verkäufers muss ein zweistelliger Ländercode sein.": [
+        "Sælgers land skal være en tobogstavslandekode."
+      ],
+      "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Sælgers momsnummer starter ikke med en tobogstavslandekode."
+      ],
+      "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers.": [
+        "Sælgers IBAN mangler ved betaling via bankoverførsel."
+      ],
+      "Die Peppol-ID des Käufers fehlt.": [
+        "Købers Peppol-ID mangler."
+      ],
+      "Der Name des Käufers fehlt.": [
+        "Købers navn mangler."
+      ],
+      "Das Land des Käufers fehlt.": [
+        "Købers land mangler."
+      ],
+      "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Købers Peppol-ID har ikke formen skema:identifikator (firecifret skema)."
+      ],
+      "Das Land des Käufers muss ein zweistelliger Ländercode sein.": [
+        "Købers land skal være en tobogstavslandekode."
+      ],
+      "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Købers momsnummer starter ikke med en tobogstavslandekode."
+      ],
+      "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null.": [
+        "En linje eller et tillæg/fradrag i momskategori S har ikke en sats over nul."
+      ],
+      "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen.": [
+        "Filen er ikke velformet XML; intet kan kontrolleres før regelkontrollen."
+      ],
+      "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt.": [
+        "Peppol: Ordren har et Leitweg-ID, men intet Peppol-modtager-ID; der blev ikke oprettet nogen e-faktura."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab.": [
+        "Peppol: E-faktura ikke oprettet. Ordretotal %1$s og fakturatotal %2$s afviger med mere end afrundingen."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. %s": [
+        "Peppol: E-faktura ikke oprettet. %s"
+      ],
+      "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden.": [
+        "Peppol: Den oprettede e-faktura kunne ikke gemmes."
+      ],
+      "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant.": [
+        "Peppol: E-faktura %s oprettet; afsendelse er planlagt."
+      ],
+      "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert.": [
+        "Peppol: E-faktura %s oprettet og gemt, ikke sendt: KoSIT-validator og Phase4-tjeneste er ikke konfigureret."
+      ],
+      "EN 16931: %1$d fatale Regelbefunde (%2$s).": [
+        "EN 16931: %1$d fatale regelfund (%2$s)."
+      ],
+      "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen.": [
+        "Peppol: EN 16931-regelkontrollen melder %1$d fatale fund (%2$s). Sendes alligevel; sæt \"wm_peppol_schematron_gate\" til 1 for at blokere."
+      ],
+      "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung.": [
+        "Peppol: E-faktura %1$s overdraget til Phase4-tjenesten (messageId %2$s). Den er først leveret ved modtagelseskvittering."
+      ],
+      "Gebühr": [
+        "Gebyr"
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab.": [
+        "Peppol: E-faktura ikke oprettet. \"%s\" er beregnet uden moms; momsfritagelser understøttes ikke."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze.": [
+        "Peppol: E-faktura ikke oprettet. \"%s\" har flere momssatser."
+      ],
+      "Peppol: E-Rechnung %1$s nicht versendet. %2$s": [
+        "Peppol: E-faktura %1$s ikke sendt. %2$s"
+      ],
+      "Peppol-E-Rechnung": [
+        "Peppol e-faktura"
+      ],
+      "Peppol-Empfänger-ID (Schema:Kennung)": [
+        "Peppol-modtager-ID (skema:identifikator)"
+      ],
+      "Leitweg-ID (öffentliche Auftraggeber)": [
+        "Leitweg-ID (offentlige ordregivere)"
+      ],
+      "Käuferreferenz (wenn keine Leitweg-ID)": [
+        "Køberreference (hvis intet Leitweg-ID)"
+      ],
+      "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert.": [
+        "Leitweg-ID opfylder ikke KoSIT-specifikationen eller kontrolcifrene stemmer ikke; ikke gemt."
+      ],
+      "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert.": [
+        "Peppol-modtager-ID har ikke formen skema:identifikator med firecifret skema; ikke gemt."
+      ],
+      "Portal-Darstellung": [
+        "Portalvisning"
+      ],
+      "Überschrift anzeigen": [
+        "Vis overskrift"
+      ],
+      "Einleitungstext anzeigen": [
+        "Vis indledningstekst"
+      ],
+      "block title\u0004Peppol-Rechnungsstatus-Portal": [
+        "Peppol-fakturastatusportal"
+      ],
+      "block description\u0004Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID.": [
+        "Offentlig statusportal til opslag af gemte Peppol e-fakturaer ud fra fakturanummer og Peppol-ID."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004invoice": [
+        "faktura"
+      ],
+      "block keyword\u0004e-rechnung": [
+        "e-faktura"
+      ],
+      "block keyword\u0004ubl": [
+        "ubl"
+      ],
+      "block keyword\u0004status": [
+        "status"
+      ]
+    }
+  }
+}

@@ -1,0 +1,744 @@
+{
+  "translation-revision-date": "2026-11-21T15:24:44+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-peppol-as4-gateway",
+        "lang": "ar",
+        "plural-forms": "nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);"
+      },
+      "WM Peppol AS4 Gateway": [
+        "WM Peppol AS4 Gateway"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+      ],
+      "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst.": [
+        "ينشئ فواتير UBL 2.1 وفق معيار Peppol BIS Billing 3.0، ويتحقق منها مقابل مجموعة قواعد EN 16931 الرسمية، ويبحث عن المستلم عبر SML وSMP، ويسلّم فواتير طلبات WooCommerce المكتملة إلى مدقق KoSIT وخدمة Phase4 المهيأين، ويتحقق من إيصال AS4 الموقّع ويعرض للمشترين الحالة المخزنة. لا يوجد نقل AS4 داخلي: تتولى Phase4 ذلك."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Unbekannte Spoke-Aktion \"%s\".": [
+        "إجراء وحدة فرعية غير معروف \"%s\"."
+      ],
+      "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s).": [
+        "الاختبار الذاتي غير متاح: بيانات البائع ناقصة (%s)."
+      ],
+      "Testdokument von den Strukturprüfungen abgelehnt: %s": [
+        "رُفض مستند الاختبار بواسطة الفحوصات البنيوية: %s"
+      ],
+      "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung.": [
+        "تم إنشاء مستند الاختبار (%d بايت) وقبوله بواسطة الفحوصات البنيوية للإضافة. لم يُحفظ ولم يُرسل، دون فحص مخطط أو Schematron."
+      ],
+      "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren.": [
+        "جداول قاعدة بيانات الإضافة مفقودة. يرجى تعطيل الإضافة ثم إعادة تفعيلها."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden.": [
+        "بيانات البائع غير مكتملة: لا يمكن إنشاء فاتورة إلكترونية."
+      ],
+      "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert.": [
+        "بيانات البائع مكتملة. تم تكوين مدقق KoSIT وخدمة Phase4."
+      ],
+      "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert.": [
+        "بيانات البائع مكتملة. الإرسال غير مهيأ: يتم تخزين الفواتير فقط."
+      ],
+      "Gespeicherte Rechnungen": [
+        "الفواتير المخزنة"
+      ],
+      "Übergaben an Phase4": [
+        "التسليمات إلى Phase4"
+      ],
+      "Empfangsquittungen": [
+        "إيصالات الاستلام"
+      ],
+      "Peppol Gateway öffnen": [
+        "فتح Peppol Gateway"
+      ],
+      "Peppol Gateway": [
+        "Peppol Gateway"
+      ],
+      "%d Beispielrechnung angelegt.": [
+        "تم إنشاء %d فاتورة تجريبية.",
+        "تم إنشاء %d فاتورة تجريبية.",
+        "تم إنشاء %d فاتورتين تجريبيتين.",
+        "تم إنشاء %d فواتير تجريبية.",
+        "تم إنشاء %d فاتورة تجريبية.",
+        "تم إنشاء %d فاتورة تجريبية."
+      ],
+      "%d Beispielrechnung entfernt.": [
+        "تمت إزالة %d فاتورة تجريبية.",
+        "تمت إزالة %d فاتورة تجريبية.",
+        "تمت إزالة %d فاتورتين تجريبيتين.",
+        "تمت إزالة %d فواتير تجريبية.",
+        "تمت إزالة %d فاتورة تجريبية.",
+        "تمت إزالة %d فاتورة تجريبية."
+      ],
+      "Übersicht": [
+        "نظرة عامة"
+      ],
+      "Rechnung erzeugen": [
+        "إنشاء فاتورة"
+      ],
+      "Einstellungen": [
+        "الإعدادات"
+      ],
+      "Was das Plugin tut": [
+        "ما الذي تفعله الإضافة"
+      ],
+      "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben.": [
+        "إنشاء وحفظ فواتير UBL 2.1 وفق Peppol BIS Billing 3.0 وتسليمها إلى خدمة Phase4 مهيأة."
+      ],
+      "Part of the WM Suite plugin family": [
+        "جزء من عائلة إضافات WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "مستقل"
+      ],
+      "Bereiche": [
+        "الأقسام"
+      ],
+      "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet.": [
+        "تم إنشاء الفاتورة الإلكترونية وحفظها. لا يتم إرسالها عبر هذا النموذج."
+      ],
+      "Die E-Rechnung wurde nicht erzeugt.": [
+        "لم يتم إنشاء الفاتورة الإلكترونية."
+      ],
+      "Eine Rechnung mit dieser Nummer ist bereits gespeichert.": [
+        "توجد فاتورة مخزنة بهذا الرقم مسبقاً."
+      ],
+      "Die Rechnung wurde erzeugt, aber nicht gespeichert.": [
+        "تم إنشاء الفاتورة ولكن تعذر حفظها."
+      ],
+      "Einstellungen gespeichert.": [
+        "تم حفظ الإعدادات."
+      ],
+      "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet.": [
+        "الفواتير التجريبية مميزة كأمثلة ولا تُعرض في بوابة الحالة العامة."
+      ],
+      "Beispielrechnungen entfernt.": [
+        "تمت إزالة الفواتير التجريبية."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s": [
+        "بيانات البائع غير مكتملة: لا يمكن إنشاء فاتورة إلكترونية. %s"
+      ],
+      "Zu den Einstellungen": [
+        "الانتقال إلى الإعدادات"
+      ],
+      "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben.": [
+        "الإرسال غير مهيأ: تُحفظ الفواتير المنشأة دون تسليمها."
+      ],
+      "ohne %d Beispielrechnungen": [
+        "باستثناء %d فواتير تجريبية"
+      ],
+      "mit messageId": [
+        "مع messageId"
+      ],
+      "positiv, per Webhook": [
+        "إيجابي، عبر webhook"
+      ],
+      "Verkäuferdaten": [
+        "بيانات البائع"
+      ],
+      "vollständig": [
+        "مكتملة"
+      ],
+      "für die Rechnungserzeugung": [
+        "لإنشاء الفواتير"
+      ],
+      "Angaben fehlen": [
+        "بيانات ناقصة"
+      ],
+      "Rechnungen": [
+        "الفواتير"
+      ],
+      "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status.": [
+        "آخر 50 فاتورة مخزنة مع حالتها المسجلة."
+      ],
+      "Rechnungsnummer": [
+        "رقم الفاتورة"
+      ],
+      "Peppol-ID des Käufers": [
+        "معرّف Peppol للمشتري"
+      ],
+      "Zahlbetrag": [
+        "المبلغ المستحق"
+      ],
+      "Status": [
+        "الحالة"
+      ],
+      "Rechnungsdatum": [
+        "تاريخ الفاتورة"
+      ],
+      "Noch keine Rechnungen gespeichert.": [
+        "لا توجد فواتير مخزنة بعد."
+      ],
+      "Beispielrechnungen": [
+        "فواتير تجريبية"
+      ],
+      "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen.": [
+        "الفواتير التجريبية لا تحتوي على XML ولا تُحتسب كفواتير ولا تظهر في البوابة العامة. يحذف الإزالة هذه الصفوف فقط بما في ذلك الصفوف الثلاثة من الإصدارات السابقة."
+      ],
+      "Beispielrechnungen anlegen": [
+        "إنشاء فواتير تجريبية"
+      ],
+      "%d Beispielrechnung entfernen": [
+        "إزالة %d فاتورة تجريبية",
+        "إزالة %d فاتورة تجريبية",
+        "إزالة %d فاتورتين تجريبيتين",
+        "إزالة %d فواتير تجريبية",
+        "إزالة %d فاتورة تجريبية",
+        "إزالة %d فاتورة تجريبية"
+      ],
+      "Beispiel": [
+        "مثال"
+      ],
+      "Erzeugt, nicht versendet": [
+        "تم الإنشاء، لم تُرسل"
+      ],
+      "An Phase4 übergeben": [
+        "سُلّمت إلى Phase4"
+      ],
+      "Zugestellt (Quittung)": [
+        "تم التسليم (إيصال)"
+      ],
+      "Zustellung fehlgeschlagen": [
+        "فشل التسليم"
+      ],
+      "Versand fehlgeschlagen": [
+        "فشل الإرسال"
+      ],
+      "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s": [
+        "لن يتم إنشاء أي فاتورة بدون بيانات البائع الكاملة. %s"
+      ],
+      "Käuferreferenz (BT-10), z. B. die Leitweg-ID": [
+        "مرجع المشتري (BT-10)، مثل Leitweg-ID"
+      ],
+      "Name des Käufers": [
+        "اسم المشتري"
+      ],
+      "Straße": [
+        "الشارع"
+      ],
+      "Postleitzahl": [
+        "الرمز البريدي"
+      ],
+      "Ort": [
+        "المدينة"
+      ],
+      "Land (zweistelliger Code)": [
+        "الدولة (رمز من حرفين)"
+      ],
+      "Peppol-ID des Käufers (Schema:Kennung)": [
+        "معرّف Peppol للمشتري (المخطط:المعرّف)"
+      ],
+      "USt-IdNr. des Käufers (optional)": [
+        "الرقم الضريبي للمشتري (اختياري)"
+      ],
+      "Bezeichnung der Leistung": [
+        "وصف الخدمة أو البند"
+      ],
+      "Menge": [
+        "الكمية"
+      ],
+      "Nettopreis je Einheit": [
+        "السعر الصافي للوحدة"
+      ],
+      "Umsatzsteuersatz in Prozent": [
+        "نسبة ضريبة القيمة المضافة بالمئة"
+      ],
+      "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen.": [
+        "ينشئ فاتورة UBL ببند واحد ويحفظها. لا يُرسل شيء؛ تأتي بيانات البائع من الإعدادات."
+      ],
+      "Rechnung erzeugen und speichern": [
+        "إنشاء وحفظ الفاتورة"
+      ],
+      "Peppol-ID des Verkäufers (Schema:Kennung)": [
+        "معرّف Peppol للبائع (المخطط:المعرّف)"
+      ],
+      "Name": [
+        "الاسم"
+      ],
+      "Rechtlicher Name (leer: wie Name)": [
+        "الاسم القانوني (فارغ: مطابق للاسم)"
+      ],
+      "USt-IdNr.": [
+        "الرقم الضريبي"
+      ],
+      "Registernummer (optional)": [
+        "رقم السجل التجاري (اختياري)"
+      ],
+      "IBAN für Zahlung per Überweisung": [
+        "رقم IBAN للدفع عبر التحويل البنكي"
+      ],
+      "Verkäufer": [
+        "البائع"
+      ],
+      "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung.": [
+        "تظهر هذه البيانات في كل فاتورة يتم إنشاؤها. إذا نقص حقل إلزامي فلن تنشئ الإضافة فاتورة."
+      ],
+      "Versand": [
+        "الإرسال"
+      ],
+      "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang.": [
+        "كلتا الخدمتين برنامجان مستقلان خارج الإضافة. طالما ينقص أحد العنوانين فلن يُرسل شيء. الثوابت WM_PEPPOL_KOSIT_URL وWM_PEPPOL_PHASE4_URL في wp-config.php لها الأولوية."
+      ],
+      "Adresse des KoSIT-Validators": [
+        "عنوان مدقق KoSIT"
+      ],
+      "Adresse des Phase4-Dienstes": [
+        "عنوان خدمة Phase4"
+      ],
+      "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen.": [
+        "تم تعيين سر مشترك؛ تُقبل الإيصالات ذات التوقيع الصالح."
+      ],
+      "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret.": [
+        "لم يتم تعيين سر مشترك؛ تُرفض جميع الإيصالات. عيّنه عبر WM_PEPPOL_RECEIPT_SECRET أو wp option update wm_peppol_receipt_secret."
+      ],
+      "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)": [
+        "بصمات الشهادات المسموح بها لإيصالات AS4 (SHA-256، اختياري)"
+      ],
+      "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang.": [
+        "بصمات SHA-256 من 64 حرفًا مفصولة بفواصل لشهادات التوقيع المتوقعة لنقطة الوصول. للثابت WM_PEPPOL_TRUSTED_SIGNER_SHA256 في wp-config.php الأولوية."
+      ],
+      "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)": [
+        "حزمة شهادات CA محلية بتنسيق PEM (OpenPeppol PKI، اختياري)"
+      ],
+      "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang.": [
+        "شهادة جذر أو شهادة وسيطة موثوقة واحدة أو أكثر بتنسيق PEM للتحقق من السلسلة محليًا فقط دون الوصول إلى الشبكة. للثابتين WM_PEPPOL_TRUST_BUNDLE_PEM و WM_PEPPOL_TRUST_BUNDLE_FILE الأولوية."
+      ],
+      "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen": [
+        "رفض إيصالات AS4 إذا لم تُحفظ بصمة أو حزمة شهادات CA"
+      ],
+      "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen.": [
+        "عند التفعيل، أو عند ضبطه بالثابت WM_PEPPOL_REQUIRE_TRUST_ANCHOR، تُرفض الإيصالات ذاتية التوقيع أو غير المرتبطة بمرساة ثقة برمز HTTP 422."
+      ],
+      "Deinstallation": [
+        "إلغاء التثبيت"
+      ],
+      "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen": [
+        "حذف جميع خيارات الإضافة والجداول الثلاثة نهائياً عند إلغاء تثبيت الإضافة"
+      ],
+      "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird.": [
+        "افتراضياً، يتم الاحتفاظ بجميع الفواتير المخزنة وعمليات الإرسال وسجل الإيصالات والإعدادات عند إزالة الإضافة."
+      ],
+      "Einstellungen speichern": [
+        "حفظ الإعدادات"
+      ],
+      "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz.": [
+        "ينشئ فواتير UBL 2.1 بمعرّف مواصفة Peppol BIS Billing 3.0 وتفصيل ضريبة القيمة المضافة حسب الفئة والنسبة."
+      ],
+      "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen.": [
+        "يرفض إنشاء فاتورة عند نقص البيانات الإلزامية بدلاً من اختلاقها."
+      ],
+      "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung.": [
+        "يفحص الحقول الإلزامية والرموز وقواعد المجاميع. هذا ليس فحص XSD ولا Schematron."
+      ],
+      "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an.": [
+        "يسلّم فواتير طلبات WooCommerce المكتملة إلى مدقق KoSIT وخدمة Phase4 عند تهيئتهما ويقبل الإيصالات الموقعة."
+      ],
+      "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung.": [
+        "يعرض للمشترين الحالة المخزنة للفاتورة في بوابة الحالة."
+      ],
+      "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst.": [
+        "لا يوجد نقل أو توقيع أو تشفير AS4 داخلي: تتولى خدمة Phase4 ذلك."
+      ],
+      "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen.": [
+        "لا توجد إشعارات دائنة بصيغة UBL CreditNote ولا إعفاءات ضريبية."
+      ],
+      "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde.": [
+        "لا يوجد أرشيف تصدير: تُحفظ الفواتير وسجل الإيصالات افتراضياً عند إلغاء التثبيت ولا تُحذف إلا عند تفعيل ذلك صراحة في الإعدادات."
+      ],
+      "Was es nicht tut": [
+        "ما لا تفعله"
+      ],
+      "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut.": [
+        "طلبات كثيرة جداً من هذا العنوان. يرجى المحاولة لاحقاً."
+      ],
+      "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich.": [
+        "رقم الفاتورة ومعرّف Peppol للمشتري مطلوبان."
+      ],
+      "Zu diesen Angaben liegt keine Rechnung vor.": [
+        "لا توجد فاتورة مطابقة لهذه البيانات."
+      ],
+      "Der Anfragekörper muss ein JSON-Objekt sein.": [
+        "يجب أن يكون محتوى الطلب كائن JSON."
+      ],
+      "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt.": [
+        "الصف %d لا يشير إلى الصف السابق: تمت إزالة صف أو إدراجه."
+      ],
+      "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln.": [
+        "تم تعديل الصف %d بعد الكتابة، أو تعود قاعدة البيانات إلى تثبيت بمفاتيح مختلفة."
+      ],
+      "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast.": [
+        "يتجاوز حجم الإيصال %d بايت؛ إيصال AS4 هو إشارة وليس حمولة بيانات."
+      ],
+      "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage.": [
+        "لا يحتوي المستند على eb:Receipt داخل eb:SignalMessage."
+      ],
+      "Die Quittung enthält kein prüfbares Signaturzertifikat.": [
+        "لا يحتوي الإيصال على شهادة توقيع قابلة للتحقق."
+      ],
+      "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden.": [
+        "لا يحمل الإيصال توقيع XML. يجب الرد على رسالة AS4 الموقعة بإيصال موقّع."
+      ],
+      "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt.": [
+        "التوقيع غير مكتمل: العنصر ds:SignedInfo أو ds:SignatureValue مفقود."
+      ],
+      "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar.": [
+        "لا يذكر التوقيع شهادة X.509؛ وبدون المفتاح العام يتعذر التحقق منه."
+      ],
+      "Signaturverfahren %s wird von dieser Installation nicht geprüft.": [
+        "خوارزمية التوقيع %s غير مدعومة للتحقق في هذا التثبيت."
+      ],
+      "Das X.509-Zertifikat der Signatur ist nicht lesbar.": [
+        "تعذر قراءة شهادة X.509 الخاصة بالتوقيع."
+      ],
+      "OpenSSL konnte die Signatur nicht prüfen.": [
+        "تعذر على OpenSSL التحقق من التوقيع."
+      ],
+      "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt.": [
+        "التوقيع لا يطابق محتوى الإيصال: تم تعديله بعد التوقيع أو أُنشئ بمفتاح آخر."
+      ],
+      "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert.": [
+        "التوقيع نفسه صالح، لكن %1$d فقط من أصل %2$d من البصمات تطابق المحتوى: تم تعديل الإيصال بعد التوقيع."
+      ],
+      "Das X.509-Zertifikat der Quittung ist abgelaufen.": [
+        "انتهت صلاحية شهادة X.509 الخاصة بالإيصال."
+      ],
+      "Das X.509-Zertifikat der Quittung ist noch nicht gültig.": [
+        "شهادة X.509 الخاصة بالإيصال ليست صالحة بعد."
+      ],
+      "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird.": [
+        "لم تُحفظ بصمة شهادة ولا حزمة شهادات CA، رغم أن التحقق من مرساة الثقة إلزامي."
+      ],
+      "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel.": [
+        "شهادة توقيع الإيصال لا تطابق أي بصمة SHA-256 محفوظة ولا أي حزمة شهادات CA موثوقة."
+      ],
+      "Die Quittung ist kein wohlgeformtes XML.": [
+        "الإيصال ليس ملف XML سليم البنية."
+      ],
+      "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d).": [
+        "لم يقبل مدقق KoSIT المستند (HTTP %d)."
+      ],
+      "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung.": [
+        "معرّف المرسل أو المستلم ليس بالصيغة المخطط:المعرّف."
+      ],
+      "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d).": [
+        "رفضت خدمة Phase4 الإرسال (HTTP %d)."
+      ],
+      "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen.": [
+        "لم تُرجع خدمة Phase4 قيمة messageId؛ وبدونها لا يمكن ربط إيصال الاستلام."
+      ],
+      "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet.": [
+        "مدقق KoSIT وخدمة Phase4 غير مهيأين؛ لن يتم إرسال أي شيء."
+      ],
+      "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete.": [
+        "الإيصال موقّع بشكل صالح، لكنه يشير إلى مستند آخر غير المستند المرسل."
+      ],
+      "Peppol: Positive Empfangsquittung für messageId %s erhalten.": [
+        "Peppol: تم استلام إيصال استلام إيجابي للرسالة messageId %s."
+      ],
+      "Peppol-Empfangsquittung erhalten.": [
+        "تم استلام إيصال Peppol."
+      ],
+      "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s": [
+        "Peppol: فشل الإرسال (messageId %1$s): %2$s"
+      ],
+      "ohne Fehlerbeschreibung": [
+        "دون وصف للخطأ"
+      ],
+      "Peppol-Versand fehlgeschlagen.": [
+        "فشل إرسال Peppol."
+      ],
+      "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s": [
+        "تعذر تقييم هذه القواعد ولا تُعد مستوفاة ولا منتهكة: %s"
+      ],
+      "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s.": [
+        "تعذر تفعيل WM Peppol AS4 Gateway لأن إضافات PHP المطلوبة التالية مفقودة على هذا الخادم: %s."
+      ],
+      "Fehlende PHP-Erweiterung": [
+        "إضافة PHP مفقودة"
+      ],
+      "Kein Peppol-Teilnehmerbezeichner angegeben.": [
+        "لم يتم تقديم معرّف مشارك Peppol."
+      ],
+      "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789.": [
+        "المعرّف \"%s\" ليس بالصيغة <مخطط EAS من أربعة أرقام>:<معرّف>، مثل 9930:DE123456789."
+      ],
+      "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen.": [
+        "يحتوي مخطط المعرّف على أحرف غير مسموح بها في اسم DNS."
+      ],
+      "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen.": [
+        "لا يوجد سجل NAPTR لـ %s: المشارك غير مسجل في نطاق SML هذا أو لا يجيب المحلل عن استعلامات NAPTR."
+      ],
+      "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL).": [
+        "سجل NAPTR الخاص بـ %s لا يسمي أي SMP (خدمة \"Meta:SMP\" مع عنوان URL)."
+      ],
+      "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen.": [
+        "يعرف SMP المشارك %1$s ولكن ليس لنوع المستند %2$s: هذا المستلم لا يقبل هذا المستند."
+      ],
+      "Der SMP antwortete mit HTTP %1$d auf %2$s.": [
+        "أجاب SMP برمز HTTP %1$d على %2$s."
+      ],
+      "Der SMP lieferte einen leeren Körper.": [
+        "أعاد SMP محتوى فارغاً."
+      ],
+      "Die Antwort des SMP ist kein wohlgeformtes XML.": [
+        "استجابة SMP ليست XML سليم البنية."
+      ],
+      "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s.": [
+        "لا تحتوي استجابة SMP على نقطة نهاية بملف النقل %s."
+      ],
+      "Peppol-Gateway-Status": [
+        "حالة Peppol Gateway"
+      ],
+      "Tabellen des Plugins fehlen": [
+        "جداول الإضافة مفقودة"
+      ],
+      "KoSIT-Validator und Phase4-Dienst konfiguriert": [
+        "مدقق KoSIT وخدمة Phase4 مهيآن"
+      ],
+      "Versand nicht konfiguriert": [
+        "الإرسال غير مهيأ"
+      ],
+      "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen": [
+        "%1$d فواتير مخزنة، %2$d إيصالات استلام"
+      ],
+      "Status wird abgefragt …": [
+        "جاري الاستعلام عن الحالة …"
+      ],
+      "Rechnung gefunden": [
+        "تم العثور على الفاتورة"
+      ],
+      "Die Abfrage ist fehlgeschlagen.": [
+        "فشل الاستعلام."
+      ],
+      "Gespeicherter Status": [
+        "الحالة المخزنة"
+      ],
+      "Übergabe an Phase4": [
+        "التسليم إلى Phase4"
+      ],
+      "keine Übergabe erfasst": [
+        "لم يُسجل أي تسليم"
+      ],
+      "Empfangsquittung": [
+        "إيصال الاستلام"
+      ],
+      "liegt vor": [
+        "متوفر"
+      ],
+      "liegt nicht vor": [
+        "غير متوفر"
+      ],
+      "Fehlercode der Übertragung": [
+        "رمز خطأ النقل"
+      ],
+      "SHA-256 des gespeicherten XML": [
+        "بصمة SHA-256 لملف XML المخزن"
+      ],
+      "Rechnungsstatus abfragen": [
+        "الاستعلام عن حالة الفاتورة"
+      ],
+      "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten.": [
+        "أدخل رقم الفاتورة ومعرّف Peppol الخاص بك. تُعرض الحالة المخزنة في هذا النظام. لا يتم التحقق من المستند وفق EN 16931 ولا يُتاح للتنزيل هنا."
+      ],
+      "Ihre Peppol-ID": [
+        "معرّف Peppol الخاص بك"
+      ],
+      "Schema:Kennung": [
+        "المخطط:المعرّف"
+      ],
+      "Status abfragen": [
+        "استعلام عن الحالة"
+      ],
+      "Die Rechnungsnummer fehlt.": [
+        "رقم الفاتورة مفقود."
+      ],
+      "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist.": [
+        "مرجع المشتري (BT-10) مفقود؛ يشترطه Peppol BIS ما لم يذكر مرجع طلب."
+      ],
+      "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT.": [
+        "تاريخ الفاتورة ليس بالصيغة YYYY-MM-DD."
+      ],
+      "Es fehlen Rechnungspositionen oder ein Betrag.": [
+        "بنود الفاتورة أو المبلغ مفقود."
+      ],
+      "Ein Betrag ist keine Zahl.": [
+        "أحد المبالغ ليس رقماً."
+      ],
+      "Eine Position hat keine Bezeichnung.": [
+        "أحد البنود بلا تسمية."
+      ],
+      "Ein Steuersatz ist negativ.": [
+        "نسبة الضريبة سالبة."
+      ],
+      "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen.": [
+        "رمز نوع الفاتورة غير موجود في قائمة فواتير Peppol."
+      ],
+      "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt.": [
+        "يتطلب الإشعار الدائن (النوع 381) صياغة UBL CreditNote التي لا ينتجها هذا المولّد."
+      ],
+      "Der Währungscode muss aus drei Großbuchstaben bestehen.": [
+        "يجب أن يتكون رمز العملة من ثلاثة أحرف كبيرة."
+      ],
+      "Die Peppol-ID des Verkäufers fehlt.": [
+        "معرّف Peppol للبائع مفقود."
+      ],
+      "Der Name des Verkäufers fehlt.": [
+        "اسم البائع مفقود."
+      ],
+      "Die Straße des Verkäufers fehlt.": [
+        "شارع البائع مفقود."
+      ],
+      "Der Ort des Verkäufers fehlt.": [
+        "مدينة البائع مفقودة."
+      ],
+      "Die Postleitzahl des Verkäufers fehlt.": [
+        "الرمز البريدي للبائع مفقود."
+      ],
+      "Das Land des Verkäufers fehlt.": [
+        "دولة البائع مفقودة."
+      ],
+      "Die USt-IdNr. des Verkäufers fehlt.": [
+        "الرقم الضريبي للبائع مفقود."
+      ],
+      "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "معرّف Peppol للبائع ليس بالصيغة المخطط:المعرّف (مخطط رباعي الأرقام)."
+      ],
+      "Das Land des Verkäufers muss ein zweistelliger Ländercode sein.": [
+        "يجب أن تكون دولة البائع رمز دولة من حرفين."
+      ],
+      "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "الرقم الضريبي للبائع لا يبدأ برمز دولة من حرفين."
+      ],
+      "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers.": [
+        "رقم IBAN للبائع مفقود للدفع بالتحويل البنكي."
+      ],
+      "Die Peppol-ID des Käufers fehlt.": [
+        "معرّف Peppol للمشتري مفقود."
+      ],
+      "Der Name des Käufers fehlt.": [
+        "اسم المشتري مفقود."
+      ],
+      "Das Land des Käufers fehlt.": [
+        "دولة المشتري مفقودة."
+      ],
+      "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "معرّف Peppol للمشتري ليس بالصيغة المخطط:المعرّف (مخطط رباعي الأرقام)."
+      ],
+      "Das Land des Käufers muss ein zweistelliger Ländercode sein.": [
+        "يجب أن تكون دولة المشتري رمز دولة من حرفين."
+      ],
+      "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "الرقم الضريبي للمشتري لا يبدأ برمز دولة من حرفين."
+      ],
+      "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null.": [
+        "بند أو خصم/رسوم من الفئة الضريبية S لا يحمل نسبة أكبر من الصفر."
+      ],
+      "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen.": [
+        "الملف ليس XML سليم البنية؛ لا يوجد ما يُفحص قبل فحص القواعد."
+      ],
+      "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt.": [
+        "Peppol: يحتوي الطلب على Leitweg-ID دون معرّف مستلم Peppol؛ لم تُنشأ فاتورة إلكترونية."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab.": [
+        "Peppol: لم تُنشأ الفاتورة الإلكترونية. إجمالي الطلب %1$s وإجمالي الفاتورة %2$s يختلفان بأكثر من التقريب."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. %s": [
+        "Peppol: لم تُنشأ الفاتورة الإلكترونية. %s"
+      ],
+      "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden.": [
+        "Peppol: تعذر حفظ الفاتورة الإلكترونية المنشأة."
+      ],
+      "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant.": [
+        "Peppol: تم إنشاء الفاتورة الإلكترونية %s؛ وجُدول الإرسال."
+      ],
+      "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert.": [
+        "Peppol: تم إنشاء وحفظ الفاتورة الإلكترونية %s دون إرسال: KoSIT وPhase4 غير مهيأين."
+      ],
+      "EN 16931: %1$d fatale Regelbefunde (%2$s).": [
+        "EN 16931: %1$d مخالفات حرجة للقواعد (%2$s)."
+      ],
+      "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen.": [
+        "Peppol: يبلغ فحص EN 16931 عن %1$d مخالفات حرجة (%2$s). سيتم الإرسال رغم ذلك؛ اضبط \"wm_peppol_schematron_gate\" على 1 للحظر."
+      ],
+      "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung.": [
+        "Peppol: سُلّمت الفاتورة الإلكترونية %1$s إلى Phase4 (messageId %2$s). لا يُعد التسليم مكتملاً إلا بإيصال الاستلام."
+      ],
+      "Gebühr": [
+        "رسوم"
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab.": [
+        "Peppol: لم تُنشأ الفاتورة الإلكترونية. \"%s\" بدون ضريبة قيمة مضافة؛ الإضافة لا تمثّل الإعفاءات الضريبية."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze.": [
+        "Peppol: لم تُنشأ الفاتورة الإلكترونية. يحمل \"%s\" عدة نسب ضريبية."
+      ],
+      "Peppol: E-Rechnung %1$s nicht versendet. %2$s": [
+        "Peppol: لم تُرسل الفاتورة الإلكترونية %1$s. %2$s"
+      ],
+      "Peppol-E-Rechnung": [
+        "فاتورة Peppol الإلكترونية"
+      ],
+      "Peppol-Empfänger-ID (Schema:Kennung)": [
+        "معرّف مستلم Peppol (المخطط:المعرّف)"
+      ],
+      "Leitweg-ID (öffentliche Auftraggeber)": [
+        "Leitweg-ID (الجهات الحكومية)"
+      ],
+      "Käuferreferenz (wenn keine Leitweg-ID)": [
+        "مرجع المشتري (عند عدم وجود Leitweg-ID)"
+      ],
+      "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert.": [
+        "لا يطابق Leitweg-ID مواصفة KoSIT أو رقم التحقق غير صحيح؛ لم يُحفظ."
+      ],
+      "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert.": [
+        "معرّف مستلم Peppol ليس بالصيغة الرباعية المخطط:المعرّف؛ لم يُحفظ."
+      ],
+      "Portal-Darstellung": [
+        "عرض البوابة"
+      ],
+      "Überschrift anzeigen": [
+        "إظهار العنوان"
+      ],
+      "Einleitungstext anzeigen": [
+        "إظهار النص التمهيدي"
+      ],
+      "block title\u0004Peppol-Rechnungsstatus-Portal": [
+        "بوابة حالة فواتير Peppol"
+      ],
+      "block description\u0004Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID.": [
+        "بوابة عامة للاستعلام عن فواتير Peppol الإلكترونية المخزنة باستخدام رقم الفاتورة ومعرّف Peppol."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004invoice": [
+        "فاتورة"
+      ],
+      "block keyword\u0004e-rechnung": [
+        "فاتورة-إلكترونية"
+      ],
+      "block keyword\u0004ubl": [
+        "ubl"
+      ],
+      "block keyword\u0004status": [
+        "الحالة"
+      ]
+    }
+  }
+}

@@ -1,0 +1,732 @@
+{
+  "translation-revision-date": "2026-11-21T15:24:44+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-peppol-as4-gateway",
+        "lang": "hu_HU",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM Peppol AS4 Gateway": [
+        "WM Peppol AS4 Gateway"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+      ],
+      "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst.": [
+        "Peppol BIS Billing 3.0 szerinti UBL 2.1 számlákat állít elő, ellenőrzi őket a hivatalos EN 16931 szabálykészlet alapján, feloldja a címzettet SML és SMP segítségével, átadja a teljesített WooCommerce-rendelések számláit a beállított KoSIT-validátornak és Phase4-szolgáltatásnak, ellenőrzi az aláírt AS4-nyugtát, és megjeleníti a vevőknek a tárolt állapotot. Saját AS4-továbbítás nincs: azt a Phase4 végzi."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Unbekannte Spoke-Aktion \"%s\".": [
+        "Ismeretlen modulművelet: \"%s\"."
+      ],
+      "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s).": [
+        "Önteszt nem lehetséges: hiányoznak az eladó adatai (%s)."
+      ],
+      "Testdokument von den Strukturprüfungen abgelehnt: %s": [
+        "A tesztdokumentumot a szerkezeti ellenőrzés elutasította: %s"
+      ],
+      "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung.": [
+        "Tesztdokumentum előállítva (%d bájt) és a bővítmény szerkezeti ellenőrzésén elfogadva. Nincs mentve, nincs elküldve, séma- vagy Schematron-ellenőrzés nélkül."
+      ],
+      "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren.": [
+        "Hiányoznak a bővítmény adatbázis-táblái. Kapcsolja ki, majd kapcsolja vissza a bővítményt."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden.": [
+        "Az eladó adatai hiányosak: nem állítható elő e-számla."
+      ],
+      "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert.": [
+        "Az eladó adatai teljesek. A KoSIT-validátor és a Phase4-szolgáltatás be van állítva."
+      ],
+      "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert.": [
+        "Az eladó adatai teljesek. A küldés nincs beállítva: a számlák csak tárolásra kerülnek."
+      ],
+      "Gespeicherte Rechnungen": [
+        "Tárolt számlák"
+      ],
+      "Übergaben an Phase4": [
+        "Átadások a Phase4-nek"
+      ],
+      "Empfangsquittungen": [
+        "Átvételi nyugták"
+      ],
+      "Peppol Gateway öffnen": [
+        "Peppol Gateway megnyitása"
+      ],
+      "Peppol Gateway": [
+        "Peppol Gateway"
+      ],
+      "%d Beispielrechnung angelegt.": [
+        "%d mintaszámla létrehozva.",
+        "%d mintaszámla létrehozva."
+      ],
+      "%d Beispielrechnung entfernt.": [
+        "%d mintaszámla eltávolítva.",
+        "%d mintaszámla eltávolítva."
+      ],
+      "Übersicht": [
+        "Áttekintés"
+      ],
+      "Rechnung erzeugen": [
+        "Számla létrehozása"
+      ],
+      "Einstellungen": [
+        "Beállítások"
+      ],
+      "Was das Plugin tut": [
+        "Mit csinál a bővítmény"
+      ],
+      "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben.": [
+        "UBL 2.1 számlák előállítása és tárolása Peppol BIS Billing 3.0 szerint, majd átadásuk egy beállított Phase4-szolgáltatásnak."
+      ],
+      "Part of the WM Suite plugin family": [
+        "A WM Suite bővítménycsalád része"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Önálló"
+      ],
+      "Bereiche": [
+        "Területek"
+      ],
+      "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet.": [
+        "Az e-számla elkészült és mentésre került. Ezen az űrlapon keresztül nem kerül elküldésre."
+      ],
+      "Die E-Rechnung wurde nicht erzeugt.": [
+        "Az e-számla nem készült el."
+      ],
+      "Eine Rechnung mit dieser Nummer ist bereits gespeichert.": [
+        "Ezzel a számmal már van tárolt számla."
+      ],
+      "Die Rechnung wurde erzeugt, aber nicht gespeichert.": [
+        "A számla elkészült, de nem sikerült menteni."
+      ],
+      "Einstellungen gespeichert.": [
+        "Beállítások mentve."
+      ],
+      "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet.": [
+        "A mintaszámlák mintaként vannak megjelölve, és a nyilvános állapotportálon nem jelennek meg."
+      ],
+      "Beispielrechnungen entfernt.": [
+        "Mintaszámlák eltávolítva."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s": [
+        "Az eladó adatai hiányosak: nem állítható elő e-számla. %s"
+      ],
+      "Zu den Einstellungen": [
+        "Ugrás a beállításokhoz"
+      ],
+      "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben.": [
+        "Küldés nincs beállítva: az előállított számlák tárolásra kerülnek, de nem kerülnek átadásra."
+      ],
+      "ohne %d Beispielrechnungen": [
+        "%d mintaszámla nélkül"
+      ],
+      "mit messageId": [
+        "messageId-vel"
+      ],
+      "positiv, per Webhook": [
+        "pozitív, webhookon"
+      ],
+      "Verkäuferdaten": [
+        "Eladó adatai"
+      ],
+      "vollständig": [
+        "teljes"
+      ],
+      "für die Rechnungserzeugung": [
+        "számlakiállításhoz"
+      ],
+      "Angaben fehlen": [
+        "adatok hiányoznak"
+      ],
+      "Rechnungen": [
+        "Számlák"
+      ],
+      "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status.": [
+        "Az utolsó 50 tárolt számla a rögzített állapotával."
+      ],
+      "Rechnungsnummer": [
+        "Számlaszám"
+      ],
+      "Peppol-ID des Käufers": [
+        "Vevő Peppol-azonosítója"
+      ],
+      "Zahlbetrag": [
+        "Fizetendő összeg"
+      ],
+      "Status": [
+        "Állapot"
+      ],
+      "Rechnungsdatum": [
+        "Számla kelte"
+      ],
+      "Noch keine Rechnungen gespeichert.": [
+        "Még nincs tárolt számla."
+      ],
+      "Beispielrechnungen": [
+        "Mintaszámlák"
+      ],
+      "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen.": [
+        "A mintaszámlák nem tartalmaznak XML-t, nem számítanak számlának, és a nyilvános állapotportálon nem jelennek meg. Az eltávolítás csak ezeket törli, beleértve a korábbi verziók három mintasorát is."
+      ],
+      "Beispielrechnungen anlegen": [
+        "Mintaszámlák létrehozása"
+      ],
+      "%d Beispielrechnung entfernen": [
+        "%d mintaszámla eltávolítása",
+        "%d mintaszámla eltávolítása"
+      ],
+      "Beispiel": [
+        "Minta"
+      ],
+      "Erzeugt, nicht versendet": [
+        "Előállítva, nincs elküldve"
+      ],
+      "An Phase4 übergeben": [
+        "Átadva a Phase4-nek"
+      ],
+      "Zugestellt (Quittung)": [
+        "Kézbesítve (nyugta)"
+      ],
+      "Zustellung fehlgeschlagen": [
+        "Kézbesítés sikertelen"
+      ],
+      "Versand fehlgeschlagen": [
+        "Küldés sikertelen"
+      ],
+      "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s": [
+        "Teljes eladói adatok nélkül nem készül számla. %s"
+      ],
+      "Käuferreferenz (BT-10), z. B. die Leitweg-ID": [
+        "Vevői hivatkozás (BT-10), pl. Leitweg-ID"
+      ],
+      "Name des Käufers": [
+        "Vevő neve"
+      ],
+      "Straße": [
+        "Utca, házszám"
+      ],
+      "Postleitzahl": [
+        "Irányítószám"
+      ],
+      "Ort": [
+        "Város"
+      ],
+      "Land (zweistelliger Code)": [
+        "Ország (kétbetűs kód)"
+      ],
+      "Peppol-ID des Käufers (Schema:Kennung)": [
+        "Vevő Peppol-azonosítója (séma:azonosító)"
+      ],
+      "USt-IdNr. des Käufers (optional)": [
+        "Vevő közösségi adószáma (opcionális)"
+      ],
+      "Bezeichnung der Leistung": [
+        "Teljesítés megnevezése"
+      ],
+      "Menge": [
+        "Mennyiség"
+      ],
+      "Nettopreis je Einheit": [
+        "Nettó egységár"
+      ],
+      "Umsatzsteuersatz in Prozent": [
+        "Áfakulcs százalékban"
+      ],
+      "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen.": [
+        "Egytételes UBL-számlát készít és ment. Küldés nem történik; az eladó adatai a beállításokból származnak."
+      ],
+      "Rechnung erzeugen und speichern": [
+        "Számla létrehozása és mentése"
+      ],
+      "Peppol-ID des Verkäufers (Schema:Kennung)": [
+        "Eladó Peppol-azonosítója (séma:azonosító)"
+      ],
+      "Name": [
+        "Név"
+      ],
+      "Rechtlicher Name (leer: wie Name)": [
+        "Hivatalos cégnév (üresen: megegyezik a Névvel)"
+      ],
+      "USt-IdNr.": [
+        "Közösségi adószám"
+      ],
+      "Registernummer (optional)": [
+        "Cégjegyzékszám (opcionális)"
+      ],
+      "IBAN für Zahlung per Überweisung": [
+        "IBAN átutalásos fizetéshez"
+      ],
+      "Verkäufer": [
+        "Eladó"
+      ],
+      "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung.": [
+        "Ezek az adatok minden elkészült számlán szerepelnek. Ha egy kötelező adat hiányzik, a bővítmény nem készít számlát."
+      ],
+      "Versand": [
+        "Küldés"
+      ],
+      "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang.": [
+        "Mindkét szolgáltatás önálló program, nem része a bővítménynek. Amíg valamelyik cím hiányzik, nincs küldés. A wp-config.php WM_PEPPOL_KOSIT_URL és WM_PEPPOL_PHASE4_URL konstansai elsőbbséget élveznek."
+      ],
+      "Adresse des KoSIT-Validators": [
+        "KoSIT-validátor címe"
+      ],
+      "Adresse des Phase4-Dienstes": [
+        "Phase4-szolgáltatás címe"
+      ],
+      "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen.": [
+        "Megosztott titok beállítva; az érvényes aláírású nyugtákat a rendszer elfogadja."
+      ],
+      "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret.": [
+        "Nincs megosztott titok beállítva; minden nyugta elutasításra kerül. Állítsa be a WM_PEPPOL_RECEIPT_SECRET konstanssal vagy a wp option update wm_peppol_receipt_secret paranccsal."
+      ],
+      "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)": [
+        "Engedélyezett tanúsítvány-ujjlenyomatok AS4-nyugtákhoz (SHA-256, nem kötelező)"
+      ],
+      "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang.": [
+        "Vesszővel elválasztott, 64 karakteres SHA-256-ujjlenyomatok a hozzáférési pont várt aláíró tanúsítványairól. A wp-config.php fájlban megadott WM_PEPPOL_TRUSTED_SIGNER_SHA256 konstans elsőbbséget élvez."
+      ],
+      "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)": [
+        "Helyi CA-tanúsítványcsomag PEM formátumban (OpenPeppol PKI, nem kötelező)"
+      ],
+      "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang.": [
+        "Egy vagy több megbízható gyökér- és köztes tanúsítvány PEM formátumban a lánc tisztán helyi, hálózati hozzáférés nélküli ellenőrzéséhez. A WM_PEPPOL_TRUST_BUNDLE_PEM és WM_PEPPOL_TRUST_BUNDLE_FILE konstansok elsőbbséget élveznek."
+      ],
+      "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen": [
+        "AS4-nyugták elutasítása, ha nincs tárolt ujjlenyomat vagy CA-tanúsítványcsomag"
+      ],
+      "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen.": [
+        "Ha be van kapcsolva, vagy a WM_PEPPOL_REQUIRE_TRUST_ANCHOR konstans be van állítva, az önaláírt vagy horgony nélküli nyugtákat a rendszer HTTP 422 kóddal elutasítja."
+      ],
+      "Deinstallation": [
+        "Eltávolítás"
+      ],
+      "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen": [
+        "A bővítmény eltávolításakor véglegesen törölje az összes beállítást és a három adatbázis-táblát"
+      ],
+      "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird.": [
+        "Alapértelmezés szerint minden tárolt számla, átadás, a nyugtanapló és a beállítások megmaradnak a bővítmény törlésekor."
+      ],
+      "Einstellungen speichern": [
+        "Beállítások mentése"
+      ],
+      "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz.": [
+        "UBL 2.1 számlákat állít elő Peppol BIS Billing 3.0 azonosítóval, adókategóriánkénti és kulcsonkénti áfabontással."
+      ],
+      "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen.": [
+        "Hiányzó kötelező adatok esetén nem állít ki számlát, ahelyett hogy kitalált adatokkal pótolná."
+      ],
+      "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung.": [
+        "Ellenőrzi a kötelező mezőket, kódokat és összegszabályokat. Ez nem XSD-séma- és nem Schematron-ellenőrzés."
+      ],
+      "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an.": [
+        "Átadja a teljesített WooCommerce-rendelések számláit a KoSIT-validátornak és a Phase4-szolgáltatásnak, ha mindkettő be van állítva, és fogadja az aláírt nyugtákat."
+      ],
+      "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung.": [
+        "Megjeleníti a vevőknek a számla tárolt állapotát az állapotportálon."
+      ],
+      "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst.": [
+        "Nincs saját AS4-átvitel, aláírás vagy titkosítás: ezt a Phase4-szolgáltatás végzi."
+      ],
+      "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen.": [
+        "Nincs jóváíró számla UBL CreditNote szintaxisban, és nincsenek adómentességek."
+      ],
+      "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde.": [
+        "Nincs exportarchívum: a tárolt számlák és a nyugtanapló eltávolításkor alapértelmezés szerint megmaradnak, és csak a beállításokban történő kifejezett engedélyezéskor törlődnek."
+      ],
+      "Was es nicht tut": [
+        "Amit nem csinál"
+      ],
+      "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut.": [
+        "Túl sok lekérdezés erről a címről. Próbálja újra később."
+      ],
+      "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich.": [
+        "A számlaszám és a vevő Peppol-azonosítója kötelező."
+      ],
+      "Zu diesen Angaben liegt keine Rechnung vor.": [
+        "Ezekhez az adatokhoz nem található számla."
+      ],
+      "Der Anfragekörper muss ein JSON-Objekt sein.": [
+        "A kérés törzsének JSON-objektumnak kell lennie."
+      ],
+      "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt.": [
+        "A(z) %d. sor nem az előző sorra hivatkozik: egy sort töröltek vagy beszúrtak."
+      ],
+      "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln.": [
+        "A(z) %d. sort írás után módosították, vagy az adatbázis eltérő kulcsú telepítésből származik."
+      ],
+      "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast.": [
+        "A nyugta meghaladja a(z) %d bájtot; az AS4-nyugta jelzés, nem hasznos teher."
+      ],
+      "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage.": [
+        "A dokumentum nem tartalmaz eb:Receipt elemet eb:SignalMessage-en belül."
+      ],
+      "Die Quittung enthält kein prüfbares Signaturzertifikat.": [
+        "A nyugta nem tartalmaz ellenőrizhető aláíró tanúsítványt."
+      ],
+      "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden.": [
+        "A nyugtán nincs XML-aláírás. Aláírt AS4-üzenetre aláírt nyugtával KELL válaszolni."
+      ],
+      "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt.": [
+        "Az aláírás hiányos: hiányzik a ds:SignedInfo vagy a ds:SignatureValue."
+      ],
+      "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar.": [
+        "Az aláírás nem tartalmaz X.509-tanúsítványt; nyilvános kulcs nélkül nem ellenőrizhető."
+      ],
+      "Signaturverfahren %s wird von dieser Installation nicht geprüft.": [
+        "A(z) %s aláírási algoritmust ez a telepítés nem ellenőrzi."
+      ],
+      "Das X.509-Zertifikat der Signatur ist nicht lesbar.": [
+        "Az aláírás X.509-tanúsítványa nem olvasható."
+      ],
+      "OpenSSL konnte die Signatur nicht prüfen.": [
+        "Az OpenSSL nem tudta ellenőrizni az aláírást."
+      ],
+      "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt.": [
+        "Az aláírás nem illik a nyugta tartalmához: aláírás után módosították vagy másik kulccsal készült."
+      ],
+      "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert.": [
+        "Maga az aláírás érvényes, de csak %1$d / %2$d ellenőrzőösszeg egyezik a tartalommal: a nyugtát aláírás után módosították."
+      ],
+      "Das X.509-Zertifikat der Quittung ist abgelaufen.": [
+        "A nyugta X.509-tanúsítványa lejárt."
+      ],
+      "Das X.509-Zertifikat der Quittung ist noch nicht gültig.": [
+        "A nyugta X.509-tanúsítványa még nem érvényes."
+      ],
+      "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird.": [
+        "Nincs tárolva sem tanúsítvány-ujjlenyomat, sem CA-tanúsítványcsomag, pedig a bizalmi horgony ellenőrzése kötelező."
+      ],
+      "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel.": [
+        "A nyugta aláíró tanúsítványa sem tárolt SHA-256-ujjlenyomattal, sem megbízható CA-tanúsítványcsomaggal nem egyezik."
+      ],
+      "Die Quittung ist kein wohlgeformtes XML.": [
+        "A nyugta nem jól formázott XML."
+      ],
+      "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d).": [
+        "A KoSIT-validátor nem fogadta el a dokumentumot (HTTP %d)."
+      ],
+      "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung.": [
+        "A feladó vagy címzett azonosítója nem séma:azonosító formátumú."
+      ],
+      "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d).": [
+        "A Phase4-szolgáltatás elutasította a küldést (HTTP %d)."
+      ],
+      "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen.": [
+        "A Phase4-szolgáltatás nem adott vissza messageId értéket; enélkül nem rendelhető hozzá nyugta."
+      ],
+      "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet.": [
+        "A KoSIT-validátor és a Phase4-szolgáltatás nincs beállítva; semmi sem kerül elküldésre."
+      ],
+      "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete.": [
+        "A nyugta aláírása érvényes, de nem az elküldött dokumentumra vonatkozik."
+      ],
+      "Peppol: Positive Empfangsquittung für messageId %s erhalten.": [
+        "Peppol: Pozitív átvételi nyugta érkezett a(z) %s messageId-hez."
+      ],
+      "Peppol-Empfangsquittung erhalten.": [
+        "Peppol átvételi nyugta megérkezett."
+      ],
+      "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s": [
+        "Peppol: Sikertelen küldés (messageId %1$s): %2$s"
+      ],
+      "ohne Fehlerbeschreibung": [
+        "hibaleírás nélkül"
+      ],
+      "Peppol-Versand fehlgeschlagen.": [
+        "Peppol-küldés sikertelen."
+      ],
+      "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s": [
+        "Ezeket a szabályokat nem sikerült kiértékelni, így sem teljesültnek, sem megsértettnek nem számítanak: %s"
+      ],
+      "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s.": [
+        "A WM Peppol AS4 Gateway nem aktiválható, mert ezen a szerveren hiányoznak a következő szükséges PHP-bővítmények: %s."
+      ],
+      "Fehlende PHP-Erweiterung": [
+        "Hiányzó PHP-bővítmény"
+      ],
+      "Kein Peppol-Teilnehmerbezeichner angegeben.": [
+        "Nincs megadva Peppol-résztvevőazonosító."
+      ],
+      "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789.": [
+        "A(z) \"%s\" azonosító nem <négyjegyű EAS-séma>:<azonosító> alakú, pl. 9930:DE123456789."
+      ],
+      "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen.": [
+        "Az azonosítóséma DNS-névben tiltott karaktereket tartalmaz."
+      ],
+      "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen.": [
+        "Nincs NAPTR-rekord ehhez: %s – a résztvevő nincs regisztrálva ebben az SML-zónában, vagy a névfeloldó nem válaszol NAPTR-kérésekre."
+      ],
+      "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL).": [
+        "A(z) %s NAPTR-rekordja nem nevez meg SMP-t (\"Meta:SMP\" szolgáltatás URL-lel)."
+      ],
+      "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen.": [
+        "Az SMP ismeri a(z) %1$s résztvevőt, de a(z) %2$s dokumentumtípushoz nem: a címzett nem fogadja ezt a dokumentumot."
+      ],
+      "Der SMP antwortete mit HTTP %1$d auf %2$s.": [
+        "Az SMP HTTP %1$d válasszal felelt itt: %2$s."
+      ],
+      "Der SMP lieferte einen leeren Körper.": [
+        "Az SMP üres törzset adott vissza."
+      ],
+      "Die Antwort des SMP ist kein wohlgeformtes XML.": [
+        "Az SMP válasza nem jól formázott XML."
+      ],
+      "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s.": [
+        "Az SMP válasza nem tartalmaz %s szállítási profilú végpontot."
+      ],
+      "Peppol-Gateway-Status": [
+        "Peppol Gateway állapot"
+      ],
+      "Tabellen des Plugins fehlen": [
+        "A bővítmény táblái hiányoznak"
+      ],
+      "KoSIT-Validator und Phase4-Dienst konfiguriert": [
+        "KoSIT-validátor és Phase4-szolgáltatás beállítva"
+      ],
+      "Versand nicht konfiguriert": [
+        "Küldés nincs beállítva"
+      ],
+      "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen": [
+        "%1$d tárolt számla, %2$d átvételi nyugta"
+      ],
+      "Status wird abgefragt …": [
+        "Állapot lekérdezése …"
+      ],
+      "Rechnung gefunden": [
+        "Számla megtalálva"
+      ],
+      "Die Abfrage ist fehlgeschlagen.": [
+        "A lekérdezés sikertelen."
+      ],
+      "Gespeicherter Status": [
+        "Tárolt állapot"
+      ],
+      "Übergabe an Phase4": [
+        "Átadás a Phase4-nek"
+      ],
+      "keine Übergabe erfasst": [
+        "nincs rögzített átadás"
+      ],
+      "Empfangsquittung": [
+        "Átvételi nyugta"
+      ],
+      "liegt vor": [
+        "megvan"
+      ],
+      "liegt nicht vor": [
+        "nincs meg"
+      ],
+      "Fehlercode der Übertragung": [
+        "Átviteli hibakód"
+      ],
+      "SHA-256 des gespeicherten XML": [
+        "A tárolt XML SHA-256 lenyomata"
+      ],
+      "Rechnungsstatus abfragen": [
+        "Számlaállapot lekérdezése"
+      ],
+      "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten.": [
+        "Adja meg a számlaszámot és a saját Peppol-azonosítóját. A rendszerben tárolt állapot jelenik meg. A dokumentumot itt sem az EN 16931 szerint nem ellenőrizzük, sem letöltésre nem kínáljuk."
+      ],
+      "Ihre Peppol-ID": [
+        "Az Ön Peppol-azonosítója"
+      ],
+      "Schema:Kennung": [
+        "séma:azonosító"
+      ],
+      "Status abfragen": [
+        "Állapot lekérdezése"
+      ],
+      "Die Rechnungsnummer fehlt.": [
+        "Hiányzik a számlaszám."
+      ],
+      "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist.": [
+        "Hiányzik a vevői hivatkozás (BT-10); a Peppol BIS megköveteli, ha nincs rendelési hivatkozás."
+      ],
+      "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT.": [
+        "A számla kelte nem ÉÉÉÉ-HH-NN formátumú."
+      ],
+      "Es fehlen Rechnungspositionen oder ein Betrag.": [
+        "Hiányoznak a számlatételek vagy egy összeg."
+      ],
+      "Ein Betrag ist keine Zahl.": [
+        "Egy összeg nem szám."
+      ],
+      "Eine Position hat keine Bezeichnung.": [
+        "Egy tételnek nincs megnevezése."
+      ],
+      "Ein Steuersatz ist negativ.": [
+        "Egy adókulcs negatív."
+      ],
+      "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen.": [
+        "A számlatípus-kód nem szerepel a Peppol számlalistáján."
+      ],
+      "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt.": [
+        "A jóváírás (381-es típus) UBL CreditNote szintaxist igényel, amelyet ez a generátor nem állít elő."
+      ],
+      "Der Währungscode muss aus drei Großbuchstaben bestehen.": [
+        "A pénznemkódnak három nagybetűből kell állnia."
+      ],
+      "Die Peppol-ID des Verkäufers fehlt.": [
+        "Hiányzik az eladó Peppol-azonosítója."
+      ],
+      "Der Name des Verkäufers fehlt.": [
+        "Hiányzik az eladó neve."
+      ],
+      "Die Straße des Verkäufers fehlt.": [
+        "Hiányzik az eladó utcája."
+      ],
+      "Der Ort des Verkäufers fehlt.": [
+        "Hiányzik az eladó városa."
+      ],
+      "Die Postleitzahl des Verkäufers fehlt.": [
+        "Hiányzik az eladó irányítószáma."
+      ],
+      "Das Land des Verkäufers fehlt.": [
+        "Hiányzik az eladó országa."
+      ],
+      "Die USt-IdNr. des Verkäufers fehlt.": [
+        "Hiányzik az eladó adószáma."
+      ],
+      "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Az eladó Peppol-azonosítója nem séma:azonosító (négyjegyű séma) formátumú."
+      ],
+      "Das Land des Verkäufers muss ein zweistelliger Ländercode sein.": [
+        "Az eladó országa kétbetűs országkód kell legyen."
+      ],
+      "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "Az eladó adószáma nem kétbetűs országkóddal kezdődik."
+      ],
+      "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers.": [
+        "Átutalásos fizetéshez hiányzik az eladó IBAN-száma."
+      ],
+      "Die Peppol-ID des Käufers fehlt.": [
+        "Hiányzik a vevő Peppol-azonosítója."
+      ],
+      "Der Name des Käufers fehlt.": [
+        "Hiányzik a vevő neve."
+      ],
+      "Das Land des Käufers fehlt.": [
+        "Hiányzik a vevő országa."
+      ],
+      "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "A vevő Peppol-azonosítója nem séma:azonosító (négyjegyű séma) formátumú."
+      ],
+      "Das Land des Käufers muss ein zweistelliger Ländercode sein.": [
+        "A vevő országa kétbetűs országkód kell legyen."
+      ],
+      "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "A vevő adószáma nem kétbetűs országkóddal kezdődik."
+      ],
+      "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null.": [
+        "Egy S adókategóriájú tétel vagy engedmény/felár adókulcsa nem nagyobb nullánál."
+      ],
+      "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen.": [
+        "A fájl nem jól formázott XML; a szabályellenőrzés előtt nincs mit vizsgálni."
+      ],
+      "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt.": [
+        "Peppol: A rendelésen van Leitweg-ID, de nincs Peppol címzettazonosító; nem készült e-számla."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab.": [
+        "Peppol: E-számla nem készült. A rendelés végösszege (%1$s) és a számla végösszege (%2$s) a kerekítésnél jobban eltér."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. %s": [
+        "Peppol: E-számla nem készült. %s"
+      ],
+      "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden.": [
+        "Peppol: Az előállított e-számlát nem sikerült menteni."
+      ],
+      "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant.": [
+        "Peppol: %s e-számla elkészült; a küldés ütemezve."
+      ],
+      "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert.": [
+        "Peppol: %s e-számla elkészült és mentve, nincs elküldve: a KoSIT és a Phase4 nincs beállítva."
+      ],
+      "EN 16931: %1$d fatale Regelbefunde (%2$s).": [
+        "EN 16931: %1$d végzetes szabályhiba (%2$s)."
+      ],
+      "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen.": [
+        "Peppol: Az EN 16931 ellenőrzés %1$d végzetes hibát jelez (%2$s). Ennek ellenére elküldve; tiltáshoz állítsa a \"wm_peppol_schematron_gate\" opciót 1-re."
+      ],
+      "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung.": [
+        "Peppol: A(z) %1$s e-számla átadva a Phase4-nek (messageId %2$s). Kézbesítettnek csak a nyugtával minősül."
+      ],
+      "Gebühr": [
+        "Díj"
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab.": [
+        "Peppol: E-számla nem készült. \"%s\" áfa nélkül szerepel; adómentességet a bővítmény nem kezel."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze.": [
+        "Peppol: E-számla nem készült. \"%s\" több adókulcsot hordoz."
+      ],
+      "Peppol: E-Rechnung %1$s nicht versendet. %2$s": [
+        "Peppol: A(z) %1$s e-számla nincs elküldve. %2$s"
+      ],
+      "Peppol-E-Rechnung": [
+        "Peppol e-számla"
+      ],
+      "Peppol-Empfänger-ID (Schema:Kennung)": [
+        "Peppol címzettazonosító (séma:azonosító)"
+      ],
+      "Leitweg-ID (öffentliche Auftraggeber)": [
+        "Leitweg-ID (közszféra)"
+      ],
+      "Käuferreferenz (wenn keine Leitweg-ID)": [
+        "Vevői hivatkozás (ha nincs Leitweg-ID)"
+      ],
+      "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert.": [
+        "A Leitweg-ID nem felel meg a KoSIT-specifikációnak vagy hibás az ellenőrzőszám; nincs mentve."
+      ],
+      "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert.": [
+        "A Peppol címzettazonosító nem négyjegyű séma:azonosító formátumú; nincs mentve."
+      ],
+      "Portal-Darstellung": [
+        "Portál megjelenése"
+      ],
+      "Überschrift anzeigen": [
+        "Címsor megjelenítése"
+      ],
+      "Einleitungstext anzeigen": [
+        "Bevezető szöveg megjelenítése"
+      ],
+      "block title\u0004Peppol-Rechnungsstatus-Portal": [
+        "Peppol számlaállapot-portál"
+      ],
+      "block description\u0004Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID.": [
+        "Nyilvános állapotportál a tárolt Peppol e-számlák lekérdezéséhez számlaszám és Peppol-azonosító alapján."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004invoice": [
+        "szamla"
+      ],
+      "block keyword\u0004e-rechnung": [
+        "e-szamla"
+      ],
+      "block keyword\u0004ubl": [
+        "ubl"
+      ],
+      "block keyword\u0004status": [
+        "allapot"
+      ]
+    }
+  }
+}

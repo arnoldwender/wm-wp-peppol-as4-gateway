@@ -1,0 +1,24 @@
+# The workspace's global ignore rule `/Assets/` matches this plugin's root assets/ on a
+# case-insensitive filesystem and silently dropped every stylesheet and script from the repo
+# (measured 2026-09-14). Same negation as wm-suite-hub.
+!assets/
+!assets/**
+!build/
+!build/**
+!blocks/
+!blocks/**
+!blocks-src/
+!blocks-src/**
+.DS_Store
+Thumbs.db
+vendor/
+node_modules/
+.phpunit.cache/
+.phpunit.result.cache
+*.log
+.env
+.env.local
+
+/vendor/
+composer.lock
+.phpunit.cache/

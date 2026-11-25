@@ -1,0 +1,738 @@
+{
+  "translation-revision-date": "2026-11-21T15:24:44+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-peppol-as4-gateway",
+        "lang": "sl_SI",
+        "plural-forms": "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);"
+      },
+      "WM Peppol AS4 Gateway": [
+        "WM Peppol AS4 Gateway"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-peppol-as4-gateway/"
+      ],
+      "Erzeugt UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0, prüft sie gegen das amtliche EN-16931-Regelwerk, sucht den Empfänger über SML und SMP, übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen konfigurierten KoSIT-Validator und Phase4-Dienst, prüft die signierte AS4-Quittung und zeigt Käufern den gespeicherten Status. Keine eigene AS4-Übertragung: die übernimmt der Phase4-Dienst.": [
+        "Ustvarja račune UBL 2.1 po Peppol BIS Billing 3.0, jih preverja glede na uradni nabor pravil EN 16931, poišče prejemnika prek SML in SMP, posreduje račune zaključenih naročil WooCommerce nastavljenemu validatorju KoSIT in storitvi Phase4, preveri podpisano potrdilo AS4 ter kupcem prikaže shranjeno stanje. Brez lastnega prenosa AS4: tega opravi Phase4."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Unbekannte Spoke-Aktion \"%s\".": [
+        "Neznano dejanje modula \"%s\"."
+      ],
+      "Selbsttest nicht möglich: Verkäuferdaten fehlen (%s).": [
+        "Samopreizkus ni mogoč: manjkajo podatki prodajalca (%s)."
+      ],
+      "Testdokument von den Strukturprüfungen abgelehnt: %s": [
+        "Preizkusni dokument so strukturna preverjanja zavrnila: %s"
+      ],
+      "Testdokument erzeugt (%d Bytes) und von den Strukturprüfungen des Plugins angenommen. Nicht gespeichert, nicht gesendet, keine Schema- oder Schematron-Prüfung.": [
+        "Preizkusni dokument ustvarjen (%d bajtov) in sprejet na strukturnih preverjanjih vtičnika. Ni shranjen, ni poslan, brez preverjanja sheme ali Schematrona."
+      ],
+      "Die Tabellen des Plugins fehlen. Bitte das Plugin deaktivieren und wieder aktivieren.": [
+        "Manjkajo podatkovne tabele vtičnika. Vtičnik onemogočite in znova omogočite."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden.": [
+        "Podatki prodajalca nepopolni: e-računa ni mogoče ustvariti."
+      ],
+      "Verkäuferdaten vollständig. KoSIT-Validator und Phase4-Dienst sind konfiguriert.": [
+        "Podatki prodajalca popolni. Validator KoSIT in storitev Phase4 sta nastavljena."
+      ],
+      "Verkäuferdaten vollständig. Versand nicht konfiguriert: Rechnungen werden nur gespeichert.": [
+        "Podatki prodajalca popolni. Pošiljanje ni nastavljeno: računi se le shranjujejo."
+      ],
+      "Gespeicherte Rechnungen": [
+        "Shranjeni računi"
+      ],
+      "Übergaben an Phase4": [
+        "Predaje v Phase4"
+      ],
+      "Empfangsquittungen": [
+        "Potrdila o prejemu"
+      ],
+      "Peppol Gateway öffnen": [
+        "Odpri Peppol Gateway"
+      ],
+      "Peppol Gateway": [
+        "Peppol Gateway"
+      ],
+      "%d Beispielrechnung angelegt.": [
+        "Ustvarjen %d vzorčni račun.",
+        "Ustvarjena %d vzorčna računa.",
+        "Ustvarjeni %d vzorčni računi.",
+        "Ustvarjenih %d vzorčnih računov."
+      ],
+      "%d Beispielrechnung entfernt.": [
+        "Odstranjen %d vzorčni račun.",
+        "Odstranjena %d vzorčna računa.",
+        "Odstranjeni %d vzorčni računi.",
+        "Odstranjenih %d vzorčnih računov."
+      ],
+      "Übersicht": [
+        "Pregled"
+      ],
+      "Rechnung erzeugen": [
+        "Ustvari račun"
+      ],
+      "Einstellungen": [
+        "Nastavitve"
+      ],
+      "Was das Plugin tut": [
+        "Kaj vtičnik počne"
+      ],
+      "UBL-2.1-Rechnungen nach Peppol BIS Billing 3.0 erzeugen, speichern und an einen konfigurierten Phase4-Dienst übergeben.": [
+        "Ustvarjajte in shranjujte račune UBL 2.1 po Peppol BIS Billing 3.0 ter jih predajte nastavljeni storitvi Phase4."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Del družine vtičnikov WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Samostojno"
+      ],
+      "Bereiche": [
+        "Razdelki"
+      ],
+      "Die E-Rechnung wurde erzeugt und gespeichert. Über dieses Formular wird sie nicht versendet.": [
+        "E-račun je bil ustvarjen in shranjen. Prek tega obrazca se ne pošilja."
+      ],
+      "Die E-Rechnung wurde nicht erzeugt.": [
+        "E-račun ni bil ustvarjen."
+      ],
+      "Eine Rechnung mit dieser Nummer ist bereits gespeichert.": [
+        "Račun s to številko je že shranjen."
+      ],
+      "Die Rechnung wurde erzeugt, aber nicht gespeichert.": [
+        "Račun je bil ustvarjen, vendar ga ni bilo mogoče shraniti."
+      ],
+      "Einstellungen gespeichert.": [
+        "Nastavitve shranjene."
+      ],
+      "Beispielrechnungen sind als Beispiel markiert und werden im öffentlichen Statusportal nicht gemeldet.": [
+        "Vzorčni računi so označeni kot vzorec in se v javnem portalu stanja ne prikazujejo."
+      ],
+      "Beispielrechnungen entfernt.": [
+        "Vzorčni računi odstranjeni."
+      ],
+      "Verkäuferdaten unvollständig: Es kann keine E-Rechnung erzeugt werden. %s": [
+        "Podatki prodajalca nepopolni: e-računa ni mogoče ustvariti. %s"
+      ],
+      "Zu den Einstellungen": [
+        "Pojdi na nastavitve"
+      ],
+      "Versand nicht konfiguriert: Erzeugte Rechnungen werden gespeichert, aber nicht übergeben.": [
+        "Pošiljanje ni nastavljeno: ustvarjeni računi se shranijo, a ne posredujejo."
+      ],
+      "ohne %d Beispielrechnungen": [
+        "brez %d vzorčnih računov"
+      ],
+      "mit messageId": [
+        "z messageId"
+      ],
+      "positiv, per Webhook": [
+        "pozitivno, prek webhooka"
+      ],
+      "Verkäuferdaten": [
+        "Podatki prodajalca"
+      ],
+      "vollständig": [
+        "popolni"
+      ],
+      "für die Rechnungserzeugung": [
+        "za izdajanje računov"
+      ],
+      "Angaben fehlen": [
+        "podatki manjkajo"
+      ],
+      "Rechnungen": [
+        "Računi"
+      ],
+      "Die letzten 50 gespeicherten Rechnungen mit ihrem gespeicherten Status.": [
+        "Zadnjih 50 shranjenih računov z njihovim zabeleženim stanjem."
+      ],
+      "Rechnungsnummer": [
+        "Številka računa"
+      ],
+      "Peppol-ID des Käufers": [
+        "Peppol ID kupca"
+      ],
+      "Zahlbetrag": [
+        "Znesek za plačilo"
+      ],
+      "Status": [
+        "Stanje"
+      ],
+      "Rechnungsdatum": [
+        "Datum računa"
+      ],
+      "Noch keine Rechnungen gespeichert.": [
+        "Noben račun še ni shranjen."
+      ],
+      "Beispielrechnungen": [
+        "Vzorčni računi"
+      ],
+      "Beispielrechnungen haben kein XML, zählen nicht als Rechnungen und werden im öffentlichen Statusportal nicht gemeldet. Entfernen löscht nur sie, auch die drei Beispielzeilen früherer Versionen.": [
+        "Vzorčni računi nimajo XML, se ne štejejo kot računi in se v javnem portalu ne prikazujejo. Odstranitev izbriše samo njih, vključno s tremi vrsticami starejših različic."
+      ],
+      "Beispielrechnungen anlegen": [
+        "Ustvari vzorčne račune"
+      ],
+      "%d Beispielrechnung entfernen": [
+        "Odstrani %d vzorčni račun",
+        "Odstrani %d vzorčna računa",
+        "Odstrani %d vzorčne račune",
+        "Odstrani %d vzorčnih računov"
+      ],
+      "Beispiel": [
+        "Vzorec"
+      ],
+      "Erzeugt, nicht versendet": [
+        "Ustvarjen, ni poslan"
+      ],
+      "An Phase4 übergeben": [
+        "Predan v Phase4"
+      ],
+      "Zugestellt (Quittung)": [
+        "Dostavljen (potrdilo)"
+      ],
+      "Zustellung fehlgeschlagen": [
+        "Dostava ni uspela"
+      ],
+      "Versand fehlgeschlagen": [
+        "Pošiljanje ni uspelo"
+      ],
+      "Ohne vollständige Verkäuferdaten wird keine Rechnung erzeugt. %s": [
+        "Brez popolnih podatkov prodajalca se račun ne ustvari. %s"
+      ],
+      "Käuferreferenz (BT-10), z. B. die Leitweg-ID": [
+        "Referenca kupca (BT-10), npr. Leitweg-ID"
+      ],
+      "Name des Käufers": [
+        "Naziv kupca"
+      ],
+      "Straße": [
+        "Ulica"
+      ],
+      "Postleitzahl": [
+        "Poštna številka"
+      ],
+      "Ort": [
+        "Kraj"
+      ],
+      "Land (zweistelliger Code)": [
+        "Država (dvočrkovna koda)"
+      ],
+      "Peppol-ID des Käufers (Schema:Kennung)": [
+        "Peppol ID kupca (shema:identifikator)"
+      ],
+      "USt-IdNr. des Käufers (optional)": [
+        "ID za DDV kupca (neobvezno)"
+      ],
+      "Bezeichnung der Leistung": [
+        "Opis storitve"
+      ],
+      "Menge": [
+        "Količina"
+      ],
+      "Nettopreis je Einheit": [
+        "Neto cena na enoto"
+      ],
+      "Umsatzsteuersatz in Prozent": [
+        "Stopnja DDV v odstotkih"
+      ],
+      "Erzeugt eine UBL-Rechnung mit einer Position und speichert sie. Versendet wird nichts; Verkäuferdaten kommen aus den Einstellungen.": [
+        "Ustvari enopostavčni račun UBL in ga shrani. Nič se ne pošlje; podatki prodajalca pridejo iz nastavitev."
+      ],
+      "Rechnung erzeugen und speichern": [
+        "Ustvari in shrani račun"
+      ],
+      "Peppol-ID des Verkäufers (Schema:Kennung)": [
+        "Peppol ID prodajalca (shema:identifikator)"
+      ],
+      "Name": [
+        "Naziv"
+      ],
+      "Rechtlicher Name (leer: wie Name)": [
+        "Pravni naziv (prazno: enako kot Naziv)"
+      ],
+      "USt-IdNr.": [
+        "ID za DDV"
+      ],
+      "Registernummer (optional)": [
+        "Matična/registrska številka (neobvezno)"
+      ],
+      "IBAN für Zahlung per Überweisung": [
+        "IBAN za plačilo z nakazilom"
+      ],
+      "Verkäufer": [
+        "Prodajalec"
+      ],
+      "Diese Angaben stehen auf jeder erzeugten Rechnung. Fehlt eine Pflichtangabe, erzeugt das Plugin keine Rechnung.": [
+        "Ti podatki so navedeni na vsakem ustvarjenem računu. Če manjka obvezni podatek, vtičnik računa ne ustvari."
+      ],
+      "Versand": [
+        "Pošiljanje"
+      ],
+      "Beide Dienste sind eigene Programme und nicht Teil des Plugins. Solange eine der Adressen fehlt, wird nichts versendet. Konstanten WM_PEPPOL_KOSIT_URL und WM_PEPPOL_PHASE4_URL in der wp-config.php haben Vorrang.": [
+        "Obe storitvi sta ločena programa zunaj vtičnika. Dokler manjka eden od naslovov, se nič ne pošilja. Konstanti WM_PEPPOL_KOSIT_URL in WM_PEPPOL_PHASE4_URL v wp-config.php imata prednost."
+      ],
+      "Adresse des KoSIT-Validators": [
+        "Naslov validatorja KoSIT"
+      ],
+      "Adresse des Phase4-Dienstes": [
+        "Naslov storitve Phase4"
+      ],
+      "Ein gemeinsames Geheimnis ist gesetzt; Quittungen mit gültiger Signatur werden angenommen.": [
+        "Skupna skrivnost je nastavljena; potrdila z veljavnim podpisom se sprejmejo."
+      ],
+      "Kein gemeinsames Geheimnis gesetzt; alle Quittungen werden abgelehnt. Setzen per Konstante WM_PEPPOL_RECEIPT_SECRET oder wp option update wm_peppol_receipt_secret.": [
+        "Skupna skrivnost ni nastavljena; vsa potrdila so zavrnjena. Nastavite prek WM_PEPPOL_RECEIPT_SECRET ali wp option update wm_peppol_receipt_secret."
+      ],
+      "Erlaubte Zertifikats-Fingerabdrücke für AS4-Quittungen (SHA-256, optional)": [
+        "Dovoljeni prstni odtisi certifikatov za potrdila AS4 (SHA-256, neobvezno)"
+      ],
+      "Kommagetrennte 64-stellige SHA-256-Fingerabdrücke der erwarteten Access-Point-Signaturzertifikate. Konstante WM_PEPPOL_TRUSTED_SIGNER_SHA256 in der wp-config.php hat Vorrang.": [
+        "Z vejicami ločeni 64-mestni prstni odtisi SHA-256 pričakovanih podpisnih certifikatov dostopne točke. Prednost ima konstanta WM_PEPPOL_TRUSTED_SIGNER_SHA256 v datoteki wp-config.php."
+      ],
+      "Lokales CA-Zertifikatsbündel im PEM-Format (OpenPeppol-PKI, optional)": [
+        "Lokalni sveženj certifikatov CA v obliki PEM (PKI OpenPeppol, neobvezno)"
+      ],
+      "Ein oder mehrere vertrauenswürdige Root- und Zwischenzertifikate im PEM-Format zur rein lokalen Kettenprüfung ohne Netzwerkzugriff. Konstanten WM_PEPPOL_TRUST_BUNDLE_PEM und WM_PEPPOL_TRUST_BUNDLE_FILE haben Vorrang.": [
+        "En ali več zaupanja vrednih korenskih in vmesnih certifikatov v obliki PEM za povsem lokalno preverjanje verige brez dostopa do omrežja. Prednost imata konstanti WM_PEPPOL_TRUST_BUNDLE_PEM in WM_PEPPOL_TRUST_BUNDLE_FILE."
+      ],
+      "AS4-Quittungen ohne hinterlegten Fingerabdruck oder CA-Zertifikatsbündel ablehnen": [
+        "Zavrni potrdila AS4, če ni shranjen niti prstni odtis niti sveženj certifikatov CA"
+      ],
+      "Wenn aktiviert oder per Konstante WM_PEPPOL_REQUIRE_TRUST_ANCHOR gesetzt, werden selbstsignierte oder nicht verankerte Quittungen mit HTTP 422 abgewiesen.": [
+        "Če je omogočeno ali nastavljeno s konstanto WM_PEPPOL_REQUIRE_TRUST_ANCHOR, so samopodpisana ali nesidrana potrdila zavrnjena s HTTP 422."
+      ],
+      "Deinstallation": [
+        "Odstranitev"
+      ],
+      "Beim Deinstallieren des Plugins alle Optionen und die drei Datenbanktabellen unwiderruflich löschen": [
+        "Ob odstranitvi vtičnika trajno izbriši vse možnosti in tri podatkovne tabele"
+      ],
+      "Standardmäßig bleiben alle gespeicherten Rechnungen, Übertragungen, das Quittungsregister und die Einstellungen erhalten, wenn das Plugin entfernt wird.": [
+        "Privzeto se vsi shranjeni računi, prenosi, register potrdil in nastavitve ob odstranitvi vtičnika ohranijo."
+      ],
+      "Einstellungen speichern": [
+        "Shrani nastavitve"
+      ],
+      "Erzeugt Rechnungen in UBL 2.1 mit der Spezifikationskennung von Peppol BIS Billing 3.0, mit einer Umsatzsteueraufschlüsselung je Steuerkategorie und Steuersatz.": [
+        "Ustvarja račune UBL 2.1 z identifikatorjem Peppol BIS Billing 3.0 in razčlenitvijo DDV po kategorijah ter stopnjah."
+      ],
+      "Erzeugt keine Rechnung, wenn Pflichtangaben fehlen, statt sie zu ergänzen.": [
+        "Zavrne izdelavo računa, če manjkajo obvezni podatki, namesto da bi si jih izmislil."
+      ],
+      "Prüft Dokumente auf Pflichtfelder, Codes und Summenregeln. Das ist keine Schema- und keine Schematron-Prüfung.": [
+        "Preverja obvezna polja, kode in pravila vsot. To ni preverjanje XSD niti Schematron."
+      ],
+      "Übergibt Rechnungen abgeschlossener WooCommerce-Bestellungen an einen KoSIT-Validator und einen Phase4-Dienst, wenn beide konfiguriert sind, und nimmt signierte Empfangsquittungen an.": [
+        "Posreduje račune zaključenih naročil WooCommerce validatorju KoSIT in storitvi Phase4, ko sta nastavljena, in sprejema podpisana potrdila."
+      ],
+      "Zeigt Käufern im Statusportal den gespeicherten Stand einer Rechnung.": [
+        "Kupcem v portalu stanja prikazuje shranjeno stanje računa."
+      ],
+      "Keine eigene AS4-Übertragung, Signatur oder Verschlüsselung: Das übernimmt der Phase4-Dienst.": [
+        "Brez lastnega prenosa, podpisa ali šifriranja AS4: za to skrbi storitev Phase4."
+      ],
+      "Keine Gutschriften in der UBL-Syntax CreditNote und keine Steuerbefreiungen.": [
+        "Brez dobropisov v sintaksi UBL CreditNote in brez davčnih oprostitev."
+      ],
+      "Kein Export-Archiv: Gespeicherte Rechnungen und das Quittungsregister bleiben beim Deinstallieren standardmäßig erhalten und werden nur gelöscht, wenn dies in den Einstellungen ausdrücklich aktiviert wurde.": [
+        "Brez izvoznega arhiva: shranjeni računi in register potrdil se ob odstranitvi privzeto ohranijo in se izbrišejo le, če je to izrecno vklopljeno v nastavitvah."
+      ],
+      "Was es nicht tut": [
+        "Česa ne počne"
+      ],
+      "Zu viele Abfragen von dieser Adresse. Bitte versuchen Sie es später erneut.": [
+        "Preveč poizvedb s tega naslova. Poskusite znova pozneje."
+      ],
+      "Rechnungsnummer und Käufer-Peppol-ID sind erforderlich.": [
+        "Številka računa in Peppol ID kupca sta obvezna."
+      ],
+      "Zu diesen Angaben liegt keine Rechnung vor.": [
+        "Za te podatke ni shranjenega računa."
+      ],
+      "Der Anfragekörper muss ein JSON-Objekt sein.": [
+        "Telo zahteve mora biti predmet JSON."
+      ],
+      "Zeile %d verweist nicht auf die Zeile davor: eine Zeile wurde entfernt oder eingefügt.": [
+        "Vrstica %d se ne sklicuje na predhodno vrstico: vrstica je bila odstranjena ali vstavljena."
+      ],
+      "Zeile %d wurde nach dem Schreiben verändert, oder die Datenbank stammt von einer Installation mit anderen Schlüsseln.": [
+        "Vrstica %d je bila po zapisu spremenjena ali pa podatkovna zbirka izvira iz namestitve z drugimi ključi."
+      ],
+      "Die Quittung ist größer als %d Bytes; eine AS4-Quittung ist ein Signal, keine Nutzlast.": [
+        "Potrdilo presega %d bajtov; potrdilo AS4 je signal, ne vsebina."
+      ],
+      "Das Dokument enthält kein eb:Receipt in einer eb:SignalMessage.": [
+        "Dokument ne vsebuje eb:Receipt znotraj eb:SignalMessage."
+      ],
+      "Die Quittung enthält kein prüfbares Signaturzertifikat.": [
+        "Potrdilo ne vsebuje podpisnega certifikata, ki bi ga bilo mogoče preveriti."
+      ],
+      "Die Quittung trägt keine XML-Signatur. Ein signierter AS4-Nachricht MUSS mit einer signierten Quittung beantwortet werden.": [
+        "Potrdilo nima podpisa XML. Podpisano sporočilo AS4 MORA prejeti podpisano potrdilo."
+      ],
+      "Die Signatur ist unvollständig: ds:SignedInfo oder ds:SignatureValue fehlt.": [
+        "Podpis je nepopoln: manjka ds:SignedInfo ali ds:SignatureValue."
+      ],
+      "Die Signatur nennt kein X.509-Zertifikat; ohne den öffentlichen Schlüssel ist sie nicht prüfbar.": [
+        "Podpis ne navaja potrdila X.509; brez javnega ključa ga ni mogoče preveriti."
+      ],
+      "Signaturverfahren %s wird von dieser Installation nicht geprüft.": [
+        "Ta namestitev ne preverja podpisnega algoritma %s."
+      ],
+      "Das X.509-Zertifikat der Signatur ist nicht lesbar.": [
+        "Potrdila X.509 podpisa ni mogoče prebrati."
+      ],
+      "OpenSSL konnte die Signatur nicht prüfen.": [
+        "OpenSSL ni mogel preveriti podpisa."
+      ],
+      "Die Signatur passt nicht zum Inhalt der Quittung: sie wurde nach dem Signieren verändert oder mit einem anderen Schlüssel erzeugt.": [
+        "Podpis se ne ujema z vsebino potrdila: po podpisu je bilo spremenjeno ali podpisano z drugim ključem."
+      ],
+      "Die Signatur selbst ist gültig, aber nur %1$d von %2$d Prüfsummen passen zum Inhalt: die Quittung wurde nach dem Signieren verändert.": [
+        "Sam podpis je veljaven, a se le %1$d od %2$d zgoščenih vrednosti ujema z vsebino: potrdilo je bilo po podpisu spremenjeno."
+      ],
+      "Das X.509-Zertifikat der Quittung ist abgelaufen.": [
+        "Certifikat X.509 potrdila je potekel."
+      ],
+      "Das X.509-Zertifikat der Quittung ist noch nicht gültig.": [
+        "Certifikat X.509 potrdila še ni veljaven."
+      ],
+      "Es ist weder ein Zertifikats-Fingerabdruck noch ein CA-Zertifikatsbündel hinterlegt, obwohl die Vertrauensanker-Prüfung erzwungen wird.": [
+        "Shranjen ni niti prstni odtis certifikata niti sveženj certifikatov CA, čeprav je preverjanje sidra zaupanja obvezno."
+      ],
+      "Das Signaturzertifikat der Quittung passt weder zu einem hinterlegten SHA-256-Fingerabdruck noch zu einem vertrauenswürdigen CA-Zertifikatsbündel.": [
+        "Podpisni certifikat potrdila se ne ujema niti s shranjenim prstnim odtisom SHA-256 niti z zaupanja vrednim svežnjem certifikatov CA."
+      ],
+      "Die Quittung ist kein wohlgeformtes XML.": [
+        "Potrdilo ni pravilno oblikovan XML."
+      ],
+      "Der KoSIT-Validator hat das Dokument nicht angenommen (HTTP %d).": [
+        "Validator KoSIT dokumenta ni sprejel (HTTP %d)."
+      ],
+      "Absender- oder Empfänger-ID hat nicht die Form Schema:Kennung.": [
+        "ID pošiljatelja ali prejemnika nima oblike shema:identifikator."
+      ],
+      "Der Phase4-Dienst hat den Versand abgelehnt (HTTP %d).": [
+        "Storitev Phase4 je zavrnila pošiljanje (HTTP %d)."
+      ],
+      "Der Phase4-Dienst hat keine messageId zurückgegeben; ohne sie lässt sich keine Empfangsquittung zuordnen.": [
+        "Storitev Phase4 ni vrnila messageId; brez njega potrdila ni mogoče povezati."
+      ],
+      "KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert; es wird nichts versendet.": [
+        "Validator KoSIT in storitev Phase4 nista nastavljena; nič se ne pošilja."
+      ],
+      "Die Quittung ist gültig signiert, bezieht sich aber auf ein anderes Dokument als das versendete.": [
+        "Potrdilo je veljavno podpisano, vendar se nanaša na drug dokument kot poslani."
+      ],
+      "Peppol: Positive Empfangsquittung für messageId %s erhalten.": [
+        "Peppol: Prejeto pozitivno potrdilo za messageId %s."
+      ],
+      "Peppol-Empfangsquittung erhalten.": [
+        "Potrdilo o prejemu Peppol prejeto."
+      ],
+      "Peppol: Versand fehlgeschlagen (messageId %1$s): %2$s": [
+        "Peppol: Pošiljanje ni uspelo (messageId %1$s): %2$s"
+      ],
+      "ohne Fehlerbeschreibung": [
+        "brez opisa napake"
+      ],
+      "Peppol-Versand fehlgeschlagen.": [
+        "Pošiljanje Peppol ni uspelo."
+      ],
+      "Diese Regeln konnten nicht ausgewertet werden und zählen weder als erfüllt noch als verletzt: %s": [
+        "Teh pravil ni bilo mogoče ovrednotiti in ne štejejo ne za izpolnjena ne za kršena: %s"
+      ],
+      "WM Peppol AS4 Gateway konnte nicht aktiviert werden, da folgende erforderliche PHP-Erweiterungen auf diesem Server fehlen: %s.": [
+        "WM Peppol AS4 Gateway ni bilo mogoče aktivirati, ker na tem strežniku manjkajo naslednje zahtevane razširitve PHP: %s."
+      ],
+      "Fehlende PHP-Erweiterung": [
+        "Manjkajoča razširitev PHP"
+      ],
+      "Kein Peppol-Teilnehmerbezeichner angegeben.": [
+        "Ni navedenega Peppol identifikatorja udeleženca."
+      ],
+      "Der Bezeichner \"%s\" hat nicht die Form <vierstelliges EAS-Schema>:<Kennung>, zum Beispiel 9930:DE123456789.": [
+        "Identifikator \"%s\" nima oblike <štirimestna EAS shema>:<identifikator>, npr. 9930:DE123456789."
+      ],
+      "Das Bezeichner-Schema enthält Zeichen, die in einem DNS-Namen nicht vorkommen dürfen.": [
+        "Shema identifikatorja vsebuje znake, ki v imenu DNS niso dovoljeni."
+      ],
+      "Für %s gibt es keinen NAPTR-Eintrag: der Teilnehmer ist in dieser SML-Zone nicht registriert, oder der Resolver beantwortet keine NAPTR-Abfragen.": [
+        "Za %s ni zapisa NAPTR: udeleženec v tem območju SML ni registriran ali razreševalnik ne odgovarja na poizvedbe NAPTR."
+      ],
+      "Der NAPTR-Eintrag von %s nennt keinen SMP (Service \"Meta:SMP\" mit einer URL).": [
+        "Zapis NAPTR za %s ne imenuje nobenega SMP (storitev \"Meta:SMP\" z URL-jem)."
+      ],
+      "Der SMP kennt den Teilnehmer %1$s, aber nicht für den Dokumenttyp %2$s: dieser Empfänger nimmt dieses Dokument nicht entgegen.": [
+        "SMP pozna udeleženca %1$s, vendar ne za vrsto dokumenta %2$s: prejemnik tega dokumenta ne sprejema."
+      ],
+      "Der SMP antwortete mit HTTP %1$d auf %2$s.": [
+        "SMP je odgovoril s HTTP %1$d na %2$s."
+      ],
+      "Der SMP lieferte einen leeren Körper.": [
+        "SMP je vrnil prazno telo."
+      ],
+      "Die Antwort des SMP ist kein wohlgeformtes XML.": [
+        "Odgovor SMP ni pravilno oblikovan XML."
+      ],
+      "Die SMP-Antwort enthält keinen Endpunkt mit dem Transportprofil %s.": [
+        "Odgovor SMP ne vsebuje končne točke s transportnim profilom %s."
+      ],
+      "Peppol-Gateway-Status": [
+        "Stanje Peppol Gateway"
+      ],
+      "Tabellen des Plugins fehlen": [
+        "Tabele vtičnika manjkajo"
+      ],
+      "KoSIT-Validator und Phase4-Dienst konfiguriert": [
+        "Validator KoSIT in storitev Phase4 nastavljena"
+      ],
+      "Versand nicht konfiguriert": [
+        "Pošiljanje ni nastavljeno"
+      ],
+      "%1$d gespeicherte Rechnungen, %2$d Empfangsquittungen": [
+        "%1$d shranjenih računov, %2$d potrdil o prejemu"
+      ],
+      "Status wird abgefragt …": [
+        "Preverjanje stanja …"
+      ],
+      "Rechnung gefunden": [
+        "Račun najden"
+      ],
+      "Die Abfrage ist fehlgeschlagen.": [
+        "Poizvedba ni uspela."
+      ],
+      "Gespeicherter Status": [
+        "Shranjeno stanje"
+      ],
+      "Übergabe an Phase4": [
+        "Predaja v Phase4"
+      ],
+      "keine Übergabe erfasst": [
+        "nobena predaja ni zabeležena"
+      ],
+      "Empfangsquittung": [
+        "Potrdilo o prejemu"
+      ],
+      "liegt vor": [
+        "obstaja"
+      ],
+      "liegt nicht vor": [
+        "ne obstaja"
+      ],
+      "Fehlercode der Übertragung": [
+        "Koda napake prenosa"
+      ],
+      "SHA-256 des gespeicherten XML": [
+        "SHA-256 shranjenega XML"
+      ],
+      "Rechnungsstatus abfragen": [
+        "Preveri stanje računa"
+      ],
+      "Geben Sie die Rechnungsnummer und Ihre Peppol-ID an. Angezeigt wird der in diesem System gespeicherte Stand. Das Dokument wird hier weder gegen EN 16931 geprüft noch zum Herunterladen angeboten.": [
+        "Vnesite številko računa in svoj Peppol ID. Prikazano je stanje, shranjeno v tem sistemu. Dokument se tukaj ne preverja po EN 16931 in ni na voljo za prenos."
+      ],
+      "Ihre Peppol-ID": [
+        "Vaš Peppol ID"
+      ],
+      "Schema:Kennung": [
+        "shema:identifikator"
+      ],
+      "Status abfragen": [
+        "Preveri stanje"
+      ],
+      "Die Rechnungsnummer fehlt.": [
+        "Manjka številka računa."
+      ],
+      "Die Käuferreferenz (BT-10) fehlt; Peppol BIS verlangt sie, solange keine Bestellreferenz angegeben ist.": [
+        "Manjka referenca kupca (BT-10); Peppol BIS jo zahteva, če ni navedena referenca naročila."
+      ],
+      "Das Rechnungsdatum hat nicht die Form JJJJ-MM-TT.": [
+        "Datum računa nima oblike LLLL-MM-DD."
+      ],
+      "Es fehlen Rechnungspositionen oder ein Betrag.": [
+        "Manjkajo postavke računa ali znesek."
+      ],
+      "Ein Betrag ist keine Zahl.": [
+        "Znesek ni število."
+      ],
+      "Eine Position hat keine Bezeichnung.": [
+        "Postavka nima naziva."
+      ],
+      "Ein Steuersatz ist negativ.": [
+        "Davčna stopnja je negativna."
+      ],
+      "Der Rechnungstyp-Code steht nicht in der Peppol-Liste für Rechnungen.": [
+        "Koda vrste računa ni na seznamu Peppol za račune."
+      ],
+      "Eine Gutschrift (Typ 381) braucht die UBL-Syntax CreditNote, die dieser Generator nicht erzeugt.": [
+        "Dobropis (vrsta 381) zahteva sintakso UBL CreditNote, ki je ta generator ne ustvarja."
+      ],
+      "Der Währungscode muss aus drei Großbuchstaben bestehen.": [
+        "Koda valute mora imeti tri velike črke."
+      ],
+      "Die Peppol-ID des Verkäufers fehlt.": [
+        "Manjka Peppol ID prodajalca."
+      ],
+      "Der Name des Verkäufers fehlt.": [
+        "Manjka naziv prodajalca."
+      ],
+      "Die Straße des Verkäufers fehlt.": [
+        "Manjka ulica prodajalca."
+      ],
+      "Der Ort des Verkäufers fehlt.": [
+        "Manjka kraj prodajalca."
+      ],
+      "Die Postleitzahl des Verkäufers fehlt.": [
+        "Manjka poštna številka prodajalca."
+      ],
+      "Das Land des Verkäufers fehlt.": [
+        "Manjka država prodajalca."
+      ],
+      "Die USt-IdNr. des Verkäufers fehlt.": [
+        "Manjka ID za DDV prodajalca."
+      ],
+      "Die Peppol-ID des Verkäufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Peppol ID prodajalca nima oblike shema:identifikator (štirimestna shema)."
+      ],
+      "Das Land des Verkäufers muss ein zweistelliger Ländercode sein.": [
+        "Država prodajalca mora biti dvočrkovna koda države."
+      ],
+      "Die USt-IdNr. des Verkäufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "ID za DDV prodajalca se ne začne z dvočrkovno kodo države."
+      ],
+      "Für Zahlung per Überweisung fehlt die IBAN des Verkäufers.": [
+        "Za plačilo z nakazilom manjka IBAN prodajalca."
+      ],
+      "Die Peppol-ID des Käufers fehlt.": [
+        "Manjka Peppol ID kupca."
+      ],
+      "Der Name des Käufers fehlt.": [
+        "Manjka naziv kupca."
+      ],
+      "Das Land des Käufers fehlt.": [
+        "Manjka država kupca."
+      ],
+      "Die Peppol-ID des Käufers hat nicht die Form Schema:Kennung (vierstelliges Schema).": [
+        "Peppol ID kupca nima oblike shema:identifikator (štirimestna shema)."
+      ],
+      "Das Land des Käufers muss ein zweistelliger Ländercode sein.": [
+        "Država kupca mora biti dvočrkovna koda države."
+      ],
+      "Die USt-IdNr. des Käufers beginnt nicht mit einem zweistelligen Ländercode.": [
+        "ID za DDV kupca se ne začne z dvočrkovno kodo države."
+      ],
+      "Eine Position oder ein Zu-/Abschlag mit Steuerkategorie S hat keinen Steuersatz über null.": [
+        "Postavka ali popust/pribitek s kategorijo S nima stopnje nad nič."
+      ],
+      "Die Datei ist kein wohlgeformtes XML; vor der Regelprüfung ist nichts zu prüfen.": [
+        "Datoteka ni pravilno oblikovan XML; pred preverjanjem pravil ni kaj preveriti."
+      ],
+      "Peppol: Die Bestellung hat eine Leitweg-ID, aber keine Peppol-Empfänger-ID; es wurde keine E-Rechnung erzeugt.": [
+        "Peppol: Naročilo ima Leitweg-ID, nima pa Peppol ID prejemnika; e-račun ni bil ustvarjen."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. Bestellsumme %1$s und Rechnungssumme %2$s weichen um mehr als die Rundung ab.": [
+        "Peppol: E-račun ni ustvarjen. Znesek naročila %1$s in znesek računa %2$s odstopata za več kot zaokrožitev."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. %s": [
+        "Peppol: E-račun ni ustvarjen. %s"
+      ],
+      "Peppol: Die erzeugte E-Rechnung konnte nicht gespeichert werden.": [
+        "Peppol: Ustvarjenega e-računa ni bilo mogoče shraniti."
+      ],
+      "Peppol: E-Rechnung %s erzeugt; der Versand ist eingeplant.": [
+        "Peppol: E-račun %s ustvarjen; pošiljanje je načrtovano."
+      ],
+      "Peppol: E-Rechnung %s erzeugt und gespeichert, nicht versendet: KoSIT-Validator und Phase4-Dienst sind nicht konfiguriert.": [
+        "Peppol: E-račun %s ustvarjen in shranjen, ni poslan: KoSIT in Phase4 nista nastavljena."
+      ],
+      "EN 16931: %1$d fatale Regelbefunde (%2$s).": [
+        "EN 16931: %1$d usodnih ugotovitev pravil (%2$s)."
+      ],
+      "Peppol: Die EN-16931-Regelprüfung meldet %1$d fatale Befunde (%2$s). Versendet wird trotzdem; zum Blockieren \"wm_peppol_schematron_gate\" auf 1 setzen.": [
+        "Peppol: Preverjanje EN 16931 poroča %1$d usodnih ugotovitev (%2$s). Vseeno se pošlje; nastavite \"wm_peppol_schematron_gate\" na 1 za blokado."
+      ],
+      "Peppol: E-Rechnung %1$s an den Phase4-Dienst übergeben (messageId %2$s). Zugestellt ist sie erst mit der Empfangsquittung.": [
+        "Peppol: E-račun %1$s predan storitvi Phase4 (messageId %2$s). Dostavljen je šele s potrdilom."
+      ],
+      "Gebühr": [
+        "Nadomestilo"
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ ist ohne Umsatzsteuer berechnet; Steuerbefreiungen bildet das Plugin nicht ab.": [
+        "Peppol: E-račun ni ustvarjen. \"%s\" je brez DDV; vtičnik davčnih oprostitev ne podpira."
+      ],
+      "Peppol: E-Rechnung nicht erzeugt. „%s“ trägt mehrere Steuersätze.": [
+        "Peppol: E-račun ni ustvarjen. \"%s\" nosi več davčnih stopenj."
+      ],
+      "Peppol: E-Rechnung %1$s nicht versendet. %2$s": [
+        "Peppol: E-račun %1$s ni poslan. %2$s"
+      ],
+      "Peppol-E-Rechnung": [
+        "Peppol e-račun"
+      ],
+      "Peppol-Empfänger-ID (Schema:Kennung)": [
+        "Peppol ID prejemnika (shema:identifikator)"
+      ],
+      "Leitweg-ID (öffentliche Auftraggeber)": [
+        "Leitweg-ID (javni naročniki)"
+      ],
+      "Käuferreferenz (wenn keine Leitweg-ID)": [
+        "Referenca kupca (če ni Leitweg-ID)"
+      ],
+      "Die Leitweg-ID hat nicht den Aufbau der KoSIT-Spezifikation oder ihre Prüfziffer stimmt nicht; sie wurde nicht gespeichert.": [
+        "Leitweg-ID ne ustreza specifikaciji KoSIT ali kontrolne števke ne držijo; ni shranjeno."
+      ],
+      "Die Peppol-Empfänger-ID hat nicht die Form Schema:Kennung mit vierstelligem Schema; sie wurde nicht gespeichert.": [
+        "Peppol ID prejemnika nima oblike štirimestne shema:identifikator; ni shranjeno."
+      ],
+      "Portal-Darstellung": [
+        "Prikaz portala"
+      ],
+      "Überschrift anzeigen": [
+        "Prikaži naslov"
+      ],
+      "Einleitungstext anzeigen": [
+        "Prikaži uvodno besedilo"
+      ],
+      "block title\u0004Peppol-Rechnungsstatus-Portal": [
+        "Portal stanja računov Peppol"
+      ],
+      "block description\u0004Öffentliches Statusportal zur Abfrage gespeicherter Peppol-E-Rechnungen anhand von Rechnungsnummer und Peppol-ID.": [
+        "Javni portal za preverjanje shranjenih e-računov Peppol po številki računa in Peppol ID."
+      ],
+      "block keyword\u0004peppol": [
+        "peppol"
+      ],
+      "block keyword\u0004invoice": [
+        "racun"
+      ],
+      "block keyword\u0004e-rechnung": [
+        "e-racun"
+      ],
+      "block keyword\u0004ubl": [
+        "ubl"
+      ],
+      "block keyword\u0004status": [
+        "stanje"
+      ]
+    }
+  }
+}
